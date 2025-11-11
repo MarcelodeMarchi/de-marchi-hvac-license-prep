@@ -1,0 +1,108 @@
+/* Tema principal De Marchi HVAC – Azul e Laranja */
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  color: #1a1a1a;
+  text-align: center;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #004aad; /* Azul principal */
+  color: white;
+  padding: 10px 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.app-header .logo {
+  width: 55px;
+  height: auto;
+  margin-right: 15px;
+}
+
+.app-header h1 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+button {
+  background-color: #ff6b00; /* Laranja */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 15px 40px;
+  margin: 12px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: transform 0.15s ease, background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e35c00;
+  transform: scale(1.05);
+}
+
+footer {
+  background-color: #004aad;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.85rem;
+}
+/* === Fundo geral com cor neutra === */
+body {
+  background-color: #f7f8fa;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* === Marca d'água central nítida e proporcional === */
+body::before {
+  content: "";
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 55vw; /* ocupa boa parte da tela */
+  height: 55vh;
+  background: url('../public/logo.png') no-repeat center center;
+  background-size: contain;
+  opacity: 0.75; /* bem mais escura e visível */
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  pointer-events: none;
+  filter: contrast(180%) brightness(60%) saturate(140%);
+}
+/* === Container de conteúdo === */
+.app-container {
+  position: relative;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 18px;
+  padding: 32px;
+  max-width: 900px;
+  margin: 60px auto;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}

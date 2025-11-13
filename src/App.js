@@ -1,5 +1,4 @@
-// src/App.js
-import React, { useEffect, useState } from "react";
+import React, { useState, useEffect } from "react";
 import { onAuthStateChanged } from "firebase/auth";
 import { auth } from "./firebase/firebaseConfig";
 import LoginPage from "./LoginPage";
@@ -7,32 +6,19 @@ import ConteudoRestrito from "./components/ConteudoRestrito";
 
 function App() {
   const [user, setUser] = useState(null);
-  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, (firebaseUser) => {
-      setUser(firebaseUser);
-      setLoading(false);
-    });
-
-    return unsubscribe;
+    const unsub = onAuthStateChanged(auth, (u) => setUser(u));
+    return () => unsub();
   }, []);
 
-  if (loading) {
-    return (
-      <div className="page-container">
-        <p>Loading...</p>
-      </div>
-    );
-  }
+  const handleLogout = () => {
+    setUser(null); // isto força voltar para LoginPage
+  };
 
-  // Se não tiver usuário logado → mostra LoginPage
-  if (!user) {
-    return <LoginPage />;
-  }
+  if (!user) return <LoginPage />;
 
-  // Se tiver logado → mostra o conteúdo do app
-  return <ConteudoRestrito />;
+  return <ConteudoRestrito onLogout={handleLogout} />;
 }
 
 export default App;

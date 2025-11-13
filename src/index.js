@@ -2,8 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./styles.css";
-import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 
+// REMOVE service worker — usar apenas como app normal
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
@@ -12,4 +12,9 @@ root.render(
   </React.StrictMode>
 );
 
-serviceWorkerRegistration.register();
+// Garante que nenhum service worker antigo permaneça ativo
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.getRegistrations().then(registrations => {
+    registrations.forEach(reg => reg.unregister());
+  });
+}

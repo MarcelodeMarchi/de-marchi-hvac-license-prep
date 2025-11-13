@@ -1,31 +1,38 @@
-import React, { useState } from "react";
-import Menu from "./components/Menu";
-import StudyMode from "./components/StudyMode";
-import ExamMode from "./components/ExamMode";
-import ReviewMode from "./components/ReviewMode";
+// src/App.js
+import React, { useEffect, useState } from "react";
+import { onAuthStateChanged } from "firebase/auth";
+import { auth } from "./firebase/firebaseConfig";
+import LoginPage from "./LoginPage";
+import ConteudoRestrito from "./components/ConteudoRestrito";
 
-export default function App() {
-  const [mode, setMode] = useState("menu");
+function App() {
+  const [user, setUser] = useState(null);
+  const [loading, setLoading] = useState(true);
 
-  const handleModeChange = (newMode) => setMode(newMode);
+  useEffect(() => {
+    const unsubscribe = onAuthStateChanged(auth, (firebaseUser) => {
+      setUser(firebaseUser);
+      setLoading(false);
+    });
 
-  return (
-    <div className="app-container">
-      <header className="app-header">
-        <img src="logo.png" alt="De Marchi HVAC Logo" className="logo" />
-        <h1>De Marchi HVAC – License Prep</h1>
-      </header>
+    return unsubscribe;
+  }, []);
 
-      <main>
-        {mode === "menu" && <Menu onChangeMode={handleModeChange} />}
-        {mode === "study" && <StudyMode onBack={() => setMode("menu")} />}
-        {mode === "exam" && <ExamMode onBack={() => setMode("menu")} />}
-        {mode === "review" && <ReviewMode onBack={() => setMode("menu")} />}
-      </main>
+  if (loading) {
+    return (
+      <div className="page-container">
+        <p>Loading...</p>
+      </div>
+    );
+  }
 
-      <footer>
-        <p>© {new Date().getFullYear()} De Marchi HVAC. Todos os direitos reservados.</p>
-      </footer>
-    </div>
-  );
+  // Se não tiver usuário logado → mostra LoginPage
+  if (!user) {
+    return <LoginPage />;
+  }
+
+  // Se tiver logado → mostra o conteúdo do app
+  return <ConteudoRestrito />;
 }
+
+export default App;

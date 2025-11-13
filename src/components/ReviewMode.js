@@ -1,50 +1,76 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { questions } from "../data/questionsData";
 
-export default function ReviewMode({ onBack }) {
+// Função única de embaralhamento
+const shuffleArray = (array) => {
+  return [...array].sort(() => Math.random() - 0.5);
+};
+
+function ReviewMode({ onChangeMode }) {
+  const [shuffledQuestions, setShuffledQuestions] = useState([]);
   const [index, setIndex] = useState(0);
-  const question = questions[index];
 
-  const nextQuestion = () => {
-    if (index < questions.length - 1) setIndex(index + 1);
-  };
+  useEffect(() => {
+    const mixed = shuffleArray(questions).map((q) => ({
+      ...q,
+      options: shuffleArray(q.options),
+    }));
+    setShuffledQuestions(mixed);
+  }, []);
 
-  const prevQuestion = () => {
-    if (index > 0) setIndex(index - 1);
-  };
+  if (shuffledQuestions.length === 0) return <p>Loading...</p>;
+
+  const atual = shuffledQuestions[index];
 
   return (
-    <div>
-      <h2>🔁 Review Mode</h2>
-      <p>
-        <b>{index + 1}.</b> {question.question_en}
+    <div className="page-container">
+      {/* Marca d’água */}
+      <img src="/logo.png" className="watermark" alt="watermark" />
+
+      <h2>Review Mode 🔍</h2>
+
+      <p style={{ fontSize: "20px" }}>
+        <strong>{atual.question_en}</strong>
       </p>
-      <p><i>{question.question_pt}</i></p>
 
-      <ul style={{ listStyleType: "none", padding: 0 }}>
-        {question.options.map((opt, i) => (
-          <li
+      <p style={{ fontSize: "16px", opacity: 0.7 }}>
+        <em>{atual.question_pt}</em>
+      </p>
+
+      {/* Alternativas (todas exibidas) */}
+      <div className="options">
+        {atual.options.map((op, i) => (
+          <button
             key={i}
-            style={{
-              color: opt === question.answer ? "#004AAD" : "#1A1A1A",
-              fontWeight: opt === question.answer ? "bold" : "normal",
-            }}
+            className={`option-btn ${
+              op === atual.answer ? "correct-btn" : "wrong-btn"
+            }`}
           >
-            {opt}
-          </li>
+            {op}
+          </button>
         ))}
-      </ul>
-
-      <p><b>Correct Answer:</b> {question.answer}</p>
-
-      <div style={{ marginTop: "20px" }}>
-        <button onClick={prevQuestion}>⬅️ Previous</button>
-        <button onClick={nextQuestion}>Next ➡️</button>
       </div>
 
-      <div style={{ marginTop: "20px" }}>
-        <button onClick={onBack}>🏠 Return to Menu</button>
-      </div>
+      {/* Botão Next */}
+      <button
+        onClick={() => setIndex((old) => (old + 1) % shuffledQuestions.length)}
+        className="primary-btn"
+        style={{ marginTop: "20px" }}
+      >
+        Next →
+      </button>
+
+      {/* Menu */}
+      <button
+        onClick={() => onChangeMode("menu")}
+        className="secondary-btn"
+        style={{ marginTop: "15px" }}
+      >
+        Return to Menu
+      </button>
     </div>
   );
 }
+
+export default ReviewMode;
+

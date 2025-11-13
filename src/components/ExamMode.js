@@ -1,105 +1,161 @@
 import React, { useState, useEffect } from "react";
 import { questions } from "../data/questionsData";
 
-export default function ExamMode({ onBack }) {
-  const [current, setCurrent] = useState(0);
-  const [selected, setSelected] = useState(null);
-  const [score, setScore] = useState(0);
-  const [showResult, setShowResult] = useState(false);
-  const [answers, setAnswers] = useState([]);
+const shuffleArray = (array) => [...array].sort(() => Math.random() - 0.5);
 
-  const [examQuestions, setExamQuestions] = useState([]);
+function ExamMode({ onChangeMode }) {
+  const [selectedQuestions, setSelectedQuestions] = useState([]);
+  const [index, setIndex] = useState(0);
+  const [score, setScore] = useState(0);
+  const [finished, setFinished] = useState(false);
+  const [wrongAnswers, setWrongAnswers] = useState([]);
+  const [reviewing, setReviewing] = useState(false);
+  const [timeLeft, setTimeLeft] = useState(120 * 60); // 2 hours
 
   useEffect(() => {
-    // Embaralha e seleciona 50 perguntas aleatórias
-    const shuffled = [...questions].sort(() => 0.5 - Math.random());
-    setExamQuestions(shuffled.slice(0, 50));
+    const shuffled = shuffleArray(questions)
+      .slice(0, 50)
+      .map((q) => ({
+        ...q,
+        options: shuffleArray(q.options),
+      }));
+    setSelectedQuestions(shuffled);
   }, []);
 
-  const handleSelect = (option) => {
-    setSelected(option);
-  };
+  useEffect(() => {
+    if (finished) return;
+    if (timeLeft <= 0) {
+      setFinished(true);
+      return;
+    }
+    const timer = setInterval(() => setTimeLeft((t) => t - 1), 1000);
+    return () => clearInterval(timer);
+  }, [timeLeft, finished]);
 
-  const handleNext = () => {
-    if (selected) {
-      const newAnswers = [...answers, { q: examQuestions[current], selected }];
-      setAnswers(newAnswers);
+  if (selectedQuestions.length === 0) return <p>Loading Exam...</p>;
 
-      if (selected === examQuestions[current].answer) {
-        setScore(score + 1);
-      }
+  const atual = selectedQuestions[index];
 
-      setSelected(null);
-      if (current + 1 < examQuestions.length) {
-        setCurrent(current + 1);
-      } else {
-        setShowResult(true);
-      }
+  const handleAnswer = (option) => {
+    if (option === atual.answer) {
+      setScore((s) => s + 1);
     } else {
-      alert("Selecione uma alternativa antes de continuar!");
+      setWrongAnswers((prev) => [
+        ...prev,
+        {
+          question_en: atual.question_en,
+          question_pt: atual.question_pt,
+          selected: option,
+          correct: atual.answer,
+        },
+      ]);
+    }
+
+    if (index === selectedQuestions.length - 1) {
+      setFinished(true);
+    } else {
+      setIndex(index + 1);
     }
   };
 
-  if (showResult) {
-    const percentage = ((score / examQuestions.length) * 100).toFixed(1);
-    const passed = percentage >= 70;
+  const formatTime = (s) => {
+    const m = Math.floor(s / 60).toString().padStart(2, "0");
+    const sec = (s % 60).toString().padStart(2, "0");
+    return `${m}:${sec}`;
+  };
 
+  /* ========= REVIEW SCREEN ========= */
+  if (reviewing) {
     return (
-      <div>
-        <h2>🧾 Exam Results</h2>
-        <p>You answered {score} out of {examQuestions.length} correctly.</p>
-        <h3>
-          Final Score: {percentage}% –{" "}
-          {passed ? "✅ Approved!" : "⚠️ Failed, try again."}
-        </h3>
+      <div className="page-container">
+        <img src="/logo.png" className="watermark" alt="watermark" />
 
-        <div style={{ marginTop: "20px" }}>
-          <button onClick={onBack}>🏠 Return to Menu</button>
-        </div>
+        <h2>Incorrect Answers Review 🔎</h2>
+
+        {wrongAnswers.length === 0 && (
+          <p style={{ color: "green" }}>Perfect! No mistakes ✔</p>
+        )}
+
+        {wrongAnswers.map((w, i) => (
+          <div key={i} className="wrong-box">
+            <p><strong>{w.question_en}</strong></p>
+            <p><em>{w.question_pt}</em></p>
+            <p>Your answer: ❌ {w.selected}</p>
+            <p>Correct answer: ✔ {w.correct}</p>
+          </div>
+        ))}
+
+        <button className="primary-btn" onClick={() => onChangeMode("menu")}>
+          Return to Menu
+        </button>
       </div>
     );
   }
 
-  if (examQuestions.length === 0) return <p>Loading exam...</p>;
+  /* ========= FINISHED SCREEN ========= */
+  if (finished) {
+    const percentage = (score / selectedQuestions.length) * 100;
+    const passed = percentage >= 70;
 
-  const question = examQuestions[current];
+    return (
+      <div className="page-container">
+        <img src="/logo.png" className="watermark" alt="watermark" />
 
-  return (
-    <div>
-      <h2>🧾 Exam Mode</h2>
-      <p>
-        <b>{current + 1}.</b> {question.question_en}
-      </p>
-      <p><i>{question.question_pt}</i></p>
+        <h2>Exam Finished 📝</h2>
 
-      <ul style={{ listStyleType: "none", padding: 0 }}>
-        {question.options.map((opt, i) => (
-          <li key={i}>
-            <button
-              onClick={() => handleSelect(opt)}
-              style={{
-                backgroundColor: selected === opt ? "#004AAD" : "#FF6B00",
-                color: "white",
-                width: "80%",
-                margin: "5px auto",
-                display: "block",
-                padding: "10px",
-                borderRadius: "8px",
-                border: "none",
-                cursor: "pointer",
-              }}
-            >
-              {opt}
-            </button>
-          </li>
-        ))}
-      </ul>
+        <h3>Your Score: {score} / {selectedQuestions.length}</h3>
 
-      <div style={{ marginTop: "20px" }}>
-        <button onClick={handleNext}>
-          {current + 1 === examQuestions.length ? "Finish Exam" : "Next ➡️"}
+        <h2 style={{ color: passed ? "green" : "red" }}>
+          {passed ? "APPROVED ✔" : "FAILED ✘"}
+        </h2>
+
+        <h3>{percentage.toFixed(2)}%</h3>
+
+        <button className="primary-btn" onClick={() => setReviewing(true)}>
+          Review Incorrect Answers
+        </button>
+
+        <button className="secondary-btn" onClick={() => onChangeMode("menu")}>
+          Return to Menu
         </button>
       </div>
+    );
+  }
+
+  /* ========= EXAM SCREEN ========= */
+  return (
+    <div className="page-container">
+      <img src="/logo.png" className="watermark" alt="watermark" />
+
+      <h2>Exam Mode 📝</h2>
+
+      <h3 className="timer">Time Left: {formatTime(timeLeft)}</h3>
+
+      {/* 🔹 ADICIONADO: número da questão */}
+      <h3 style={{ color: "#0052a2", marginBottom: "15px" }}>
+        Question {index + 1} of 50
+      </h3>
+
+      <p className="question-en"><strong>{atual.question_en}</strong></p>
+      <p className="question-pt"><em>{atual.question_pt}</em></p>
+
+      <div className="options">
+        {atual.options.map((op, i) => (
+          <button
+            key={i}
+            className="option-btn"
+            onClick={() => handleAnswer(op)}
+          >
+            {op}
+          </button>
+        ))}
+      </div>
+
+      <button className="secondary-btn" onClick={() => onChangeMode("menu")}>
+        Cancel Exam
+      </button>
     </div>
   );
 }
+
+export default ExamMode;

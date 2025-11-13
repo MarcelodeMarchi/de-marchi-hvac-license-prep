@@ -7,6 +7,11 @@ import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 serviceWorkerRegistration.register();
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("/service-worker.js");
+  });
+}
 root.render(
   <React.StrictMode>
     <App />
@@ -14,3 +19,8 @@ root.render(
 );
 
 register(); // Ativa o modo offline
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("/service-worker.js");
+  });
+}

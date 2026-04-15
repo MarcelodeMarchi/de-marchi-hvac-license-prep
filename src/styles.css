@@ -1,224 +1,206 @@
-/* =============================== */
-/*      GLOBAL APP THEME           */
-/* =============================== */
-
-body {
-  font-family: "Segoe UI", Arial, sans-serif;
-  background: #f4f6f9;
+/* ========================================= */
+/*            GLOBAL MOBILE RESET           */
+/* ========================================= */
+html, body {
   margin: 0;
   padding: 0;
-  color: #1e2a38;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+  background: #f4f6f9;
+  font-family: "Segoe UI", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
 }
 
-/* Container centralizado */
+/* ========================================= */
+/*               MAIN CONTAINER             */
+/* ========================================= */
 .page-container {
+  width: 100%;
   max-width: 600px;
-  margin: 0 auto;
-  padding: 25px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 26px 22px;
+  background: white;
+  border-radius: 16px;
   text-align: center;
-  background: #ffffff;
-  border-radius: 10px;
+  box-shadow: 0px 4px 14px rgba(0,0,0,0.08);
   position: relative;
-  box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
 }
 
-/* ============ LOGO WATERMARK ============ */
+/* WATERMARK */
 .watermark {
   position: absolute;
-  opacity: 0.08;
-  top: 25%;
+  opacity: 0.07;
+  top: 32%;
   left: 50%;
   transform: translateX(-50%);
-  width: 320px;
+  width: 280px;
   pointer-events: none;
 }
 
-/* =============================== */
-/*             TITLES              */
-/* =============================== */
-
+/* ========================================= */
+/*                 TITLES                    */
+/* ========================================= */
 h2 {
-  color: #0052a2; /* Azul */
-  margin-bottom: 20px;
-  font-size: 26px;
+  margin: 0 0 20px 0;
+  font-size: 28px;
+  color: #0052a2;
+  font-weight: 700;
 }
 
 h3 {
-  color: #ff7a00; /* Laranja */
+  margin: 14px 0;
+  font-size: 22px;
+  color: #ff7a00;
+  font-weight: 600;
 }
 
-/* =============================== */
-/*      QUESTION TEXT STYLES       */
-/* =============================== */
-
+/* ========================================= */
+/*              QUESTION TEXT                */
+/* ========================================= */
 .question-en {
   font-size: 20px;
-  margin-top: 15px;
+  margin-top: 12px;
   font-weight: 600;
+  line-height: 1.4;
 }
 
 .question-pt {
   font-size: 16px;
   font-style: italic;
   color: #555;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
-/* =============================== */
-/*            OPTIONS              */
-/* =============================== */
-
+/* ========================================= */
+/*                OPTIONS                    */
+/* ========================================= */
 .options {
-  margin-top: 25px;
+  margin-top: 24px;
 }
 
 .option-btn {
-  display: block;
   width: 100%;
-  max-width: 350px;
-  margin: 10px auto;
-  padding: 12px;
-  font-size: 16px;
+  padding: 16px 18px;
+  margin: 12px 0;
+  font-size: 18px;
+  border-radius: 12px;
+  border: none;
   background: #ff7a00;
   color: white;
-  border: none;
-  border-radius: 8px;
+  font-weight: 700;
   cursor: pointer;
-  font-weight: 600;
-  transition: 0.2s;
+  transition: 0.25s;
 }
 
 .option-btn:hover {
   background: #d96800;
+  transform: scale(1.02);
 }
 
 .option-btn:active {
-  transform: scale(0.96);
+  transform: scale(0.97);
 }
 
-/* =============================== */
-/*            MENU BUTTONS         */
-/* =============================== */
+/* Review mode correct/incorrect */
+.correct-btn {
+  background: #0052a2 !important;
+  color: white !important;
+}
 
+.wrong-btn {
+  background: #d60000 !important;
+  color: white !important;
+}
+
+/* ========================================= */
+/*                MENU BUTTONS               */
+/* ========================================= */
 .menu-btn {
-  display: block;
   width: 100%;
-  max-width: 350px;
-  padding: 14px;
-  margin: 12px auto;
-  font-size: 18px;
-  border-radius: 10px;
+  padding: 18px;
+  margin: 14px 0;
+  font-size: 20px;
+  border-radius: 14px;
   font-weight: bold;
-  cursor: pointer;
   border: none;
-  color: white;
+  cursor: pointer;
   background: #0052a2;
+  color: white;
   transition: 0.25s;
 }
 
 .menu-btn:hover {
   background: #003d7a;
+  transform: scale(1.02);
 }
 
-/* Botões especiais */
+/* Primary & Secondary buttons */
 .primary-btn {
   background: #0052a2;
   color: white;
-  font-weight: bold;
-  padding: 12px 20px;
-  border-radius: 8px;
+  padding: 16px 26px;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 700;
   border: none;
   cursor: pointer;
-  margin-top: 20px;
+  margin-top: 22px;
+  transition: 0.25s;
+}
+
+.primary-btn:hover {
+  transform: scale(1.03);
 }
 
 .secondary-btn {
   background: #ccc;
   color: #333;
-  padding: 10px 18px;
-  border-radius: 8px;
+  padding: 14px 24px;
+  border-radius: 12px;
+  font-size: 17px;
   border: none;
   cursor: pointer;
   margin-top: 20px;
 }
 
 .secondary-btn:hover {
-  background: #b5b5b5;
+  background: #b9b9b9;
 }
 
-/* =============================== */
-/*     REVIEW MODE WRONG BOX       */
-/* =============================== */
-
+/* ========================================= */
+/*            REVIEW MODE CARD              */
+/* ========================================= */
 .wrong-box {
   background: #ffe5e5;
-  border-left: 5px solid #d60000;
-  padding: 15px;
-  margin-top: 15px;
-  border-radius: 8px;
+  border-left: 6px solid #d60000;
+  padding: 18px;
+  margin-top: 18px;
+  border-radius: 10px;
   text-align: left;
+  font-size: 16px;
 }
 
-/* =============================== */
-/*             TIMER               */
-/* =============================== */
-
+/* ========================================= */
+/*                   TIMER                   */
+/* ========================================= */
 .timer {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 25px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #0052a2;
+  margin-bottom: 24px;
 }
 
-/* =============================== */
-/*     LOGOUT BUTTON (TOP-RIGHT)   */
-/* =============================== */
-
-.logout-btn {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  background: #d60000;
-  padding: 10px 16px;
-  border-radius: 8px;
-  font-size: 14px;
-  border: none;
-  cursor: pointer;
-  color: white;
-}
-
-.logout-btn:hover {
-  background: #a30000;
-}
-
-/* =============================== */
-/*          MOBILE FRIENDLY        */
-/* =============================== */
-
-@media (max-width: 600px) {
-  .page-container {
-    padding: 20px;
-    margin-top: 15px;
-  }
-
-  .watermark {
-    width: 240px;
-    top: 30%;
-  }
-
-  .menu-btn,
-  .option-btn {
-    max-width: 100%;
-  }
-}
-
-/* =============================== */
-/*        WELCOME SCREEN STYLE     */
-/* =============================== */
-
+/* ========================================= */
+/*               WELCOME SCREEN             */
+/* ========================================= */
 .welcome-container {
   height: 100vh;
   display: flex;
   justify-content: center;
+  padding: 0 16px;
   align-items: center;
   background: linear-gradient(135deg, #0052a2, #ff7a00);
   color: white;
@@ -226,238 +208,69 @@ h3 {
 
 .welcome-box {
   text-align: center;
-  animation: fadeIn 1.4s ease-in-out;
 }
 
 .welcome-logo {
-  width: 220px;
-  height: auto;
+  width: 240px;
   margin-bottom: 20px;
-  filter: drop-shadow(0px 4px 8px rgba(0,0,0,0.4));
 }
 
 .welcome-title {
   font-size: 38px;
-  font-weight: bold;
-  margin: 0;
+  font-weight: 800;
 }
 
-.welcome-subtitle {
-  font-size: 22px;
-  margin-top: 10px;
-  opacity: 0.9;
+.login-input {
+  width: 100%;
+  max-width: 330px;
+  padding: 16px;
+  margin: 12px auto;
+  display: block;
+  border-radius: 12px;
+  font-size: 17px;
+  border: none;
+  outline: none;
 }
 
 .welcome-btn {
   width: 100%;
-  max-width: 320px;
-  height: 48px;
-  display: block;
-  margin: 15px auto 0 auto;
-  font-size: 18px;
-  font-weight: bold;
+  max-width: 330px;
+  padding: 16px;
+  margin-top: 18px;
+  border-radius: 12px;
   background: white;
   color: #0052a2;
-  border-radius: 10px;
+  font-size: 19px;
+  font-weight: bold;
+  border: none;
   cursor: pointer;
   transition: 0.25s;
-  border: none;
 }
 
 .welcome-btn:hover {
   background: #e6e6e6;
+  transform: scale(1.03);
 }
 
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(25px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-/* Nova cor: azul para resposta correta */
-.correct-btn {
-  background: #0052a2 !important;
-  color: white !important;
-}
-
-/* Cor vermelha para a resposta errada selecionada */
-.wrong-btn {
-  background: #d60000 !important;
-  color: white !important;
-}
-/* =================================== */
-/*             LOGIN PAGE              */
-/* =================================== */
-
-.login-container {
-  height: 100vh;
-  background: linear-gradient(135deg, #0052a2, #ff7a00);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
+/* ========================================= */
+/*             RESPONSIVE TUNING            */
+/* ========================================= */
+@media (max-width: 430px) {
+  h2 { font-size: 24px; }
+  .menu-btn { font-size: 18px; padding: 16px; }
+  .option-btn { font-size: 17px; padding: 14px; }
+  .primary-btn { font-size: 17px; }
+  .welcome-title { font-size: 34px; }
+  .welcome-logo { width: 200px; }
 }
 
-.login-box {
-  background: rgba(255, 255, 255, 0.13);
-  backdrop-filter: blur(6px);
-  border-radius: 15px;
-  padding: 40px;
-  text-align: center;
-  width: 90%;
-  max-width: 380px;
-  box-shadow: 0px 4px 12px rgba(0,0,0,0.25);
-}
-
-.login-logo {
-  width: 150px;
-  margin-bottom: 15px;
-}
-
-.login-title {
-  font-size: 32px;
-  font-weight: bold;
-  margin-bottom: 25px;
-  text-shadow: 0 2px 6px rgba(0,0,0,0.35);
-}
-
-.login-input {
-  width: 100%;
-  padding: 14px;
-  margin: 8px 0;
-  border-radius: 8px;
-  border: none;
-  font-size: 16px;
-}
-
-.login-btn {
-  width: 100%;
-  padding: 14px;
-  margin-top: 15px;
-  background: #ffffff;
-  color: #0052a2;
-  border: none;
-  border-radius: 8px;
-  font-size: 18px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: 0.2s;
-}
-
-.login-btn:hover {
-  background: #e6e6e6;
-}
-
-.login-footer {
-  margin-top: 25px;
-  font-size: 14px;
-  opacity: 0.9;
-}
-/* =============================== */
-/*         LOGIN PAGE FIX          */
-/* =============================== */
-
-.login-container {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(135deg, #0052a2, #ff7a00);
-}
-
-.login-box {
-  background: rgba(255,255,255,0.15);
-  padding: 40px;
-  border-radius: 15px;
-  text-align: center;
-  width: 350px;
-  backdrop-filter: blur(4px);
-  box-shadow: 0px 4px 12px rgba(0,0,0,0.25);
-}
-
-.login-logo {
-  width: 160px;
-  margin-bottom: 15px;
-}
-
-.login-title {
-  color: white;
-  font-size: 28px;
-  margin-bottom: 25px;
-  font-weight: bold;
-}
-
-/* Inputs */
-.login-input {
-  display: block;
-  width: 100%;
-  margin: 10px auto;
-  padding: 12px;
-  border-radius: 8px;
-  font-size: 16px;
-  border: none;
-}
-
-/* Login button */
-.login-btn {
-  width: 100%;
-  background: white;
-  color: #0052a2;
-  padding: 12px;
-  margin-top: 20px;
-  font-weight: bold;
-  border-radius: 8px;
-  cursor: pointer;
-  border: none;
-  transition: 0.25s;
-}
-
-.login-btn:hover {
-  background: #e6e6e6;
-}
-
-/* Footer */
-.login-footer {
-  margin-top: 25px;
-  color: white;
-  opacity: 0.8;
-  font-size: 14px;
-}
-/* Buttons for links */
-.login-link {
-  background: transparent;
-  border: none;
-  color: white;
-  margin-top: 12px;
-  font-size: 16px;
-  cursor: pointer;
-  text-decoration: underline;
-}
-
-.login-link:hover {
-  opacity: 0.8;
-}
-
-/* Ensure input + button alignment */
-.login-input,
-.login-btn,
-.login-link {
-  display: block;
-  width: 100%;
-  max-width: 280px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.login-input {
-  width: 100%;
-  max-width: 320px;
-  height: 48px;
-  padding: 12px;
-  margin: 10px auto;
-  font-size: 16px;
-  border-radius: 8px;
-  border: none;
-  outline: none;
-  display: block;
-  text-align: left;
-  box-sizing: border-box;
+/* iPhone SE / older */
+@media (max-width: 360px) {
+  .page-container {
+    padding: 18px 14px;
+  }
+  .menu-btn {
+    padding: 14px;
+    font-size: 17px;
+  }
 }

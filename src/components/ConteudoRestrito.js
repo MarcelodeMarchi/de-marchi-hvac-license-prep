@@ -3,6 +3,10 @@ import StudyMode from "./StudyMode";
 import ExamMode from "./ExamMode";
 import ReviewMode from "./ReviewMode";
 import OfficialExam from "./OfficialExam";
+
+// 🔴 IMPORT ABSOLUTO CORRETO (bate com seu path)
+import { questions } from "../data/questionsData";
+
 import { auth } from "../firebase/firebaseConfig";
 import { signOut } from "firebase/auth";
 
@@ -11,7 +15,7 @@ function ConteudoRestrito({ onLogout }) {
 
   const handleLogout = async () => {
     await signOut(auth);
-    onLogout(); // volta para o LoginPage
+    onLogout();
   };
 
   if (modo === "menu") {
@@ -19,32 +23,48 @@ function ConteudoRestrito({ onLogout }) {
       <div className="page-container">
         <img src="/logo.png" className="watermark" alt="watermark" />
 
-        <h2>Choose an Option</h2>
+        {/* ✅ CONTADOR FINAL */}
+        <h2>
+          Choose an Option
+          <br />
+          <span style={{ fontSize: "0.8em", opacity: 0.8 }}>
+            Total Questions: {questions.length}
+          </span>
+        </h2>
 
-        <button className="menu-btn" onClick={() => setModo("study")}>📘 Study Mode</button>
-        <button className="menu-btn" onClick={() => setModo("exam")}>📝 Exam Mode</button>
-        <button className="menu-btn" onClick={() => setModo("review")}>🔎 Review Mode</button>
-        <button className="menu-btn" onClick={() => setModo("officialExam")}>🎯 Official Exam</button>
+        <button className="menu-btn" onClick={() => setModo("study")}>
+          📘 Study Mode
+        </button>
 
-        <button className="secondary-btn" onClick={handleLogout} style={{ marginTop: "25px" }}>
+        <button className="menu-btn" onClick={() => setModo("exam")}>
+          📝 Exam Mode
+        </button>
+
+        <button className="menu-btn" onClick={() => setModo("review")}>
+          🔎 Review Mode
+        </button>
+
+        <button className="menu-btn" onClick={() => setModo("officialExam")}>
+          🎯 Official Exam
+        </button>
+
+        <button
+          className="secondary-btn"
+          onClick={handleLogout}
+          style={{ marginTop: "25px" }}
+        >
           Exit
         </button>
       </div>
     );
   }
 
-  switch (modo) {
-    case "study":
-      return <StudyMode onChangeMode={setModo} />;
-    case "exam":
-      return <ExamMode onChangeMode={setModo} />;
-    case "review":
-      return <ReviewMode onChangeMode={setModo} />;
-    case "officialExam":
-      return <OfficialExam onChangeMode={setModo} />;
-    default:
-      return null;
-  }
+  if (modo === "study") return <StudyMode onChangeMode={setModo} />;
+  if (modo === "exam") return <ExamMode onChangeMode={setModo} />;
+  if (modo === "review") return <ReviewMode onChangeMode={setModo} />;
+  if (modo === "officialExam") return <OfficialExam onChangeMode={setModo} />;
+
+  return null;
 }
 
 export default ConteudoRestrito;

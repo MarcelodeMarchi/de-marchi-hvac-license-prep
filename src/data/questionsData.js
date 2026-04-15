@@ -4408,5 +4408,11308 @@ export const questions = [
     question_pt: "Qual é o objetivo final da prática ética em HVAC?",
     options: ["Protect public health and trust", "Maximize sales", "Minimize paperwork", "Reduce material costs"],
     answer: "Protect public health and trust",
-  }
-];
+  },
+{
+ id: 551,
+ category: "Trade",
+ question_en: "What does a higher SEER rating indicate in an HVAC system?",
+ question_pt: "O que uma classificação SEER mais alta indica em um sistema HVAC?",
+ options: ["More noise", "Lower efficiency", "Higher efficiency", "More airflow"],
+ answer: "Higher efficiency",
+},
+
+{
+ id: 552,
+ category: "Trade",
+ question_en: "R-410A operates at:",
+ question_pt: "O R-410A opera em:",
+ options: ["Higher pressure than R-22", "Lower pressure than R-22", "Same pressure as R-22", "Vacuum only"],
+ answer: "Higher pressure than R-22",
+},
+
+{
+ id: 553,
+ category: "Trade",
+ question_en: "Which component meters refrigerant into the evaporator?",
+ question_pt: "Qual componente dosa o refrigerante para o evaporador?",
+ options: ["Compressor", "Reversing valve", "TXV", "Accumulator"],
+ answer: "TXV",
+},
+
+{
+ id: 554,
+ category: "Trade",
+ question_en: "Superheat is measured at the:",
+ question_pt: "O superaquecimento é medido no:",
+ options: ["Compressor inlet", "Compressor outlet", "Condenser outlet", "Liquid line"],
+ answer: "Compressor inlet",
+},
+
+{
+ id: 555,
+ category: "Trade",
+ question_en: "What does subcooling indicate?",
+ question_pt: "O que o sub-resfriamento indica?",
+ options: [
+   "Cooling of vapor refrigerant",
+   "Cooling of liquid refrigerant",
+   "Heating of refrigerant",
+   "Airflow increase"
+ ],
+ answer: "Cooling of liquid refrigerant",
+},
+
+{
+ id: 556,
+ category: "Trade",
+ question_en: "Low superheat usually indicates:",
+ question_pt: "Superaquecimento baixo geralmente indica:",
+ options: ["Overcharge", "Undercharge", "Restricted airflow", "Bad reversing valve"],
+ answer: "Overcharge",
+},
+
+{
+ id: 557,
+ category: "Trade",
+ question_en: "Which pipe carries high-pressure liquid?",
+ question_pt: "Qual tubulação transporta líquido de alta pressão?",
+ options: ["Suction line", "Discharge line", "Liquid line", "Vent line"],
+ answer: "Liquid line",
+},
+
+{
+ id: 558,
+ category: "Trade",
+ question_en: "What is the purpose of the accumulator?",
+ question_pt: "Qual é a função do acumulador?",
+ options: [
+   "Boil refrigerant",
+   "Prevent liquid from entering compressor",
+   "Increase airflow",
+   "Store oil only"
+ ],
+ answer: "Prevent liquid from entering compressor",
+},
+
+{
+ id: 559,
+ category: "Trade",
+ question_en: "Refrigerant velocity in the suction line must be high enough to:",
+ question_pt: "A velocidade do refrigerante na linha de sucção deve ser alta o suficiente para:",
+ options: [
+   "Increase pressure",
+   "Return oil to compressor",
+   "Reduce superheat",
+   "Increase SEER"
+ ],
+ answer: "Return oil to compressor",
+},
+
+{
+ id: 560,
+ category: "Trade",
+ question_en: "What is the main role of the evaporator coil?",
+ question_pt: "Qual é o papel principal da serpentina do evaporador?",
+ options: [
+   "Remove heat from indoor air",
+   "Reject heat outdoors",
+   "Compress the refrigerant",
+   "Meter the refrigerant"
+ ],
+ answer: "Remove heat from indoor air",
+},
+
+{
+ id: 561,
+ category: "Trade",
+ question_en: "What type of refrigerant must be recovered and never vented?",
+ question_pt: "Qual tipo de refrigerante deve ser recuperado e nunca liberado na atmosfera?",
+ options: ["R-22", "R-410A", "Both R-22 and R-410A", "None"],
+ answer: "Both R-22 and R-410A",
+},
+
+{
+ id: 562,
+ category: "Trade",
+ question_en: "A system with low airflow across the evaporator will show:",
+ question_pt: "Um sistema com baixo fluxo de ar no evaporador mostrará:",
+ options: [
+   "High superheat",
+   "Low suction pressure",
+   "High head pressure",
+   "High subcooling"
+ ],
+ answer: "Low suction pressure",
+},
+
+{
+ id: 563,
+ category: "Trade",
+ question_en: "Which device protects the compressor from overheating?",
+ question_pt: "Qual dispositivo protege o compressor do superaquecimento?",
+ options: ["Contactor", "Overload protector", "TXV", "Capacitor"],
+ answer: "Overload protector",
+},
+
+{
+ id: 564,
+ category: "Trade",
+ question_en: "When charging a system, refrigerant is added to the:",
+ question_pt: "Ao carregar um sistema, o refrigerante é adicionado na:",
+ options: ["Liquid line", "Suction line", "Discharge line", "Oil port"],
+ answer: "Liquid line",
+},
+
+{
+ id: 565,
+ category: "Trade",
+ question_en: "What happens when the condenser coil is dirty?",
+ question_pt: "O que acontece quando a serpentina do condensador está suja?",
+ options: [
+   "Lower head pressure",
+   "Higher head pressure",
+   "Low subcooling",
+   "Low superheat"
+ ],
+ answer: "Higher head pressure",
+},
+
+{
+ id: 566,
+ category: "Trade",
+ question_en: "Which line should always be insulated?",
+ question_pt: "Qual linha deve ser sempre isolada?",
+ options: ["Liquid line", "Discharge line", "Suction line", "Hot gas line"],
+ answer: "Suction line",
+},
+
+{
+ id: 567,
+ category: "Trade",
+ question_en: "What commonly causes ice on the evaporator coil?",
+ question_pt: "O que geralmente causa gelo na serpentina do evaporador?",
+ options: ["Overcharge", "Dirty filter", "High voltage", "Oversized condenser"],
+ answer: "Dirty filter",
+},
+
+{
+ id: 568,
+ category: "Trade",
+ question_en: "Which component increases refrigerant pressure?",
+ question_pt: "Qual componente aumenta a pressão do refrigerante?",
+ options: ["Evaporator", "TXV", "Compressor", "Accumulator"],
+ answer: "Compressor",
+},
+
+{
+ id: 569,
+ category: "Trade",
+ question_en: "A proper vacuum level before charging is:",
+ question_pt: "Um nível adequado de vácuo antes da carga é:",
+ options: ["2500 microns", "1000 microns", "500 microns", "1 psi"],
+ answer: "500 microns",
+},
+
+{
+ id: 570,
+ category: "Trade",
+ question_en: "Which refrigerant replaced R-22 in most modern AC systems?",
+ question_pt: "Qual refrigerante substituiu o R-22 na maioria dos sistemas modernos?",
+ options: ["R-407C", "R-410A", "R-134a", "R-12"],
+ answer: "R-410A",
+},
+
+{
+ id: 571,
+ category: "Trade",
+ question_en: "What happens if the blower motor capacitor fails?",
+ question_pt: "O que acontece se o capacitor do motor do soprador falhar?",
+ options: [
+   "Motor runs faster",
+   "Motor overheats or won’t start",
+   "High suction pressure",
+   "Low head pressure"
+ ],
+ answer: "Motor overheats or won’t start",
+},
+
+{
+ id: 572,
+ category: "Trade",
+ question_en: "Which factor reduces SEER efficiency?",
+ question_pt: "Qual fator reduz a eficiência SEER?",
+ options: ["Clean coil", "Proper refrigerant charge", "Duct leakage", "Balanced airflow"],
+ answer: "Duct leakage",
+},
+
+{
+ id: 573,
+ category: "Trade",
+ question_en: "Static pressure in a duct system is measured in:",
+ question_pt: "A pressão estática em um sistema de dutos é medida em:",
+ options: ["CFM", "Inches of water column", "PSI", "BTU"],
+ answer: "Inches of water column",
+},
+
+{
+ id: 574,
+ category: "Trade",
+ question_en: "What does CFM measure?",
+ question_pt: "O que CFM mede?",
+ options: [
+   "Electrical power",
+   "Airflow volume",
+   "Refrigerant pressure",
+   "Heat absorption"
+ ],
+ answer: "Airflow volume",
+},
+
+{
+ id: 575,
+ category: "Trade",
+ question_en: "What is the typical temperature drop across an evaporator coil?",
+ question_pt: "Qual é a queda de temperatura típica através de uma serpentina do evaporador?",
+ options: ["30–40°F", "16–22°F", "5–10°F", "45–55°F"],
+ answer: "16–22°F",
+},
+
+{
+ id: 576,
+ category: "Trade",
+ question_en: "High superheat and low suction pressure indicate:",
+ question_pt: "Superaquecimento alto e baixa pressão de sucção indicam:",
+ options: ["Overcharge", "Undercharge", "Dirty condenser", "Stuck reversing valve"],
+ answer: "Undercharge",
+},
+
+{
+ id: 577,
+ category: "Trade",
+ question_en: "Which duct material has the least friction loss?",
+ question_pt: "Qual material de duto tem menor perda por atrito?",
+ options: ["Flex duct", "Sheet metal", "Ductboard", "PVC"],
+ answer: "Sheet metal",
+},
+
+{
+ id: 578,
+ category: "Trade",
+ question_en: "What is the typical voltage for residential HVAC blower motors?",
+ question_pt: "Qual é a voltagem típica para motores de soprador HVAC residenciais?",
+ options: ["12V", "120V", "208V", "480V"],
+ answer: "120V",
+},
+
+{
+ id: 579,
+ category: "Trade",
+ question_en: "A PSC motor uses:",
+ question_pt: "Um motor PSC usa:",
+ options: ["No capacitor", "Start capacitor only", "Run capacitor only", "Both start and run"],
+ answer: "Run capacitor only",
+},
+
+{
+ id: 580,
+ category: "Trade",
+ question_en: "What does BTU measure?",
+ question_pt: "O que BTU mede?",
+ options: ["Air volume", "Pressure", "Heat energy", "Fan speed"],
+ answer: "Heat energy",
+},
+
+{
+ id: 581,
+ category: "Trade",
+ question_en: "What is the function of a contactor?",
+ question_pt: "Qual a função de um contator?",
+ options: [
+   "Store oil",
+   "Switch high voltage to compressor",
+   "Regulate thermostat signals",
+   "Control blower speed"
+ ],
+ answer: "Switch high voltage to compressor",
+},
+
+{
+ id: 582,
+ category: "Trade",
+ question_en: "A weak capacitor will cause:",
+ question_pt: "Um capacitor fraco causará:",
+ options: [
+   "Higher SEER",
+   "Lower amperage",
+   "Slow or non-starting motor",
+   "Lower airflow resistance"
+ ],
+ answer: "Slow or non-starting motor",
+},
+
+{
+ id: 583,
+ category: "Trade",
+ question_en: "Which leak test method is most accurate?",
+ question_pt: "Qual método de teste de vazamento é mais preciso?",
+ options: ["Soap bubbles", "UV dye", "Electronic leak detector", "Vacuum decay"],
+ answer: "Electronic leak detector",
+},
+
+{
+ id: 584,
+ category: "Trade",
+ question_en: "What must be done before brazing refrigerant lines?",
+ question_pt: "O que deve ser feito antes de soldar linhas de refrigerante?",
+ options: [
+   "Vent refrigerant",
+   "Flow nitrogen through the tubing",
+   "Increase head pressure",
+   "Heat the accumulator"
+ ],
+ answer: "Flow nitrogen through the tubing",
+},
+
+{
+ id: 585,
+ category: "Trade",
+ question_en: "What is the purpose of a filter-drier?",
+ question_pt: "Qual é o propósito de um filtro secador?",
+ options: [
+   "Remove moisture and contaminants",
+   "Increase airflow",
+   "Meter refrigerant",
+   "Store refrigerant"
+ ],
+ answer: "Remove moisture and contaminants",
+},
+
+{
+ id: 586,
+ category: "Trade",
+ question_en: "What is the main purpose of the condenser?",
+ question_pt: "Qual é a principal função do condensador?",
+ options: [
+   "Absorb heat",
+   "Reject heat to the outdoors",
+   "Meter refrigerant",
+   "Store liquid refrigerant"
+ ],
+ answer: "Reject heat to the outdoors",
+},
+
+{
+ id: 587,
+ category: "Trade",
+ question_en: "What does a reversing valve do?",
+ question_pt: "O que faz a válvula reversora?",
+ options: [
+   "Controls airflow",
+   "Changes refrigerant flow direction",
+   "Filters refrigerant",
+   "Increases pressure"
+ ],
+ answer: "Changes refrigerant flow direction",
+},
+
+{
+ id: 588,
+ category: "Trade",
+ question_en: "Which reading identifies superheat?",
+ question_pt: "Qual leitura identifica o superaquecimento?",
+ options: [
+   "Suction line temp – saturation temp",
+   "Liquid line temp – ambient temp",
+   "Head pressure – suction pressure",
+   "Indoor dry bulb – wet bulb"
+ ],
+ answer: "Suction line temp – saturation temp",
+},
+
+{
+ id: 589,
+ category: "Trade",
+ question_en: "Which reading identifies subcooling?",
+ question_pt: "Qual leitura identifica o sub-resfriamento?",
+ options: [
+   "Liquid line temp – saturation temp",
+   "Suction temp – ambient",
+   "Head pressure ÷ suction pressure",
+   "Wet bulb – dry bulb"
+ ],
+ answer: "Liquid line temp – saturation temp",
+},
+
+{
+ id: 590,
+ category: "Trade",
+ question_en: "What is the typical CFM per ton of cooling?",
+ question_pt: "Qual o CFM típico por tonelada de refrigeração?",
+ options: ["100 CFM", "250 CFM", "400 CFM", "850 CFM"],
+ answer: "400 CFM",
+},
+
+{
+ id: 591,
+ category: "Trade",
+ question_en: "A blower wheel clogged with debris will cause:",
+ question_pt: "Uma turbina do ventilador obstruída causará:",
+ options: [
+   "High airflow",
+   "Low airflow",
+   "High superheat",
+   "High voltage"
+ ],
+ answer: "Low airflow",
+},
+
+{
+ id: 592,
+ category: "Trade",
+ question_en: "Which meter is used to measure airflow?",
+ question_pt: "Qual equipamento mede o fluxo de ar?",
+ options: ["Manometer", "Anemometer", "Volt meter", "Megohmmeter"],
+ answer: "Anemometer",
+},
+
+{
+ id: 593,
+ category: "Trade",
+ question_en: "What is the purpose of a capacitor?",
+ question_pt: "Qual é o propósito de um capacitor?",
+ options: [
+   "Store electrical energy to help motors start and run",
+   "Regulate refrigerant pressure",
+   "Increase static pressure",
+   "Lower SEER"
+ ],
+ answer: "Store electrical energy to help motors start and run",
+},
+
+{
+ id: 594,
+ category: "Trade",
+ question_en: "A system low on charge will show:",
+ question_pt: "Um sistema com carga baixa mostrará:",
+ options: ["Low superheat", "High suction pressure", "High superheat", "High subcooling"],
+ answer: "High superheat",
+},
+
+{
+ id: 595,
+ category: "Trade",
+ question_en: "Which thermostat terminal controls the compressor?",
+ question_pt: "Qual terminal do termostato controla o compressor?",
+ options: ["R", "G", "Y", "W"],
+ answer: "Y",
+},
+
+{
+ id: 596,
+ category: "Trade",
+ question_en: "Which thermostat terminal controls the blower?",
+ question_pt: "Qual terminal do termostato controla o soprador?",
+ options: ["R", "G", "Y", "W"],
+ answer: "G",
+},
+
+{
+ id: 597,
+ category: "Trade",
+ question_en: "Which thermostat terminal controls auxiliary heat?",
+ question_pt: "Qual terminal do termostato controla o aquecimento auxiliar?",
+ options: ["Y", "G", "W", "O"],
+ answer: "W",
+},
+
+{
+ id: 598,
+ category: "Trade",
+ question_en: "Improper duct sizing results in:",
+ question_pt: "Dimensionamento incorreto de dutos resulta em:",
+ options: [
+   "Higher SEER",
+   "Lower static pressure",
+   "High static pressure and poor airflow",
+   "Improved dehumidification"
+ ],
+ answer: "High static pressure and poor airflow",
+},
+
+{
+ id: 599,
+ category: "Trade",
+ question_en: "What causes oil not to return to the compressor?",
+ question_pt: "O que faz com que o óleo não retorne ao compressor?",
+ options: [
+   "High suction pressure",
+   "Oversized suction line",
+   "Proper line pitch",
+   "High SEER rating"
+ ],
+ answer: "Oversized suction line",
+},
+
+{
+ id: 600,
+ category: "Trade",
+ question_en: "Which tool is required to measure system micron levels?",
+ question_pt: "Qual ferramenta é necessária para medir níveis de microns do sistema?",
+ options: ["Manifold gauge", "Digital micron gauge", "Anemometer", "Voltmeter"],
+ answer: "Digital micron gauge",
+},
+
+{
+ id: 601,
+ category: "Trade",
+ question_en: "What is the primary purpose of a suction line accumulator?",
+ question_pt: "Qual é o principal propósito de um acumulador na linha de sucção?",
+ options: ["Store excess liquid refrigerant", "Increase subcooling", "Reduce superheat", "Improve airflow"],
+ answer: "Store excess liquid refrigerant",
+},
+
+{
+ id: 602,
+ category: "Trade",
+ question_en: "What is the typical temperature of the evaporator saturation point in cooling mode?",
+ question_pt: "Qual é a temperatura típica de saturação do evaporador no modo resfriamento?",
+ options: ["10–20°F", "32–40°F", "45–55°F", "60–70°F"],
+ answer: "32–40°F",
+},
+
+{
+ id: 603,
+ category: "Trade",
+ question_en: "A dirty evaporator coil will typically cause:",
+ question_pt: "Uma serpentina de evaporador suja normalmente causará:",
+ options: ["High suction pressure", "Low suction pressure", "High superheat", "High voltage"],
+ answer: "Low suction pressure",
+},
+
+{
+ id: 604,
+ category: "Trade",
+ question_en: "What happens if a TXV sensing bulb loses its charge?",
+ question_pt: "O que acontece se o bulb do TXV perder sua carga?",
+ options: ["Valve opens fully", "Valve closes", "Superheat goes to zero", "Subcooling increases drastically"],
+ answer: "Valve opens fully",
+},
+
+{
+ id: 605,
+ category: "Trade",
+ question_en: "Which refrigerant is considered a near-azeotropic blend?",
+ question_pt: "Qual refrigerante é considerado uma mistura quase-azeotrópica?",
+ options: ["R-22", "R-134a", "R-410A", "R-12"],
+ answer: "R-410A",
+},
+
+{
+ id: 606,
+ category: "Trade",
+ question_en: "A system with high subcooling likely has:",
+ question_pt: "Um sistema com sub-resfriamento alto provavelmente tem:",
+ options: ["Undercharge", "Overcharge", "TXV stuck open", "Low static pressure"],
+ answer: "Overcharge",
+},
+
+{
+ id: 607,
+ category: "Trade",
+ question_en: "What is the primary advantage of a scroll compressor?",
+ question_pt: "Qual é a principal vantagem de um compressor scroll?",
+ options: ["High noise", "Lower efficiency", "Fewer moving parts", "Requires more maintenance"],
+ answer: "Fewer moving parts",
+},
+
+{
+ id: 608,
+ category: "Trade",
+ question_en: "What does latent heat removal primarily control?",
+ question_pt: "O que a remoção de calor latente controla?",
+ options: ["Temperature", "Humidity", "Static pressure", "Air velocity"],
+ answer: "Humidity",
+},
+
+{
+ id: 609,
+ category: "Trade",
+ question_en: "Which electrical component boosts starting torque?",
+ question_pt: "Qual componente elétrico aumenta o torque de partida?",
+ options: ["Run capacitor", "Start capacitor", "Contactor", "Thermostat"],
+ answer: "Start capacitor",
+},
+
+{
+ id: 610,
+ category: "Trade",
+ question_en: "What causes compressor floodback?",
+ question_pt: "O que causa retorno de líquido ao compressor (floodback)?",
+ options: ["Low airflow", "Overcharge", "Liquid refrigerant entering suction", "High subcooling"],
+ answer: "Liquid refrigerant entering suction",
+},
+
+{
+ id: 611,
+ category: "Trade",
+ question_en: "What is the minimum SEER rating allowed in many U.S. regions for new AC units?",
+ question_pt: "Qual é o SEER mínimo permitido em muitas regiões dos EUA para novos aparelhos de ar condicionado?",
+ options: ["10", "13", "14", "18"],
+ answer: "14",
+},
+
+{
+ id: 612,
+ category: "Trade",
+ question_en: "Heat pumps defrost in which mode?",
+ question_pt: "Bombas de calor descongelam em qual modo?",
+ options: ["Cooling mode", "Heating mode only", "Emergency heat", "Fan only"],
+ answer: "Cooling mode",
+},
+
+{
+ id: 613,
+ category: "Trade",
+ question_en: "Which instrument is used to measure duct static pressure?",
+ question_pt: "Qual instrumento é usado para medir pressão estática do duto?",
+ options: ["Micron gauge", "Manometer", "Clamp meter", "Thermocouple"],
+ answer: "Manometer",
+},
+
+{
+ id: 614,
+ category: "Trade",
+ question_en: "A plugged filter-drier will cause:",
+ question_pt: "Um filtro secador obstruído causará:",
+ options: ["High suction pressure", "Frost on liquid line", "Low head pressure", "High airflow"],
+ answer: "Frost on liquid line",
+},
+
+{
+ id: 615,
+ category: "Trade",
+ question_en: "A dual capacitor provides support for which two components?",
+ question_pt: "Um capacitor duplo fornece suporte para quais dois componentes?",
+ options: ["Blower & contactor", "Compressor & fan", "Thermostat & blower", "TXV & compressor"],
+ answer: "Compressor & fan",
+},
+
+{
+ id: 616,
+ category: "Trade",
+ question_en: "What is the typical micron level to break a vacuum for a standing test?",
+ question_pt: "Qual é o nível típico de microns para quebrar um vácuo para um teste de estagnação?",
+ options: ["3000 microns", "1000 microns", "500 microns", "200 microns"],
+ answer: "1000 microns",
+},
+
+{
+ id: 617,
+ category: "Trade",
+ question_en: "What happens when airflow is too high across an evaporator?",
+ question_pt: "O que acontece quando o fluxo de ar está muito alto no evaporador?",
+ options: ["Low sensible heat transfer", "Poor dehumidification", "High static pressure", "High subcooling"],
+ answer: "Poor dehumidification",
+},
+
+{
+ id: 618,
+ category: "Trade",
+ question_en: "A reversing valve stuck mid-position causes:",
+ question_pt: "Uma válvula reversora travada no meio causa:",
+ options: ["Normal cooling", "Normal heating", "Poor cooling & poor heating", "High superheat only"],
+ answer: "Poor cooling & poor heating",
+},
+
+{
+ id: 619,
+ category: "Trade",
+ question_en: "Which device prevents short-cycling of compressors?",
+ question_pt: "Qual dispositivo evita ciclos curtos do compressor?",
+ options: ["Contactor", "Time delay relay", "Capacitor", "Filter-drier"],
+ answer: "Time delay relay",
+},
+
+{
+ id: 620,
+ category: "Trade",
+ question_en: "Where should the TXV sensing bulb be mounted?",
+ question_pt: "Onde o bulb do TXV deve ser instalado?",
+ options: ["Top of suction line", "Bottom of liquid line", "Top of discharge line", "Inside condenser coil"],
+ answer: "Top of suction line",
+},
+
+{
+ id: 621,
+ category: "Trade",
+ question_en: "What increases latent capacity in a system?",
+ question_pt: "O que aumenta a capacidade latente de um sistema?",
+ options: ["Higher airflow", "Lower airflow", "Higher subcooling", "Low static pressure"],
+ answer: "Lower airflow",
+},
+
+{
+ id: 622,
+ category: "Trade",
+ question_en: "What is the typical temperature rise across a furnace?",
+ question_pt: "Qual é o aumento típico de temperatura em uma fornalha?",
+ options: ["10–20°F", "20–40°F", "40–70°F", "70–100°F"],
+ answer: "40–70°F",
+},
+
+{
+ id: 623,
+ category: "Trade",
+ question_en: "High head pressure and high suction pressure usually indicate:",
+ question_pt: "Alta pressão de descarga e alta pressão de sucção geralmente indicam:",
+ options: ["Undercharge", "Overcharge", "Dirty condenser", "Reversing valve leak"],
+ answer: "Reversing valve leak",
+},
+
+{
+ id: 624,
+ category: "Trade",
+ question_en: "A blower running but no cooling indicates:",
+ question_pt: "Um soprador funcionando mas sem resfriamento indica:",
+ options: ["Bad capacitor", "Low airflow", "Thermostat issue", "Outdoor unit not running"],
+ answer: "Outdoor unit not running",
+},
+
+{
+ id: 625,
+ category: "Trade",
+ question_en: "Which refrigerant requires POE oil?",
+ question_pt: "Qual refrigerante requer óleo POE?",
+ options: ["R-22", "R-410A", "R-12", "R-134a"],
+ answer: "R-410A",
+},
+
+{
+ id: 626,
+ category: "Trade",
+ question_en: "High amperage on a compressor may be caused by:",
+ question_pt: "Alta amperagem no compressor pode ser causada por:",
+ options: ["Low airflow", "Restricted metering device", "Dirty condenser coil", "Low charge"],
+ answer: "Dirty condenser coil",
+},
+
+{
+ id: 627,
+ category: "Trade",
+ question_en: "What is the minimum required vacuum holding time?",
+ question_pt: "Qual é o tempo mínimo necessário para sustentação do vácuo?",
+ options: ["1 minute", "5 minutes", "10 minutes", "30 minutes"],
+ answer: "10 minutes",
+},
+
+{
+ id: 628,
+ category: "Trade",
+ question_en: "What does a high superheat and high subcooling combination indicate?",
+ question_pt: "O que indica uma combinação de superaquecimento alto e sub-resfriamento alto?",
+ options: ["Overcharge", "Undercharge", "Restriction in liquid line", "Dirty filter"],
+ answer: "Restriction in liquid line",
+},
+
+{
+ id: 629,
+ category: "Trade",
+ question_en: "What is the first step before replacing a compressor?",
+ question_pt: "Qual é o primeiro passo antes de substituir um compressor?",
+ options: ["Remove refrigerant", "Cut power", "Pump down system", "Flush oil"],
+ answer: "Cut power",
+},
+
+{
+ id: 630,
+ category: "Trade",
+ question_en: "What is the common failure symptom of a run capacitor?",
+ question_pt: "Qual é o sintoma comum da falha de um capacitor de trabalho?",
+ options: ["Burnt contactor", "Humming motor",
+           "Low suction pressure", "High static pressure"],
+ answer: "Humming motor",
+},
+
+{
+ id: 631,
+ category: "Trade",
+ question_en: "Which refrigerant cylinder color is pink?",
+ question_pt: "Qual refrigerante tem o cilindro rosa?",
+ options: ["R-22", "R-410A", "R-134a", "R-507"],
+ answer: "R-410A",
+},
+
+{
+ id: 632,
+ category: "Trade",
+ question_en: "What does the O terminal on a thermostat control?",
+ question_pt: "O que o terminal O no termostato controla?",
+ options: ["Blower", "Reversing valve (cooling mode)", "Aux heat", "Fan relay"],
+ answer: "Reversing valve (cooling mode)",
+},
+
+{
+ id: 633,
+ category: "Trade",
+ question_en: "What does the B terminal control?",
+ question_pt: "O que o terminal B controla?",
+ options: ["Fan", "Compressor", "Reversing valve (heating mode)", "Emergency heat"],
+ answer: "Reversing valve (heating mode)",
+},
+
+{
+ id: 634,
+ category: "Trade",
+ question_en: "What is the recommended line set pitch?",
+ question_pt: "Qual é a inclinação recomendada para a linha de refrigerante?",
+ options: ["1/2 inch per foot", "1/4 inch per foot", "1/8 inch per foot", "No pitch required"],
+ answer: "1/4 inch per foot",
+},
+
+{
+ id: 635,
+ category: "Trade",
+ question_en: "A system with bubbles in the sight glass indicates:",
+ question_pt: "Um sistema com bolhas no visor indica:",
+ options: ["Overcharge", "Steady state", "Low refrigerant", "High airflow"],
+ answer: "Low refrigerant",
+},
+
+{
+ id: 636,
+ category: "Trade",
+ question_en: "What does a megohmmeter test?",
+ question_pt: "O que um megôhmetro testa?",
+ options: ["Coil temperature", "Static pressure", "Insulation resistance", "Voltage drop"],
+ answer: "Insulation resistance",
+},
+
+{
+ id: 637,
+ category: "Trade",
+ question_en: "What is a common cause of evaporator freezing?",
+ question_pt: "Qual é uma causa comum de congelamento do evaporador?",
+ options: ["High airflow", "Low airflow", "High subcooling", "High voltage"],
+ answer: "Low airflow",
+},
+
+{
+ id: 638,
+ category: "Trade",
+ question_en: "High head pressure and low suction pressure indicate:",
+ question_pt: "Alta pressão de descarga e baixa pressão de sucção indicam:",
+ options: ["Restriction", "Undercharge", "Overcharge", "Bad blower motor"],
+ answer: "Restriction",
+},
+
+{
+ id: 639,
+ category: "Trade",
+ question_en: "When brazing, nitrogen should be flowing at:",
+ question_pt: "Ao soldar, o nitrogênio deve fluir a:",
+ options: ["20 psi", "100 psi", "1–3 psi", "0 psi"],
+ answer: "1–3 psi",
+},
+
+{
+ id: 640,
+ category: "Trade",
+ question_en: "A compressor with low oil return may be caused by:",
+ question_pt: "Um compressor com baixo retorno de óleo pode ser causado por:",
+ options: [
+   "Oversized suction line",
+   "Undercharge",
+   "High airflow",
+   "Dirty condenser coil"
+ ],
+ answer: "Oversized suction line",
+},
+
+{
+ id: 641,
+ category: "Trade",
+ question_en: "A head pressure control valve is typically used in:",
+ question_pt: "Uma válvula de controle de pressão de cabeça é usada em:",
+ options: ["Heat pumps", "Package units", "Low ambient cooling", "Ductless units"],
+ answer: "Low ambient cooling",
+},
+
+{
+ id: 642,
+ category: "Trade",
+ question_en: "What is the purpose of a crankcase heater?",
+ question_pt: "Qual é o propósito do aquecedor do cárter?",
+ options: [
+   "Heat refrigerant",
+   "Prevent refrigerant migration",
+   "Increase subcooling",
+   "Start the compressor"
+ ],
+ answer: "Prevent refrigerant migration",
+},
+
+{
+ id: 643,
+ category: "Trade",
+ question_en: "Which fan speed is typically used for cooling?",
+ question_pt: "Qual velocidade do ventilador é tipicamente usada para resfriamento?",
+ options: ["Low", "Medium", "High", "Variable only"],
+ answer: "High",
+},
+
+{
+ id: 644,
+ category: "Trade",
+ question_en: "Which fan speed is typically used for heating?",
+ question_pt: "Qual velocidade do ventilador é usada para aquecimento?",
+ options: ["Low", "Medium", "High", "Maximum"],
+ answer: "Medium",
+},
+
+{
+ id: 645,
+ category: "Trade",
+ question_en: "A shorted compressor winding will show:",
+ question_pt: "Um enrolamento do compressor em curto mostrará:",
+ options: ["High megohm reading", "Infinite resistance", "Very low resistance", "High subcooling"],
+ answer: "Very low resistance",
+},
+
+{
+ id: 646,
+ category: "Trade",
+ question_en: "What is the purpose of an accumulator in heat pumps?",
+ question_pt: "Qual é o propósito de um acumulador em bombas de calor?",
+ options: [
+   "Increase subcooling",
+   "Store liquid refrigerant during defrost",
+   "Raise head pressure",
+   "Increase blower speed"
+ ],
+ answer: "Store liquid refrigerant during defrost",
+},
+
+{
+ id: 647,
+ category: "Trade",
+ question_en: "A thermostat with incorrect anticipator settings may cause:",
+ question_pt: "Um termostato com configurações incorretas pode causar:",
+ options: ["High airflow", "Short cycling", "High SEER", "Low static pressure"],
+ answer: "Short cycling",
+},
+
+{
+ id: 648,
+ category: "Trade",
+ question_en: "Which wiring color is commonly used for auxiliary heat?",
+ question_pt: "Qual cor de fio é comumente usada para aquecimento auxiliar?",
+ options: ["Green", "Yellow", "White", "Orange"],
+ answer: "White",
+},
+
+{
+ id: 649,
+ category: "Trade",
+ question_en: "Which component regulates indoor temperature by cycling equipment on/off?",
+ question_pt: "Qual componente regula a temperatura interna ligando e desligando o equipamento?",
+ options: ["Contactor", "Thermostat", "TXV", "Filter-drier"],
+ answer: "Thermostat",
+},
+
+{
+ id: 650,
+ category: "Trade",
+ question_en: "A system with low subcooling and high superheat likely has:",
+ question_pt: "Um sistema com sub-resfriamento baixo e superaquecimento alto provavelmente tem:",
+ options: ["Restriction", "Overcharge", "Undercharge", "Bad blower motor"],
+ answer: "Undercharge",
+},
+
+  {
+    id: 651,
+    category: "HVAC Trade",
+    question_en: "What is the primary function of the evaporator coil in an HVAC system?",
+    question_pt: "Qual é a principal função da serpentina do evaporador em um sistema HVAC?",
+    options: ["Reject heat to the outdoors", "Absorb heat from indoor air", "Increase refrigerant pressure", "Control airflow"],
+    answer: "Absorb heat from indoor air",
+    difficulty: "easy",
+    reference: "Refrigeration Cycle Fundamentals"
+  },
+  {
+    id: 652,
+    category: "HVAC Trade",
+    question_en: "Low suction pressure is most commonly caused by:",
+    question_pt: "Baixa pressão de sucção é mais comumente causada por:",
+    options: ["Overcharged system", "Restricted airflow or low refrigerant charge", "Dirty condenser coil", "High ambient temperature"],
+    answer: "Restricted airflow or low refrigerant charge",
+    difficulty: "medium",
+    reference: "HVAC Troubleshooting"
+  },
+  {
+    id: 653,
+    category: "HVAC Trade",
+    question_en: "What component increases the pressure of the refrigerant in the system?",
+    question_pt: "Qual componente aumenta a pressão do refrigerante no sistema?",
+    options: ["Evaporator", "Condenser", "Expansion valve", "Compressor"],
+    answer: "Compressor",
+    difficulty: "easy",
+    reference: "Refrigeration Cycle Fundamentals"
+  },
+  {
+    id: 654,
+    category: "HVAC Trade",
+    question_en: "Superheat is measured at the:",
+    question_pt: "O superaquecimento (superheat) é medido no:",
+    options: ["Liquid line", "Condenser outlet", "Compressor discharge", "Evaporator outlet"],
+    answer: "Evaporator outlet",
+    difficulty: "medium",
+    reference: "HVAC Diagnostics"
+  },
+  {
+    id: 655,
+    category: "HVAC Trade",
+    question_en: "An overcharged refrigeration system will typically result in:",
+    question_pt: "Um sistema de refrigeração sobrecarregado geralmente resulta em:",
+    options: ["Low head pressure", "High head pressure", "Low subcooling", "Low compressor amperage"],
+    answer: "High head pressure",
+    difficulty: "medium",
+    reference: "HVAC Troubleshooting"
+  },
+  {
+    id: 656,
+    category: "HVAC Trade",
+    question_en: "What is the purpose of subcooling?",
+    question_pt: "Qual é o objetivo do sub-resfriamento (subcooling)?",
+    options: ["Ensure vapor enters the compressor", "Ensure liquid refrigerant reaches the metering device", "Increase suction pressure", "Reduce airflow"],
+    answer: "Ensure liquid refrigerant reaches the metering device",
+    difficulty: "medium",
+    reference: "Refrigeration Cycle Fundamentals"
+  },
+  {
+    id: 657,
+    category: "HVAC Trade",
+    question_en: "Which condition can cause a compressor to short cycle?",
+    question_pt: "Qual condição pode causar curto ciclo do compressor?",
+    options: ["Oversized system", "Dirty evaporator coil", "Restricted condenser airflow", "All of the above"],
+    answer: "All of the above",
+    difficulty: "hard",
+    reference: "HVAC Troubleshooting"
+  },
+  {
+    id: 658,
+    category: "HVAC Trade",
+    question_en: "The primary purpose of the expansion valve is to:",
+    question_pt: "O principal objetivo da válvula de expansão é:",
+    options: ["Increase refrigerant temperature", "Meter refrigerant flow", "Compress refrigerant", "Reject heat"],
+    answer: "Meter refrigerant flow",
+    difficulty: "easy",
+    reference: "Refrigeration Cycle Fundamentals"
+  },
+  {
+    id: 659,
+    category: "HVAC Trade",
+    question_en: "A dirty condenser coil will typically cause:",
+    question_pt: "Uma serpentina do condensador suja normalmente causa:",
+    options: ["Low head pressure", "High head pressure", "High superheat", "Low discharge temperature"],
+    answer: "High head pressure",
+    difficulty: "medium",
+    reference: "HVAC Troubleshooting"
+  },
+  {
+    id: 660,
+    category: "HVAC Trade",
+    question_en: "Which refrigerant condition can damage a compressor?",
+    question_pt: "Qual condição do refrigerante pode danificar o compressor?",
+    options: ["Liquid floodback", "Proper superheat", "Normal subcooling", "Balanced airflow"],
+    answer: "Liquid floodback",
+    difficulty: "hard",
+    reference: "Compressor Protection"
+  },
+  {
+    id: 661,
+    category: "HVAC Trade",
+    question_en: "A system with an undercharge will typically show:",
+    question_pt: "Um sistema com carga baixa geralmente mostra:",
+    options: ["High subcooling", "Low subcooling", "High head pressure", "Warm liquid line near condenser outlet"],
+    answer: "Low subcooling",
+    difficulty: "medium",
+    reference: "HVAC Diagnostics"
+  },
+  {
+    id: 662,
+    category: "HVAC Trade",
+    question_en: "High superheat at the evaporator outlet most commonly indicates:",
+    question_pt: "Superaquecimento alto na saída do evaporador geralmente indica:",
+    options: ["Overcharge", "Restricted metering device or low refrigerant charge", "Dirty condenser", "Excessive indoor airflow"],
+    answer: "Restricted metering device or low refrigerant charge",
+    difficulty: "hard",
+    reference: "HVAC Diagnostics"
+  },
+  {
+    id: 663,
+    category: "HVAC Trade",
+    question_en: "The condenser’s primary function is to:",
+    question_pt: "A principal função do condensador é:",
+    options: ["Absorb heat from indoor air", "Reject heat to the outdoors", "Increase refrigerant pressure", "Measure superheat"],
+    answer: "Reject heat to the outdoors",
+    difficulty: "easy",
+    reference: "Refrigeration Cycle Fundamentals"
+  },
+  {
+    id: 664,
+    category: "HVAC Trade",
+    question_en: "A clogged air filter most commonly causes:",
+    question_pt: "Um filtro de ar entupido mais comumente causa:",
+    options: ["Higher indoor airflow", "Reduced airflow and potential coil icing", "Higher head pressure", "Higher supply air temperature drop"],
+    answer: "Reduced airflow and potential coil icing",
+    difficulty: "easy",
+    reference: "Airflow & Coil Icing"
+  },
+  {
+    id: 665,
+    category: "HVAC Trade",
+    question_en: "A TXV primarily controls system operation by regulating:",
+    question_pt: "Uma TXV controla a operação do sistema regulando:",
+    options: ["Head pressure", "Evaporator superheat", "Condenser subcooling", "Compressor RPM"],
+    answer: "Evaporator superheat",
+    difficulty: "medium",
+    reference: "Metering Devices"
+  },
+  {
+    id: 666,
+    category: "HVAC Trade",
+    question_en: "Which symptom is most consistent with a restricted liquid line filter-drier?",
+    question_pt: "Qual sintoma é mais consistente com um filtro-secador (filter-drier) restrito na linha líquida?",
+    options: ["High suction pressure", "Low subcooling and a temperature drop across the drier", "Low head pressure", "High evaporator airflow"],
+    answer: "Low subcooling and a temperature drop across the drier",
+    difficulty: "hard",
+    reference: "HVAC Diagnostics"
+  },
+  {
+    id: 667,
+    category: "HVAC Trade",
+    question_en: "If the evaporator coil is icing, the MOST likely first checks are:",
+    question_pt: "Se a serpentina do evaporador está congelando, as PRIMEIRAS verificações mais prováveis são:",
+    options: ["Check airflow and refrigerant charge", "Replace the condenser fan motor", "Increase outdoor airflow", "Add more refrigerant immediately"],
+    answer: "Check airflow and refrigerant charge",
+    difficulty: "medium",
+    reference: "Airflow & Coil Icing"
+  },
+  {
+    id: 668,
+    category: "HVAC Trade",
+    question_en: "High head pressure can be caused by:",
+    question_pt: "Alta pressão de descarga (head pressure) pode ser causada por:",
+    options: ["Dirty condenser coil or noncondensables", "Low indoor airflow only", "Undercharge only", "Low outdoor ambient temperature"],
+    answer: "Dirty condenser coil or noncondensables",
+    difficulty: "hard",
+    reference: "HVAC Troubleshooting"
+  },
+  {
+    id: 669,
+    category: "HVAC Trade",
+    question_en: "A failed condenser fan motor will most likely lead to:",
+    question_pt: "Um motor do ventilador do condensador com falha provavelmente levará a:",
+    options: ["Lower head pressure", "Higher head pressure and potential shutdown", "Higher suction pressure", "Lower discharge temperature"],
+    answer: "Higher head pressure and potential shutdown",
+    difficulty: "medium",
+    reference: "HVAC Troubleshooting"
+  },
+  {
+    id: 670,
+    category: "HVAC Trade",
+    question_en: "What does 'subcooling' describe?",
+    question_pt: "O que o 'sub-resfriamento' (subcooling) descreve?",
+    options: ["Vapor temperature above saturation", "Liquid temperature below saturation", "Air temperature drop across coil", "Compressor discharge temperature"],
+    answer: "Liquid temperature below saturation",
+    difficulty: "medium",
+    reference: "HVAC Diagnostics"
+  },
+  {
+    id: 671,
+    category: "HVAC Trade",
+    question_en: "What does 'superheat' describe?",
+    question_pt: "O que o 'superaquecimento' (superheat) descreve?",
+    options: ["Liquid temperature below saturation", "Vapor temperature above saturation", "Outdoor air temperature rise", "Pressure drop across filter"],
+    answer: "Vapor temperature above saturation",
+    difficulty: "medium",
+    reference: "HVAC Diagnostics"
+  },
+  {
+    id: 672,
+    category: "HVAC Trade",
+    question_en: "A system with a very high subcooling is most consistent with:",
+    question_pt: "Um sistema com sub-resfriamento muito alto é mais consistente com:",
+    options: ["Undercharge", "Overcharge or liquid line restriction", "Excessive indoor airflow", "Low ambient only"],
+    answer: "Overcharge or liquid line restriction",
+    difficulty: "hard",
+    reference: "HVAC Diagnostics"
+  },
+  {
+    id: 673,
+    category: "HVAC Trade",
+    question_en: "A compressor that is overheating may be caused by:",
+    question_pt: "Um compressor superaquecendo pode ser causado por:",
+    options: ["High superheat/low suction cooling", "Proper airflow", "Normal superheat", "Low discharge temperature"],
+    answer: "High superheat/low suction cooling",
+    difficulty: "hard",
+    reference: "Compressor Protection"
+  },
+  {
+    id: 674,
+    category: "HVAC Trade",
+    question_en: "The 'suction line' typically carries refrigerant in which state?",
+    question_pt: "A 'linha de sucção' normalmente transporta o refrigerante em qual estado?",
+    options: ["High-pressure liquid", "Low-pressure vapor", "High-pressure vapor", "Low-pressure liquid"],
+    answer: "Low-pressure vapor",
+    difficulty: "easy",
+    reference: "Refrigeration Cycle Fundamentals"
+  },
+  {
+    id: 675,
+    category: "HVAC Trade",
+    question_en: "The 'liquid line' typically carries refrigerant in which state?",
+    question_pt: "A 'linha líquida' normalmente transporta o refrigerante em qual estado?",
+    options: ["Low-pressure vapor", "High-pressure liquid", "Low-pressure liquid", "High-pressure vapor"],
+    answer: "High-pressure liquid",
+    difficulty: "easy",
+    reference: "Refrigeration Cycle Fundamentals"
+  },
+  {
+    id: 676,
+    category: "HVAC Trade",
+    question_en: "A common sign of noncondensable gases in a system is:",
+    question_pt: "Um sinal comum de gases não condensáveis no sistema é:",
+    options: ["Low head pressure", "Higher-than-normal head pressure", "Low discharge temperature", "Lower compressor amperage"],
+    answer: "Higher-than-normal head pressure",
+    difficulty: "hard",
+    reference: "HVAC Troubleshooting"
+  },
+  {
+    id: 677,
+    category: "HVAC Trade",
+    question_en: "A thermostat with an incorrect anticipator or setup can cause:",
+    question_pt: "Um termostato com anticipator/configuração incorreta pode causar:",
+    options: ["Short cycling", "Only low head pressure", "Only high subcooling", "Only frozen condenser coil"],
+    answer: "Short cycling",
+    difficulty: "medium",
+    reference: "Controls & Thermostats"
+  },
+  {
+    id: 678,
+    category: "HVAC Trade",
+    question_en: "A blower motor that is not running will most likely cause:",
+    question_pt: "Um motor do blower que não está funcionando provavelmente causará:",
+    options: ["High indoor airflow", "Low airflow and potential evaporator icing", "Low head pressure", "High subcooling"],
+    answer: "Low airflow and potential evaporator icing",
+    difficulty: "easy",
+    reference: "Airflow & Coil Icing"
+  },
+  {
+    id: 679,
+    category: "HVAC Trade",
+    question_en: "The MOST appropriate first step when diagnosing a no-cool complaint is to:",
+    question_pt: "O PRIMEIRO passo mais apropriado ao diagnosticar uma reclamação de 'não gela' é:",
+    options: ["Add refrigerant", "Verify thermostat settings and basic power", "Replace the compressor", "Recover the refrigerant"],
+    answer: "Verify thermostat settings and basic power",
+    difficulty: "easy",
+    reference: "Service Best Practices"
+  },
+  {
+    id: 680,
+    category: "HVAC Trade",
+    question_en: "A properly operating refrigeration system should have:",
+    question_pt: "Um sistema de refrigeração operando corretamente deve ter:",
+    options: ["Liquid entering the compressor", "Some superheat at the evaporator outlet", "Zero subcooling always", "No temperature difference across coils"],
+    answer: "Some superheat at the evaporator outlet",
+    difficulty: "medium",
+    reference: "HVAC Diagnostics"
+  },
+  {
+    id: 681,
+    category: "HVAC Trade",
+    question_en: "If suction pressure is low and head pressure is low, the most likely cause is:",
+    question_pt: "Se a pressão de sucção está baixa e a pressão de descarga também está baixa, a causa mais provável é:",
+    options: ["Overcharge", "Undercharge", "Dirty condenser", "Condenser fan failure"],
+    answer: "Undercharge",
+    difficulty: "medium",
+    reference: "HVAC Troubleshooting"
+  },
+  {
+    id: 682,
+    category: "HVAC Trade",
+    question_en: "If suction pressure is high and head pressure is high, the most likely cause is:",
+    question_pt: "Se a pressão de sucção está alta e a pressão de descarga também está alta, a causa mais provável é:",
+    options: ["High load/poor airflow or overcharge", "Undercharge", "Restricted liquid line", "Low indoor heat load only"],
+    answer: "High load/poor airflow or overcharge",
+    difficulty: "hard",
+    reference: "HVAC Troubleshooting"
+  },
+  {
+    id: 683,
+    category: "HVAC Trade",
+    question_en: "A restricted evaporator airflow condition often results in:",
+    question_pt: "Uma condição de fluxo de ar restrito no evaporador frequentemente resulta em:",
+    options: ["Higher suction pressure", "Lower suction pressure and possible icing", "Higher head pressure only", "Higher subcooling only"],
+    answer: "Lower suction pressure and possible icing",
+    difficulty: "medium",
+    reference: "Airflow & Coil Icing"
+  },
+  {
+    id: 684,
+    category: "HVAC Trade",
+    question_en: "A capillary tube is considered a:",
+    question_pt: "Um tubo capilar é considerado um:",
+    options: ["Compressor", "Fixed metering device", "Variable metering device", "Condensing device"],
+    answer: "Fixed metering device",
+    difficulty: "easy",
+    reference: "Metering Devices"
+  },
+  {
+    id: 685,
+    category: "HVAC Trade",
+    question_en: "When replacing a compressor, one critical step is to:",
+    question_pt: "Ao substituir um compressor, um passo crítico é:",
+    options: ["Ignore system cleanliness", "Check and correct the root cause of failure", "Increase refrigerant charge above spec", "Bypass safety controls"],
+    answer: "Check and correct the root cause of failure",
+    difficulty: "medium",
+    reference: "Service Best Practices"
+  },
+  {
+    id: 686,
+    category: "HVAC Trade",
+    question_en: "A common symptom of a stuck-open TXV is:",
+    question_pt: "Um sintoma comum de uma TXV travada aberta é:",
+    options: ["High superheat", "Low superheat and possible flooding", "Low head pressure only", "No refrigerant flow"],
+    answer: "Low superheat and possible flooding",
+    difficulty: "hard",
+    reference: "Metering Devices"
+  },
+  {
+    id: 687,
+    category: "HVAC Trade",
+    question_en: "A common symptom of a stuck-closed TXV is:",
+    question_pt: "Um sintoma comum de uma TXV travada fechada é:",
+    options: ["Low superheat", "High superheat and starved evaporator", "High suction pressure", "High subcooling always"],
+    answer: "High superheat and starved evaporator",
+    difficulty: "hard",
+    reference: "Metering Devices"
+  },
+  {
+    id: 688,
+    category: "HVAC Trade",
+    question_en: "If the system has low airflow and the evaporator coil is dirty, you would expect:",
+    question_pt: "Se o sistema tem baixo fluxo de ar e a serpentina do evaporador está suja, você esperaria:",
+    options: ["Higher suction pressure", "Lower suction pressure and potential icing", "Lower head pressure", "Higher subcooling only"],
+    answer: "Lower suction pressure and potential icing",
+    difficulty: "medium",
+    reference: "Airflow & Coil Icing"
+  },
+  {
+    id: 689,
+    category: "HVAC Trade",
+    question_en: "Which condition is most likely to produce low subcooling and high superheat?",
+    question_pt: "Qual condição é mais provável de produzir baixo sub-resfriamento e alto superaquecimento?",
+    options: ["Overcharge", "Undercharge", "Dirty condenser only", "Noncondensables only"],
+    answer: "Undercharge",
+    difficulty: "hard",
+    reference: "HVAC Diagnostics"
+  },
+  {
+    id: 690,
+    category: "HVAC Trade",
+    question_en: "Which condition is most likely to produce high subcooling and low superheat?",
+    question_pt: "Qual condição é mais provável de produzir alto sub-resfriamento e baixo superaquecimento?",
+    options: ["Undercharge", "Overcharge", "Low indoor load only", "High indoor airflow only"],
+    answer: "Overcharge",
+    difficulty: "hard",
+    reference: "HVAC Diagnostics"
+  },
+  {
+    id: 691,
+    category: "HVAC Trade",
+    question_en: "A refrigerant leak should be addressed by:",
+    question_pt: "Um vazamento de refrigerante deve ser tratado por:",
+    options: ["Adding refrigerant only", "Finding, repairing the leak, then charging properly", "Bypassing safety switches", "Increasing airflow only"],
+    answer: "Finding, repairing the leak, then charging properly",
+    difficulty: "easy",
+    reference: "Service Best Practices"
+  },
+  {
+    id: 692,
+    category: "HVAC Trade",
+    question_en: "Which is the BEST reason to verify superheat on a fixed-orifice system?",
+    question_pt: "Qual é a MELHOR razão para verificar o superheat em um sistema de orifício fixo?",
+    options: ["To ensure liquid refrigerant enters the compressor", "To confirm the evaporator is properly fed without flooding", "To increase head pressure", "To reduce outdoor airflow"],
+    answer: "To confirm the evaporator is properly fed without flooding",
+    difficulty: "medium",
+    reference: "HVAC Diagnostics"
+  },
+  {
+    id: 693,
+    category: "HVAC Trade",
+    question_en: "A system running in heating mode with a heat pump uses which component to reverse flow?",
+    question_pt: "Um sistema em modo aquecimento com bomba de calor usa qual componente para reverter o fluxo?",
+    options: ["TXV", "Reversing valve", "Liquid line drier", "Accumulator"],
+    answer: "Reversing valve",
+    difficulty: "easy",
+    reference: "Heat Pump Fundamentals"
+  },
+  {
+    id: 694,
+    category: "HVAC Trade",
+    question_en: "A failed run capacitor on a condenser fan motor will most likely cause:",
+    question_pt: "Um capacitor de funcionamento (run capacitor) com falha no motor do ventilador do condensador provavelmente causará:",
+    options: ["Fan to run faster", "Fan to not start or overheat", "Higher indoor airflow", "Lower amp draw always"],
+    answer: "Fan to not start or overheat",
+    difficulty: "medium",
+    reference: "Electrical HVAC Basics"
+  },
+  {
+    id: 695,
+    category: "HVAC Trade",
+    question_en: "A contactor in an HVAC unit is primarily used to:",
+    question_pt: "Um contator em uma unidade HVAC é usado principalmente para:",
+    options: ["Measure pressure", "Switch high-voltage power to the compressor/fan", "Control refrigerant flow", "Drain condensate"],
+    answer: "Switch high-voltage power to the compressor/fan",
+    difficulty: "easy",
+    reference: "Electrical HVAC Basics"
+  },
+  {
+    id: 696,
+    category: "HVAC Trade",
+    question_en: "A crankcase heater on a compressor helps prevent:",
+    question_pt: "Um aquecedor de cárter (crankcase heater) no compressor ajuda a prevenir:",
+    options: ["High head pressure", "Refrigerant migration into compressor oil", "Low airflow", "High superheat"],
+    answer: "Refrigerant migration into compressor oil",
+    difficulty: "hard",
+    reference: "Compressor Protection"
+  },
+  {
+    id: 697,
+    category: "HVAC Trade",
+    question_en: "A suction accumulator is used to help prevent:",
+    question_pt: "Um acumulador de sucção é usado para ajudar a prevenir:",
+    options: ["High subcooling", "Liquid refrigerant entering the compressor", "Low head pressure", "High indoor airflow"],
+    answer: "Liquid refrigerant entering the compressor",
+    difficulty: "medium",
+    reference: "Compressor Protection"
+  },
+  {
+    id: 698,
+    category: "HVAC Trade",
+    question_en: "If a system trips on high-pressure safety, a likely cause is:",
+    question_pt: "Se um sistema desarma na segurança de alta pressão, uma causa provável é:",
+    options: ["Low refrigerant charge", "Restricted condenser airflow or dirty condenser coil", "High indoor airflow", "Stuck-open TXV only"],
+    answer: "Restricted condenser airflow or dirty condenser coil",
+    difficulty: "medium",
+    reference: "HVAC Troubleshooting"
+  },
+  {
+    id: 699,
+    category: "HVAC Trade",
+    question_en: "If the compressor runs but the outdoor fan does not, the BEST immediate action is to:",
+    question_pt: "Se o compressor funciona mas o ventilador externo não, a MELHOR ação imediata é:",
+    options: ["Let it run to see if it starts", "Shut the system off and troubleshoot the fan circuit", "Add refrigerant", "Increase thermostat setting"],
+    answer: "Shut the system off and troubleshoot the fan circuit",
+    difficulty: "medium",
+    reference: "Service Best Practices"
+  },
+  {
+    id: 700,
+    category: "HVAC Trade",
+    question_en: "A temperature drop across a liquid line filter-drier usually indicates:",
+    question_pt: "Uma queda de temperatura através do filtro-secador (filter-drier) na linha líquida geralmente indica:",
+    options: ["Normal operation", "A restriction in the drier", "Overcharge", "High indoor airflow"],
+    answer: "A restriction in the drier",
+    difficulty: "hard",
+    reference: "HVAC Diagnostics"
+  },
+
+  {
+    id: 701,
+    category: "HVAC Trade",
+    question_en: "A system has normal head pressure but very low suction pressure. The MOST likely cause is:",
+    question_pt: "Um sistema tem pressão de descarga normal, mas pressão de sucção muito baixa. A causa MAIS provável é:",
+    options: ["Overcharge", "Restricted airflow across evaporator or restricted metering device", "Noncondensables", "High indoor load"],
+    answer: "Restricted airflow across evaporator or restricted metering device",
+    difficulty: "hard",
+    reference: "HVAC Troubleshooting"
+  },
+  {
+    id: 702,
+    category: "HVAC Trade",
+    question_en: "A heat pump stuck in cooling mode most commonly indicates an issue with the:",
+    question_pt: "Uma bomba de calor travada no modo resfriamento normalmente indica um problema na:",
+    options: ["Indoor blower wheel", "Reversing valve or its control circuit", "Liquid line filter-drier", "Evaporator coil"],
+    answer: "Reversing valve or its control circuit",
+    difficulty: "medium",
+    reference: "Heat Pump Fundamentals"
+  },
+  {
+    id: 703,
+    category: "HVAC Trade",
+    question_en: "A high discharge line temperature at the compressor most often suggests:",
+    question_pt: "Uma alta temperatura na linha de descarga do compressor geralmente sugere:",
+    options: ["Low superheat / flooding", "High superheat / low suction cooling", "Low head pressure", "High indoor airflow"],
+    answer: "High superheat / low suction cooling",
+    difficulty: "hard",
+    reference: "Compressor Protection"
+  },
+  {
+    id: 704,
+    category: "HVAC Trade",
+    question_en: "What is the MOST likely cause of low capacity with normal refrigerant charge and clean coils?",
+    question_pt: "Qual é a causa MAIS provável de baixa capacidade com carga correta e serpentinas limpas?",
+    options: ["Incorrect blower speed or duct restriction", "Overcharge", "Noncondensables only", "Broken TXV bulb only"],
+    answer: "Incorrect blower speed or duct restriction",
+    difficulty: "medium",
+    reference: "Airflow & System Performance"
+  },
+  {
+    id: 705,
+    category: "HVAC Trade",
+    question_en: "A thermostat calling for cooling but the condenser will not start. The FIRST check should be:",
+    question_pt: "O termostato pede resfriamento, mas o condensador não liga. A PRIMEIRA verificação deve ser:",
+    options: ["Recover refrigerant", "Check for control voltage at the contactor coil", "Replace the compressor", "Add refrigerant"],
+    answer: "Check for control voltage at the contactor coil",
+    difficulty: "easy",
+    reference: "Electrical HVAC Basics"
+  },
+  {
+    id: 706,
+    category: "HVAC Trade",
+    question_en: "A capacitor is typically measured in:",
+    question_pt: "Um capacitor normalmente é medido em:",
+    options: ["Ohms", "Volts", "Microfarads (µF)", "Amps"],
+    answer: "Microfarads (µF)",
+    difficulty: "easy",
+    reference: "Electrical HVAC Basics"
+  },
+  {
+    id: 707,
+    category: "HVAC Trade",
+    question_en: "A contactor with pitted contacts can cause:",
+    question_pt: "Um contator com contatos desgastados pode causar:",
+    options: ["Higher airflow", "Intermittent operation or no start", "Lower head pressure always", "Higher subcooling always"],
+    answer: "Intermittent operation or no start",
+    difficulty: "medium",
+    reference: "Electrical HVAC Basics"
+  },
+  {
+    id: 708,
+    category: "HVAC Trade",
+    question_en: "A compressor that hums but will not start is MOST commonly caused by:",
+    question_pt: "Um compressor que apenas 'ronca' mas não parte é mais comumente causado por:",
+    options: ["Low refrigerant charge", "Failed start components (capacitor/relay) or locked rotor", "Dirty condenser coil", "High indoor airflow"],
+    answer: "Failed start components (capacitor/relay) or locked rotor",
+    difficulty: "medium",
+    reference: "Electrical HVAC Basics"
+  },
+  {
+    id: 709,
+    category: "HVAC Trade",
+    question_en: "If the indoor unit runs but the outdoor unit is completely dead, the MOST likely issue is:",
+    question_pt: "Se a unidade interna funciona mas a externa está totalmente morta, o problema mais provável é:",
+    options: ["Low airflow", "Loss of power to the outdoor unit (disconnect/breaker)", "Overcharge", "Frozen evaporator coil"],
+    answer: "Loss of power to the outdoor unit (disconnect/breaker)",
+    difficulty: "easy",
+    reference: "Service Best Practices"
+  },
+  {
+    id: 710,
+    category: "HVAC Trade",
+    question_en: "A shorted compressor winding would most likely cause:",
+    question_pt: "Um enrolamento do compressor em curto provavelmente causará:",
+    options: ["Low amp draw", "High amp draw and tripping breaker", "Low head pressure", "High subcooling"],
+    answer: "High amp draw and tripping breaker",
+    difficulty: "hard",
+    reference: "Electrical HVAC Basics"
+  },
+  {
+    id: 711,
+    category: "HVAC Trade",
+    question_en: "A system with high head pressure and normal-to-high subcooling is MOST consistent with:",
+    question_pt: "Um sistema com alta pressão de descarga e sub-resfriamento normal a alto é mais consistente com:",
+    options: ["Undercharge", "Condenser airflow restriction or overcharge", "Low indoor airflow only", "Stuck-closed TXV"],
+    answer: "Condenser airflow restriction or overcharge",
+    difficulty: "hard",
+    reference: "HVAC Diagnostics"
+  },
+  {
+    id: 712,
+    category: "HVAC Trade",
+    question_en: "A system with low head pressure and low subcooling is MOST consistent with:",
+    question_pt: "Um sistema com baixa pressão de descarga e baixo sub-resfriamento é mais consistente com:",
+    options: ["Overcharge", "Undercharge", "Noncondensables", "Condenser airflow restriction"],
+    answer: "Undercharge",
+    difficulty: "medium",
+    reference: "HVAC Diagnostics"
+  },
+  {
+    id: 713,
+    category: "HVAC Trade",
+    question_en: "A filter-drier restriction is best confirmed by checking for:",
+    question_pt: "Uma restrição no filtro-secador é melhor confirmada verificando:",
+    options: ["Temperature drop across the drier", "Temperature rise across the drier", "High suction pressure", "Low indoor airflow"],
+    answer: "Temperature drop across the drier",
+    difficulty: "medium",
+    reference: "HVAC Diagnostics"
+  },
+  {
+    id: 714,
+    category: "HVAC Trade",
+    question_en: "A heat pump in defrost mode temporarily runs in:",
+    question_pt: "Uma bomba de calor em modo defrost temporariamente opera em:",
+    options: ["Cooling mode with outdoor fan on", "Cooling mode with outdoor fan off (typical)", "Heating mode with indoor blower off", "Heating mode with compressor off"],
+    answer: "Cooling mode with outdoor fan off (typical)",
+    difficulty: "hard",
+    reference: "Heat Pump Fundamentals"
+  },
+  {
+    id: 715,
+    category: "HVAC Trade",
+    question_en: "What is a common cause of nuisance trips on a low-pressure switch?",
+    question_pt: "Qual é uma causa comum de desligamento indevido no pressostato de baixa pressão?",
+    options: ["Overcharge", "Restricted airflow or low refrigerant charge", "Dirty condenser coil", "Noncondensables"],
+    answer: "Restricted airflow or low refrigerant charge",
+    difficulty: "medium",
+    reference: "HVAC Troubleshooting"
+  },
+  {
+    id: 716,
+    category: "HVAC Trade",
+    question_en: "A condenser fan rotating backwards will MOST likely cause:",
+    question_pt: "Um ventilador do condensador girando ao contrário provavelmente causará:",
+    options: ["Lower head pressure", "Higher head pressure", "Higher suction pressure only", "Higher subcooling only"],
+    answer: "Higher head pressure",
+    difficulty: "medium",
+    reference: "HVAC Troubleshooting"
+  },
+  {
+    id: 717,
+    category: "HVAC Trade",
+    question_en: "What does a floating neutral in a control circuit most likely cause?",
+    question_pt: "O que um neutro 'flutuante' (floating neutral) em um circuito de controle provavelmente causa?",
+    options: ["More airflow", "Intermittent or erratic operation", "Higher subcooling", "Lower head pressure"],
+    answer: "Intermittent or erratic operation",
+    difficulty: "hard",
+    reference: "Electrical HVAC Basics"
+  },
+  {
+    id: 718,
+    category: "HVAC Trade",
+    question_en: "If a blower motor overheats and trips its thermal protection, the MOST likely cause is:",
+    question_pt: "Se um motor do blower superaquece e aciona proteção térmica, a causa mais provável é:",
+    options: ["Too much airflow", "Dirty filter/coil or duct restriction causing high static pressure", "Overcharge", "Noncondensables"],
+    answer: "Dirty filter/coil or duct restriction causing high static pressure",
+    difficulty: "hard",
+    reference: "Airflow & System Performance"
+  },
+  {
+    id: 719,
+    category: "HVAC Trade",
+    question_en: "A common cause of water leaking from an indoor unit is:",
+    question_pt: "Uma causa comum de vazamento de água na unidade interna é:",
+    options: ["High subcooling", "Clogged condensate drain line", "Overcharge", "Noncondensables"],
+    answer: "Clogged condensate drain line",
+    difficulty: "easy",
+    reference: "Condensate Management"
+  },
+  {
+    id: 720,
+    category: "HVAC Trade",
+    question_en: "A float switch in a condensate pan is used to:",
+    question_pt: "Uma chave boia (float switch) na bandeja de condensado é usada para:",
+    options: ["Increase airflow", "Shut down the system if water level rises", "Raise head pressure", "Increase refrigerant flow"],
+    answer: "Shut down the system if water level rises",
+    difficulty: "easy",
+    reference: "Condensate Management"
+  },
+  {
+    id: 721,
+    category: "HVAC Trade",
+    question_en: "A system with low suction pressure and a warm evaporator coil suggests:",
+    question_pt: "Um sistema com baixa sucção e serpentina do evaporador morna sugere:",
+    options: ["Evaporator is starved (low charge or restriction)", "Overcharge", "High indoor airflow only", "Normal operation"],
+    answer: "Evaporator is starved (low charge or restriction)",
+    difficulty: "medium",
+    reference: "HVAC Diagnostics"
+  },
+  {
+    id: 722,
+    category: "HVAC Trade",
+    question_en: "Which is a likely symptom of a restricted return air path?",
+    question_pt: "Qual é um sintoma provável de retorno de ar restrito?",
+    options: ["Low static pressure", "High static pressure and reduced airflow", "Low head pressure", "High subcooling only"],
+    answer: "High static pressure and reduced airflow",
+    difficulty: "medium",
+    reference: "Airflow & System Performance"
+  },
+  {
+    id: 723,
+    category: "HVAC Trade",
+    question_en: "A condenser coil that is blocked by landscaping will MOST likely cause:",
+    question_pt: "Uma serpentina do condensador bloqueada por paisagismo provavelmente causará:",
+    options: ["Lower head pressure", "Higher head pressure and reduced capacity", "Higher indoor airflow", "Lower subcooling always"],
+    answer: "Higher head pressure and reduced capacity",
+    difficulty: "easy",
+    reference: "HVAC Troubleshooting"
+  },
+  {
+    id: 724,
+    category: "HVAC Trade",
+    question_en: "A failed pressure switch is best diagnosed by:",
+    question_pt: "Um pressostato com falha é melhor diagnosticado por:",
+    options: ["Adding refrigerant", "Verifying switch operation with a meter under safe conditions", "Replacing the compressor", "Increasing thermostat setpoint"],
+    answer: "Verifying switch operation with a meter under safe conditions",
+    difficulty: "medium",
+    reference: "Electrical HVAC Basics"
+  },
+  {
+    id: 725,
+    category: "HVAC Trade",
+    question_en: "A system has high suction pressure and low superheat. The MOST likely risk is:",
+    question_pt: "Um sistema tem sucção alta e superheat baixo. O risco mais provável é:",
+    options: ["Starved evaporator", "Flooding/liquid return to compressor", "Low head pressure shutdown", "No cooling at all"],
+    answer: "Flooding/liquid return to compressor",
+    difficulty: "hard",
+    reference: "Compressor Protection"
+  },
+  {
+    id: 726,
+    category: "HVAC Trade",
+    question_en: "A common cause of high indoor humidity with acceptable temperature is:",
+    question_pt: "Uma causa comum de alta umidade interna com temperatura aceitável é:",
+    options: ["Oversized system short cycling", "Undercharge only", "Dirty condenser only", "Noncondensables only"],
+    answer: "Oversized system short cycling",
+    difficulty: "medium",
+    reference: "Airflow & System Performance"
+  },
+  {
+    id: 727,
+    category: "HVAC Trade",
+    question_en: "What is the BEST reason to verify airflow before charging a system?",
+    question_pt: "Qual é a MELHOR razão para verificar o fluxo de ar antes de carregar um sistema?",
+    options: ["Airflow does not affect pressures", "Airflow affects coil performance and diagnostic readings", "It only affects head pressure", "It only affects subcooling"],
+    answer: "Airflow affects coil performance and diagnostic readings",
+    difficulty: "easy",
+    reference: "Service Best Practices"
+  },
+  {
+    id: 728,
+    category: "HVAC Trade",
+    question_en: "A system with a fixed orifice is typically charged using:",
+    question_pt: "Um sistema com orifício fixo normalmente é carregado usando:",
+    options: ["Superheat method", "Subcooling method only", "Discharge temperature only", "Static pressure only"],
+    answer: "Superheat method",
+    difficulty: "medium",
+    reference: "HVAC Diagnostics"
+  },
+  {
+    id: 729,
+    category: "HVAC Trade",
+    question_en: "A system with a TXV is typically charged using:",
+    question_pt: "Um sistema com TXV normalmente é carregado usando:",
+    options: ["Superheat method only", "Subcooling method", "Static pressure only", "Discharge temperature only"],
+    answer: "Subcooling method",
+    difficulty: "medium",
+    reference: "HVAC Diagnostics"
+  },
+  {
+    id: 730,
+    category: "HVAC Trade",
+    question_en: "A refrigerant system running with very low subcooling and normal superheat most likely indicates:",
+    question_pt: "Um sistema com sub-resfriamento muito baixo e superheat normal provavelmente indica:",
+    options: ["Overcharge", "Undercharge or flashing in liquid line", "Dirty condenser", "Noncondensables"],
+    answer: "Undercharge or flashing in liquid line",
+    difficulty: "hard",
+    reference: "HVAC Diagnostics"
+  },
+  {
+    id: 731,
+    category: "HVAC Trade",
+    question_en: "An ECM blower motor that will not respond to the thermostat may indicate:",
+    question_pt: "Um motor de blower ECM que não responde ao termostato pode indicar:",
+    options: ["Only low refrigerant charge", "Control signal/module issue", "Dirty condenser coil", "Noncondensables"],
+    answer: "Control signal/module issue",
+    difficulty: "hard",
+    reference: "Controls & Thermostats"
+  },
+  {
+    id: 732,
+    category: "HVAC Trade",
+    question_en: "A common symptom of a plugged condensate trap is:",
+    question_pt: "Um sintoma comum de um sifão (trap) de condensado entupido é:",
+    options: ["Higher head pressure", "Water backup and leaking", "Higher airflow", "Higher subcooling"],
+    answer: "Water backup and leaking",
+    difficulty: "easy",
+    reference: "Condensate Management"
+  },
+  {
+    id: 733,
+    category: "HVAC Trade",
+    question_en: "A compressor that repeatedly trips on overload can be caused by:",
+    question_pt: "Um compressor que desarma repetidamente por sobrecarga pode ser causado por:",
+    options: ["High head pressure or electrical issues", "Low indoor airflow only", "Low subcooling only", "Normal operation"],
+    answer: "High head pressure or electrical issues",
+    difficulty: "hard",
+    reference: "HVAC Troubleshooting"
+  },
+  {
+    id: 734,
+    category: "HVAC Trade",
+    question_en: "A common cause of noisy ductwork (whistling) is:",
+    question_pt: "Uma causa comum de dutos barulhentos (assobio) é:",
+    options: ["Low velocity", "High velocity due to undersized duct or restriction", "Overcharge", "Low head pressure"],
+    answer: "High velocity due to undersized duct or restriction",
+    difficulty: "medium",
+    reference: "Airflow & System Performance"
+  },
+  {
+    id: 735,
+    category: "HVAC Trade",
+    question_en: "If the compressor does not run but the condenser fan runs, the MOST likely issue is:",
+    question_pt: "Se o compressor não funciona mas o ventilador externo funciona, o problema mais provável é:",
+    options: ["Low refrigerant charge", "Compressor circuit issue (contactor, capacitor, overload, wiring)", "Dirty filter", "High indoor airflow"],
+    answer: "Compressor circuit issue (contactor, capacitor, overload, wiring)",
+    difficulty: "medium",
+    reference: "Electrical HVAC Basics"
+  },
+  {
+    id: 736,
+    category: "HVAC Trade",
+    question_en: "A bad indoor fan relay would MOST likely result in:",
+    question_pt: "Um relé ruim do ventilador interno provavelmente resultaria em:",
+    options: ["Outdoor fan not starting", "Indoor fan not running when called", "High subcooling only", "Low head pressure only"],
+    answer: "Indoor fan not running when called",
+    difficulty: "medium",
+    reference: "Controls & Thermostats"
+  },
+  {
+    id: 737,
+    category: "HVAC Trade",
+    question_en: "A thermostat set to 'AUTO' instead of 'ON' will cause the blower to:",
+    question_pt: "Um termostato em 'AUTO' em vez de 'ON' fará o blower:",
+    options: ["Run continuously", "Run only during calls for heating/cooling", "Never run", "Run only at night"],
+    answer: "Run only during calls for heating/cooling",
+    difficulty: "easy",
+    reference: "Controls & Thermostats"
+  },
+  {
+    id: 738,
+    category: "HVAC Trade",
+    question_en: "A common reason for low airflow after a new installation is:",
+    question_pt: "Uma razão comum para baixo fluxo de ar após uma nova instalação é:",
+    options: ["Overcharge", "Incorrect blower speed tap/setting or closed dampers", "Noncondensables", "High outdoor temperature"],
+    answer: "Incorrect blower speed tap/setting or closed dampers",
+    difficulty: "medium",
+    reference: "Airflow & System Performance"
+  },
+  {
+    id: 739,
+    category: "HVAC Trade",
+    question_en: "When verifying voltage to a condenser unit, you should measure:",
+    question_pt: "Ao verificar tensão na unidade condensadora, você deve medir:",
+    options: ["Only control voltage", "Line voltage at the disconnect/contactor (as applicable)", "Only resistance", "Only microfarads"],
+    answer: "Line voltage at the disconnect/contactor (as applicable)",
+    difficulty: "easy",
+    reference: "Electrical HVAC Basics"
+  },
+  {
+    id: 740,
+    category: "HVAC Trade",
+    question_en: "A loose electrical connection can cause:",
+    question_pt: "Uma conexão elétrica frouxa pode causar:",
+    options: ["Lower head pressure", "Heat buildup and intermittent failure", "Higher airflow", "Lower superheat"],
+    answer: "Heat buildup and intermittent failure",
+    difficulty: "medium",
+    reference: "Electrical HVAC Basics"
+  },
+  {
+    id: 741,
+    category: "HVAC Trade",
+    question_en: "A compressor that starts and then quickly shuts off may be caused by:",
+    question_pt: "Um compressor que liga e desliga rapidamente pode ser causado por:",
+    options: ["Overload trip due to high head pressure or low voltage", "Normal operation", "High indoor airflow", "High subcooling only"],
+    answer: "Overload trip due to high head pressure or low voltage",
+    difficulty: "hard",
+    reference: "HVAC Troubleshooting"
+  },
+  {
+    id: 742,
+    category: "HVAC Trade",
+    question_en: "If airflow is too high across the evaporator, the temperature split will typically be:",
+    question_pt: "Se o fluxo de ar estiver muito alto através do evaporador, o delta T (temperatura) normalmente será:",
+    options: ["Higher than normal", "Lower than normal", "Always zero", "Unrelated to airflow"],
+    answer: "Lower than normal",
+    difficulty: "medium",
+    reference: "Airflow & System Performance"
+  },
+  {
+    id: 743,
+    category: "HVAC Trade",
+    question_en: "If airflow is too low across the evaporator, the temperature split will typically be:",
+    question_pt: "Se o fluxo de ar estiver muito baixo através do evaporador, o delta T (temperatura) normalmente será:",
+    options: ["Lower than normal", "Higher than normal (and risk of icing)", "Always zero", "Unrelated to airflow"],
+    answer: "Higher than normal (and risk of icing)",
+    difficulty: "medium",
+    reference: "Airflow & Coil Icing"
+  },
+  {
+    id: 744,
+    category: "HVAC Trade",
+    question_en: "A system that cools well at night but struggles during the day is MOST likely affected by:",
+    question_pt: "Um sistema que gela bem à noite mas sofre durante o dia é mais provável ser afetado por:",
+    options: ["Low outdoor ambient effects", "High outdoor heat load/dirty condenser/insufficient capacity", "Noncondensables only", "A thermostat stuck open"],
+    answer: "High outdoor heat load/dirty condenser/insufficient capacity",
+    difficulty: "medium",
+    reference: "Airflow & System Performance"
+  },
+  {
+    id: 745,
+    category: "HVAC Trade",
+    question_en: "Which symptom most strongly indicates a refrigerant restriction ahead of the metering device?",
+    question_pt: "Qual sintoma indica mais fortemente uma restrição antes do dispositivo de expansão?",
+    options: ["High suction pressure", "Low suction pressure and low evaporator temperature with high superheat", "Low head pressure only", "High indoor airflow"],
+    answer: "Low suction pressure and low evaporator temperature with high superheat",
+    difficulty: "hard",
+    reference: "HVAC Diagnostics"
+  },
+  {
+    id: 746,
+    category: "HVAC Trade",
+    question_en: "A 'pump down' control strategy is most commonly used in:",
+    question_pt: "Uma estratégia de controle de 'pump down' é mais comumente usada em:",
+    options: ["Split residential AC only", "Commercial refrigeration systems", "Heat strips", "Ductless indoor fans"],
+    answer: "Commercial refrigeration systems",
+    difficulty: "hard",
+    reference: "Controls & Refrigeration"
+  },
+  {
+    id: 747,
+    category: "HVAC Trade",
+    question_en: "A low-voltage short in the control circuit will most likely cause:",
+    question_pt: "Um curto no circuito de baixa tensão provavelmente causará:",
+    options: ["Breaker trip on line voltage immediately", "Blown fuse on the control board/transformer protection", "Higher airflow", "Higher subcooling"],
+    answer: "Blown fuse on the control board/transformer protection",
+    difficulty: "medium",
+    reference: "Electrical HVAC Basics"
+  },
+  {
+    id: 748,
+    category: "HVAC Trade",
+    question_en: "A transformer in an HVAC system is used to:",
+    question_pt: "Um transformador em um sistema HVAC é usado para:",
+    options: ["Increase refrigerant pressure", "Step down line voltage to control voltage", "Increase airflow", "Drain condensate"],
+    answer: "Step down line voltage to control voltage",
+    difficulty: "easy",
+    reference: "Electrical HVAC Basics"
+  },
+  {
+    id: 749,
+    category: "HVAC Trade",
+    question_en: "If an HVAC unit has correct line voltage but no control voltage, the MOST likely cause is:",
+    question_pt: "Se uma unidade HVAC tem tensão de linha correta mas não tem tensão de controle, a causa mais provável é:",
+    options: ["Overcharge", "Failed transformer or open safety/fuse in control circuit", "Dirty condenser coil", "High indoor airflow"],
+    answer: "Failed transformer or open safety/fuse in control circuit",
+    difficulty: "hard",
+    reference: "Electrical HVAC Basics"
+  },
+  {
+    id: 750,
+    category: "HVAC Trade",
+    question_en: "The BEST practice before replacing a part is to:",
+    question_pt: "A melhor prática antes de substituir uma peça é:",
+    options: ["Guess based on symptoms only", "Verify the fault with measurements and checks", "Add refrigerant first", "Bypass safeties to test faster"],
+    answer: "Verify the fault with measurements and checks",
+    difficulty: "easy",
+    reference: "Service Best Practices"
+  },
+
+  {
+    id: 751,
+    category: "HVAC Trade",
+    question_en: "Excessive static pressure in a duct system MOST commonly results in:",
+    question_pt: "Pressão estática excessiva em um sistema de dutos mais comumente resulta em:",
+    options: ["Higher airflow", "Reduced airflow and increased blower amp draw", "Lower energy use", "Lower noise levels"],
+    answer: "Reduced airflow and increased blower amp draw",
+    difficulty: "medium",
+    reference: "Airflow & Duct Design"
+  },
+  {
+    id: 752,
+    category: "HVAC Trade",
+    question_en: "The recommended total external static pressure (TESP) for most residential systems is approximately:",
+    question_pt: "A pressão estática externa total (TESP) recomendada para a maioria dos sistemas residenciais é aproximadamente:",
+    options: ["0.1 in. w.c.", "0.3 in. w.c.", "0.5 in. w.c.", "1.0 in. w.c."],
+    answer: "0.5 in. w.c.",
+    difficulty: "medium",
+    reference: "Airflow & Duct Design"
+  },
+  {
+    id: 753,
+    category: "HVAC Trade",
+    question_en: "A supply register delivering very little air compared to others MOST likely indicates:",
+    question_pt: "Um difusor de suprimento entregando muito pouco ar em comparação com outros provavelmente indica:",
+    options: ["High refrigerant charge", "Duct restriction or damper closed", "Oversized system", "Normal operation"],
+    answer: "Duct restriction or damper closed",
+    difficulty: "easy",
+    reference: "Airflow & Duct Design"
+  },
+  {
+    id: 754,
+    category: "HVAC Trade",
+    question_en: "What is the PRIMARY purpose of a return air duct?",
+    question_pt: "Qual é o propósito PRINCIPAL de um duto de retorno?",
+    options: ["Deliver cooled air to rooms", "Return air to the equipment for conditioning", "Increase static pressure", "Remove moisture only"],
+    answer: "Return air to the equipment for conditioning",
+    difficulty: "easy",
+    reference: "Airflow Fundamentals"
+  },
+  {
+    id: 755,
+    category: "HVAC Trade",
+    question_en: "Undersized return ducting MOST commonly causes:",
+    question_pt: "Dutos de retorno subdimensionados mais comumente causam:",
+    options: ["Low static pressure", "High static pressure and noise", "Lower energy use", "Higher humidity removal"],
+    answer: "High static pressure and noise",
+    difficulty: "medium",
+    reference: "Airflow & Duct Design"
+  },
+  {
+    id: 756,
+    category: "HVAC Trade",
+    question_en: "Which duct material typically has the HIGHEST friction loss?",
+    question_pt: "Qual material de duto normalmente possui a MAIOR perda por atrito?",
+    options: ["Smooth metal duct", "Fiberglass duct board", "Flexible duct (flex)", "PVC pipe"],
+    answer: "Flexible duct (flex)",
+    difficulty: "easy",
+    reference: "Airflow & Duct Design"
+  },
+  {
+    id: 757,
+    category: "HVAC Trade",
+    question_en: "Excessively long flexible duct runs MOST likely result in:",
+    question_pt: "Percursos excessivamente longos de duto flexível provavelmente resultam em:",
+    options: ["Higher airflow", "Reduced airflow and poor comfort", "Lower static pressure", "Higher efficiency"],
+    answer: "Reduced airflow and poor comfort",
+    difficulty: "easy",
+    reference: "Airflow & Duct Design"
+  },
+  {
+    id: 758,
+    category: "HVAC Trade",
+    question_en: "Manual J is primarily used to:",
+    question_pt: "O Manual J é usado principalmente para:",
+    options: ["Duct sizing", "Equipment sizing/load calculation", "Refrigerant charging", "Electrical sizing"],
+    answer: "Equipment sizing/load calculation",
+    difficulty: "easy",
+    reference: "ACCA Manuals"
+  },
+  {
+    id: 759,
+    category: "HVAC Trade",
+    question_en: "Manual D is primarily used to:",
+    question_pt: "O Manual D é usado principalmente para:",
+    options: ["Load calculation", "Equipment selection", "Duct design and sizing", "Control wiring"],
+    answer: "Duct design and sizing",
+    difficulty: "easy",
+    reference: "ACCA Manuals"
+  },
+  {
+    id: 760,
+    category: "HVAC Trade",
+    question_en: "Manual S is primarily used to:",
+    question_pt: "O Manual S é usado principalmente para:",
+    options: ["Duct design", "Load calculation", "Equipment selection based on loads", "Electrical calculations"],
+    answer: "Equipment selection based on loads",
+    difficulty: "easy",
+    reference: "ACCA Manuals"
+  },
+  {
+    id: 761,
+    category: "HVAC Trade",
+    question_en: "Oversizing HVAC equipment MOST commonly leads to:",
+    question_pt: "Superdimensionar equipamentos HVAC mais comumente leva a:",
+    options: ["Better humidity control", "Short cycling and poor dehumidification", "Lower energy use", "Quieter operation"],
+    answer: "Short cycling and poor dehumidification",
+    difficulty: "medium",
+    reference: "System Design"
+  },
+  {
+    id: 762,
+    category: "HVAC Trade",
+    question_en: "A high temperature difference (ΔT) across the evaporator with low airflow indicates:",
+    question_pt: "Um delta T alto através do evaporador com baixo fluxo de ar indica:",
+    options: ["Normal operation", "Potential coil icing risk", "High indoor load", "Overcharge"],
+    answer: "Potential coil icing risk",
+    difficulty: "medium",
+    reference: "Airflow & Coil Icing"
+  },
+  {
+    id: 763,
+    category: "HVAC Trade",
+    question_en: "Which measurement is MOST useful to diagnose airflow problems?",
+    question_pt: "Qual medição é MAIS útil para diagnosticar problemas de fluxo de ar?",
+    options: ["Line voltage", "Total external static pressure", "Head pressure", "Subcooling"],
+    answer: "Total external static pressure",
+    difficulty: "medium",
+    reference: "Airflow Diagnostics"
+  },
+  {
+    id: 764,
+    category: "HVAC Trade",
+    question_en: "A return grille that whistles loudly usually indicates:",
+    question_pt: "Uma grelha de retorno que assobia alto normalmente indica:",
+    options: ["Low velocity", "High velocity due to undersizing", "Overcharge", "Low refrigerant"],
+    answer: "High velocity due to undersizing",
+    difficulty: "easy",
+    reference: "Airflow & Duct Design"
+  },
+  {
+    id: 765,
+    category: "HVAC Trade",
+    question_en: "Supply air temperature that is too cold with low airflow MOST likely indicates:",
+    question_pt: "Temperatura de ar de suprimento muito fria com baixo fluxo de ar provavelmente indica:",
+    options: ["Normal operation", "Restricted airflow and icing risk", "Oversized system", "High indoor load"],
+    answer: "Restricted airflow and icing risk",
+    difficulty: "medium",
+    reference: "Airflow & Coil Icing"
+  },
+  {
+    id: 766,
+    category: "HVAC Trade",
+    question_en: "Which factor MOST affects duct friction loss?",
+    question_pt: "Qual fator MAIS afeta a perda por atrito nos dutos?",
+    options: ["Refrigerant type", "Duct length and diameter", "Thermostat setting", "Outdoor temperature"],
+    answer: "Duct length and diameter",
+    difficulty: "easy",
+    reference: "Airflow & Duct Design"
+  },
+  {
+    id: 767,
+    category: "HVAC Trade",
+    question_en: "A balancing damper is used to:",
+    question_pt: "Um damper de balanceamento é usado para:",
+    options: ["Increase system capacity", "Adjust airflow to different branches", "Control refrigerant flow", "Reduce head pressure"],
+    answer: "Adjust airflow to different branches",
+    difficulty: "easy",
+    reference: "Airflow & Duct Design"
+  },
+  {
+    id: 768,
+    category: "HVAC Trade",
+    question_en: "Leaky ductwork MOST commonly causes:",
+    question_pt: "Dutos com vazamentos mais comumente causam:",
+    options: ["Higher efficiency", "Reduced capacity and higher energy use", "Lower humidity", "Higher airflow everywhere"],
+    answer: "Reduced capacity and higher energy use",
+    difficulty: "easy",
+    reference: "Airflow & Duct Design"
+  },
+  {
+    id: 769,
+    category: "HVAC Trade",
+    question_en: "Which test is commonly used to measure duct leakage?",
+    question_pt: "Qual teste é comumente usado para medir vazamento em dutos?",
+    options: ["Blower door test", "Duct blaster test", "Megger test", "Pressure decay test only"],
+    answer: "Duct blaster test",
+    difficulty: "medium",
+    reference: "Airflow Diagnostics"
+  },
+  {
+    id: 770,
+    category: "HVAC Trade",
+    question_en: "A high-efficiency pleated filter will MOST likely:",
+    question_pt: "Um filtro plissado de alta eficiência provavelmente:",
+    options: ["Reduce static pressure", "Increase static pressure if undersized", "Increase airflow always", "Have no effect on airflow"],
+    answer: "Increase static pressure if undersized",
+    difficulty: "medium",
+    reference: "Airflow & Filtration"
+  },
+  {
+    id: 771,
+    category: "HVAC Trade",
+    question_en: "A return air path through a closed bedroom door is BEST provided by:",
+    question_pt: "O caminho de retorno de ar com a porta do quarto fechada é melhor fornecido por:",
+    options: ["Supply diffuser only", "Transfer grille or jumper duct", "Larger condenser", "Higher refrigerant charge"],
+    answer: "Transfer grille or jumper duct",
+    difficulty: "easy",
+    reference: "Airflow & Duct Design"
+  },
+  {
+    id: 772,
+    category: "HVAC Trade",
+    question_en: "Which code topic MOST often applies to combustion air for gas furnaces?",
+    question_pt: "Qual tema de código mais frequentemente se aplica ao ar de combustão para fornos a gás?",
+    options: ["Electrical code only", "Mechanical code / fuel gas code", "Plumbing code only", "Energy code only"],
+    answer: "Mechanical code / fuel gas code",
+    difficulty: "easy",
+    reference: "Mechanical & Fuel Gas Codes"
+  },
+  {
+    id: 773,
+    category: "HVAC Trade",
+    question_en: "Improper combustion air supply can result in:",
+    question_pt: "Fornecimento inadequado de ar de combustão pode resultar em:",
+    options: ["Higher efficiency", "Incomplete combustion and CO production", "Lower static pressure", "Higher airflow"],
+    answer: "Incomplete combustion and CO production",
+    difficulty: "medium",
+    reference: "Safety & Combustion"
+  },
+  {
+    id: 774,
+    category: "HVAC Trade",
+    question_en: "Carbon monoxide (CO) is dangerous primarily because it:",
+    question_pt: "O monóxido de carbono (CO) é perigoso principalmente porque:",
+    options: ["Smells strong", "Displaces oxygen in the bloodstream", "Is heavier than air", "Is easy to detect"],
+    answer: "Displaces oxygen in the bloodstream",
+    difficulty: "easy",
+    reference: "Safety & Combustion"
+  },
+  {
+    id: 775,
+    category: "HVAC Trade",
+    question_en: "A combustion analyzer is used to measure:",
+    question_pt: "Um analisador de combustão é usado para medir:",
+    options: ["Static pressure", "CO, O2, flue gases", "Refrigerant charge", "Airflow only"],
+    answer: "CO, O2, flue gases",
+    difficulty: "medium",
+    reference: "Safety & Combustion"
+  },
+  {
+    id: 776,
+    category: "HVAC Trade",
+    question_en: "Which safety device shuts off a gas furnace if the vent is blocked?",
+    question_pt: "Qual dispositivo de segurança desliga um forno a gás se a chaminé estiver bloqueada?",
+    options: ["Pressure switch", "Flame sensor", "Limit switch", "Blocked vent safety switch"],
+    answer: "Blocked vent safety switch",
+    difficulty: "medium",
+    reference: "Gas Furnace Safety"
+  },
+  {
+    id: 777,
+    category: "HVAC Trade",
+    question_en: "A flame sensor in a gas furnace verifies:",
+    question_pt: "O sensor de chama em um forno a gás verifica:",
+    options: ["Gas pressure", "Presence of flame", "Airflow", "Line voltage"],
+    answer: "Presence of flame",
+    difficulty: "easy",
+    reference: "Gas Furnace Operation"
+  },
+  {
+    id: 778,
+    category: "HVAC Trade",
+    question_en: "A dirty flame sensor MOST commonly causes:",
+    question_pt: "Um sensor de chama sujo mais comumente causa:",
+    options: ["No blower operation", "Burners to light briefly then shut off", "High head pressure", "Low airflow"],
+    answer: "Burners to light briefly then shut off",
+    difficulty: "medium",
+    reference: "Gas Furnace Troubleshooting"
+  },
+  {
+    id: 779,
+    category: "HVAC Trade",
+    question_en: "A cracked heat exchanger is dangerous because it can allow:",
+    question_pt: "Um trocador de calor rachado é perigoso porque pode permitir:",
+    options: ["Higher efficiency", "Flue gases/CO to enter the living space", "Lower static pressure", "More airflow"],
+    answer: "Flue gases/CO to enter the living space",
+    difficulty: "easy",
+    reference: "Gas Furnace Safety"
+  },
+  {
+    id: 780,
+    category: "HVAC Trade",
+    question_en: "Which test is commonly used to check a cracked heat exchanger?",
+    question_pt: "Qual teste é comumente usado para verificar um trocador de calor rachado?",
+    options: ["Static pressure test", "Visual inspection and combustion analysis", "Subcooling test", "Megger test"],
+    answer: "Visual inspection and combustion analysis",
+    difficulty: "medium",
+    reference: "Gas Furnace Diagnostics"
+  },
+  {
+    id: 781,
+    category: "HVAC Trade",
+    question_en: "An induced-draft motor in a furnace is used to:",
+    question_pt: "O motor de exaustão (induced draft) em um forno é usado para:",
+    options: ["Push supply air", "Move combustion gases through the heat exchanger", "Control refrigerant flow", "Increase indoor airflow only"],
+    answer: "Move combustion gases through the heat exchanger",
+    difficulty: "easy",
+    reference: "Gas Furnace Operation"
+  },
+  {
+    id: 782,
+    category: "HVAC Trade",
+    question_en: "A pressure switch in a gas furnace proves:",
+    question_pt: "O pressostato em um forno a gás comprova:",
+    options: ["Proper refrigerant pressure", "Adequate draft/venting", "Indoor airflow", "Line voltage"],
+    answer: "Adequate draft/venting",
+    difficulty: "easy",
+    reference: "Gas Furnace Safety"
+  },
+  {
+    id: 783,
+    category: "HVAC Trade",
+    question_en: "If a furnace pressure switch will not close, a likely cause is:",
+    question_pt: "Se o pressostato do forno não fecha, uma causa provável é:",
+    options: ["Dirty air filter", "Blocked vent or failed inducer motor", "Overcharge", "Low refrigerant"],
+    answer: "Blocked vent or failed inducer motor",
+    difficulty: "medium",
+    reference: "Gas Furnace Troubleshooting"
+  },
+  {
+    id: 784,
+    category: "HVAC Trade",
+    question_en: "Proper vent sizing for gas appliances is governed by:",
+    question_pt: "O dimensionamento correto da chaminé para aparelhos a gás é regido por:",
+    options: ["Electrical code", "Fuel gas/mechanical code tables", "Energy code only", "Manufacturer preference only"],
+    answer: "Fuel gas/mechanical code tables",
+    difficulty: "easy",
+    reference: "Mechanical & Fuel Gas Codes"
+  },
+  {
+    id: 785,
+    category: "HVAC Trade",
+    question_en: "A common cause of furnace rollout switch activation is:",
+    question_pt: "Uma causa comum de acionamento do rollout switch do forno é:",
+    options: ["Normal operation", "Blocked heat exchanger or venting issue", "Low refrigerant charge", "High indoor airflow"],
+    answer: "Blocked heat exchanger or venting issue",
+    difficulty: "hard",
+    reference: "Gas Furnace Safety"
+  },
+  {
+    id: 786,
+    category: "HVAC Trade",
+    question_en: "Which safety practice is MOST important when working on gas-fired equipment?",
+    question_pt: "Qual prática de segurança é MAIS importante ao trabalhar em equipamentos a gás?",
+    options: ["Ignoring odor", "Checking for gas leaks after service", "Increasing thermostat setting", "Bypassing safeties"],
+    answer: "Checking for gas leaks after service",
+    difficulty: "easy",
+    reference: "Safety Practices"
+  },
+  {
+    id: 787,
+    category: "HVAC Trade",
+    question_en: "Duct insulation primarily helps to:",
+    question_pt: "O isolamento dos dutos ajuda principalmente a:",
+    options: ["Increase airflow", "Reduce heat gain/loss and condensation", "Increase static pressure", "Reduce refrigerant charge"],
+    answer: "Reduce heat gain/loss and condensation",
+    difficulty: "easy",
+    reference: "Airflow & Duct Design"
+  },
+  {
+    id: 788,
+    category: "HVAC Trade",
+    question_en: "Supply air condensation on diffusers MOST often indicates:",
+    question_pt: "Condensação nos difusores de suprimento mais frequentemente indica:",
+    options: ["High indoor humidity", "Overcharge", "Low static pressure", "High airflow"],
+    answer: "High indoor humidity",
+    difficulty: "easy",
+    reference: "Humidity Control"
+  },
+  {
+    id: 789,
+    category: "HVAC Trade",
+    question_en: "A humidistat is used to control:",
+    question_pt: "Um humidistato é usado para controlar:",
+    options: ["Temperature only", "Humidity levels", "Static pressure", "Refrigerant flow"],
+    answer: "Humidity levels",
+    difficulty: "easy",
+    reference: "Controls & IAQ"
+  },
+  {
+    id: 790,
+    category: "HVAC Trade",
+    question_en: "Excessive indoor humidity with normal cooling capacity MOST likely indicates:",
+    question_pt: "Umidade interna excessiva com capacidade de resfriamento normal provavelmente indica:",
+    options: ["Oversized system or high infiltration", "Undercharge", "Dirty condenser", "Low airflow only"],
+    answer: "Oversized system or high infiltration",
+    difficulty: "medium",
+    reference: "Humidity Control"
+  },
+  {
+    id: 791,
+    category: "HVAC Trade",
+    question_en: "The PRIMARY purpose of ventilation air is to:",
+    question_pt: "O propósito PRINCIPAL do ar de ventilação é:",
+    options: ["Cool the space", "Provide fresh air and dilute contaminants", "Increase humidity", "Reduce static pressure"],
+    answer: "Provide fresh air and dilute contaminants",
+    difficulty: "easy",
+    reference: "IAQ & Ventilation"
+  },
+  {
+    id: 792,
+    category: "HVAC Trade",
+    question_en: "ASHRAE 62.2 primarily addresses:",
+    question_pt: "A ASHRAE 62.2 trata principalmente de:",
+    options: ["Energy efficiency", "Residential ventilation and IAQ", "Refrigerant safety", "Electrical standards"],
+    answer: "Residential ventilation and IAQ",
+    difficulty: "medium",
+    reference: "ASHRAE Standards"
+  },
+  {
+    id: 793,
+    category: "HVAC Trade",
+    question_en: "Which ventilation method provides outdoor air intermittently?",
+    question_pt: "Qual método de ventilação fornece ar externo de forma intermitente?",
+    options: ["Exhaust-only ventilation", "Supply-only ventilation", "Balanced ventilation", "ERV only"],
+    answer: "Exhaust-only ventilation",
+    difficulty: "medium",
+    reference: "IAQ & Ventilation"
+  },
+  {
+    id: 794,
+    category: "HVAC Trade",
+    question_en: "An ERV is designed to:",
+    question_pt: "Um ERV é projetado para:",
+    options: ["Recover sensible heat only", "Transfer heat and moisture between air streams", "Increase static pressure", "Remove refrigerant"],
+    answer: "Transfer heat and moisture between air streams",
+    difficulty: "medium",
+    reference: "IAQ & Ventilation"
+  },
+  {
+    id: 795,
+    category: "HVAC Trade",
+    question_en: "A common cause of drafts near windows is:",
+    question_pt: "Uma causa comum de correntes de ar perto de janelas é:",
+    options: ["Overcharge", "Air infiltration due to poor sealing", "High subcooling", "Low airflow"],
+    answer: "Air infiltration due to poor sealing",
+    difficulty: "easy",
+    reference: "Building Envelope"
+  },
+  {
+    id: 796,
+    category: "HVAC Trade",
+    question_en: "Which factor MOST affects sensible heat load?",
+    question_pt: "Qual fator MAIS afeta a carga sensível?",
+    options: ["Moisture only", "Temperature difference", "Refrigerant type", "Static pressure"],
+    answer: "Temperature difference",
+    difficulty: "easy",
+    reference: "Load Calculations"
+  },
+  {
+    id: 797,
+    category: "HVAC Trade",
+    question_en: "Which factor MOST affects latent heat load?",
+    question_pt: "Qual fator MAIS afeta a carga latente?",
+    options: ["Temperature difference", "Moisture content of air", "Duct length", "Refrigerant pressure"],
+    answer: "Moisture content of air",
+    difficulty: "easy",
+    reference: "Load Calculations"
+  },
+  {
+    id: 798,
+    category: "HVAC Trade",
+    question_en: "A psychrometric chart is used to analyze:",
+    question_pt: "A carta psicrométrica é usada para analisar:",
+    options: ["Electrical performance", "Air properties (temperature, humidity, enthalpy)", "Refrigerant properties", "Duct pressure only"],
+    answer: "Air properties (temperature, humidity, enthalpy)",
+    difficulty: "medium",
+    reference: "Psychrometrics"
+  },
+  {
+    id: 799,
+    category: "HVAC Trade",
+    question_en: "The dew point temperature indicates:",
+    question_pt: "A temperatura de ponto de orvalho indica:",
+    options: ["Air velocity", "Temperature at which moisture condenses", "Static pressure", "Refrigerant saturation"],
+    answer: "Temperature at which moisture condenses",
+    difficulty: "easy",
+    reference: "Psychrometrics"
+  },
+  {
+    id: 800,
+    category: "HVAC Trade",
+    question_en: "Condensation on cold surfaces occurs when surface temperature is:",
+    question_pt: "A condensação em superfícies frias ocorre quando a temperatura da superfície é:",
+    options: ["Above dew point", "Below dew point", "Equal to dry bulb only", "Unrelated to humidity"],
+    answer: "Below dew point",
+    difficulty: "easy",
+    reference: "Psychrometrics"
+  },
+
+  {
+    id: 801,
+    category: "FBC Mechanical",
+    question_en: "Mechanical equipment must be installed to allow:",
+    question_pt: "Equipamentos mecânicos devem ser instalados para permitir:",
+    options: ["Only appearance requirements", "Access for inspection, service, repair, and replacement", "No clearance if in an attic", "Access only by removing ductwork"],
+    answer: "Access for inspection, service, repair, and replacement",
+    difficulty: "easy",
+    reference: "FBC Mechanical — Access & Clearance"
+  },
+  {
+    id: 802,
+    category: "FBC Mechanical",
+    question_en: "When equipment is installed in an attic, code typically requires:",
+    question_pt: "Quando um equipamento é instalado em um sótão (attic), o código normalmente exige:",
+    options: ["No access opening", "Permanent access and a service platform/walkway as required", "Access only through ceiling tiles", "Only a ladder without an opening"],
+    answer: "Permanent access and a service platform/walkway as required",
+    difficulty: "medium",
+    reference: "FBC Mechanical — Attic Access"
+  },
+  {
+    id: 803,
+    category: "FBC Mechanical",
+    question_en: "A common code requirement for attic equipment service access includes:",
+    question_pt: "Um requisito comum de código para acesso de serviço em sótão inclui:",
+    options: ["A service platform and illumination near the equipment", "Only a warning label", "A larger condenser coil", "A higher SEER rating"],
+    answer: "A service platform and illumination near the equipment",
+    difficulty: "medium",
+    reference: "FBC Mechanical — Attic Access & Lighting"
+  },
+  {
+    id: 804,
+    category: "FBC Mechanical",
+    question_en: "Condensate disposal must:",
+    question_pt: "O descarte de condensado deve:",
+    options: ["Drain to a location that causes damage", "Discharge in a manner that does not cause nuisance or damage", "Always discharge onto a roof", "Always discharge into a return plenum"],
+    answer: "Discharge in a manner that does not cause nuisance or damage",
+    difficulty: "easy",
+    reference: "FBC Mechanical — Condensate Disposal"
+  },
+  {
+    id: 805,
+    category: "FBC Mechanical",
+    question_en: "A secondary drain pan under an attic air handler is primarily used to:",
+    question_pt: "Uma bandeja secundária (secondary drain pan) sob um air handler no sótão é usada principalmente para:",
+    options: ["Increase airflow", "Protect against water damage from condensate overflow", "Increase refrigerant flow", "Reduce static pressure"],
+    answer: "Protect against water damage from condensate overflow",
+    difficulty: "easy",
+    reference: "FBC Mechanical — Secondary Drain Protection"
+  },
+  {
+    id: 806,
+    category: "FBC Mechanical",
+    question_en: "A common code-compliant method to prevent overflow damage is to install:",
+    question_pt: "Um método comum em conformidade com o código para prevenir dano por overflow é instalar:",
+    options: ["A larger filter", "A float switch or secondary drain line", "A higher tonnage unit", "A larger condenser fan"],
+    answer: "A float switch or secondary drain line",
+    difficulty: "easy",
+    reference: "FBC Mechanical — Condensate Overflow Protection"
+  },
+  {
+    id: 807,
+    category: "FBC Mechanical",
+    question_en: "A float switch in a condensate pan should be wired to:",
+    question_pt: "Uma chave boia (float switch) na bandeja de condensado deve ser ligada para:",
+    options: ["Increase compressor speed", "Shut off the equipment upon high water level", "Increase airflow automatically", "Open the TXV"],
+    answer: "Shut off the equipment upon high water level",
+    difficulty: "easy",
+    reference: "FBC Mechanical — Condensate Safety Devices"
+  },
+  {
+    id: 808,
+    category: "FBC Mechanical",
+    question_en: "The primary purpose of a condensate trap on a negative-pressure drain is to:",
+    question_pt: "O objetivo principal de um sifão (trap) de condensado em dreno de pressão negativa é:",
+    options: ["Increase static pressure", "Prevent air from being pulled into the drain and stopping drainage", "Reduce refrigerant charge", "Increase fan speed"],
+    answer: "Prevent air from being pulled into the drain and stopping drainage",
+    difficulty: "medium",
+    reference: "FBC Mechanical — Condensate Traps"
+  },
+  {
+    id: 809,
+    category: "FBC Mechanical",
+    question_en: "If a condensate line is not trapped where required, the MOST likely result is:",
+    question_pt: "Se uma linha de condensado não tiver sifão onde é exigido, o resultado mais provável é:",
+    options: ["Higher head pressure", "Poor drainage and water backup/leaks", "Higher airflow", "Higher SEER"],
+    answer: "Poor drainage and water backup/leaks",
+    difficulty: "medium",
+    reference: "FBC Mechanical — Condensate Traps"
+  },
+  {
+    id: 810,
+    category: "FBC Mechanical",
+    question_en: "Mechanical systems must be installed in accordance with:",
+    question_pt: "Sistemas mecânicos devem ser instalados de acordo com:",
+    options: ["Only the owner’s preference", "Manufacturer’s installation instructions and applicable code", "Only energy code", "Only electrical code"],
+    answer: "Manufacturer’s installation instructions and applicable code",
+    difficulty: "easy",
+    reference: "FBC Mechanical — Installation Requirements"
+  },
+  {
+    id: 811,
+    category: "FBC Mechanical",
+    question_en: "A return air opening is generally prohibited from:",
+    question_pt: "Uma abertura de retorno de ar geralmente é proibida em:",
+    options: ["A habitable room", "A garage", "A hallway", "A living room"],
+    answer: "A garage",
+    difficulty: "easy",
+    reference: "FBC Mechanical — Prohibited Return Air Sources"
+  },
+  {
+    id: 812,
+    category: "FBC Mechanical",
+    question_en: "Why are return air openings typically prohibited from garages?",
+    question_pt: "Por que aberturas de retorno geralmente são proibidas em garagens?",
+    options: ["To reduce airflow", "To prevent introduction of contaminants (CO, fumes) into the HVAC system", "To increase humidity", "To reduce noise only"],
+    answer: "To prevent introduction of contaminants (CO, fumes) into the HVAC system",
+    difficulty: "easy",
+    reference: "FBC Mechanical — IAQ / Contaminant Control"
+  },
+  {
+    id: 813,
+    category: "FBC Mechanical",
+    question_en: "Outdoor air intake openings should be located to minimize:",
+    question_pt: "Aberturas de admissão de ar externo devem ser localizadas para minimizar:",
+    options: ["Airflow", "Contamination from exhaust outlets and other sources", "Duct length", "Fan horsepower"],
+    answer: "Contamination from exhaust outlets and other sources",
+    difficulty: "medium",
+    reference: "FBC Mechanical — Outdoor Air Intakes"
+  },
+  {
+    id: 814,
+    category: "FBC Mechanical",
+    question_en: "A bathroom exhaust fan discharge should generally terminate:",
+    question_pt: "A descarga de um exaustor de banheiro geralmente deve terminar:",
+    options: ["Into the attic", "Into a return plenum", "To the outdoors", "Into a wall cavity"],
+    answer: "To the outdoors",
+    difficulty: "easy",
+    reference: "FBC Mechanical — Exhaust Air Discharge"
+  },
+  {
+    id: 815,
+    category: "FBC Mechanical",
+    question_en: "Exhaust air from bathrooms or kitchens is NOT permitted to discharge:",
+    question_pt: "Ar de exaustão de banheiros ou cozinhas NÃO é permitido descarregar:",
+    options: ["To the outdoors", "Into attics or crawl spaces", "Through a roof cap", "Through a wall cap"],
+    answer: "Into attics or crawl spaces",
+    difficulty: "easy",
+    reference: "FBC Mechanical — Exhaust Air Discharge"
+  },
+  {
+    id: 816,
+    category: "FBC Mechanical",
+    question_en: "A dryer exhaust duct is typically required to be:",
+    question_pt: "Um duto de exaustão de secadora normalmente é exigido ser:",
+    options: ["Flexible plastic only", "As short and straight as practical with an outdoor termination", "Discharged into an attic", "Connected to a return duct"],
+    answer: "As short and straight as practical with an outdoor termination",
+    difficulty: "medium",
+    reference: "FBC Mechanical — Dryer Exhaust"
+  },
+  {
+    id: 817,
+    category: "FBC Mechanical",
+    question_en: "If a kitchen hood exhaust discharges into an attic, the primary concern is:",
+    question_pt: "Se a exaustão de uma coifa descarrega no sótão, a principal preocupação é:",
+    options: ["Higher efficiency", "Moisture/grease accumulation and fire/mold risk", "Lower static pressure", "Higher SEER"],
+    answer: "Moisture/grease accumulation and fire/mold risk",
+    difficulty: "medium",
+    reference: "FBC Mechanical — Exhaust Hazards"
+  },
+  {
+    id: 818,
+    category: "FBC Mechanical",
+    question_en: "Mechanical ventilation requirements for dwellings are most closely associated with:",
+    question_pt: "Requisitos de ventilação mecânica para residências são mais associados a:",
+    options: ["Plumbing code only", "Mechanical code / IAQ standards", "Electrical code only", "Roofing code only"],
+    answer: "Mechanical code / IAQ standards",
+    difficulty: "easy",
+    reference: "FBC Mechanical — Ventilation"
+  },
+  {
+    id: 819,
+    category: "FBC Mechanical",
+    question_en: "A service disconnect for HVAC equipment is primarily required to:",
+    question_pt: "Um desligamento de serviço (service disconnect) para equipamento HVAC é exigido principalmente para:",
+    options: ["Improve comfort", "Provide a means to safely disconnect power for servicing", "Increase SEER", "Reduce noise"],
+    answer: "Provide a means to safely disconnect power for servicing",
+    difficulty: "easy",
+    reference: "FBC Mechanical / Electrical Coordination"
+  },
+  {
+    id: 820,
+    category: "FBC Mechanical",
+    question_en: "Equipment installed on roofs must typically have:",
+    question_pt: "Equipamentos instalados em telhados normalmente devem ter:",
+    options: ["No guards", "Safe access and working space, including guards where required", "Only a larger fan", "Only a warning sign"],
+    answer: "Safe access and working space, including guards where required",
+    difficulty: "medium",
+    reference: "FBC Mechanical — Rooftop Equipment Access"
+  },
+  {
+    id: 821,
+    category: "FBC Mechanical",
+    question_en: "A combustion air opening sized incorrectly can lead to:",
+    question_pt: "Uma abertura de ar de combustão dimensionada incorretamente pode levar a:",
+    options: ["Higher airflow", "Incomplete combustion and CO hazards", "Lower head pressure", "Higher subcooling"],
+    answer: "Incomplete combustion and CO hazards",
+    difficulty: "medium",
+    reference: "FBC Mechanical / Fuel Gas — Combustion Air"
+  },
+  {
+    id: 822,
+    category: "FBC Mechanical",
+    question_en: "A common code requirement for gas appliance venting is that it be:",
+    question_pt: "Um requisito comum de código para chaminé de aparelhos a gás é que seja:",
+    options: ["Any material is acceptable", "Installed per vent tables and manufacturer instructions", "Always run horizontally without slope", "Connected to return ductwork"],
+    answer: "Installed per vent tables and manufacturer instructions",
+    difficulty: "medium",
+    reference: "FBC Fuel Gas / Mechanical — Venting"
+  },
+  {
+    id: 823,
+    category: "FBC Mechanical",
+    question_en: "A supply duct located in an unconditioned attic should be:",
+    question_pt: "Um duto de suprimento localizado em sótão não condicionado deve ser:",
+    options: ["Uninsulated", "Insulated to reduce heat gain/loss and condensation", "Made of plastic", "Connected to exhaust fan"],
+    answer: "Insulated to reduce heat gain/loss and condensation",
+    difficulty: "easy",
+    reference: "FBC Energy/Mechanical — Duct Insulation"
+  },
+  {
+    id: 824,
+    category: "FBC Mechanical",
+    question_en: "A common mechanical code requirement for duct sealing is that joints and seams be:",
+    question_pt: "Um requisito comum do código mecânico para vedação de dutos é que juntas e emendas sejam:",
+    options: ["Left open for ventilation", "Sealed to minimize leakage", "Painted only", "Covered with insulation only"],
+    answer: "Sealed to minimize leakage",
+    difficulty: "easy",
+    reference: "FBC Mechanical/Energy — Duct Sealing"
+  },
+  {
+    id: 825,
+    category: "FBC Mechanical",
+    question_en: "Return air plenums are generally prohibited from being used to convey:",
+    question_pt: "Plenums de retorno geralmente são proibidos de conduzir:",
+    options: ["Return air", "Flammable vapors or air from hazardous spaces", "Air from living spaces", "Air from hallways"],
+    answer: "Flammable vapors or air from hazardous spaces",
+    difficulty: "medium",
+    reference: "FBC Mechanical — Plenums & Prohibited Sources"
+  },
+  {
+    id: 826,
+    category: "FBC Mechanical",
+    question_en: "When a duct penetrates a rated assembly, the code concern is:",
+    question_pt: "Quando um duto atravessa uma barreira com classificação (rated assembly), a preocupação do código é:",
+    options: ["Higher airflow", "Maintaining fire/smoke resistance of the assembly", "Increasing refrigerant charge", "Reducing SEER"],
+    answer: "Maintaining fire/smoke resistance of the assembly",
+    difficulty: "medium",
+    reference: "FBC Mechanical — Penetrations & Fire/Smoke Protection"
+  },
+  {
+    id: 827,
+    category: "FBC Mechanical",
+    question_en: "A fire damper is intended to:",
+    question_pt: "Um fire damper tem a função de:",
+    options: ["Reduce static pressure", "Prevent the spread of fire through duct openings", "Increase airflow", "Control refrigerant flow"],
+    answer: "Prevent the spread of fire through duct openings",
+    difficulty: "easy",
+    reference: "FBC Mechanical / NFPA — Fire Dampers"
+  },
+  {
+    id: 828,
+    category: "FBC Mechanical",
+    question_en: "A smoke damper is intended to:",
+    question_pt: "Um smoke damper tem a função de:",
+    options: ["Increase humidity", "Limit spread of smoke through ducts/openings", "Increase refrigerant flow", "Reduce head pressure"],
+    answer: "Limit spread of smoke through ducts/openings",
+    difficulty: "easy",
+    reference: "FBC Mechanical / NFPA — Smoke Dampers"
+  },
+  {
+    id: 829,
+    category: "FBC Mechanical",
+    question_en: "Mechanical rooms containing fuel-burning appliances should have:",
+    question_pt: "Salas mecânicas com aparelhos a combustão devem ter:",
+    options: ["No ventilation", "Adequate combustion air and ventilation as required", "Return air openings from garage", "Only higher SEER equipment"],
+    answer: "Adequate combustion air and ventilation as required",
+    difficulty: "medium",
+    reference: "FBC Mechanical / Fuel Gas — Combustion Air"
+  },
+  {
+    id: 830,
+    category: "FBC Mechanical",
+    question_en: "If a bathroom exhaust fan is ducted with too many bends, the most likely result is:",
+    question_pt: "Se um exaustor de banheiro é duto com muitas curvas, o resultado mais provável é:",
+    options: ["Higher airflow", "Reduced airflow and poor ventilation performance", "Higher head pressure", "Higher subcooling"],
+    answer: "Reduced airflow and poor ventilation performance",
+    difficulty: "easy",
+    reference: "FBC Mechanical — Exhaust Ducts"
+  },
+  {
+    id: 831,
+    category: "FBC Mechanical",
+    question_en: "A common requirement for access panels is that they be:",
+    question_pt: "Um requisito comum para painéis de acesso é que sejam:",
+    options: ["Painted green", "Large enough to service the component and readily accessible", "Hidden behind permanent cabinets", "Sealed shut"],
+    answer: "Large enough to service the component and readily accessible",
+    difficulty: "medium",
+    reference: "FBC Mechanical — Access Panels"
+  },
+  {
+    id: 832,
+    category: "FBC Mechanical",
+    question_en: "A common reason to provide a service platform in an attic is to:",
+    question_pt: "Um motivo comum para fornecer uma plataforma de serviço no sótão é:",
+    options: ["Reduce energy use", "Provide safe working space for servicing equipment", "Increase refrigerant flow", "Reduce humidity only"],
+    answer: "Provide safe working space for servicing equipment",
+    difficulty: "easy",
+    reference: "FBC Mechanical — Attic Service Platforms"
+  },
+  {
+    id: 833,
+    category: "FBC Mechanical",
+    question_en: "A commonly required attic access opening size is intended to allow:",
+    question_pt: "Um tamanho comum de abertura de acesso ao sótão é destinado a permitir:",
+    options: ["Only ventilation", "Personnel and equipment access for service/replacement", "Only light entry", "Only duct installation"],
+    answer: "Personnel and equipment access for service/replacement",
+    difficulty: "medium",
+    reference: "FBC Mechanical — Attic Access"
+  },
+  {
+    id: 834,
+    category: "FBC Mechanical",
+    question_en: "A refrigerant line set passing through building cavities should be installed to prevent:",
+    question_pt: "Um line set de refrigerante passando por cavidades deve ser instalado para prevenir:",
+    options: ["Any insulation", "Damage, abrasion, and condensation issues", "Airflow reduction", "Higher subcooling"],
+    answer: "Damage, abrasion, and condensation issues",
+    difficulty: "medium",
+    reference: "FBC Mechanical — Refrigerant Piping Installation"
+  },
+  {
+    id: 835,
+    category: "FBC Mechanical",
+    question_en: "When refrigerant piping is insulated, the PRIMARY reason is to:",
+    question_pt: "Quando a tubulação de refrigerante é isolada, o motivo principal é:",
+    options: ["Increase pressure", "Prevent condensation and reduce heat gain/loss", "Increase airflow", "Reduce static pressure"],
+    answer: "Prevent condensation and reduce heat gain/loss",
+    difficulty: "easy",
+    reference: "FBC Mechanical/Energy — Pipe Insulation"
+  },
+  {
+    id: 836,
+    category: "FBC Mechanical",
+    question_en: "A supply duct or plenum should not be used as a chase for:",
+    question_pt: "Um duto ou plenum de suprimento não deve ser usado como passagem (chase) para:",
+    options: ["Air only", "Unrelated wiring or piping not permitted in plenums", "Insulation", "Diffusers"],
+    answer: "Unrelated wiring or piping not permitted in plenums",
+    difficulty: "hard",
+    reference: "FBC Mechanical — Plenum Restrictions"
+  },
+  {
+    id: 837,
+    category: "FBC Mechanical",
+    question_en: "A key code concern for refrigerant piping penetrations is to maintain:",
+    question_pt: "Uma preocupação chave do código para passagens de tubulação de refrigerante é manter:",
+    options: ["Higher airflow", "Fire/smoke integrity and proper sealing where required", "Higher subcooling", "Higher SEER"],
+    answer: "Fire/smoke integrity and proper sealing where required",
+    difficulty: "hard",
+    reference: "FBC Mechanical — Penetrations & Sealing"
+  },
+  {
+    id: 838,
+    category: "FBC Mechanical",
+    question_en: "If a condensate drain is routed to the exterior, it should discharge:",
+    question_pt: "Se um dreno de condensado é roteado para o exterior, ele deve descarregar:",
+    options: ["Onto walkways to show flow", "Where it will not create a nuisance (slip hazard) or damage", "Into the attic", "Into the return duct"],
+    answer: "Where it will not create a nuisance (slip hazard) or damage",
+    difficulty: "easy",
+    reference: "FBC Mechanical — Condensate Disposal"
+  },
+  {
+    id: 839,
+    category: "FBC Mechanical",
+    question_en: "A common reason for requiring insulation on ductwork in unconditioned spaces is:",
+    question_pt: "Um motivo comum para exigir isolamento em dutos em áreas não condicionadas é:",
+    options: ["Increase static pressure", "Reduce heat gain/loss and prevent condensation", "Increase refrigerant charge", "Reduce blower speed"],
+    answer: "Reduce heat gain/loss and prevent condensation",
+    difficulty: "easy",
+    reference: "FBC Energy/Mechanical — Duct Insulation"
+  },
+  {
+    id: 840,
+    category: "FBC Mechanical",
+    question_en: "A mechanical permit is typically required for:",
+    question_pt: "Um permit mecânico normalmente é exigido para:",
+    options: ["Replacing a filter", "Installing or replacing HVAC equipment (as required by jurisdiction)", "Changing thermostat batteries", "Cleaning a coil only"],
+    answer: "Installing or replacing HVAC equipment (as required by jurisdiction)",
+    difficulty: "medium",
+    reference: "Permitting — Florida Practice"
+  },
+  {
+    id: 841,
+    category: "FBC Mechanical",
+    question_en: "When a duct system is installed, code/standards commonly require supports that:",
+    question_pt: "Quando um sistema de dutos é instalado, código/padrões normalmente exigem suportes que:",
+    options: ["Allow sagging", "Prevent excessive sagging and damage", "Are optional", "Increase airflow"],
+    answer: "Prevent excessive sagging and damage",
+    difficulty: "easy",
+    reference: "FBC Mechanical / SMACNA — Duct Supports"
+  },
+  {
+    id: 842,
+    category: "FBC Mechanical",
+    question_en: "Exhaust ducts should be constructed to:",
+    question_pt: "Dutos de exaustão devem ser construídos para:",
+    options: ["Leak intentionally", "Be smooth and sized to maintain airflow and minimize resistance", "Be as small as possible", "Terminate inside the building"],
+    answer: "Be smooth and sized to maintain airflow and minimize resistance",
+    difficulty: "medium",
+    reference: "FBC Mechanical — Exhaust Ducts"
+  },
+  {
+    id: 843,
+    category: "FBC Mechanical",
+    question_en: "To prevent mold growth, HVAC systems should avoid:",
+    question_pt: "Para evitar crescimento de mofo, sistemas HVAC devem evitar:",
+    options: ["Any insulation", "Standing water and persistent high humidity", "Any ventilation", "Any drain pans"],
+    answer: "Standing water and persistent high humidity",
+    difficulty: "easy",
+    reference: "IAQ — Moisture Control"
+  },
+  {
+    id: 844,
+    category: "FBC Mechanical",
+    question_en: "A key reason for prohibiting exhaust discharge into attics is:",
+    question_pt: "Um motivo chave para proibir descarga de exaustão em sótãos é:",
+    options: ["It increases airflow", "It adds moisture/contaminants and can cause mold damage", "It improves comfort", "It reduces energy use"],
+    answer: "It adds moisture/contaminants and can cause mold damage",
+    difficulty: "easy",
+    reference: "FBC Mechanical — Exhaust Discharge"
+  },
+  {
+    id: 845,
+    category: "FBC Mechanical",
+    question_en: "A common code requirement for outdoor air intakes is to maintain separation from:",
+    question_pt: "Um requisito comum do código para admissões de ar externo é manter separação de:",
+    options: ["Supply registers", "Exhaust outlets and contamination sources", "Thermostats", "Condensate drains"],
+    answer: "Exhaust outlets and contamination sources",
+    difficulty: "medium",
+    reference: "FBC Mechanical — Outdoor Air Intakes"
+  },
+  {
+    id: 846,
+    category: "FBC Mechanical",
+    question_en: "If an air handler is installed in a closet, the primary code concern is:",
+    question_pt: "Se um air handler é instalado em um closet, a principal preocupação do código é:",
+    options: ["Color of the closet", "Required clearances and service access", "Higher refrigerant charge", "Outdoor airflow"],
+    answer: "Required clearances and service access",
+    difficulty: "medium",
+    reference: "FBC Mechanical — Access & Clearance"
+  },
+  {
+    id: 847,
+    category: "FBC Mechanical",
+    question_en: "A service light near attic equipment is required to:",
+    question_pt: "Uma luz de serviço perto do equipamento no sótão é exigida para:",
+    options: ["Energy savings", "Safe service and maintenance visibility", "Higher SEER", "Lower humidity"],
+    answer: "Safe service and maintenance visibility",
+    difficulty: "easy",
+    reference: "FBC Mechanical — Attic Access & Lighting"
+  },
+  {
+    id: 848,
+    category: "FBC Mechanical",
+    question_en: "Ducts located outdoors must be protected from:",
+    question_pt: "Dutos localizados ao ar livre devem ser protegidos de:",
+    options: ["Any air movement", "Weather exposure and damage", "Indoor humidity", "Refrigerant charge issues"],
+    answer: "Weather exposure and damage",
+    difficulty: "easy",
+    reference: "FBC Mechanical — Outdoor Duct Protection"
+  },
+  {
+    id: 849,
+    category: "FBC Mechanical",
+    question_en: "A common requirement for condensate drain materials is that they be:",
+    question_pt: "Um requisito comum para materiais de dreno de condensado é que sejam:",
+    options: ["Nonresistant to corrosion", "Suitable for the application and installed per code/manufacturer", "Only copper", "Only flexible tubing"],
+    answer: "Suitable for the application and installed per code/manufacturer",
+    difficulty: "medium",
+    reference: "FBC Mechanical — Condensate Piping"
+  },
+  {
+    id: 850,
+    category: "FBC Mechanical",
+    question_en: "The BEST practice to ensure code compliance on an installation is to:",
+    question_pt: "A melhor prática para garantir conformidade com o código em uma instalação é:",
+    options: ["Rely on memory only", "Verify requirements in the code and manufacturer instructions", "Skip permits to save time", "Bypass safety controls"],
+    answer: "Verify requirements in the code and manufacturer instructions",
+    difficulty: "easy",
+    reference: "FBC Mechanical — Compliance"
+  },
+
+  {
+    id: 851,
+    category: "NFPA",
+    question_en: "NFPA 90A primarily applies to:",
+    question_pt: "A NFPA 90A se aplica principalmente a:",
+    options: ["Residential one- and two-family dwellings only", "Air conditioning and ventilation systems in buildings other than low-rise residential", "Refrigerant recovery procedures", "Electrical grounding only"],
+    answer: "Air conditioning and ventilation systems in buildings other than low-rise residential",
+    difficulty: "medium",
+    reference: "NFPA 90A"
+  },
+  {
+    id: 852,
+    category: "NFPA",
+    question_en: "NFPA 90B primarily applies to:",
+    question_pt: "A NFPA 90B se aplica principalmente a:",
+    options: ["Commercial high-rises only", "Warm air heating and air-conditioning systems in one- and two-family dwellings", "Kitchen hood systems", "Fire sprinklers"],
+    answer: "Warm air heating and air-conditioning systems in one- and two-family dwellings",
+    difficulty: "medium",
+    reference: "NFPA 90B"
+  },
+  {
+    id: 853,
+    category: "NFPA",
+    question_en: "NFPA 96 primarily covers:",
+    question_pt: "A NFPA 96 cobre principalmente:",
+    options: ["Gas piping", "Commercial cooking ventilation control and fire protection", "Residential bathroom exhaust", "Duct insulation"],
+    answer: "Commercial cooking ventilation control and fire protection",
+    difficulty: "easy",
+    reference: "NFPA 96"
+  },
+  {
+    id: 854,
+    category: "NFPA",
+    question_en: "A major hazard in commercial kitchen exhaust systems is:",
+    question_pt: "Um grande risco em sistemas de exaustão de cozinha comercial é:",
+    options: ["Condensate overflow", "Grease accumulation and fire", "Low static pressure", "High refrigerant charge"],
+    answer: "Grease accumulation and fire",
+    difficulty: "easy",
+    reference: "NFPA 96"
+  },
+  {
+    id: 855,
+    category: "NFPA",
+    question_en: "Grease ducts in commercial kitchens should be:",
+    question_pt: "Dutos de gordura (grease ducts) em cozinhas comerciais devem ser:",
+    options: ["Flexible plastic", "Constructed and installed to be grease-tight", "Connected to return air", "Unsealed to allow drainage"],
+    answer: "Constructed and installed to be grease-tight",
+    difficulty: "medium",
+    reference: "NFPA 96"
+  },
+  {
+    id: 856,
+    category: "NFPA",
+    question_en: "A key NFPA requirement for commercial kitchen hoods is regular:",
+    question_pt: "Um requisito chave da NFPA para coifas comerciais é limpeza regular:",
+    options: ["Filter replacement only", "Inspection and cleaning of hoods/ducts to control grease buildup", "Refrigerant charging", "Blower motor replacement"],
+    answer: "Inspection and cleaning of hoods/ducts to control grease buildup",
+    difficulty: "easy",
+    reference: "NFPA 96"
+  },
+  {
+    id: 857,
+    category: "NFPA",
+    question_en: "A fire damper is installed to:",
+    question_pt: "Um fire damper é instalado para:",
+    options: ["Reduce static pressure", "Limit fire spread through duct penetrations", "Increase airflow", "Control refrigerant flow"],
+    answer: "Limit fire spread through duct penetrations",
+    difficulty: "easy",
+    reference: "NFPA 90A / Dampers"
+  },
+  {
+    id: 858,
+    category: "NFPA",
+    question_en: "A smoke damper is installed to:",
+    question_pt: "Um smoke damper é instalado para:",
+    options: ["Increase humidity", "Limit smoke spread through openings/ducts", "Increase refrigerant flow", "Reduce head pressure"],
+    answer: "Limit smoke spread through openings/ducts",
+    difficulty: "easy",
+    reference: "NFPA 90A / Dampers"
+  },
+  {
+    id: 859,
+    category: "NFPA",
+    question_en: "When a duct penetrates a fire-rated wall, the primary life-safety concern is:",
+    question_pt: "Quando um duto atravessa uma parede com classificação de fogo, a principal preocupação é:",
+    options: ["Higher airflow", "Maintaining the fire-resistance rating (fire/smoke integrity)", "Higher subcooling", "Lower static pressure"],
+    answer: "Maintaining the fire-resistance rating (fire/smoke integrity)",
+    difficulty: "medium",
+    reference: "NFPA 90A / Fire-Resistance"
+  },
+  {
+    id: 860,
+    category: "NFPA",
+    question_en: "A plenum is best described as:",
+    question_pt: "Um plenum é melhor descrito como:",
+    options: ["Any duct outside", "An air distribution space used for supply/return airflow", "A refrigerant line cavity", "A condensate drain chamber"],
+    answer: "An air distribution space used for supply/return airflow",
+    difficulty: "easy",
+    reference: "NFPA 90A / Definitions"
+  },
+  {
+    id: 861,
+    category: "NFPA",
+    question_en: "Materials installed in plenums should be selected to reduce:",
+    question_pt: "Materiais instalados em plenums devem ser selecionados para reduzir:",
+    options: ["Airflow", "Flame spread and smoke development", "Refrigerant pressure", "Condensate flow"],
+    answer: "Flame spread and smoke development",
+    difficulty: "medium",
+    reference: "NFPA 90A / Plenums"
+  },
+  {
+    id: 862,
+    category: "NFPA",
+    question_en: "Combustible materials are generally restricted in plenums because they can:",
+    question_pt: "Materiais combustíveis geralmente são restritos em plenums porque podem:",
+    options: ["Increase static pressure", "Contribute to flame spread/smoke in air distribution", "Improve air quality", "Increase dehumidification"],
+    answer: "Contribute to flame spread/smoke in air distribution",
+    difficulty: "medium",
+    reference: "NFPA 90A / Plenums"
+  },
+  {
+    id: 863,
+    category: "NFPA",
+    question_en: "Commercial kitchen hood fire suppression systems are intended to:",
+    question_pt: "Sistemas de supressão de incêndio em coifas comerciais têm a função de:",
+    options: ["Reduce noise", "Suppress grease fires in the hood/duct area", "Increase airflow", "Lower refrigerant charge"],
+    answer: "Suppress grease fires in the hood/duct area",
+    difficulty: "easy",
+    reference: "NFPA 96"
+  },
+  {
+    id: 864,
+    category: "NFPA",
+    question_en: "A key operational requirement for hood suppression systems is that they:",
+    question_pt: "Um requisito operacional chave para sistemas de supressão em coifas é que eles:",
+    options: ["Be left untested", "Be inspected/maintained per schedule", "Be bypassed during cooking", "Share a drain with AC condensate"],
+    answer: "Be inspected/maintained per schedule",
+    difficulty: "easy",
+    reference: "NFPA 96"
+  },
+  {
+    id: 865,
+    category: "NFPA",
+    question_en: "Grease filters in a commercial kitchen hood should be:",
+    question_pt: "Filtros de gordura em coifas comerciais devem ser:",
+    options: ["Wood", "Listed/approved and cleaned regularly", "Connected to return air", "Sealed permanently"],
+    answer: "Listed/approved and cleaned regularly",
+    difficulty: "easy",
+    reference: "NFPA 96"
+  },
+  {
+    id: 866,
+    category: "NFPA",
+    question_en: "A common cause of kitchen exhaust duct fires is:",
+    question_pt: "Uma causa comum de incêndios em dutos de exaustão de cozinha é:",
+    options: ["Low airflow", "Grease accumulation due to poor cleaning", "High subcooling", "Overcharged AC system"],
+    answer: "Grease accumulation due to poor cleaning",
+    difficulty: "easy",
+    reference: "NFPA 96"
+  },
+  {
+    id: 867,
+    category: "NFPA",
+    question_en: "An access opening in a grease duct is primarily required to allow:",
+    question_pt: "Uma abertura de acesso em um grease duct é exigida principalmente para permitir:",
+    options: ["More airflow", "Inspection and cleaning", "Refrigerant charging", "Thermostat replacement"],
+    answer: "Inspection and cleaning",
+    difficulty: "easy",
+    reference: "NFPA 96"
+  },
+  {
+    id: 868,
+    category: "NFPA",
+    question_en: "Why are fire/smoke dampers important in duct systems?",
+    question_pt: "Por que fire/smoke dampers são importantes em sistemas de dutos?",
+    options: ["They increase comfort", "They help prevent spread of fire/smoke through ducts/openings", "They improve SEER", "They reduce condensate"],
+    answer: "They help prevent spread of fire/smoke through ducts/openings",
+    difficulty: "easy",
+    reference: "NFPA 90A / Dampers"
+  },
+  {
+    id: 869,
+    category: "NFPA",
+    question_en: "If a smoke damper fails to operate, the most likely risk is:",
+    question_pt: "Se um smoke damper falhar, o risco mais provável é:",
+    options: ["Higher airflow", "Smoke spread to other areas through ductwork", "Higher subcooling", "Lower head pressure"],
+    answer: "Smoke spread to other areas through ductwork",
+    difficulty: "medium",
+    reference: "NFPA 90A / Smoke Control"
+  },
+  {
+    id: 870,
+    category: "NFPA",
+    question_en: "The purpose of fire-rated duct enclosures is to:",
+    question_pt: "O propósito de enclausuramento de dutos com classificação de fogo é:",
+    options: ["Reduce static pressure", "Maintain fire resistance where ducts pass through rated spaces", "Increase airflow", "Increase humidity"],
+    answer: "Maintain fire resistance where ducts pass through rated spaces",
+    difficulty: "medium",
+    reference: "NFPA 90A / Fire-Resistance"
+  },
+  {
+    id: 871,
+    category: "NFPA",
+    question_en: "A smoke detector connected to HVAC shutdown is intended to:",
+    question_pt: "Um detector de fumaça ligado ao desligamento do HVAC tem a função de:",
+    options: ["Increase airflow", "Stop fans to limit smoke distribution", "Increase dehumidification", "Increase head pressure"],
+    answer: "Stop fans to limit smoke distribution",
+    difficulty: "medium",
+    reference: "NFPA 90A / Smoke Detection"
+  },
+  {
+    id: 872,
+    category: "NFPA",
+    question_en: "In many systems, upon smoke detection the air handler should:",
+    question_pt: "Em muitos sistemas, ao detectar fumaça o air handler deve:",
+    options: ["Increase speed", "Shut down to reduce smoke spread", "Open the TXV", "Start defrost"],
+    answer: "Shut down to reduce smoke spread",
+    difficulty: "easy",
+    reference: "NFPA 90A / Smoke Detection"
+  },
+  {
+    id: 873,
+    category: "NFPA",
+    question_en: "A major difference between NFPA 90A and 90B is:",
+    question_pt: "Uma diferença principal entre NFPA 90A e 90B é:",
+    options: ["90A is for cooking systems", "90B focuses on one- and two-family dwellings", "90A is only for refrigerants", "90B is only for hospitals"],
+    answer: "90B focuses on one- and two-family dwellings",
+    difficulty: "medium",
+    reference: "NFPA 90A/90B Overview"
+  },
+  {
+    id: 874,
+    category: "NFPA",
+    question_en: "In fire/smoke protection, the MOST important concept for exam questions is:",
+    question_pt: "Em proteção contra fogo/fumaça, o conceito MAIS importante para questões de prova é:",
+    options: ["Decorative duct covers", "Maintaining rated assemblies and controlling spread through ducts", "Increasing refrigerant charge", "Reducing temperature split"],
+    answer: "Maintaining rated assemblies and controlling spread through ducts",
+    difficulty: "easy",
+    reference: "NFPA 90A / Fire & Smoke Basics"
+  },
+  {
+    id: 875,
+    category: "NFPA",
+    question_en: "Kitchen exhaust ducts should NOT be connected to:",
+    question_pt: "Dutos de exaustão de cozinha NÃO devem ser conectados a:",
+    options: ["A dedicated exhaust fan", "A return air system or general HVAC ductwork", "A roof termination", "A listed hood system"],
+    answer: "A return air system or general HVAC ductwork",
+    difficulty: "easy",
+    reference: "NFPA 96"
+  },
+  {
+    id: 876,
+    category: "NFPA",
+    question_en: "The MOST common exam-style reason for requiring dedicated kitchen exhaust is:",
+    question_pt: "O motivo mais comum em prova para exigir exaustão dedicada de cozinha é:",
+    options: ["Noise reduction", "Grease and fire hazard control", "Lower static pressure", "Higher SEER"],
+    answer: "Grease and fire hazard control",
+    difficulty: "easy",
+    reference: "NFPA 96"
+  },
+  {
+    id: 877,
+    category: "NFPA",
+    question_en: "A grease duct cleanout access is required because:",
+    question_pt: "Acesso de limpeza em grease duct é exigido porque:",
+    options: ["It increases airflow", "Grease deposits must be removable by cleaning", "It lowers head pressure", "It reduces refrigerant charge"],
+    answer: "Grease deposits must be removable by cleaning",
+    difficulty: "easy",
+    reference: "NFPA 96"
+  },
+  {
+    id: 878,
+    category: "NFPA",
+    question_en: "A listed commercial hood system refers to equipment that is:",
+    question_pt: "Um sistema de coifa comercial “listed” se refere a equipamento que é:",
+    options: ["Painted red", "Tested/approved by a recognized listing agency", "Installed without instructions", "Only for residential use"],
+    answer: "Tested/approved by a recognized listing agency",
+    difficulty: "medium",
+    reference: "NFPA 96 / Listings"
+  },
+  {
+    id: 879,
+    category: "NFPA",
+    question_en: "The PRIMARY safety goal of smoke control provisions is to:",
+    question_pt: "O objetivo PRINCIPAL de provisões de controle de fumaça é:",
+    options: ["Increase comfort", "Support safe egress and limit smoke spread", "Increase humidity", "Increase refrigerant flow"],
+    answer: "Support safe egress and limit smoke spread",
+    difficulty: "medium",
+    reference: "NFPA 90A / Smoke Control"
+  },
+  {
+    id: 880,
+    category: "NFPA",
+    question_en: "A fire-rated ceiling penetration must be protected to maintain:",
+    question_pt: "Uma passagem em teto com classificação deve ser protegida para manter:",
+    options: ["Higher airflow", "The fire-resistance rating of the assembly", "Higher subcooling", "Higher SEER"],
+    answer: "The fire-resistance rating of the assembly",
+    difficulty: "medium",
+    reference: "NFPA 90A / Fire-Resistance"
+  },
+  {
+    id: 881,
+    category: "NFPA",
+    question_en: "If a duct smoke detector repeatedly alarms due to dust, the BEST corrective action is:",
+    question_pt: "Se um detector de fumaça em duto alarma repetidamente por poeira, a melhor ação corretiva é:",
+    options: ["Bypass the detector", "Clean/maintain per manufacturer and ensure correct location/filters", "Remove it permanently", "Increase refrigerant charge"],
+    answer: "Clean/maintain per manufacturer and ensure correct location/filters",
+    difficulty: "hard",
+    reference: "NFPA 90A / Smoke Detection Maintenance"
+  },
+  {
+    id: 882,
+    category: "NFPA",
+    question_en: "A duct used as a return plenum must generally avoid:",
+    question_pt: "Um espaço usado como plenum de retorno deve, em geral, evitar:",
+    options: ["Airflow", "Combustible materials and sources of ignition/contamination", "Insulation", "Supply diffusers"],
+    answer: "Combustible materials and sources of ignition/contamination",
+    difficulty: "medium",
+    reference: "NFPA 90A / Plenums"
+  },
+  {
+    id: 883,
+    category: "NFPA",
+    question_en: "The MOST exam-relevant reason for prohibiting return air from garages is:",
+    question_pt: "O motivo mais relevante em prova para proibir retorno de ar de garagens é:",
+    options: ["Noise", "Potential for toxic fumes/CO to be distributed", "Static pressure", "Humidity control"],
+    answer: "Potential for toxic fumes/CO to be distributed",
+    difficulty: "easy",
+    reference: "NFPA 90A/90B — IAQ Safety Concepts"
+  },
+  {
+    id: 884,
+    category: "NFPA",
+    question_en: "If a grease duct has visible grease dripping, the system is MOST likely:",
+    question_pt: "Se um grease duct tem gordura pingando visivelmente, o sistema provavelmente está:",
+    options: ["Operating normally", "Not grease-tight or not maintained/cleaned properly", "Overcharged", "Low airflow"],
+    answer: "Not grease-tight or not maintained/cleaned properly",
+    difficulty: "medium",
+    reference: "NFPA 96"
+  },
+  {
+    id: 885,
+    category: "NFPA",
+    question_en: "The PRIMARY reason kitchen hood exhaust must go outdoors is to:",
+    question_pt: "A razão PRINCIPAL para a exaustão de coifa ir para fora é:",
+    options: ["Increase airflow", "Remove grease-laden vapors and prevent indoor contamination/fire risk", "Increase humidity", "Reduce refrigerant flow"],
+    answer: "Remove grease-laden vapors and prevent indoor contamination/fire risk",
+    difficulty: "easy",
+    reference: "NFPA 96"
+  },
+  {
+    id: 886,
+    category: "NFPA",
+    question_en: "A common exam question about dampers is: they must be:",
+    question_pt: "Uma questão comum de prova sobre dampers é: eles devem ser:",
+    options: ["Painted white", "Accessible for inspection and service", "Hidden behind drywall permanently", "Installed without labels"],
+    answer: "Accessible for inspection and service",
+    difficulty: "medium",
+    reference: "NFPA 90A / Dampers"
+  },
+  {
+    id: 887,
+    category: "NFPA",
+    question_en: "A smoke detector placed incorrectly in a duct can lead to:",
+    question_pt: "Um detector de fumaça instalado incorretamente no duto pode levar a:",
+    options: ["Better detection always", "False alarms or failure to detect smoke properly", "Higher SEER", "Lower static pressure"],
+    answer: "False alarms or failure to detect smoke properly",
+    difficulty: "hard",
+    reference: "NFPA 90A / Smoke Detection"
+  },
+  {
+    id: 888,
+    category: "NFPA",
+    question_en: "The BEST action if a safety device is tripping repeatedly is to:",
+    question_pt: "A melhor ação se um dispositivo de segurança está desarmando repetidamente é:",
+    options: ["Bypass it", "Find and correct the underlying cause", "Increase refrigerant charge", "Disable the thermostat"],
+    answer: "Find and correct the underlying cause",
+    difficulty: "easy",
+    reference: "Life-Safety Best Practices"
+  },
+  {
+    id: 889,
+    category: "NFPA",
+    question_en: "A key NFPA concept for air distribution is to prevent systems from:",
+    question_pt: "Um conceito chave da NFPA para distribuição de ar é prevenir que sistemas:",
+    options: ["Cool too much", "Contribute to fire/smoke spread through air pathways", "Use filters", "Use insulation"],
+    answer: "Contribute to fire/smoke spread through air pathways",
+    difficulty: "easy",
+    reference: "NFPA 90A / Fire & Smoke Basics"
+  },
+  {
+    id: 890,
+    category: "NFPA",
+    question_en: "A 'listed' damper generally means it has been:",
+    question_pt: "Um damper “listed” geralmente significa que ele foi:",
+    options: ["Painted red", "Tested/approved to a recognized standard by a listing agency", "Installed only in residences", "Used only for noise control"],
+    answer: "Tested/approved to a recognized standard by a listing agency",
+    difficulty: "medium",
+    reference: "NFPA 90A / Listings"
+  },
+  {
+    id: 891,
+    category: "NFPA",
+    question_en: "Kitchen hood suppression activation should typically:",
+    question_pt: "A ativação da supressão da coifa normalmente deve:",
+    options: ["Increase HVAC airflow", "Shut down fuel/energy source to cooking appliances as required", "Open return dampers", "Start defrost"],
+    answer: "Shut down fuel/energy source to cooking appliances as required",
+    difficulty: "hard",
+    reference: "NFPA 96"
+  },
+  {
+    id: 892,
+    category: "NFPA",
+    question_en: "A major reason for keeping grease ducts short and properly routed is to:",
+    question_pt: "Um grande motivo para manter grease ducts curtos e bem roteados é:",
+    options: ["Increase static pressure", "Reduce grease deposition and improve cleanability/fire safety", "Increase refrigerant flow", "Increase humidity"],
+    answer: "Reduce grease deposition and improve cleanability/fire safety",
+    difficulty: "medium",
+    reference: "NFPA 96"
+  },
+  {
+    id: 893,
+    category: "NFPA",
+    question_en: "Fire/smoke dampers should NOT be permanently blocked open because:",
+    question_pt: "Fire/smoke dampers NÃO devem ser bloqueados abertos permanentemente porque:",
+    options: ["It increases airflow", "They must operate during fire/smoke events to limit spread", "It reduces SEER", "It increases subcooling"],
+    answer: "They must operate during fire/smoke events to limit spread",
+    difficulty: "easy",
+    reference: "NFPA 90A / Dampers"
+  },
+  {
+    id: 894,
+    category: "NFPA",
+    question_en: "A common exam point: fire-rated assemblies must be maintained when installing HVAC because:",
+    question_pt: "Um ponto comum de prova: barreiras com classificação devem ser mantidas ao instalar HVAC porque:",
+    options: ["It improves comfort", "Penetrations can compromise life-safety performance", "It increases airflow", "It reduces humidity"],
+    answer: "Penetrations can compromise life-safety performance",
+    difficulty: "easy",
+    reference: "NFPA 90A / Fire-Resistance"
+  },
+  {
+    id: 895,
+    category: "NFPA",
+    question_en: "If a building has a smoke control system, HVAC operation during a fire should:",
+    question_pt: "Se um edifício tem sistema de controle de fumaça, a operação do HVAC durante incêndio deve:",
+    options: ["Ignore the system", "Follow the approved smoke control sequence", "Always run at full speed", "Always shut down all fans without exception"],
+    answer: "Follow the approved smoke control sequence",
+    difficulty: "hard",
+    reference: "NFPA 90A / Smoke Control"
+  },
+  {
+    id: 896,
+    category: "NFPA",
+    question_en: "The PRIMARY reason for periodic inspection of dampers is to ensure:",
+    question_pt: "A razão PRINCIPAL para inspeção periódica de dampers é garantir:",
+    options: ["Higher airflow", "They will function when needed for fire/smoke events", "Lower head pressure", "Higher subcooling"],
+    answer: "They will function when needed for fire/smoke events",
+    difficulty: "medium",
+    reference: "NFPA 90A / Dampers"
+  },
+  {
+    id: 897,
+    category: "NFPA",
+    question_en: "A kitchen hood exhaust fan failure during cooking is dangerous because:",
+    question_pt: "Falha do ventilador de exaustão da coifa durante cocção é perigosa porque:",
+    options: ["It increases humidity", "Grease-laden vapors can accumulate and increase fire risk", "It lowers static pressure", "It reduces refrigerant flow"],
+    answer: "Grease-laden vapors can accumulate and increase fire risk",
+    difficulty: "medium",
+    reference: "NFPA 96"
+  },
+  {
+    id: 898,
+    category: "NFPA",
+    question_en: "Which is MOST associated with preventing fire spread through ductwork?",
+    question_pt: "Qual item está MAIS associado a prevenir propagação de fogo através de dutos?",
+    options: ["TXV", "Fire damper", "Accumulator", "Crankcase heater"],
+    answer: "Fire damper",
+    difficulty: "easy",
+    reference: "NFPA 90A / Dampers"
+  },
+  {
+    id: 899,
+    category: "NFPA",
+    question_en: "Which is MOST associated with preventing smoke spread through ductwork?",
+    question_pt: "Qual item está MAIS associado a prevenir propagação de fumaça através de dutos?",
+    options: ["Compressor", "Smoke damper", "Liquid line drier", "Condenser fan"],
+    answer: "Smoke damper",
+    difficulty: "easy",
+    reference: "NFPA 90A / Dampers"
+  },
+  {
+    id: 900,
+    category: "NFPA",
+    question_en: "The MOST testable NFPA 96 concept is:",
+    question_pt: "O conceito mais cobrando em prova da NFPA 96 é:",
+    options: ["Refrigerant charging tables", "Grease control: listed hoods, grease-tight ducts, and cleaning/inspection", "Thermostat wiring colors", "Psychrometric calculations"],
+    answer: "Grease control: listed hoods, grease-tight ducts, and cleaning/inspection",
+    difficulty: "easy",
+    reference: "NFPA 96"
+  },
+
+  {
+    id: 901,
+    category: "Electrical HVAC",
+    question_en: "The NEC primarily exists to:",
+    question_pt: "O NEC (National Electrical Code) existe principalmente para:",
+    options: ["Improve energy efficiency", "Provide minimum safety standards to protect people and property", "Standardize HVAC design", "Reduce utility costs"],
+    answer: "Provide minimum safety standards to protect people and property",
+    difficulty: "easy",
+    reference: "NEC Purpose"
+  },
+  {
+    id: 902,
+    category: "Electrical HVAC",
+    question_en: "HVAC equipment grounding is required primarily to:",
+    question_pt: "O aterramento de equipamentos HVAC é exigido principalmente para:",
+    options: ["Improve performance", "Provide a safe path for fault current", "Reduce static pressure", "Increase airflow"],
+    answer: "Provide a safe path for fault current",
+    difficulty: "easy",
+    reference: "NEC Grounding"
+  },
+  {
+    id: 903,
+    category: "Electrical HVAC",
+    question_en: "Bonding in electrical systems is intended to:",
+    question_pt: "A equipotencialização (bonding) em sistemas elétricos tem como objetivo:",
+    options: ["Reduce voltage", "Ensure conductive parts are at the same electrical potential", "Increase airflow", "Improve refrigerant flow"],
+    answer: "Ensure conductive parts are at the same electrical potential",
+    difficulty: "medium",
+    reference: "NEC Grounding & Bonding"
+  },
+  {
+    id: 904,
+    category: "Electrical HVAC",
+    question_en: "The minimum circuit ampacity (MCA) marked on HVAC equipment is used to determine:",
+    question_pt: "A MCA (Minimum Circuit Ampacity) indicada no equipamento HVAC é usada para determinar:",
+    options: ["Breaker size only", "Minimum conductor (wire) size", "Motor speed", "Refrigerant charge"],
+    answer: "Minimum conductor (wire) size",
+    difficulty: "medium",
+    reference: "NEC HVAC Nameplate Data"
+  },
+  {
+    id: 905,
+    category: "Electrical HVAC",
+    question_en: "The maximum overcurrent protection (MOCP) value on HVAC equipment refers to:",
+    question_pt: "O valor de MOCP (Maximum Overcurrent Protection) em equipamentos HVAC se refere a:",
+    options: ["Minimum breaker size", "Maximum breaker or fuse size allowed", "Motor horsepower", "Voltage drop"],
+    answer: "Maximum breaker or fuse size allowed",
+    difficulty: "medium",
+    reference: "NEC HVAC Nameplate Data"
+  },
+  {
+    id: 906,
+    category: "Electrical HVAC",
+    question_en: "A disconnecting means for HVAC equipment is required to:",
+    question_pt: "Um meio de desligamento (disconnect) para equipamento HVAC é exigido para:",
+    options: ["Increase SEER", "Allow safe servicing by disconnecting power", "Improve airflow", "Control refrigerant"],
+    answer: "Allow safe servicing by disconnecting power",
+    difficulty: "easy",
+    reference: "NEC Disconnects"
+  },
+  {
+    id: 907,
+    category: "Electrical HVAC",
+    question_en: "Which device is commonly used to protect HVAC control circuits?",
+    question_pt: "Qual dispositivo é comumente usado para proteger circuitos de controle HVAC?",
+    options: ["Circuit breaker (line voltage)", "Fuse or resettable breaker on control board", "Capacitor", "Contactor"],
+    answer: "Fuse or resettable breaker on control board",
+    difficulty: "easy",
+    reference: "NEC Control Circuits"
+  },
+  {
+    id: 908,
+    category: "Electrical HVAC",
+    question_en: "A transformer in an HVAC system typically converts:",
+    question_pt: "Um transformador em um sistema HVAC normalmente converte:",
+    options: ["Low voltage to high voltage", "Line voltage to low control voltage", "AC to DC", "Pressure to voltage"],
+    answer: "Line voltage to low control voltage",
+    difficulty: "easy",
+    reference: "Electrical HVAC Basics"
+  },
+  {
+    id: 909,
+    category: "Electrical HVAC",
+    question_en: "If an HVAC motor draws amperage above nameplate rating, the MOST likely cause is:",
+    question_pt: "Se um motor HVAC consome amperagem acima do valor de placa, a causa mais provável é:",
+    options: ["Lower voltage", "Mechanical load or airflow restriction", "Overcharge only", "Normal operation"],
+    answer: "Mechanical load or airflow restriction",
+    difficulty: "medium",
+    reference: "Motor Diagnostics"
+  },
+  {
+    id: 910,
+    category: "Electrical HVAC",
+    question_en: "Low voltage supplied to a motor will MOST likely result in:",
+    question_pt: "Baixa tensão fornecida a um motor provavelmente resultará em:",
+    options: ["Lower amp draw", "Higher amp draw and overheating", "Normal operation", "Higher efficiency"],
+    answer: "Higher amp draw and overheating",
+    difficulty: "medium",
+    reference: "Motor Fundamentals"
+  },
+  {
+    id: 911,
+    category: "Electrical HVAC",
+    question_en: "A short to ground in an HVAC circuit will most likely cause:",
+    question_pt: "Um curto para terra em um circuito HVAC provavelmente causará:",
+    options: ["Reduced airflow", "Immediate trip of breaker or blown fuse", "Higher subcooling", "Low suction pressure"],
+    answer: "Immediate trip of breaker or blown fuse",
+    difficulty: "easy",
+    reference: "NEC Overcurrent Protection"
+  },
+  {
+    id: 912,
+    category: "Electrical HVAC",
+    question_en: "Which conductor is intended to carry fault current under abnormal conditions?",
+    question_pt: "Qual condutor é destinado a conduzir corrente de falha em condições anormais?",
+    options: ["Neutral", "Equipment grounding conductor", "Line (hot) conductor", "Control wire"],
+    answer: "Equipment grounding conductor",
+    difficulty: "medium",
+    reference: "NEC Grounding"
+  },
+  {
+    id: 913,
+    category: "Electrical HVAC",
+    question_en: "A loose electrical connection MOST often results in:",
+    question_pt: "Uma conexão elétrica frouxa mais frequentemente resulta em:",
+    options: ["Lower temperature", "Heat buildup and possible arcing", "Higher airflow", "Lower static pressure"],
+    answer: "Heat buildup and possible arcing",
+    difficulty: "easy",
+    reference: "Electrical Safety"
+  },
+  {
+    id: 914,
+    category: "Electrical HVAC",
+    question_en: "Which instrument is used to measure current draw in an HVAC circuit?",
+    question_pt: "Qual instrumento é usado para medir corrente (amperagem) em um circuito HVAC?",
+    options: ["Voltmeter", "Clamp ammeter", "Ohmmeter", "Manometer"],
+    answer: "Clamp ammeter",
+    difficulty: "easy",
+    reference: "Electrical Measurements"
+  },
+  {
+    id: 915,
+    category: "Electrical HVAC",
+    question_en: "Voltage drop in HVAC circuits should be minimized because it can:",
+    question_pt: "Queda de tensão em circuitos HVAC deve ser minimizada porque pode:",
+    options: ["Improve efficiency", "Cause motors to overheat and fail prematurely", "Increase airflow", "Reduce static pressure"],
+    answer: "Cause motors to overheat and fail prematurely",
+    difficulty: "medium",
+    reference: "NEC Voltage Drop"
+  },
+  {
+    id: 916,
+    category: "Electrical HVAC",
+    question_en: "A capacitor’s PRIMARY function in a single-phase motor is to:",
+    question_pt: "A função PRINCIPAL de um capacitor em um motor monofásico é:",
+    options: ["Increase voltage", "Create phase shift for starting/running torque", "Reduce airflow", "Control refrigerant flow"],
+    answer: "Create phase shift for starting/running torque",
+    difficulty: "medium",
+    reference: "Motor Components"
+  },
+  {
+    id: 917,
+    category: "Electrical HVAC",
+    question_en: "A failed run capacitor will MOST likely cause a motor to:",
+    question_pt: "Um capacitor de funcionamento com falha provavelmente fará o motor:",
+    options: ["Run normally", "Overheat or fail to reach full speed", "Increase efficiency", "Lower amp draw"],
+    answer: "Overheat or fail to reach full speed",
+    difficulty: "medium",
+    reference: "Motor Diagnostics"
+  },
+  {
+    id: 918,
+    category: "Electrical HVAC",
+    question_en: "The NEC requires working clearances around electrical equipment primarily for:",
+    question_pt: "O NEC exige espaços de trabalho ao redor de equipamentos elétricos principalmente para:",
+    options: ["Aesthetics", "Safe operation and maintenance", "Energy efficiency", "Noise reduction"],
+    answer: "Safe operation and maintenance",
+    difficulty: "easy",
+    reference: "NEC Working Clearances"
+  },
+  {
+    id: 919,
+    category: "Electrical HVAC",
+    question_en: "Which condition is MOST likely to damage an ECM motor module?",
+    question_pt: "Qual condição é mais provável de danificar um módulo de motor ECM?",
+    options: ["Correct voltage", "Voltage spikes/surges or improper grounding", "Proper airflow", "Normal static pressure"],
+    answer: "Voltage spikes/surges or improper grounding",
+    difficulty: "hard",
+    reference: "ECM Motor Protection"
+  },
+  {
+    id: 920,
+    category: "Electrical HVAC",
+    question_en: "A motor rated for 208/230V installed on a 208V system will:",
+    question_pt: "Um motor classificado para 208/230V instalado em um sistema de 208V:",
+    options: ["Always fail", "Draw higher current and produce less torque", "Operate at higher efficiency", "Not start at all"],
+    answer: "Draw higher current and produce less torque",
+    difficulty: "hard",
+    reference: "Motor Voltage Ratings"
+  },
+  {
+    id: 921,
+    category: "Electrical HVAC",
+    question_en: "Which NEC concept ensures exposed metal parts are not energized?",
+    question_pt: "Qual conceito do NEC garante que partes metálicas expostas não fiquem energizadas?",
+    options: ["Overcurrent protection", "Grounding and bonding", "Voltage drop", "Load calculation"],
+    answer: "Grounding and bonding",
+    difficulty: "easy",
+    reference: "NEC Grounding & Bonding"
+  },
+  {
+    id: 922,
+    category: "Electrical HVAC",
+    question_en: "A contactor in an HVAC system is used to:",
+    question_pt: "Um contator em um sistema HVAC é usado para:",
+    options: ["Measure pressure", "Switch line-voltage power to motors", "Control humidity", "Drain condensate"],
+    answer: "Switch line-voltage power to motors",
+    difficulty: "easy",
+    reference: "Electrical HVAC Basics"
+  },
+  {
+    id: 923,
+    category: "Electrical HVAC",
+    question_en: "A motor overload protector is designed to:",
+    question_pt: "Um protetor de sobrecarga de motor é projetado para:",
+    options: ["Increase airflow", "Shut down the motor when excessive heat/current occurs", "Increase voltage", "Control refrigerant flow"],
+    answer: "Shut down the motor when excessive heat/current occurs",
+    difficulty: "easy",
+    reference: "Motor Protection"
+  },
+  {
+    id: 924,
+    category: "Electrical HVAC",
+    question_en: "Which test verifies the integrity of motor windings insulation?",
+    question_pt: "Qual teste verifica a integridade do isolamento dos enrolamentos do motor?",
+    options: ["Amp draw test", "Megohmmeter (megger) test", "Static pressure test", "Subcooling test"],
+    answer: "Megohmmeter (megger) test",
+    difficulty: "hard",
+    reference: "Electrical Testing"
+  },
+  {
+    id: 925,
+    category: "Electrical HVAC",
+    question_en: "A blown low-voltage fuse usually indicates:",
+    question_pt: "Um fusível de baixa tensão queimado geralmente indica:",
+    options: ["Normal operation", "Short in the control circuit", "Low refrigerant charge", "High airflow"],
+    answer: "Short in the control circuit",
+    difficulty: "medium",
+    reference: "Control Circuit Diagnostics"
+  },
+  {
+    id: 926,
+    category: "Electrical HVAC",
+    question_en: "Which NEC rule MOST affects HVAC conductor sizing?",
+    question_pt: "Qual regra do NEC MAIS afeta o dimensionamento de condutores HVAC?",
+    options: ["Color coding", "Minimum circuit ampacity (MCA)", "Thermostat location", "Filter size"],
+    answer: "Minimum circuit ampacity (MCA)",
+    difficulty: "medium",
+    reference: "NEC HVAC Conductors"
+  },
+  {
+    id: 927,
+    category: "Electrical HVAC",
+    question_en: "A dual-rated breaker (HACR) is commonly used for:",
+    question_pt: "Um disjuntor duplamente classificado (HACR) é comumente usado para:",
+    options: ["Lighting circuits", "HVAC equipment with motor-compressor loads", "Receptacle circuits only", "Low-voltage controls"],
+    answer: "HVAC equipment with motor-compressor loads",
+    difficulty: "medium",
+    reference: "NEC HVAC Overcurrent Protection"
+  },
+  {
+    id: 928,
+    category: "Electrical HVAC",
+    question_en: "If the measured voltage is significantly lower at the unit than at the panel, the likely issue is:",
+    question_pt: "Se a tensão medida é significativamente menor na unidade do que no painel, o problema provável é:",
+    options: ["Overcharge", "Voltage drop due to undersized conductors or long run", "High airflow", "Dirty condenser"],
+    answer: "Voltage drop due to undersized conductors or long run",
+    difficulty: "medium",
+    reference: "NEC Voltage Drop"
+  },
+  {
+    id: 929,
+    category: "Electrical HVAC",
+    question_en: "A common NEC requirement for outdoor HVAC disconnects is that they be:",
+    question_pt: "Um requisito comum do NEC para disconnects externos HVAC é que sejam:",
+    options: ["Hidden", "Within sight of the equipment", "Inside the air handler", "Under insulation"],
+    answer: "Within sight of the equipment",
+    difficulty: "easy",
+    reference: "NEC Disconnect Location"
+  },
+  {
+    id: 930,
+    category: "Electrical HVAC",
+    question_en: "Why is proper grounding especially important for ECM motors?",
+    question_pt: "Por que o aterramento adequado é especialmente importante para motores ECM?",
+    options: ["They draw less current", "They contain sensitive electronics vulnerable to voltage spikes", "They are louder", "They increase airflow"],
+    answer: "They contain sensitive electronics vulnerable to voltage spikes",
+    difficulty: "medium",
+    reference: "ECM Motor Protection"
+  },
+  {
+    id: 931,
+    category: "Electrical HVAC",
+    question_en: "Which measurement confirms correct supply voltage to HVAC equipment?",
+    question_pt: "Qual medição confirma a tensão de alimentação correta ao equipamento HVAC?",
+    options: ["Amp draw", "Line voltage measured at terminals under load", "Resistance only", "Capacitance"],
+    answer: "Line voltage measured at terminals under load",
+    difficulty: "easy",
+    reference: "Electrical Measurements"
+  },
+  {
+    id: 932,
+    category: "Electrical HVAC",
+    question_en: "If a breaker trips immediately when starting the unit, the MOST likely cause is:",
+    question_pt: "Se um disjuntor desarma imediatamente ao ligar a unidade, a causa mais provável é:",
+    options: ["Low refrigerant charge", "Short circuit or locked rotor condition", "Dirty filter", "Normal startup"],
+    answer: "Short circuit or locked rotor condition",
+    difficulty: "hard",
+    reference: "Electrical Troubleshooting"
+  },
+  {
+    id: 933,
+    category: "Electrical HVAC",
+    question_en: "Which conductor typically carries current during normal operation in a single-phase circuit?",
+    question_pt: "Qual condutor normalmente transporta corrente durante operação normal em um circuito monofásico?",
+    options: ["Ground", "Hot (line) conductor", "Equipment grounding conductor", "Conduit"],
+    answer: "Hot (line) conductor",
+    difficulty: "easy",
+    reference: "Electrical Fundamentals"
+  },
+  {
+    id: 934,
+    category: "Electrical HVAC",
+    question_en: "A transformer failure in HVAC control circuits will MOST likely result in:",
+    question_pt: "Uma falha do transformador nos circuitos de controle HVAC provavelmente resultará em:",
+    options: ["High head pressure", "Loss of low-voltage control power", "Higher airflow", "Overcharge"],
+    answer: "Loss of low-voltage control power",
+    difficulty: "easy",
+    reference: "Electrical HVAC Basics"
+  },
+  {
+    id: 935,
+    category: "Electrical HVAC",
+    question_en: "The NEC requires equipment to be labeled primarily to:",
+    question_pt: "O NEC exige que equipamentos sejam identificados principalmente para:",
+    options: ["Decoration", "Safe installation, operation, and maintenance", "Higher efficiency", "Lower cost"],
+    answer: "Safe installation, operation, and maintenance",
+    difficulty: "easy",
+    reference: "NEC Equipment Marking"
+  },
+  {
+    id: 936,
+    category: "Electrical HVAC",
+    question_en: "A control transformer secondary is typically protected by:",
+    question_pt: "O secundário do transformador de controle normalmente é protegido por:",
+    options: ["A large breaker", "A fuse or internal protection", "A capacitor", "A contactor"],
+    answer: "A fuse or internal protection",
+    difficulty: "medium",
+    reference: "Control Circuit Protection"
+  },
+  {
+    id: 937,
+    category: "Electrical HVAC",
+    question_en: "Which condition can cause nuisance breaker trips on HVAC equipment?",
+    question_pt: "Qual condição pode causar desarmes indevidos de disjuntor em equipamento HVAC?",
+    options: ["Proper voltage", "Loose connections or failing motor components", "Correct airflow", "Normal startup"],
+    answer: "Loose connections or failing motor components",
+    difficulty: "medium",
+    reference: "Electrical Troubleshooting"
+  },
+  {
+    id: 938,
+    category: "Electrical HVAC",
+    question_en: "If a motor’s insulation resistance is low, the BEST action is to:",
+    question_pt: "Se a resistência de isolamento de um motor é baixa, a melhor ação é:",
+    options: ["Continue operating", "Repair or replace the motor", "Increase refrigerant charge", "Increase airflow"],
+    answer: "Repair or replace the motor",
+    difficulty: "hard",
+    reference: "Electrical Testing"
+  },
+  {
+    id: 939,
+    category: "Electrical HVAC",
+    question_en: "A phase imbalance in a three-phase HVAC motor will MOST likely cause:",
+    question_pt: "Um desequilíbrio de fase em um motor HVAC trifásico provavelmente causará:",
+    options: ["Higher efficiency", "Overheating and reduced motor life", "Lower amp draw", "Better airflow"],
+    answer: "Overheating and reduced motor life",
+    difficulty: "hard",
+    reference: "Three-Phase Motor Fundamentals"
+  },
+  {
+    id: 940,
+    category: "Electrical HVAC",
+    question_en: "Which NEC concept limits conductor overheating under normal load?",
+    question_pt: "Qual conceito do NEC limita o superaquecimento de condutores sob carga normal?",
+    options: ["Grounding", "Ampacity ratings", "Voltage", "Color coding"],
+    answer: "Ampacity ratings",
+    difficulty: "easy",
+    reference: "NEC Ampacity"
+  },
+  {
+    id: 941,
+    category: "Electrical HVAC",
+    question_en: "A motor starter is primarily used to:",
+    question_pt: "Um motor starter é usado principalmente para:",
+    options: ["Reduce refrigerant pressure", "Safely start and protect a motor", "Increase airflow", "Drain condensate"],
+    answer: "Safely start and protect a motor",
+    difficulty: "medium",
+    reference: "Motor Controls"
+  },
+  {
+    id: 942,
+    category: "Electrical HVAC",
+    question_en: "Which NEC safety concept is MOST tested in HVAC exams?",
+    question_pt: "Qual conceito de segurança do NEC é MAIS cobrado em provas HVAC?",
+    options: ["Wire color aesthetics", "Grounding, overcurrent protection, and disconnects", "Filter selection", "Duct sizing"],
+    answer: "Grounding, overcurrent protection, and disconnects",
+    difficulty: "easy",
+    reference: "NEC Exam Focus"
+  },
+  {
+    id: 943,
+    category: "Electrical HVAC",
+    question_en: "If the outdoor unit has power but will not start, a logical next check is:",
+    question_pt: "Se a unidade externa tem energia mas não liga, a próxima verificação lógica é:",
+    options: ["Add refrigerant", "Check control voltage and contactor operation", "Replace the compressor", "Increase thermostat setting"],
+    answer: "Check control voltage and contactor operation",
+    difficulty: "easy",
+    reference: "Electrical Troubleshooting"
+  },
+  {
+    id: 944,
+    category: "Electrical HVAC",
+    question_en: "A breaker sized larger than MOCP is dangerous because it can:",
+    question_pt: "Um disjuntor maior que o MOCP é perigoso porque pode:",
+    options: ["Improve performance", "Fail to protect wiring/equipment during a fault", "Reduce nuisance trips", "Increase airflow"],
+    answer: "Fail to protect wiring/equipment during a fault",
+    difficulty: "medium",
+    reference: "NEC Overcurrent Protection"
+  },
+  {
+    id: 945,
+    category: "Electrical HVAC",
+    question_en: "Which component commonly provides time delay on compressor restart?",
+    question_pt: "Qual componente comumente fornece atraso de tempo na religação do compressor?",
+    options: ["Capacitor", "Time-delay relay or control board", "Disconnect", "Filter drier"],
+    answer: "Time-delay relay or control board",
+    difficulty: "medium",
+    reference: "Controls & Protection"
+  },
+  {
+    id: 946,
+    category: "Electrical HVAC",
+    question_en: "Why is it unsafe to bypass a safety control?",
+    question_pt: "Por que é inseguro bypassar um controle de segurança?",
+    options: ["It reduces comfort", "It removes protection against hazardous conditions", "It lowers SEER", "It increases airflow"],
+    answer: "It removes protection against hazardous conditions",
+    difficulty: "easy",
+    reference: "Life-Safety Best Practices"
+  },
+  {
+    id: 947,
+    category: "Electrical HVAC",
+    question_en: "A control board LED fault code is intended to:",
+    question_pt: "Um código de falha por LED na placa de controle serve para:",
+    options: ["Decorate the unit", "Indicate specific fault conditions for diagnosis", "Increase airflow", "Reduce static pressure"],
+    answer: "Indicate specific fault conditions for diagnosis",
+    difficulty: "easy",
+    reference: "HVAC Controls Diagnostics"
+  },
+  {
+    id: 948,
+    category: "Electrical HVAC",
+    question_en: "Which safety practice should be followed before servicing HVAC electrical components?",
+    question_pt: "Qual prática de segurança deve ser seguida antes de fazer manutenção em componentes elétricos HVAC?",
+    options: ["Increase thermostat setting", "De-energize and verify power is off", "Add refrigerant", "Bypass the disconnect"],
+    answer: "De-energize and verify power is off",
+    difficulty: "easy",
+    reference: "Electrical Safety"
+  },
+  {
+    id: 949,
+    category: "Electrical HVAC",
+    question_en: "A wiring diagram is MOST useful to:",
+    question_pt: "Um diagrama elétrico é MAIS útil para:",
+    options: ["Load calculations", "Tracing circuits and diagnosing electrical problems", "Sizing ducts", "Charging refrigerant"],
+    answer: "Tracing circuits and diagnosing electrical problems",
+    difficulty: "easy",
+    reference: "Electrical Documentation"
+  },
+  {
+    id: 950,
+    category: "Electrical HVAC",
+    question_en: "The MOST exam-focused electrical HVAC concept is:",
+    question_pt: "O conceito elétrico HVAC MAIS focado em prova é:",
+    options: ["Wire colors only", "Safety: grounding, overcurrent protection, disconnects", "Thermostat aesthetics", "Lighting circuits"],
+    answer: "Safety: grounding, overcurrent protection, disconnects",
+    difficulty: "easy",
+    reference: "HVAC Exam Emphasis"
+  },
+
+  {
+    id: 951,
+    category: "OSHA / Safety",
+    question_en: "The primary purpose of OSHA regulations is to:",
+    question_pt: "O principal objetivo das normas da OSHA é:",
+    options: [
+      "Increase productivity",
+      "Protect workers from jobsite hazards",
+      "Standardize construction costs",
+      "Improve energy efficiency"
+    ],
+    answer: "Protect workers from jobsite hazards",
+    difficulty: "easy",
+    reference: "OSHA Purpose"
+  },
+  {
+    id: 952,
+    category: "OSHA / Safety",
+    question_en: "Who is responsible for providing a safe workplace under OSHA?",
+    question_pt: "Quem é responsável por fornecer um local de trabalho seguro segundo a OSHA?",
+    options: [
+      "Employee only",
+      "Employer",
+      "Manufacturer",
+      "Inspector"
+    ],
+    answer: "Employer",
+    difficulty: "easy",
+    reference: "OSHA Employer Responsibilities"
+  },
+  {
+    id: 953,
+    category: "OSHA / Safety",
+    question_en: "Personal Protective Equipment (PPE) is required when:",
+    question_pt: "Equipamentos de Proteção Individual (EPI/PPE) são exigidos quando:",
+    options: [
+      "It is convenient",
+      "A hazard exists that cannot be eliminated",
+      "Employees request it",
+      "Working less than 1 hour"
+    ],
+    answer: "A hazard exists that cannot be eliminated",
+    difficulty: "easy",
+    reference: "OSHA PPE"
+  },
+  {
+    id: 954,
+    category: "OSHA / Safety",
+    question_en: "Which PPE is MOST commonly required on HVAC jobsites?",
+    question_pt: "Qual EPI é MAIS comumente exigido em obras HVAC?",
+    options: [
+      "Respirator only",
+      "Hard hat, safety glasses, gloves",
+      "Fire suit",
+      "Face shield at all times"
+    ],
+    answer: "Hard hat, safety glasses, gloves",
+    difficulty: "easy",
+    reference: "OSHA PPE Basics"
+  },
+  {
+    id: 955,
+    category: "OSHA / Safety",
+    question_en: "The leading cause of construction fatalities is:",
+    question_pt: "A principal causa de fatalidades na construção é:",
+    options: [
+      "Electrical shock",
+      "Falls",
+      "Chemical exposure",
+      "Heat stress"
+    ],
+    answer: "Falls",
+    difficulty: "easy",
+    reference: "OSHA Fall Protection"
+  },
+  {
+    id: 956,
+    category: "OSHA / Safety",
+    question_en: "Fall protection is generally required when working at heights of:",
+    question_pt: "Proteção contra quedas geralmente é exigida ao trabalhar a partir de:",
+    options: [
+      "4 feet or more",
+      "6 inches",
+      "2 feet",
+      "Any height"
+    ],
+    answer: "4 feet or more",
+    difficulty: "medium",
+    reference: "OSHA Fall Protection (General Industry)"
+  },
+  {
+    id: 957,
+    category: "OSHA / Safety",
+    question_en: "Which condition makes ladders unsafe?",
+    question_pt: "Qual condição torna uma escada insegura?",
+    options: [
+      "Clean rungs",
+      "Proper angle",
+      "Broken or damaged rails",
+      "Non-slip feet"
+    ],
+    answer: "Broken or damaged rails",
+    difficulty: "easy",
+    reference: "OSHA Ladder Safety"
+  },
+  {
+    id: 958,
+    category: "OSHA / Safety",
+    question_en: "Extension ladders should extend above the landing by at least:",
+    question_pt: "Escadas de extensão devem ultrapassar o ponto de apoio em pelo menos:",
+    options: [
+      "6 inches",
+      "1 foot",
+      "3 feet",
+      "5 feet"
+    ],
+    answer: "3 feet",
+    difficulty: "medium",
+    reference: "OSHA Ladder Requirements"
+  },
+  {
+    id: 959,
+    category: "OSHA / Safety",
+    question_en: "Lockout/Tagout procedures are used to:",
+    question_pt: "Procedimentos de Lockout/Tagout são usados para:",
+    options: [
+      "Speed up repairs",
+      "Prevent accidental energization during servicing",
+      "Improve efficiency",
+      "Reduce paperwork"
+    ],
+    answer: "Prevent accidental energization during servicing",
+    difficulty: "easy",
+    reference: "OSHA Lockout/Tagout"
+  },
+  {
+    id: 960,
+    category: "OSHA / Safety",
+    question_en: "Before servicing HVAC equipment, the FIRST safety step is to:",
+    question_pt: "Antes de fazer manutenção em equipamento HVAC, o PRIMEIRO passo de segurança é:",
+    options: [
+      "Remove panels",
+      "De-energize and verify power is off",
+      "Check refrigerant pressure",
+      "Call the supervisor"
+    ],
+    answer: "De-energize and verify power is off",
+    difficulty: "easy",
+    reference: "OSHA Electrical Safety"
+  },
+  {
+    id: 961,
+    category: "OSHA / Safety",
+    question_en: "Which hazard is MOST associated with rooftop HVAC work?",
+    question_pt: "Qual risco está MAIS associado a trabalho em telhados com HVAC?",
+    options: [
+      "Noise",
+      "Falls",
+      "Poor airflow",
+      "Low voltage"
+    ],
+    answer: "Falls",
+    difficulty: "easy",
+    reference: "OSHA Rooftop Safety"
+  },
+  {
+    id: 962,
+    category: "OSHA / Safety",
+    question_en: "A confined space is dangerous primarily because it may:",
+    question_pt: "Um espaço confinado é perigoso principalmente porque pode:",
+    options: [
+      "Be uncomfortable",
+      "Have limited oxygen or hazardous atmosphere",
+      "Have poor lighting only",
+      "Be small"
+    ],
+    answer: "Have limited oxygen or hazardous atmosphere",
+    difficulty: "medium",
+    reference: "OSHA Confined Spaces"
+  },
+  {
+    id: 963,
+    category: "OSHA / Safety",
+    question_en: "Which HVAC task commonly involves confined space entry?",
+    question_pt: "Qual tarefa HVAC comumente envolve entrada em espaço confinado?",
+    options: [
+      "Thermostat replacement",
+      "Crawlspace or mechanical room work",
+      "Filter replacement in open area",
+      "Outdoor condenser cleaning"
+    ],
+    answer: "Crawlspace or mechanical room work",
+    difficulty: "medium",
+    reference: "OSHA Confined Spaces"
+  },
+  {
+    id: 964,
+    category: "OSHA / Safety",
+    question_en: "Heat stress risk is increased by:",
+    question_pt: "O risco de estresse térmico aumenta com:",
+    options: [
+      "Cool environments",
+      "High temperature and humidity",
+      "Low workload",
+      "Short exposure"
+    ],
+    answer: "High temperature and humidity",
+    difficulty: "easy",
+    reference: "OSHA Heat Stress"
+  },
+  {
+    id: 965,
+    category: "OSHA / Safety",
+    question_en: "Symptoms of heat exhaustion may include:",
+    question_pt: "Sintomas de exaustão pelo calor podem incluir:",
+    options: [
+      "Cool dry skin",
+      "Dizziness, heavy sweating, nausea",
+      "Increased alertness",
+      "Shivering"
+    ],
+    answer: "Dizziness, heavy sweating, nausea",
+    difficulty: "medium",
+    reference: "OSHA Heat Stress"
+  },
+  {
+    id: 966,
+    category: "OSHA / Safety",
+    question_en: "Which practice reduces the risk of heat-related illness?",
+    question_pt: "Qual prática reduz o risco de doenças relacionadas ao calor?",
+    options: [
+      "Skipping breaks",
+      "Hydration and rest breaks",
+      "Working faster",
+      "Wearing heavier clothing"
+    ],
+    answer: "Hydration and rest breaks",
+    difficulty: "easy",
+    reference: "OSHA Heat Illness Prevention"
+  },
+  {
+    id: 967,
+    category: "OSHA / Safety",
+    question_en: "Electrical cords on jobsites should be:",
+    question_pt: "Extensões elétricas em obras devem ser:",
+    options: [
+      "Left damaged",
+      "Used even if insulation is cut",
+      "Inspected and in good condition",
+      "Hidden under water"
+    ],
+    answer: "Inspected and in good condition",
+    difficulty: "easy",
+    reference: "OSHA Electrical Safety"
+  },
+  {
+    id: 968,
+    category: "OSHA / Safety",
+    question_en: "Which action helps prevent trips and falls?",
+    question_pt: "Qual ação ajuda a prevenir tropeços e quedas?",
+    options: [
+      "Leaving tools scattered",
+      "Good housekeeping and clear walkways",
+      "Running cords across walkways",
+      "Working in low light"
+    ],
+    answer: "Good housekeeping and clear walkways",
+    difficulty: "easy",
+    reference: "OSHA Housekeeping"
+  },
+  {
+    id: 969,
+    category: "OSHA / Safety",
+    question_en: "A job hazard analysis (JHA) is used to:",
+    question_pt: "Uma Job Hazard Analysis (JHA) é usada para:",
+    options: [
+      "Increase profits",
+      "Identify hazards and define safe work methods",
+      "Replace training",
+      "Eliminate supervision"
+    ],
+    answer: "Identify hazards and define safe work methods",
+    difficulty: "medium",
+    reference: "OSHA Safety Programs"
+  },
+  {
+    id: 970,
+    category: "OSHA / Safety",
+    question_en: "Which OSHA rule applies to handling refrigerants?",
+    question_pt: "Qual regra da OSHA se aplica ao manuseio de refrigerantes?",
+    options: [
+      "Fall protection",
+      "Hazard communication",
+      "Scaffolding",
+      "Excavation"
+    ],
+    answer: "Hazard communication",
+    difficulty: "medium",
+    reference: "OSHA HazCom"
+  },
+  {
+    id: 971,
+    category: "OSHA / Safety",
+    question_en: "Safety Data Sheets (SDS) provide information about:",
+    question_pt: "Fichas de Segurança (SDS) fornecem informações sobre:",
+    options: [
+      "Project schedules",
+      "Chemical hazards and safe handling",
+      "Payroll",
+      "Tool prices"
+    ],
+    answer: "Chemical hazards and safe handling",
+    difficulty: "easy",
+    reference: "OSHA HazCom / SDS"
+  },
+  {
+    id: 972,
+    category: "OSHA / Safety",
+    question_en: "Which situation requires eye protection?",
+    question_pt: "Qual situação exige proteção ocular?",
+    options: [
+      "Office work",
+      "Cutting, grinding, or drilling",
+      "Driving to the jobsite",
+      "Paperwork"
+    ],
+    answer: "Cutting, grinding, or drilling",
+    difficulty: "easy",
+    reference: "OSHA Eye Protection"
+  },
+  {
+    id: 973,
+    category: "OSHA / Safety",
+    question_en: "Compressed gas cylinders must be:",
+    question_pt: "Cilindros de gás comprimido devem ser:",
+    options: [
+      "Laid flat",
+      "Secured upright to prevent falling",
+      "Stored near heat sources",
+      "Left uncapped"
+    ],
+    answer: "Secured upright to prevent falling",
+    difficulty: "easy",
+    reference: "OSHA Compressed Gas Safety"
+  },
+  {
+    id: 974,
+    category: "OSHA / Safety",
+    question_en: "Which fire extinguisher class is typically used for electrical fires?",
+    question_pt: "Qual classe de extintor é normalmente usada para incêndios elétricos?",
+    options: [
+      "Class A",
+      "Class B",
+      "Class C",
+      "Class D"
+    ],
+    answer: "Class C",
+    difficulty: "easy",
+    reference: "OSHA Fire Safety"
+  },
+  {
+    id: 975,
+    category: "OSHA / Safety",
+    question_en: "Before using power tools, workers should:",
+    question_pt: "Antes de usar ferramentas elétricas, os trabalhadores devem:",
+    options: [
+      "Assume they are safe",
+      "Inspect them for damage",
+      "Modify safety guards",
+      "Remove grounding pins"
+    ],
+    answer: "Inspect them for damage",
+    difficulty: "easy",
+    reference: "OSHA Power Tool Safety"
+  },
+  {
+    id: 976,
+    category: "OSHA / Safety",
+    question_en: "Which hazard is MOST associated with sheet metal work?",
+    question_pt: "Qual risco está MAIS associado a trabalho com chapa metálica?",
+    options: [
+      "Cuts and lacerations",
+      "Drowning",
+      "Radiation",
+      "Noise only"
+    ],
+    answer: "Cuts and lacerations",
+    difficulty: "easy",
+    reference: "OSHA Hand Safety"
+  },
+  {
+    id: 977,
+    category: "OSHA / Safety",
+    question_en: "Gloves are primarily used to protect against:",
+    question_pt: "Luvas são usadas principalmente para proteger contra:",
+    options: [
+      "Noise",
+      "Cuts, abrasions, and burns",
+      "Falls",
+      "Electrical overload"
+    ],
+    answer: "Cuts, abrasions, and burns",
+    difficulty: "easy",
+    reference: "OSHA PPE"
+  },
+  {
+    id: 978,
+    category: "OSHA / Safety",
+    question_en: "A safe lifting technique includes:",
+    question_pt: "Uma técnica segura de levantamento inclui:",
+    options: [
+      "Bending at the waist",
+      "Using legs and keeping load close to body",
+      "Twisting while lifting",
+      "Lifting quickly"
+    ],
+    answer: "Using legs and keeping load close to body",
+    difficulty: "easy",
+    reference: "OSHA Ergonomics"
+  },
+  {
+    id: 979,
+    category: "OSHA / Safety",
+    question_en: "Which situation requires respiratory protection?",
+    question_pt: "Qual situação exige proteção respiratória?",
+    options: [
+      "Clean office work",
+      "Exposure to dust, fumes, or vapors above limits",
+      "Outdoor walking",
+      "Low humidity"
+    ],
+    answer: "Exposure to dust, fumes, or vapors above limits",
+    difficulty: "medium",
+    reference: "OSHA Respiratory Protection"
+  },
+  {
+    id: 980,
+    category: "OSHA / Safety",
+    question_en: "A safety meeting (toolbox talk) is intended to:",
+    question_pt: "Uma reunião de segurança (toolbox talk) serve para:",
+    options: [
+      "Replace formal training",
+      "Reinforce safe practices and discuss hazards",
+      "Increase production speed",
+      "Handle payroll issues"
+    ],
+    answer: "Reinforce safe practices and discuss hazards",
+    difficulty: "easy",
+    reference: "OSHA Safety Communication"
+  },
+  {
+    id: 981,
+    category: "OSHA / Safety",
+    question_en: "Which OSHA concept is MOST emphasized on HVAC exams?",
+    question_pt: "Qual conceito da OSHA é MAIS enfatizado em provas HVAC?",
+    options: [
+      "Paperwork only",
+      "Fall protection, PPE, and electrical safety",
+      "Interior design",
+      "Office ergonomics"
+    ],
+    answer: "Fall protection, PPE, and electrical safety",
+    difficulty: "easy",
+    reference: "HVAC Exam Focus"
+  },
+  {
+    id: 982,
+    category: "OSHA / Safety",
+    question_en: "If an unsafe condition is observed, the BEST action is to:",
+    question_pt: "Se uma condição insegura é observada, a melhor ação é:",
+    options: [
+      "Ignore it",
+      "Report and correct it if possible",
+      "Work faster",
+      "Wait for inspection"
+    ],
+    answer: "Report and correct it if possible",
+    difficulty: "easy",
+    reference: "OSHA Safety Culture"
+  },
+  {
+    id: 983,
+    category: "OSHA / Safety",
+    question_en: "Which hazard communication element informs workers about chemical risks?",
+    question_pt: "Qual elemento da comunicação de riscos informa os trabalhadores sobre riscos químicos?",
+    options: [
+      "Project drawings",
+      "Labels and Safety Data Sheets (SDS)",
+      "Timecards",
+      "Permits only"
+    ],
+    answer: "Labels and Safety Data Sheets (SDS)",
+    difficulty: "easy",
+    reference: "OSHA HazCom"
+  },
+  {
+    id: 984,
+    category: "OSHA / Safety",
+    question_en: "Hearing protection is required when noise levels exceed:",
+    question_pt: "Proteção auditiva é exigida quando níveis de ruído excedem:",
+    options: [
+      "50 dB",
+      "85 dB (time-weighted average)",
+      "100 dB instantly",
+      "Any audible noise"
+    ],
+    answer: "85 dB (time-weighted average)",
+    difficulty: "medium",
+    reference: "OSHA Hearing Conservation"
+  },
+  {
+    id: 985,
+    category: "OSHA / Safety",
+    question_en: "Which condition increases the risk of electrical shock?",
+    question_pt: "Qual condição aumenta o risco de choque elétrico?",
+    options: [
+      "Dry environment",
+      "Wet conditions and damaged insulation",
+      "Proper grounding",
+      "Insulated tools"
+    ],
+    answer: "Wet conditions and damaged insulation",
+    difficulty: "easy",
+    reference: "OSHA Electrical Safety"
+  },
+  {
+    id: 986,
+    category: "OSHA / Safety",
+    question_en: "The purpose of machine guards is to:",
+    question_pt: "O objetivo de proteções de máquinas é:",
+    options: [
+      "Slow production",
+      "Prevent contact with moving parts",
+      "Increase noise",
+      "Reduce airflow"
+    ],
+    answer: "Prevent contact with moving parts",
+    difficulty: "easy",
+    reference: "OSHA Machine Guarding"
+  },
+  {
+    id: 987,
+    category: "OSHA / Safety",
+    question_en: "Which action violates basic OSHA safety rules?",
+    question_pt: "Qual ação viola regras básicas de segurança da OSHA?",
+    options: [
+      "Wearing PPE",
+      "Bypassing safety devices",
+      "Using ladders properly",
+      "Attending safety training"
+    ],
+    answer: "Bypassing safety devices",
+    difficulty: "easy",
+    reference: "OSHA Safety Rules"
+  },
+  {
+    id: 988,
+    category: "OSHA / Safety",
+    question_en: "Which practice helps prevent musculoskeletal injuries?",
+    question_pt: "Qual prática ajuda a prevenir lesões musculoesqueléticas?",
+    options: [
+      "Poor posture",
+      "Ergonomic lifting and tool use",
+      "Ignoring pain",
+      "Working through fatigue"
+    ],
+    answer: "Ergonomic lifting and tool use",
+    difficulty: "easy",
+    reference: "OSHA Ergonomics"
+  },
+  {
+    id: 989,
+    category: "OSHA / Safety",
+    question_en: "Which document outlines emergency procedures on a jobsite?",
+    question_pt: "Qual documento descreve procedimentos de emergência no canteiro de obras?",
+    options: [
+      "Bid proposal",
+      "Emergency Action Plan",
+      "Invoice",
+      "Blueprint"
+    ],
+    answer: "Emergency Action Plan",
+    difficulty: "medium",
+    reference: "OSHA Emergency Planning"
+  },
+  {
+    id: 990,
+    category: "OSHA / Safety",
+    question_en: "Fire extinguishers on jobsites should be:",
+    question_pt: "Extintores de incêndio em obras devem ser:",
+    options: [
+      "Hidden",
+      "Accessible and maintained",
+      "Used as door stops",
+      "Locked away"
+    ],
+    answer: "Accessible and maintained",
+    difficulty: "easy",
+    reference: "OSHA Fire Safety"
+  },
+  {
+    id: 991,
+    category: "OSHA / Safety",
+    question_en: "Which condition is MOST likely to cause accidents?",
+    question_pt: "Qual condição é MAIS propensa a causar acidentes?",
+    options: [
+      "Clear communication",
+      "Fatigue and rushing",
+      "Proper planning",
+      "Good lighting"
+    ],
+    answer: "Fatigue and rushing",
+    difficulty: "easy",
+    reference: "OSHA Accident Prevention"
+  },
+  {
+    id: 992,
+    category: "OSHA / Safety",
+    question_en: "A hazard that is not corrected can lead to:",
+    question_pt: "Um risco não corrigido pode levar a:",
+    options: [
+      "Higher efficiency",
+      "Injury, illness, or fatality",
+      "Better workflow",
+      "Lower costs"
+    ],
+    answer: "Injury, illness, or fatality",
+    difficulty: "easy",
+    reference: "OSHA Safety Principles"
+  },
+  {
+    id: 993,
+    category: "OSHA / Safety",
+    question_en: "Which OSHA rule is MOST applicable when working near moving equipment?",
+    question_pt: "Qual regra da OSHA é MAIS aplicável ao trabalhar próximo a equipamentos em movimento?",
+    options: [
+      "HazCom",
+      "Machine guarding",
+      "Scaffolding",
+      "Excavation"
+    ],
+    answer: "Machine guarding",
+    difficulty: "medium",
+    reference: "OSHA Machine Guarding"
+  },
+  {
+    id: 994,
+    category: "OSHA / Safety",
+    question_en: "A safety culture is best described as:",
+    question_pt: "Uma cultura de segurança é melhor descrita como:",
+    options: [
+      "Rules only",
+      "Shared responsibility and commitment to safety",
+      "Management paperwork",
+      "Punishment-focused"
+    ],
+    answer: "Shared responsibility and commitment to safety",
+    difficulty: "easy",
+    reference: "OSHA Safety Culture"
+  },
+  {
+    id: 995,
+    category: "OSHA / Safety",
+    question_en: "Which practice is MOST effective in reducing accidents?",
+    question_pt: "Qual prática é MAIS eficaz para reduzir acidentes?",
+    options: [
+      "Ignoring minor hazards",
+      "Training, awareness, and safe procedures",
+      "Working faster",
+      "Minimal supervision"
+    ],
+    answer: "Training, awareness, and safe procedures",
+    difficulty: "easy",
+    reference: "OSHA Accident Prevention"
+  },
+  {
+    id: 996,
+    category: "OSHA / Safety",
+    question_en: "If a worker is injured, the FIRST priority is to:",
+    question_pt: "Se um trabalhador se machuca, a PRIMEIRA prioridade é:",
+    options: [
+      "Finish the task",
+      "Provide medical attention and ensure safety",
+      "Complete paperwork",
+      "Call a meeting"
+    ],
+    answer: "Provide medical attention and ensure safety",
+    difficulty: "easy",
+    reference: "OSHA Incident Response"
+  },
+  {
+    id: 997,
+    category: "OSHA / Safety",
+    question_en: "Which situation requires immediate correction?",
+    question_pt: "Qual situação exige correção imediata?",
+    options: [
+      "Minor paperwork error",
+      "Exposed live electrical parts",
+      "Delayed delivery",
+      "Low productivity"
+    ],
+    answer: "Exposed live electrical parts",
+    difficulty: "easy",
+    reference: "OSHA Electrical Hazards"
+  },
+  {
+    id: 998,
+    category: "OSHA / Safety",
+    question_en: "Which OSHA principle applies to all jobsites?",
+    question_pt: "Qual princípio da OSHA se aplica a todos os canteiros?",
+    options: [
+      "Zero training",
+      "Recognize, evaluate, and control hazards",
+      "Work faster",
+      "Reduce inspections"
+    ],
+    answer: "Recognize, evaluate, and control hazards",
+    difficulty: "easy",
+    reference: "OSHA Hazard Control"
+  },
+  {
+    id: 999,
+    category: "OSHA / Safety",
+    question_en: "The MOST exam-relevant OSHA takeaway for HVAC contractors is:",
+    question_pt: "O principal ensinamento da OSHA mais relevante para a prova de HVAC é:",
+    options: [
+      "Paperwork only",
+      "Safety first: falls, electrical hazards, PPE",
+      "Marketing",
+      "Tool selection"
+    ],
+    answer: "Safety first: falls, electrical hazards, PPE",
+    difficulty: "easy",
+    reference: "HVAC Exam Emphasis"
+  },
+  {
+    id: 1000,
+    category: "OSHA / Safety",
+    question_en: "Which action demonstrates OSHA compliance on a jobsite?",
+    question_pt: "Qual ação demonstra conformidade com a OSHA em um canteiro?",
+    options: [
+      "Ignoring hazards",
+      "Providing training, PPE, and enforcing safety rules",
+      "Avoiding inspections",
+      "Working without permits"
+    ],
+    answer: "Providing training, PPE, and enforcing safety rules",
+    difficulty: "easy",
+    reference: "OSHA Compliance"
+  },
+
+  {
+    id: 1001,
+    category: "HVAC Trade",
+    question_en: "A system has low suction pressure AND high superheat. The MOST likely cause is:",
+    question_pt: "Um sistema tem baixa pressão de sucção E superheat alto. A causa mais provável é:",
+    options: ["Overcharge", "Restricted metering device or undercharge", "Dirty condenser coil", "Failed indoor blower motor"],
+    answer: "Restricted metering device or undercharge",
+    difficulty: "hard",
+    reference: "Refrigeration Diagnostics — Superheat/Subcooling"
+  },
+  {
+    id: 1002,
+    category: "HVAC Trade",
+    question_en: "A system has high suction pressure AND low superheat. The MOST likely cause is:",
+    question_pt: "Um sistema tem alta pressão de sucção E superheat baixo. A causa mais provável é:",
+    options: ["Undercharge", "Overfeeding (overcharge or TXV stuck open)", "Restricted filter drier", "Low airflow only"],
+    answer: "Overfeeding (overcharge or TXV stuck open)",
+    difficulty: "hard",
+    reference: "Refrigeration Diagnostics — Superheat/Subcooling"
+  },
+  {
+    id: 1003,
+    category: "HVAC Trade",
+    question_en: "Low suction pressure with a frosted evaporator coil MOST likely indicates:",
+    question_pt: "Baixa pressão de sucção com evaporador congelando mais provavelmente indica:",
+    options: ["High airflow", "Low airflow across the evaporator or low refrigerant", "Normal operation", "High indoor temperature only"],
+    answer: "Low airflow across the evaporator or low refrigerant",
+    difficulty: "medium",
+    reference: "Airflow & Coil Icing"
+  },
+  {
+    id: 1004,
+    category: "HVAC Trade",
+    question_en: "High head pressure on an air-cooled condenser is MOST commonly caused by:",
+    question_pt: "Alta pressão de descarga (head) em condensador a ar é mais comumente causada por:",
+    options: ["Dirty condenser coil or restricted airflow", "Undercharge", "Low indoor load", "Low static pressure"],
+    answer: "Dirty condenser coil or restricted airflow",
+    difficulty: "medium",
+    reference: "Refrigeration Diagnostics — Condensing"
+  },
+  {
+    id: 1005,
+    category: "HVAC Trade",
+    question_en: "A heat pump in heating mode that blows cool air intermittently is MOST likely:",
+    question_pt: "Uma bomba de calor em aquecimento que sopra ar frio intermitentemente provavelmente está:",
+    options: ["Overcharged", "In defrost cycle", "Low airflow", "Low voltage"],
+    answer: "In defrost cycle",
+    difficulty: "medium",
+    reference: "Heat Pump Operation"
+  },
+  {
+    id: 1006,
+    category: "HVAC Trade",
+    question_en: "The PRIMARY purpose of auxiliary heat on a heat pump is to:",
+    question_pt: "O objetivo PRINCIPAL do aquecimento auxiliar em uma bomba de calor é:",
+    options: ["Cool the space faster", "Assist heating during low outdoor temperatures or defrost", "Reduce static pressure", "Increase refrigerant charge"],
+    answer: "Assist heating during low outdoor temperatures or defrost",
+    difficulty: "easy",
+    reference: "Heat Pump Controls"
+  },
+  {
+    id: 1007,
+    category: "Electrical HVAC",
+    question_en: "An outdoor unit has 240V at the disconnect but the contactor will not pull in. The NEXT check is:",
+    question_pt: "A unidade externa tem 240V no disconnect mas o contator não aciona. A PRÓXIMA verificação é:",
+    options: ["Add refrigerant", "Check 24V control voltage to the contactor coil", "Replace compressor", "Clean evaporator coil"],
+    answer: "Check 24V control voltage to the contactor coil",
+    difficulty: "medium",
+    reference: "Electrical Troubleshooting — Control Voltage"
+  },
+  {
+    id: 1008,
+    category: "Electrical HVAC",
+    question_en: "If a contactor coil is receiving 24V but the contactor does not close, the MOST likely issue is:",
+    question_pt: "Se a bobina do contator está recebendo 24V mas o contator não fecha, o problema mais provável é:",
+    options: ["Low refrigerant", "Defective contactor coil/mechanism", "Dirty filter", "High static pressure"],
+    answer: "Defective contactor coil/mechanism",
+    difficulty: "medium",
+    reference: "Electrical Troubleshooting — Contactors"
+  },
+  {
+    id: 1009,
+    category: "Electrical HVAC",
+    question_en: "A blower motor runs but the compressor will not start. A likely electrical cause is:",
+    question_pt: "O blower funciona mas o compressor não inicia. Uma causa elétrica provável é:",
+    options: ["Failed compressor start/run capacitor", "Dirty evaporator", "Oversized duct", "High indoor humidity"],
+    answer: "Failed compressor start/run capacitor",
+    difficulty: "medium",
+    reference: "Motor Components — Capacitors"
+  },
+  {
+    id: 1010,
+    category: "Electrical HVAC",
+    question_en: "A compressor hums and trips the breaker shortly after start attempt. MOST likely:",
+    question_pt: "O compressor ronca e desarma o disjuntor logo após tentar partir. Mais provável:",
+    options: ["Normal start", "Locked rotor or failed start components", "Undercharge", "Low indoor load"],
+    answer: "Locked rotor or failed start components",
+    difficulty: "hard",
+    reference: "Electrical Troubleshooting — LRA/Start"
+  },
+  {
+    id: 1011,
+    category: "FBC Mechanical",
+    question_en: "A return air opening is typically prohibited in a room containing:",
+    question_pt: "Uma abertura de retorno é tipicamente proibida em um ambiente contendo:",
+    options: ["A sofa", "A fuel-burning appliance or garage contaminants", "A ceiling fan", "A window"],
+    answer: "A fuel-burning appliance or garage contaminants",
+    difficulty: "medium",
+    reference: "FBC Mechanical — Prohibited Return Air"
+  },
+  {
+    id: 1012,
+    category: "FBC Mechanical",
+    question_en: "Exhaust from bathrooms must be discharged:",
+    question_pt: "Exaustão de banheiros deve ser descarregada:",
+    options: ["Into attic", "To outdoors", "Into return plenum", "Into wall cavity"],
+    answer: "To outdoors",
+    difficulty: "easy",
+    reference: "FBC Mechanical — Exhaust Discharge"
+  },
+  {
+    id: 1013,
+    category: "HVAC Trade",
+    question_en: "A system shows normal subcooling but very high superheat. This MOST likely indicates:",
+    question_pt: "Um sistema mostra subcooling normal mas superheat muito alto. Isso mais provavelmente indica:",
+    options: ["Undercharge", "Restricted feeder/capillary/TXV inlet screen", "Overcharge", "Dirty condenser fan motor"],
+    answer: "Restricted feeder/capillary/TXV inlet screen",
+    difficulty: "hard",
+    reference: "Refrigeration Diagnostics — Restrictions"
+  },
+  {
+    id: 1014,
+    category: "HVAC Trade",
+    question_en: "A system shows high subcooling and low superheat. This MOST likely indicates:",
+    question_pt: "Um sistema mostra subcooling alto e superheat baixo. Isso mais provavelmente indica:",
+    options: ["Undercharge", "Overcharge or liquid backed-up in condenser", "Low airflow only", "Metering device restriction"],
+    answer: "Overcharge or liquid backed-up in condenser",
+    difficulty: "hard",
+    reference: "Refrigeration Diagnostics — Charging"
+  },
+  {
+    id: 1015,
+    category: "HVAC Trade",
+    question_en: "A severely restricted filter MOST commonly results in:",
+    question_pt: "Um filtro severamente restrito mais comumente resulta em:",
+    options: ["High airflow", "Low airflow and potential evaporator icing", "High head pressure", "Higher subcooling"],
+    answer: "Low airflow and potential evaporator icing",
+    difficulty: "easy",
+    reference: "Airflow Diagnostics — Filtration"
+  },
+  {
+    id: 1016,
+    category: "HVAC Trade",
+    question_en: "Supply air temperature is warmer than expected and suction pressure is higher than normal. MOST likely:",
+    question_pt: "Temperatura de suprimento mais quente que o esperado e sucção mais alta que o normal. Mais provável:",
+    options: ["Low indoor airflow", "High indoor airflow or high load / low charge is unlikely", "Low outdoor airflow", "Restricted metering device"],
+    answer: "High indoor airflow or high load / low charge is unlikely",
+    difficulty: "hard",
+    reference: "System Performance — Airflow vs Pressures"
+  },
+  {
+    id: 1017,
+    category: "HVAC Trade",
+    question_en: "A TXV primarily controls:",
+    question_pt: "Uma TXV controla principalmente:",
+    options: ["Subcooling", "Superheat", "Head pressure", "Airflow"],
+    answer: "Superheat",
+    difficulty: "easy",
+    reference: "Metering Devices — TXV"
+  },
+  {
+    id: 1018,
+    category: "HVAC Trade",
+    question_en: "A fixed orifice metering device charging method MOST commonly uses:",
+    question_pt: "Método de carga para dispositivo de orifício fixo mais comumente usa:",
+    options: ["Subcooling", "Superheat", "Voltage drop", "Static pressure"],
+    answer: "Superheat",
+    difficulty: "medium",
+    reference: "Charging Procedures"
+  },
+  {
+    id: 1019,
+    category: "HVAC Trade",
+    question_en: "A TXV system charging method MOST commonly uses:",
+    question_pt: "Método de carga para sistema com TXV mais comumente usa:",
+    options: ["Superheat", "Subcooling", "Ohms", "Duct velocity"],
+    answer: "Subcooling",
+    difficulty: "medium",
+    reference: "Charging Procedures"
+  },
+  {
+    id: 1020,
+    category: "HVAC Trade",
+    question_en: "Which condition is MOST likely to cause liquid refrigerant floodback to a compressor?",
+    question_pt: "Qual condição é mais provável de causar floodback de líquido para o compressor?",
+    options: ["High superheat", "Low superheat and overfeeding/low load", "Dirty condenser", "High static pressure"],
+    answer: "Low superheat and overfeeding/low load",
+    difficulty: "hard",
+    reference: "Compressor Protection — Floodback"
+  },
+  {
+    id: 1021,
+    category: "HVAC Trade",
+    question_en: "A filter drier that is restricted will MOST likely cause:",
+    question_pt: "Um filter drier restrito provavelmente causará:",
+    options: ["Higher suction pressure", "Pressure drop and starvation symptoms", "Higher airflow", "Lower head pressure"],
+    answer: "Pressure drop and starvation symptoms",
+    difficulty: "hard",
+    reference: "Refrigeration Diagnostics — Restrictions"
+  },
+  {
+    id: 1022,
+    category: "HVAC Trade",
+    question_en: "A temperature drop across a liquid line drier indicates:",
+    question_pt: "Uma queda de temperatura através de um drier na linha líquida indica:",
+    options: ["Normal operation always", "Possible restriction", "Overcharge", "Low airflow"],
+    answer: "Possible restriction",
+    difficulty: "medium",
+    reference: "Refrigeration Diagnostics — Temperature Drop"
+  },
+  {
+    id: 1023,
+    category: "HVAC Trade",
+    question_en: "The PRIMARY purpose of a crankcase heater is to:",
+    question_pt: "O objetivo PRINCIPAL de um crankcase heater é:",
+    options: ["Increase airflow", "Prevent refrigerant migration into compressor oil during off cycle", "Increase subcooling", "Reduce static pressure"],
+    answer: "Prevent refrigerant migration into compressor oil during off cycle",
+    difficulty: "hard",
+    reference: "Compressor Protection"
+  },
+  {
+    id: 1024,
+    category: "HVAC Trade",
+    question_en: "Short cycling MOST commonly leads to:",
+    question_pt: "Short cycling mais comumente leva a:",
+    options: ["Better dehumidification", "Poor comfort and reduced equipment life", "Lower energy use always", "Higher airflow"],
+    answer: "Poor comfort and reduced equipment life",
+    difficulty: "easy",
+    reference: "System Performance — Cycling"
+  },
+  {
+    id: 1025,
+    category: "HVAC Trade",
+    question_en: "A common cause of short cycling is:",
+    question_pt: "Uma causa comum de short cycling é:",
+    options: ["Properly sized system", "Oversized equipment or thermostat location issues", "Correct airflow", "Clean coils"],
+    answer: "Oversized equipment or thermostat location issues",
+    difficulty: "medium",
+    reference: "System Performance — Cycling"
+  },
+  {
+    id: 1026,
+    category: "Electrical HVAC",
+    question_en: "A low-voltage short MOST commonly results in:",
+    question_pt: "Um curto em baixa tensão mais comumente resulta em:",
+    options: ["Breaker trip on main", "Blown control fuse", "Higher head pressure", "Low suction pressure"],
+    answer: "Blown control fuse",
+    difficulty: "medium",
+    reference: "Control Circuit Diagnostics"
+  },
+  {
+    id: 1027,
+    category: "Electrical HVAC",
+    question_en: "The MOST common reason for a float switch opening the control circuit is:",
+    question_pt: "O motivo mais comum para a chave boia abrir o circuito de controle é:",
+    options: ["Low voltage", "High condensate level due to drainage problem", "Overcharge", "High airflow"],
+    answer: "High condensate level due to drainage problem",
+    difficulty: "easy",
+    reference: "Condensate Safety Controls"
+  },
+  {
+    id: 1028,
+    category: "FBC Mechanical",
+    question_en: "A condensate drain should be installed so that it:",
+    question_pt: "Um dreno de condensado deve ser instalado de forma que ele:",
+    options: ["Causes damage", "Does not create a nuisance or damage", "Always drains into attic", "Connects to return duct"],
+    answer: "Does not create a nuisance or damage",
+    difficulty: "easy",
+    reference: "FBC Mechanical — Condensate Disposal"
+  },
+  {
+    id: 1029,
+    category: "HVAC Trade",
+    question_en: "If an evaporator coil is dirty, you will MOST likely see:",
+    question_pt: "Se o evaporador está sujo, você provavelmente verá:",
+    options: ["Higher airflow", "Reduced airflow and possible icing", "Lower head pressure", "Higher subcooling always"],
+    answer: "Reduced airflow and possible icing",
+    difficulty: "easy",
+    reference: "Airflow Diagnostics — Coil Condition"
+  },
+  {
+    id: 1030,
+    category: "HVAC Trade",
+    question_en: "High indoor humidity with acceptable temperature can be caused by:",
+    question_pt: "Alta umidade interna com temperatura aceitável pode ser causada por:",
+    options: ["Oversized equipment short cycling", "Low outdoor temperature", "High duct velocity", "High subcooling"],
+    answer: "Oversized equipment short cycling",
+    difficulty: "medium",
+    reference: "Humidity Control"
+  },
+  {
+    id: 1031,
+    category: "HVAC Trade",
+    question_en: "A duct system with many sharp elbows MOST likely causes:",
+    question_pt: "Um sistema de dutos com muitas curvas bruscas mais provavelmente causa:",
+    options: ["Lower static pressure", "Higher static pressure and reduced airflow", "Higher efficiency", "Higher SEER"],
+    answer: "Higher static pressure and reduced airflow",
+    difficulty: "easy",
+    reference: "Airflow & Duct Design"
+  },
+  {
+    id: 1032,
+    category: "HVAC Trade",
+    question_en: "The BEST method to confirm a duct restriction is:",
+    question_pt: "O melhor método para confirmar restrição em dutos é:",
+    options: ["Guess by feel", "Measure total external static pressure and compare to rated", "Add refrigerant", "Increase thermostat setting"],
+    answer: "Measure total external static pressure and compare to rated",
+    difficulty: "medium",
+    reference: "Airflow Diagnostics — TESP"
+  },
+  {
+    id: 1033,
+    category: "FBC Mechanical",
+    question_en: "Mechanical equipment installed in an attic generally requires:",
+    question_pt: "Equipamento mecânico instalado em sótão geralmente exige:",
+    options: ["No access", "Permanent access and service space as required", "Only a larger filter", "Only a warning label"],
+    answer: "Permanent access and service space as required",
+    difficulty: "medium",
+    reference: "FBC Mechanical — Attic Access"
+  },
+  {
+    id: 1034,
+    category: "Electrical HVAC",
+    question_en: "A disconnect is required within sight of outdoor HVAC equipment primarily for:",
+    question_pt: "Um disconnect é exigido à vista do equipamento externo principalmente para:",
+    options: ["Energy savings", "Safe servicing and lockout", "Noise control", "Humidity control"],
+    answer: "Safe servicing and lockout",
+    difficulty: "easy",
+    reference: "NEC Disconnect Location"
+  },
+  {
+    id: 1035,
+    category: "HVAC Trade",
+    question_en: "A refrigeration system restriction typically causes superheat to:",
+    question_pt: "Uma restrição em sistema de refrigeração normalmente faz o superheat:",
+    options: ["Decrease", "Increase", "Stay the same always", "Become negative"],
+    answer: "Increase",
+    difficulty: "medium",
+    reference: "Refrigeration Diagnostics — Restrictions"
+  },
+  {
+    id: 1036,
+    category: "HVAC Trade",
+    question_en: "A low refrigerant charge typically causes subcooling to:",
+    question_pt: "Baixa carga de refrigerante normalmente faz o subcooling:",
+    options: ["Increase", "Decrease", "Stay constant", "Become negative always"],
+    answer: "Decrease",
+    difficulty: "medium",
+    reference: "Refrigeration Diagnostics — Charging"
+  },
+  {
+    id: 1037,
+    category: "HVAC Trade",
+    question_en: "A high refrigerant charge typically causes subcooling to:",
+    question_pt: "Alta carga de refrigerante normalmente faz o subcooling:",
+    options: ["Decrease", "Increase", "Stay constant", "Become zero always"],
+    answer: "Increase",
+    difficulty: "medium",
+    reference: "Refrigeration Diagnostics — Charging"
+  },
+  {
+    id: 1038,
+    category: "HVAC Trade",
+    question_en: "The MOST common cause of a noisy blower compartment is:",
+    question_pt: "A causa mais comum de ruído no compartimento do blower é:",
+    options: ["Perfect airflow", "Loose components or high static pressure", "High subcooling", "Low head pressure"],
+    answer: "Loose components or high static pressure",
+    difficulty: "medium",
+    reference: "Airflow & Mechanical Noise"
+  },
+  {
+    id: 1039,
+    category: "Electrical HVAC",
+    question_en: "If line voltage is correct but a motor will not run, the NEXT check is typically:",
+    question_pt: "Se a tensão de linha está correta mas o motor não roda, a próxima verificação é tipicamente:",
+    options: ["Add refrigerant", "Capacitor and motor winding continuity", "Clean filters", "Lower thermostat setting"],
+    answer: "Capacitor and motor winding continuity",
+    difficulty: "medium",
+    reference: "Motor Diagnostics"
+  },
+  {
+    id: 1040,
+    category: "HVAC Trade",
+    question_en: "A suction line that is unusually warm during cooling MOST likely indicates:",
+    question_pt: "Uma linha de sucção incomumente quente durante resfriamento provavelmente indica:",
+    options: ["Normal operation", "Starved evaporator (restriction/undercharge)", "Overcharge", "Dirty condenser only"],
+    answer: "Starved evaporator (restriction/undercharge)",
+    difficulty: "hard",
+    reference: "Refrigeration Diagnostics — Line Temperatures"
+  },
+  {
+    id: 1041,
+    category: "HVAC Trade",
+    question_en: "A suction line that is sweating heavily with very low superheat MOST likely indicates:",
+    question_pt: "Uma linha de sucção suando muito com superheat muito baixo provavelmente indica:",
+    options: ["Starved evaporator", "Overfeeding and possible floodback risk", "Dirty filter", "Low indoor load only"],
+    answer: "Overfeeding and possible floodback risk",
+    difficulty: "hard",
+    reference: "Compressor Protection — Floodback"
+  },
+  {
+    id: 1042,
+    category: "HVAC Trade",
+    question_en: "A common cause of poor comfort in a single room is:",
+    question_pt: "Uma causa comum de desconforto em um único cômodo é:",
+    options: ["Overcharge", "Imbalanced airflow or closed damper/register", "High subcooling", "Low head pressure"],
+    answer: "Imbalanced airflow or closed damper/register",
+    difficulty: "easy",
+    reference: "Air Distribution — Balancing"
+  },
+  {
+    id: 1043,
+    category: "HVAC Trade",
+    question_en: "If a system has adequate cooling but poor dehumidification, the MOST likely issue is:",
+    question_pt: "Se um sistema tem resfriamento adequado mas desumidifica mal, o problema mais provável é:",
+    options: ["Undersized system", "Oversized system short cycling", "Restricted metering device", "Dirty condenser fan"],
+    answer: "Oversized system short cycling",
+    difficulty: "medium",
+    reference: "Humidity Control"
+  },
+  {
+    id: 1044,
+    category: "FBC Mechanical",
+    question_en: "Ducts in unconditioned spaces should be insulated primarily to:",
+    question_pt: "Dutos em áreas não condicionadas devem ser isolados principalmente para:",
+    options: ["Increase static pressure", "Reduce heat gain/loss and prevent condensation", "Increase refrigerant flow", "Reduce breaker trips"],
+    answer: "Reduce heat gain/loss and prevent condensation",
+    difficulty: "easy",
+    reference: "FBC Energy/Mechanical — Duct Insulation"
+  },
+  {
+    id: 1045,
+    category: "Electrical HVAC",
+    question_en: "MCA is used for sizing:",
+    question_pt: "MCA é usada para dimensionar:",
+    options: ["Breaker only", "Minimum conductor (wire) size", "Duct size", "Refrigerant line size"],
+    answer: "Minimum conductor (wire) size",
+    difficulty: "easy",
+    reference: "NEC HVAC Nameplate Data"
+  },
+  {
+    id: 1046,
+    category: "Electrical HVAC",
+    question_en: "MOCP limits the maximum size of:",
+    question_pt: "MOCP limita o tamanho máximo de:",
+    options: ["Conductor insulation", "Breaker or fuse", "Thermostat wire", "Filter drier"],
+    answer: "Breaker or fuse",
+    difficulty: "easy",
+    reference: "NEC HVAC Nameplate Data"
+  },
+  {
+    id: 1047,
+    category: "HVAC Trade",
+    question_en: "The BEST way to reduce duct system static pressure is to:",
+    question_pt: "A melhor forma de reduzir a pressão estática do sistema de dutos é:",
+    options: ["Use a higher MERV filter", "Increase duct size and reduce restrictions", "Add refrigerant", "Lower thermostat setpoint"],
+    answer: "Increase duct size and reduce restrictions",
+    difficulty: "medium",
+    reference: "Airflow & Duct Design"
+  },
+  {
+    id: 1048,
+    category: "HVAC Trade",
+    question_en: "A high-MERV filter that is too restrictive can cause:",
+    question_pt: "Um filtro MERV alto muito restritivo pode causar:",
+    options: ["Higher airflow", "Higher static pressure and reduced airflow", "Lower energy use always", "Higher subcooling"],
+    answer: "Higher static pressure and reduced airflow",
+    difficulty: "medium",
+    reference: "Airflow & Filtration"
+  },
+  {
+    id: 1049,
+    category: "HVAC Trade",
+    question_en: "A refrigerant leak in an evaporator coil is MOST often confirmed by:",
+    question_pt: "Um vazamento de refrigerante no evaporador é mais frequentemente confirmado por:",
+    options: ["Static pressure reading", "Leak detection and pressure testing per procedure", "Duct blaster test", "Megger test"],
+    answer: "Leak detection and pressure testing per procedure",
+    difficulty: "hard",
+    reference: "Refrigerant Leak Testing"
+  },
+  {
+    id: 1050,
+    category: "HVAC Trade",
+    question_en: "The MOST important exam rule about refrigerants is:",
+    question_pt: "A regra mais importante de prova sobre refrigerantes é:",
+    options: ["Vent refrigerant to atmosphere", "Recover refrigerant properly and follow safety/handling rules", "Charge only by feeling the lines", "Never use gauges"],
+    answer: "Recover refrigerant properly and follow safety/handling rules",
+    difficulty: "easy",
+    reference: "EPA/Best Practice — Refrigerant Handling"
+  },
+{
+  id: 1051,
+  category: "HVAC Trade",
+  question_en: "A centrifugal chiller primarily uses which principle to move refrigerant?",
+  question_pt: "Um chiller centrífugo usa principalmente qual princípio para mover o refrigerante?",
+  options: ["Positive displacement", "Centrifugal force", "Thermal expansion", "Vacuum pressure"],
+  answer: "Centrifugal force",
+  difficulty: "hard",
+  reference: "Chillers — Fundamentals"
+},
+{
+  id: 1052,
+  category: "HVAC Trade",
+  question_en: "Cooling towers primarily reject heat through:",
+  question_pt: "Torres de resfriamento rejeitam calor principalmente através de:",
+  options: ["Radiation", "Conduction", "Evaporation", "Compression"],
+  answer: "Evaporation",
+  difficulty: "medium",
+  reference: "Cooling Towers"
+},
+{
+  id: 1053,
+  category: "HVAC Trade",
+  question_en: "A hydronic system circulates:",
+  question_pt: "Um sistema hidrônico circula:",
+  options: ["Air only", "Refrigerant only", "Water or glycol", "Steam only"],
+  answer: "Water or glycol",
+  difficulty: "easy",
+  reference: "Hydronic Systems"
+},
+{
+  id: 1054,
+  category: "HVAC Trade",
+  question_en: "What is the purpose of a primary-secondary pumping system?",
+  question_pt: "Qual é o propósito de um sistema de bombeamento primário-secundário?",
+  options: ["Increase airflow", "Maintain constant flow through chiller", "Reduce voltage", "Increase refrigerant charge"],
+  answer: "Maintain constant flow through chiller",
+  difficulty: "hard",
+  reference: "Hydronic Design"
+},
+{
+  id: 1055,
+  category: "HVAC Trade",
+  question_en: "ASHRAE Standard 62 relates to:",
+  question_pt: "A norma ASHRAE 62 refere-se a:",
+  options: ["Energy efficiency", "Ventilation and indoor air quality", "Electrical wiring", "Duct sizing"],
+  answer: "Ventilation and indoor air quality",
+  difficulty: "medium",
+  reference: "ASHRAE 62"
+},
+{
+  id: 1056,
+  category: "HVAC Trade",
+  question_en: "A variable air volume (VAV) system controls:",
+  question_pt: "Um sistema VAV controla:",
+  options: ["Temperature only", "Air volume", "Refrigerant flow", "Humidity only"],
+  answer: "Air volume",
+  difficulty: "medium",
+  reference: "VAV Systems"
+},
+{
+  id: 1057,
+  category: "HVAC Trade",
+  question_en: "A chiller with low evaporator pressure and high condenser pressure indicates:",
+  question_pt: "Um chiller com baixa pressão no evaporador e alta no condensador indica:",
+  options: ["Overcharge", "Restriction or fouled tubes", "High airflow", "Low load"],
+  answer: "Restriction or fouled tubes",
+  difficulty: "hard",
+  reference: "Chiller Diagnostics"
+},
+{
+  id: 1058,
+  category: "HVAC Trade",
+  question_en: "What is the function of a cooling tower drift eliminator?",
+  question_pt: "Qual é a função do eliminador de arraste em uma torre de resfriamento?",
+  options: ["Increase airflow", "Reduce water loss", "Increase pressure", "Cool refrigerant"],
+  answer: "Reduce water loss",
+  difficulty: "medium",
+  reference: "Cooling Tower Components"
+},
+{
+  id: 1059,
+  category: "HVAC Trade",
+  question_en: "A boiler safety device that prevents overheating is:",
+  question_pt: "Um dispositivo de segurança da caldeira que evita superaquecimento é:",
+  options: ["Pressure relief valve", "TXV", "Accumulator", "Contactor"],
+  answer: "Pressure relief valve",
+  difficulty: "easy",
+  reference: "Boilers Safety"
+},
+{
+  id: 1060,
+  category: "HVAC Trade",
+  question_en: "Psychrometrics deals with:",
+  question_pt: "Psicrometria trata de:",
+  options: ["Refrigerant flow", "Air properties and moisture", "Electrical load", "Static pressure"],
+  answer: "Air properties and moisture",
+  difficulty: "medium",
+  reference: "Psychrometrics"
+},
+{
+  id: 1061,
+  category: "HVAC Trade",
+  question_en: "Relative humidity is defined as:",
+  question_pt: "Umidade relativa é definida como:",
+  options: ["Moisture in air vs max possible", "Dry air temperature", "Static pressure", "Airflow rate"],
+  answer: "Moisture in air vs max possible",
+  difficulty: "easy",
+  reference: "Psychrometrics"
+},
+{
+  id: 1062,
+  category: "HVAC Trade",
+  question_en: "A make-up air unit is used to:",
+  question_pt: "Uma unidade de ar de reposição é usada para:",
+  options: ["Increase static pressure", "Replace exhausted air", "Cool refrigerant", "Increase SEER"],
+  answer: "Replace exhausted air",
+  difficulty: "medium",
+  reference: "Ventilation Systems"
+},
+{
+  id: 1063,
+  category: "HVAC Trade",
+  question_en: "A fire damper closes when:",
+  question_pt: "Um fire damper fecha quando:",
+  options: ["Airflow increases", "Smoke detected", "High temperature detected", "Low pressure"],
+  answer: "High temperature detected",
+  difficulty: "medium",
+  reference: "Fire Dampers"
+},
+{
+  id: 1064,
+  category: "HVAC Trade",
+  question_en: "A smoke damper operates based on:",
+  question_pt: "Um smoke damper opera baseado em:",
+  options: ["Temperature", "Smoke detection", "Airflow", "Humidity"],
+  answer: "Smoke detection",
+  difficulty: "medium",
+  reference: "Smoke Dampers"
+},
+{
+  id: 1065,
+  category: "HVAC Trade",
+  question_en: "What is the main purpose of economizers?",
+  question_pt: "Qual é o principal propósito dos economizadores?",
+  options: ["Increase refrigerant pressure", "Use outdoor air for cooling", "Increase humidity", "Reduce airflow"],
+  answer: "Use outdoor air for cooling",
+  difficulty: "medium",
+  reference: "Economizers"
+},
+{
+  id: 1066,
+  category: "HVAC Trade",
+  question_en: "A chilled water system typically operates at:",
+  question_pt: "Um sistema de água gelada opera tipicamente em:",
+  options: ["32°F", "44°F", "60°F", "75°F"],
+  answer: "44°F",
+  difficulty: "medium",
+  reference: "Chilled Water Systems"
+},
+{
+  id: 1067,
+  category: "HVAC Trade",
+  question_en: "What is ton of refrigeration equal to?",
+  question_pt: "Uma tonelada de refrigeração equivale a:",
+  options: ["10,000 BTU", "12,000 BTU/hr", "15,000 BTU", "20,000 BTU"],
+  answer: "12,000 BTU/hr",
+  difficulty: "easy",
+  reference: "HVAC Fundamentals"
+},
+{
+  id: 1068,
+  category: "HVAC Trade",
+  question_en: "A boiler system uses which heat transfer method?",
+  question_pt: "Um sistema de caldeira usa qual método de transferência de calor?",
+  options: ["Conduction", "Radiation", "Convection", "All of the above"],
+  answer: "All of the above",
+  difficulty: "medium",
+  reference: "Heat Transfer"
+},
+{
+  id: 1069,
+  category: "HVAC Trade",
+  question_en: "A system with high static pressure usually indicates:",
+  question_pt: "Um sistema com alta pressão estática geralmente indica:",
+  options: ["Good airflow", "Duct restriction", "Overcharge", "Low load"],
+  answer: "Duct restriction",
+  difficulty: "medium",
+  reference: "Duct Systems"
+},
+{
+  id: 1070,
+  category: "HVAC Trade",
+  question_en: "The primary purpose of a balancing damper is:",
+  question_pt: "O principal propósito de um damper de balanceamento é:",
+  options: ["Stop airflow", "Adjust airflow", "Increase pressure", "Reduce temperature"],
+  answer: "Adjust airflow",
+  difficulty: "easy",
+  reference: "Air Balancing"
+},
+{
+  id: 1071,
+  category: "HVAC Trade",
+  question_en: "In a chilled water system, the temperature difference between supply and return is known as:",
+  question_pt: "Em um sistema de água gelada, a diferença de temperatura entre ida e retorno é conhecida como:",
+  options: ["Static pressure", "Delta T", "Superheat", "Subcooling"],
+  answer: "Delta T",
+  difficulty: "medium",
+  reference: "Chilled Water Systems"
+},
+{
+  id: 1072,
+  category: "HVAC Trade",
+  question_en: "A low Delta T in a chilled water system indicates:",
+  question_pt: "Um Delta T baixo em um sistema de água gelada indica:",
+  options: ["Good heat transfer", "Poor heat transfer", "High load", "Overcharge"],
+  answer: "Poor heat transfer",
+  difficulty: "hard",
+  reference: "Hydronic Diagnostics"
+},
+{
+  id: 1073,
+  category: "HVAC Trade",
+  question_en: "Which component separates air from water in hydronic systems?",
+  question_pt: "Qual componente separa o ar da água em sistemas hidrônicos?",
+  options: ["Air separator", "Expansion tank", "Pump", "Boiler"],
+  answer: "Air separator",
+  difficulty: "medium",
+  reference: "Hydronic Systems"
+},
+{
+  id: 1074,
+  category: "HVAC Trade",
+  question_en: "A variable frequency drive (VFD) controls:",
+  question_pt: "Um inversor de frequência (VFD) controla:",
+  options: ["Voltage only", "Motor speed", "Static pressure", "Refrigerant flow"],
+  answer: "Motor speed",
+  difficulty: "medium",
+  reference: "Electrical Systems"
+},
+{
+  id: 1075,
+  category: "HVAC Trade",
+  question_en: "A high wet bulb temperature indicates:",
+  question_pt: "Uma temperatura de bulbo úmido alta indica:",
+  options: ["Low humidity", "High humidity", "Low airflow", "High pressure"],
+  answer: "High humidity",
+  difficulty: "medium",
+  reference: "Psychrometrics"
+},
+{
+  id: 1076,
+  category: "HVAC Trade",
+  question_en: "A system economizer will typically operate when:",
+  question_pt: "Um economizador normalmente opera quando:",
+  options: ["Outdoor air is cooler than indoor air", "Indoor air is hotter", "Humidity is high", "Pressure is low"],
+  answer: "Outdoor air is cooler than indoor air",
+  difficulty: "medium",
+  reference: "Economizers"
+},
+{
+  id: 1077,
+  category: "HVAC Trade",
+  question_en: "A cooling tower approach temperature is defined as:",
+  question_pt: "A temperatura de aproximação de uma torre de resfriamento é definida como:",
+  options: [
+    "Return water temp minus wet bulb",
+    "Supply water temp minus wet bulb",
+    "Wet bulb minus dry bulb",
+    "Static pressure difference"
+  ],
+  answer: "Supply water temp minus wet bulb",
+  difficulty: "hard",
+  reference: "Cooling Towers"
+},
+{
+  id: 1078,
+  category: "HVAC Trade",
+  question_en: "Which system uses terminal boxes to control airflow in zones?",
+  question_pt: "Qual sistema usa caixas terminais para controlar o fluxo de ar por zonas?",
+  options: ["Constant volume", "VAV system", "Split system", "Mini-split"],
+  answer: "VAV system",
+  difficulty: "medium",
+  reference: "VAV Systems"
+},
+{
+  id: 1079,
+  category: "HVAC Trade",
+  question_en: "A high return air temperature with normal supply indicates:",
+  question_pt: "Alta temperatura de retorno com suprimento normal indica:",
+  options: ["Low load", "High load", "Overcharge", "Restriction"],
+  answer: "High load",
+  difficulty: "medium",
+  reference: "Load Analysis"
+},
+{
+  id: 1080,
+  category: "HVAC Trade",
+  question_en: "What is the purpose of a triple-duty valve?",
+  question_pt: "Qual é o propósito de uma válvula triple-duty?",
+  options: ["Increase flow", "Balance, isolate, and check flow", "Control temperature", "Reduce pressure"],
+  answer: "Balance, isolate, and check flow",
+  difficulty: "hard",
+  reference: "Hydronic Valves"
+},
+{
+  id: 1081,
+  category: "HVAC Trade",
+  question_en: "A duct system with excessive velocity will cause:",
+  question_pt: "Um sistema de dutos com velocidade excessiva causará:",
+  options: ["Low noise", "High noise", "Low pressure", "Better efficiency"],
+  answer: "High noise",
+  difficulty: "easy",
+  reference: "Duct Design"
+},
+{
+  id: 1082,
+  category: "HVAC Trade",
+  question_en: "A system with low airflow and high Delta T indicates:",
+  question_pt: "Um sistema com baixo fluxo de ar e Delta T alto indica:",
+  options: ["Normal operation", "Airflow restriction", "Overcharge", "High humidity"],
+  answer: "Airflow restriction",
+  difficulty: "medium",
+  reference: "Airflow Diagnostics"
+},
+{
+  id: 1083,
+  category: "HVAC Trade",
+  question_en: "A centrifugal pump head is measured in:",
+  question_pt: "A altura manométrica de uma bomba centrífuga é medida em:",
+  options: ["CFM", "Feet of water", "PSI", "BTU"],
+  answer: "Feet of water",
+  difficulty: "medium",
+  reference: "Pumps"
+},
+{
+  id: 1084,
+  category: "HVAC Trade",
+  question_en: "Which code governs HVAC installations in Florida?",
+  question_pt: "Qual código regula instalações HVAC na Flórida?",
+  options: [
+    "NFPA 70",
+    "Florida Mechanical Code",
+    "ASHRAE 90.1",
+    "OSHA"
+  ],
+  answer: "Florida Mechanical Code",
+  difficulty: "easy",
+  reference: "FBC Mechanical"
+},
+{
+  id: 1085,
+  category: "HVAC Trade",
+  question_en: "What is the minimum ventilation requirement based on occupancy?",
+  question_pt: "O requisito mínimo de ventilação é baseado em:",
+  options: ["Temperature", "Occupancy and space type", "Pressure", "Equipment size"],
+  answer: "Occupancy and space type",
+  difficulty: "medium",
+  reference: "ASHRAE 62"
+},
+{
+  id: 1086,
+  category: "HVAC Trade",
+  question_en: "A high suction pressure and low head pressure indicates:",
+  question_pt: "Alta pressão de sucção e baixa de descarga indica:",
+  options: ["Undercharge", "Overcharge", "Low load", "Restriction"],
+  answer: "Low load",
+  difficulty: "hard",
+  reference: "Diagnostics"
+},
+{
+  id: 1087,
+  category: "HVAC Trade",
+  question_en: "Which system uses chilled water coils in air handlers?",
+  question_pt: "Qual sistema usa serpentinas de água gelada em unidades de tratamento de ar?",
+  options: ["Split system", "Chilled water system", "Mini-split", "VRF"],
+  answer: "Chilled water system",
+  difficulty: "easy",
+  reference: "Chilled Water"
+},
+{
+  id: 1088,
+  category: "HVAC Trade",
+  question_en: "What does a building automation system (BAS) control?",
+  question_pt: "O que um sistema de automação predial controla?",
+  options: [
+    "Only lighting",
+    "HVAC, lighting, and systems",
+    "Refrigerant only",
+    "Water only"
+  ],
+  answer: "HVAC, lighting, and systems",
+  difficulty: "medium",
+  reference: "BAS Systems"
+},
+{
+  id: 1089,
+  category: "HVAC Trade",
+  question_en: "Which system is most efficient for large buildings?",
+  question_pt: "Qual sistema é mais eficiente para grandes edifícios?",
+  options: ["Window units", "Split systems", "Chilled water systems", "Mini-splits"],
+  answer: "Chilled water systems",
+  difficulty: "medium",
+  reference: "System Design"
+},
+{
+  id: 1090,
+  category: "HVAC Trade",
+  question_en: "A system with high static pressure and normal airflow indicates:",
+  question_pt: "Alta pressão estática com fluxo normal indica:",
+  options: ["Normal operation", "Restriction", "Overcharge", "Low load"],
+  answer: "Normal operation",
+  difficulty: "hard",
+  reference: "Duct Systems"
+},
+{
+  id: 1091,
+  category: "HVAC Trade",
+  question_en: "A boiler expansion tank prevents:",
+  question_pt: "O tanque de expansão da caldeira evita:",
+  options: ["Pressure spikes", "Low airflow", "Overheating", "Low humidity"],
+  answer: "Pressure spikes",
+  difficulty: "medium",
+  reference: "Boilers"
+},
+{
+  id: 1092,
+  category: "HVAC Trade",
+  question_en: "Which type of system uses refrigerant directly in indoor units?",
+  question_pt: "Qual sistema usa refrigerante diretamente nas unidades internas?",
+  options: ["Chilled water", "VRF", "Hydronic", "Boiler"],
+  answer: "VRF",
+  difficulty: "medium",
+  reference: "VRF Systems"
+},
+{
+  id: 1093,
+  category: "HVAC Trade",
+  question_en: "A high-pressure cutout switch protects against:",
+  question_pt: "O pressostato de alta protege contra:",
+  options: ["Low airflow", "High pressure", "Low temperature", "Overheating motor"],
+  answer: "High pressure",
+  difficulty: "easy",
+  reference: "Safety Controls"
+},
+{
+  id: 1094,
+  category: "HVAC Trade",
+  question_en: "Which component removes non-condensables from a system?",
+  question_pt: "Qual componente remove gases não condensáveis do sistema?",
+  options: ["Purge unit", "Accumulator", "TXV", "Pump"],
+  answer: "Purge unit",
+  difficulty: "hard",
+  reference: "Chillers"
+},
+{
+  id: 1095,
+  category: "HVAC Trade",
+  question_en: "What is the primary function of a plate heat exchanger?",
+  question_pt: "Qual é a função principal de um trocador de calor de placas?",
+  options: [
+    "Increase airflow",
+    "Transfer heat between fluids",
+    "Increase pressure",
+    "Reduce humidity"
+  ],
+  answer: "Transfer heat between fluids",
+  difficulty: "medium",
+  reference: "Heat Exchangers"
+},
+{
+  id: 1096,
+  category: "HVAC Trade",
+  question_en: "Which measurement determines total system efficiency?",
+  question_pt: "Qual medida determina a eficiência total do sistema?",
+  options: ["SEER", "CFM", "PSI", "Delta T"],
+  answer: "SEER",
+  difficulty: "easy",
+  reference: "Efficiency Ratings"
+},
+{
+  id: 1097,
+  category: "HVAC Trade",
+  question_en: "What is the main function of a boiler?",
+  question_pt: "Qual é a função principal de uma caldeira?",
+  options: ["Cool air", "Heat water or steam", "Compress refrigerant", "Reduce airflow"],
+  answer: "Heat water or steam",
+  difficulty: "easy",
+  reference: "Boilers"
+},
+{
+  id: 1098,
+  category: "HVAC Trade",
+  question_en: "A system with fluctuating pressures may indicate:",
+  question_pt: "Um sistema com pressões flutuantes pode indicar:",
+  options: ["Stable operation", "Air in system", "Overcharge", "Low airflow"],
+  answer: "Air in system",
+  difficulty: "hard",
+  reference: "Diagnostics"
+},
+{
+  id: 1099,
+  category: "HVAC Trade",
+  question_en: "What is the primary advantage of a VRF system?",
+  question_pt: "Qual é a principal vantagem de um sistema VRF?",
+  options: [
+    "Low efficiency",
+    "Precise zone control",
+    "High airflow only",
+    "No refrigerant needed"
+  ],
+  answer: "Precise zone control",
+  difficulty: "medium",
+  reference: "VRF Systems"
+},
+{
+  id: 1100,
+  category: "HVAC Trade",
+  question_en: "Which system is most commonly used in hospitals?",
+  question_pt: "Qual sistema é mais comum em hospitais?",
+  options: ["Window AC", "Mini-split", "Chilled water system", "Portable AC"],
+  answer: "Chilled water system",
+  difficulty: "medium",
+  reference: "Commercial HVAC"
+},
+{
+  id: 1101,
+  category: "HVAC Trade",
+  question_en: "A centrifugal chiller surge condition is caused by:",
+  question_pt: "A condição de surge em um chiller centrífugo é causada por:",
+  options: ["Low load and low flow", "High airflow", "Overcharge", "Low refrigerant"],
+  answer: "Low load and low flow",
+  difficulty: "hard",
+  reference: "Chiller Operation"
+},
+{
+  id: 1102,
+  category: "HVAC Trade",
+  question_en: "A cooling tower range is defined as:",
+  question_pt: "O range de uma torre de resfriamento é definido como:",
+  options: [
+    "Return water temp minus supply water temp",
+    "Supply water minus wet bulb",
+    "Wet bulb minus dry bulb",
+    "Static pressure difference"
+  ],
+  answer: "Return water temp minus supply water temp",
+  difficulty: "hard",
+  reference: "Cooling Towers"
+},
+{
+  id: 1103,
+  category: "HVAC Trade",
+  question_en: "A hydronic system with air trapped will show:",
+  question_pt: "Um sistema hidrônico com ar preso apresentará:",
+  options: ["Normal flow", "Noisy pipes and poor circulation", "High SEER", "Low pressure only"],
+  answer: "Noisy pipes and poor circulation",
+  difficulty: "medium",
+  reference: "Hydronics"
+},
+{
+  id: 1104,
+  category: "HVAC Trade",
+  question_en: "A system with high return temperature and low Delta T indicates:",
+  question_pt: "Alta temperatura de retorno e Delta T baixo indica:",
+  options: ["Low load", "Poor heat exchange", "Overcharge", "Restriction"],
+  answer: "Poor heat exchange",
+  difficulty: "hard",
+  reference: "Diagnostics"
+},
+{
+  id: 1105,
+  category: "HVAC Trade",
+  question_en: "ASHRAE 90.1 primarily deals with:",
+  question_pt: "A norma ASHRAE 90.1 trata principalmente de:",
+  options: ["Ventilation", "Energy efficiency", "Fire safety", "Refrigerants"],
+  answer: "Energy efficiency",
+  difficulty: "medium",
+  reference: "ASHRAE 90.1"
+},
+{
+  id: 1106,
+  category: "HVAC Trade",
+  question_en: "Which system reduces fan energy by varying speed?",
+  question_pt: "Qual sistema reduz energia do ventilador variando a velocidade?",
+  options: ["Constant volume", "VAV", "Split", "Window unit"],
+  answer: "VAV",
+  difficulty: "medium",
+  reference: "VAV Systems"
+},
+{
+  id: 1107,
+  category: "HVAC Trade",
+  question_en: "A fouled condenser tube in a chiller will cause:",
+  question_pt: "Um tubo do condensador sujo em um chiller causará:",
+  options: ["Low head pressure", "High head pressure", "Low suction pressure", "High airflow"],
+  answer: "High head pressure",
+  difficulty: "medium",
+  reference: "Chillers"
+},
+{
+  id: 1108,
+  category: "HVAC Trade",
+  question_en: "A plate heat exchanger transfers heat by:",
+  question_pt: "Um trocador de calor de placas transfere calor por:",
+  options: ["Radiation", "Conduction and convection", "Compression", "Evaporation"],
+  answer: "Conduction and convection",
+  difficulty: "medium",
+  reference: "Heat Exchangers"
+},
+{
+  id: 1109,
+  category: "HVAC Trade",
+  question_en: "A pump cavitation condition is caused by:",
+  question_pt: "A cavitação de uma bomba é causada por:",
+  options: ["High pressure", "Low suction pressure", "High flow", "Overcharge"],
+  answer: "Low suction pressure",
+  difficulty: "hard",
+  reference: "Pumps"
+},
+{
+  id: 1110,
+  category: "HVAC Trade",
+  question_en: "A system with high humidity and low Delta T indicates:",
+  question_pt: "Alta umidade e Delta T baixo indica:",
+  options: ["High airflow", "Low airflow", "Overcharge", "Restriction"],
+  answer: "High airflow",
+  difficulty: "hard",
+  reference: "Psychrometrics"
+},
+{
+  id: 1111,
+  category: "HVAC Trade",
+  question_en: "In a chilled water system, a high Delta T indicates:",
+  question_pt: "Em um sistema de água gelada, um Delta T alto indica:",
+  options: ["High airflow", "Efficient heat transfer", "Overcharge", "Restriction in refrigerant"],
+  answer: "Efficient heat transfer",
+  difficulty: "medium",
+  reference: "Hydronic Systems"
+},
+{
+  id: 1112,
+  category: "HVAC Trade",
+  question_en: "A system with low suction pressure and normal head pressure indicates:",
+  question_pt: "Baixa pressão de sucção e pressão de descarga normal indica:",
+  options: ["Undercharge", "Airflow restriction", "Overcharge", "Dirty condenser"],
+  answer: "Airflow restriction",
+  difficulty: "hard",
+  reference: "Diagnostics"
+},
+{
+  id: 1113,
+  category: "HVAC Trade",
+  question_en: "Which component ensures proper refrigerant flow in a VRF system?",
+  question_pt: "Qual componente garante o fluxo adequado de refrigerante em um sistema VRF?",
+  options: ["TXV", "Electronic expansion valve", "Accumulator", "Contactor"],
+  answer: "Electronic expansion valve",
+  difficulty: "medium",
+  reference: "VRF Systems"
+},
+{
+  id: 1114,
+  category: "HVAC Trade",
+  question_en: "A system with high superheat and normal subcooling indicates:",
+  question_pt: "Superaquecimento alto e sub-resfriamento normal indica:",
+  options: ["Undercharge", "Airflow issue", "Restriction", "Overcharge"],
+  answer: "Undercharge",
+  difficulty: "hard",
+  reference: "Diagnostics"
+},
+{
+  id: 1115,
+  category: "HVAC Trade",
+  question_en: "Which system is commonly used for large commercial buildings?",
+  question_pt: "Qual sistema é comumente usado em grandes edifícios comerciais?",
+  options: ["Mini-split", "Window AC", "Chilled water system", "Portable AC"],
+  answer: "Chilled water system",
+  difficulty: "easy",
+  reference: "Commercial HVAC"
+},
+{
+  id: 1116,
+  category: "HVAC Trade",
+  question_en: "A system with fluctuating suction pressure may indicate:",
+  question_pt: "Pressão de sucção flutuante pode indicar:",
+  options: ["Stable load", "Air in system", "Overcharge", "High airflow"],
+  answer: "Air in system",
+  difficulty: "hard",
+  reference: "Diagnostics"
+},
+{
+  id: 1117,
+  category: "HVAC Trade",
+  question_en: "What is the main function of a BAS system?",
+  question_pt: "Qual é a função principal de um sistema BAS?",
+  options: ["Control refrigerant", "Monitor and control building systems", "Increase airflow", "Reduce pressure"],
+  answer: "Monitor and control building systems",
+  difficulty: "medium",
+  reference: "BAS Systems"
+},
+{
+  id: 1118,
+  category: "HVAC Trade",
+  question_en: "A system with high head pressure and normal suction pressure indicates:",
+  question_pt: "Alta pressão de descarga e sucção normal indica:",
+  options: ["Dirty condenser", "Undercharge", "Low load", "Restriction"],
+  answer: "Dirty condenser",
+  difficulty: "medium",
+  reference: "Diagnostics"
+},
+{
+  id: 1119,
+  category: "HVAC Trade",
+  question_en: "A cooling tower effectiveness is measured by:",
+  question_pt: "A eficiência de uma torre de resfriamento é medida por:",
+  options: ["Range", "Approach", "Delta T", "CFM"],
+  answer: "Approach",
+  difficulty: "hard",
+  reference: "Cooling Towers"
+},
+{
+  id: 1120,
+  category: "HVAC Trade",
+  question_en: "A system with low airflow and low Delta T indicates:",
+  question_pt: "Baixo fluxo de ar e Delta T baixo indica:",
+  options: ["Normal", "Severe airflow restriction", "Overcharge", "High load"],
+  answer: "Severe airflow restriction",
+  difficulty: "hard",
+  reference: "Airflow Diagnostics"
+},
+{
+  id: 1121,
+  category: "HVAC Trade",
+  question_en: "Which system is best for zoning control?",
+  question_pt: "Qual sistema é melhor para controle por zonas?",
+  options: ["Window unit", "VRF system", "Split system", "Portable AC"],
+  answer: "VRF system",
+  difficulty: "medium",
+  reference: "VRF Systems"
+},
+{
+  id: 1122,
+  category: "HVAC Trade",
+  question_en: "A hydronic pump is used to:",
+  question_pt: "Uma bomba hidrônica é usada para:",
+  options: ["Move refrigerant", "Move water", "Increase airflow", "Control pressure"],
+  answer: "Move water",
+  difficulty: "easy",
+  reference: "Hydronics"
+},
+{
+  id: 1123,
+  category: "HVAC Trade",
+  question_en: "A system with high humidity and high Delta T indicates:",
+  question_pt: "Alta umidade e Delta T alto indica:",
+  options: ["Good dehumidification", "Poor airflow", "Overcharge", "Low load"],
+  answer: "Good dehumidification",
+  difficulty: "medium",
+  reference: "Psychrometrics"
+},
+{
+  id: 1124,
+  category: "HVAC Trade",
+  question_en: "A clogged cooling tower nozzle will cause:",
+  question_pt: "Um bico de torre de resfriamento obstruído causará:",
+  options: ["Better cooling", "Reduced efficiency", "High airflow", "Low humidity"],
+  answer: "Reduced efficiency",
+  difficulty: "medium",
+  reference: "Cooling Towers"
+},
+{
+  id: 1125,
+  category: "HVAC Trade",
+  question_en: "Which code governs energy efficiency in HVAC systems?",
+  question_pt: "Qual código regula eficiência energética em HVAC?",
+  options: ["ASHRAE 62", "ASHRAE 90.1", "NFPA 70", "OSHA"],
+  answer: "ASHRAE 90.1",
+  difficulty: "medium",
+  reference: "Energy Codes"
+},
+{
+  id: 1126,
+  category: "HVAC Trade",
+  question_en: "A system with high suction pressure and high head pressure indicates:",
+  question_pt: "Alta sucção e alta descarga indica:",
+  options: ["Overcharge", "Undercharge", "Low load", "Restriction"],
+  answer: "Overcharge",
+  difficulty: "hard",
+  reference: "Diagnostics"
+},
+{
+  id: 1127,
+  category: "HVAC Trade",
+  question_en: "A VFD reduces energy by:",
+  question_pt: "Um VFD reduz energia ao:",
+  options: ["Increasing voltage", "Reducing motor speed", "Increasing airflow", "Reducing pressure"],
+  answer: "Reducing motor speed",
+  difficulty: "medium",
+  reference: "Electrical Systems"
+},
+{
+  id: 1128,
+  category: "HVAC Trade",
+  question_en: "A system with high static pressure and low airflow indicates:",
+  question_pt: "Alta pressão estática e baixo fluxo indica:",
+  options: ["Normal", "Duct restriction", "Overcharge", "Low load"],
+  answer: "Duct restriction",
+  difficulty: "medium",
+  reference: "Duct Systems"
+},
+{
+  id: 1129,
+  category: "HVAC Trade",
+  question_en: "A system with low superheat and high subcooling indicates:",
+  question_pt: "Baixo superaquecimento e alto sub-resfriamento indica:",
+  options: ["Overcharge", "Undercharge", "Restriction", "Airflow issue"],
+  answer: "Overcharge",
+  difficulty: "hard",
+  reference: "Diagnostics"
+},
+{
+  id: 1130,
+  category: "HVAC Trade",
+  question_en: "A chiller purge unit removes:",
+  question_pt: "Um purge unit remove:",
+  options: ["Refrigerant", "Oil", "Non-condensables", "Water"],
+  answer: "Non-condensables",
+  difficulty: "medium",
+  reference: "Chillers"
+},
+{
+  id: 1131,
+  category: "HVAC Trade",
+  question_en: "A system with high Delta T and low airflow indicates:",
+  question_pt: "Delta T alto e baixo fluxo indica:",
+  options: ["Efficient system", "Airflow restriction", "Overcharge", "Low load"],
+  answer: "Airflow restriction",
+  difficulty: "medium",
+  reference: "Airflow Diagnostics"
+},
+{
+  id: 1132,
+  category: "HVAC Trade",
+  question_en: "Which system uses condenser water loops?",
+  question_pt: "Qual sistema usa loop de água de condensação?",
+  options: ["Split system", "Chilled water system", "Mini-split", "Window AC"],
+  answer: "Chilled water system",
+  difficulty: "medium",
+  reference: "Chillers"
+},
+{
+  id: 1133,
+  category: "HVAC Trade",
+  question_en: "A system with low Delta T and high airflow indicates:",
+  question_pt: "Delta T baixo e fluxo alto indica:",
+  options: ["Poor heat transfer", "Efficient system", "Overcharge", "Restriction"],
+  answer: "Poor heat transfer",
+  difficulty: "medium",
+  reference: "Diagnostics"
+},
+{
+  id: 1134,
+  category: "HVAC Trade",
+  question_en: "A system economizer reduces energy by:",
+  question_pt: "Um economizador reduz energia ao:",
+  options: ["Using outdoor air", "Increasing airflow", "Reducing pressure", "Cooling refrigerant"],
+  answer: "Using outdoor air",
+  difficulty: "medium",
+  reference: "Economizers"
+},
+{
+  id: 1135,
+  category: "HVAC Trade",
+  question_en: "A system with high humidity and low airflow indicates:",
+  question_pt: "Alta umidade e baixo fluxo indica:",
+  options: ["Good system", "Poor dehumidification", "Overcharge", "Low load"],
+  answer: "Poor dehumidification",
+  difficulty: "medium",
+  reference: "Psychrometrics"
+},
+{
+  id: 1136,
+  category: "HVAC Trade",
+  question_en: "A cooling tower fan failure will cause:",
+  question_pt: "Falha no ventilador da torre causa:",
+  options: ["Better cooling", "Reduced heat rejection", "Low humidity", "High airflow"],
+  answer: "Reduced heat rejection",
+  difficulty: "medium",
+  reference: "Cooling Towers"
+},
+{
+  id: 1137,
+  category: "HVAC Trade",
+  question_en: "Which measurement indicates system capacity?",
+  question_pt: "Qual medida indica a capacidade do sistema?",
+  options: ["BTU/hr", "CFM", "PSI", "Volts"],
+  answer: "BTU/hr",
+  difficulty: "easy",
+  reference: "HVAC Fundamentals"
+},
+{
+  id: 1138,
+  category: "HVAC Trade",
+  question_en: "A system with high head pressure and low airflow indicates:",
+  question_pt: "Alta pressão de descarga e baixo fluxo indica:",
+  options: ["Dirty condenser", "Overcharge", "Low load", "Restriction"],
+  answer: "Dirty condenser",
+  difficulty: "hard",
+  reference: "Diagnostics"
+},
+{
+  id: 1139,
+  category: "HVAC Trade",
+  question_en: "A boiler low-water cutoff prevents:",
+  question_pt: "O cutoff de baixo nível de água previne:",
+  options: ["Overheating", "Explosion risk", "Low airflow", "High pressure"],
+  answer: "Explosion risk",
+  difficulty: "medium",
+  reference: "Boilers Safety"
+},
+{
+  id: 1140,
+  category: "HVAC Trade",
+  question_en: "Which system uses refrigerant directly in zones?",
+  question_pt: "Qual sistema usa refrigerante diretamente nas zonas?",
+  options: ["VRF", "Chiller", "Boiler", "Hydronic"],
+  answer: "VRF",
+  difficulty: "easy",
+  reference: "VRF Systems"
+},
+{
+  id: 1141,
+  category: "HVAC Trade",
+  question_en: "A system with fluctuating Delta T indicates:",
+  question_pt: "Delta T flutuante indica:",
+  options: ["Stable system", "Load variation", "Overcharge", "Low airflow"],
+  answer: "Load variation",
+  difficulty: "medium",
+  reference: "Diagnostics"
+},
+{
+  id: 1142,
+  category: "HVAC Trade",
+  question_en: "A high-pressure cutout switch opens at:",
+  question_pt: "O pressostato de alta abre em:",
+  options: ["Low pressure", "High pressure", "Low temperature", "High airflow"],
+  answer: "High pressure",
+  difficulty: "easy",
+  reference: "Safety Controls"
+},
+{
+  id: 1143,
+  category: "HVAC Trade",
+  question_en: "A system with high airflow and low humidity indicates:",
+  question_pt: "Alto fluxo de ar e baixa umidade indica:",
+  options: ["Overcooling", "Poor dehumidification", "High load", "Restriction"],
+  answer: "Poor dehumidification",
+  difficulty: "medium",
+  reference: "Psychrometrics"
+},
+{
+  id: 1144,
+  category: "HVAC Trade",
+  question_en: "Which system is most efficient for zoning?",
+  question_pt: "Qual sistema é mais eficiente para zonas?",
+  options: ["Window AC", "VRF", "Split", "Portable"],
+  answer: "VRF",
+  difficulty: "medium",
+  reference: "VRF Systems"
+},
+{
+  id: 1145,
+  category: "HVAC Trade",
+  question_en: "A system with low Delta T and low airflow indicates:",
+  question_pt: "Delta T baixo e fluxo baixo indica:",
+  options: ["Normal", "Severe system issue", "Overcharge", "Low load"],
+  answer: "Severe system issue",
+  difficulty: "hard",
+  reference: "Diagnostics"
+},
+{
+  id: 1146,
+  category: "HVAC Trade",
+  question_en: "A system with high Delta T and normal airflow indicates:",
+  question_pt: "Delta T alto e fluxo normal indica:",
+  options: ["Efficient operation", "Overcharge", "Restriction", "Low load"],
+  answer: "Efficient operation",
+  difficulty: "medium",
+  reference: "Performance"
+},
+{
+  id: 1147,
+  category: "HVAC Trade",
+  question_en: "A system with fluctuating pressures indicates:",
+  question_pt: "Pressões flutuantes indicam:",
+  options: ["Stable system", "Air or load variation", "Overcharge", "Low airflow"],
+  answer: "Air or load variation",
+  difficulty: "medium",
+  reference: "Diagnostics"
+},
+{
+  id: 1148,
+  category: "HVAC Trade",
+  question_en: "A chiller system with low load may cause:",
+  question_pt: "Um chiller com carga baixa pode causar:",
+  options: ["Surge", "Overcharge", "High airflow", "Low pressure"],
+  answer: "Surge",
+  difficulty: "hard",
+  reference: "Chillers"
+},
+{
+  id: 1149,
+  category: "HVAC Trade",
+  question_en: "Which system is most common in large hospitals?",
+  question_pt: "Qual sistema é mais comum em grandes hospitais?",
+  options: ["Window AC", "Split system", "Chilled water", "Portable AC"],
+  answer: "Chilled water",
+  difficulty: "easy",
+  reference: "Commercial HVAC"
+},
+{
+  id: 1150,
+  category: "HVAC Trade",
+  question_en: "A system with proper airflow and Delta T indicates:",
+  question_pt: "Fluxo e Delta T corretos indicam:",
+  options: ["System operating correctly", "Overcharge", "Restriction", "Low load"],
+  answer: "System operating correctly",
+  difficulty: "easy",
+  reference: "System Performance"
+},
+{
+  id: 1151,
+  category: "HVAC Trade",
+  question_en: "A water-cooled chiller rejects heat to the atmosphere through:",
+  question_pt: "Um chiller resfriado a água rejeita calor para a atmosfera através de:",
+  options: ["Evaporator only", "Cooling tower", "Expansion tank", "Air separator"],
+  answer: "Cooling tower",
+  difficulty: "medium",
+  reference: "Chillers / Cooling Towers"
+},
+{
+  id: 1152,
+  category: "HVAC Trade",
+  question_en: "The primary purpose of an expansion tank in a hydronic system is to:",
+  question_pt: "O principal propósito de um tanque de expansão em um sistema hidrônico é:",
+  options: ["Increase pump head", "Absorb thermal expansion of water", "Separate air from water", "Control refrigerant flow"],
+  answer: "Absorb thermal expansion of water",
+  difficulty: "medium",
+  reference: "Hydronic Systems"
+},
+{
+  id: 1153,
+  category: "HVAC Trade",
+  question_en: "A building with excessive positive pressure will MOST likely experience:",
+  question_pt: "Um edifício com pressão positiva excessiva provavelmente terá:",
+  options: ["More infiltration", "Difficulty opening exterior doors", "Low humidity", "Reduced ventilation"],
+  answer: "Difficulty opening exterior doors",
+  difficulty: "hard",
+  reference: "Building Pressure"
+},
+{
+  id: 1154,
+  category: "HVAC Trade",
+  question_en: "A heat exchanger with scale buildup will result in:",
+  question_pt: "Um trocador de calor com incrustação resultará em:",
+  options: ["Improved heat transfer", "Reduced heat transfer", "Higher airflow", "Lower pressure drop"],
+  answer: "Reduced heat transfer",
+  difficulty: "medium",
+  reference: "Heat Exchangers"
+},
+{
+  id: 1155,
+  category: "HVAC Trade",
+  question_en: "Which instrument is used to measure entering and leaving water temperatures on a chiller?",
+  question_pt: "Qual instrumento é usado para medir as temperaturas de entrada e saída de água em um chiller?",
+  options: ["Micron gauge", "Clamp meter", "Thermometer", "Megohmmeter"],
+  answer: "Thermometer",
+  difficulty: "easy",
+  reference: "Chiller Service"
+},
+{
+  id: 1156,
+  category: "HVAC Trade",
+  question_en: "A three-way control valve in a hydronic coil circuit is commonly used to:",
+  question_pt: "Uma válvula de controle de três vias em um circuito de serpentina hidrônica é comumente usada para:",
+  options: ["Increase static pressure", "Bypass flow around the coil", "Raise refrigerant pressure", "Reduce pump horsepower"],
+  answer: "Bypass flow around the coil",
+  difficulty: "hard",
+  reference: "Hydronic Valves"
+},
+{
+  id: 1157,
+  category: "HVAC Trade",
+  question_en: "A drop in condenser water flow will MOST likely cause:",
+  question_pt: "Uma queda no fluxo de água do condensador provavelmente causará:",
+  options: ["Lower head pressure", "Higher head pressure", "Lower suction pressure only", "Higher airflow"],
+  answer: "Higher head pressure",
+  difficulty: "medium",
+  reference: "Water-Cooled Chillers"
+},
+{
+  id: 1158,
+  category: "HVAC Trade",
+  question_en: "What is the purpose of a relief valve on a boiler?",
+  question_pt: "Qual é o propósito de uma válvula de alívio em uma caldeira?",
+  options: ["Increase water temperature", "Prevent excessive pressure buildup", "Control airflow", "Improve efficiency"],
+  answer: "Prevent excessive pressure buildup",
+  difficulty: "easy",
+  reference: "Boiler Safety"
+},
+{
+  id: 1159,
+  category: "HVAC Trade",
+  question_en: "A VAV box without proper minimum airflow setting can cause:",
+  question_pt: "Uma caixa VAV sem ajuste correto de fluxo mínimo pode causar:",
+  options: ["High refrigerant pressure", "Poor ventilation", "Higher SEER", "Low compressor amperage"],
+  answer: "Poor ventilation",
+  difficulty: "hard",
+  reference: "VAV Systems"
+},
+{
+  id: 1160,
+  category: "HVAC Trade",
+  question_en: "A dirty strainer in a hydronic loop will cause:",
+  question_pt: "Um filtro/strainer sujo em um loop hidrônico causará:",
+  options: ["Improved flow", "Reduced water flow", "Higher airflow", "Lower pump head"],
+  answer: "Reduced water flow",
+  difficulty: "medium",
+  reference: "Hydronic Maintenance"
+},
+{
+  id: 1161,
+  category: "HVAC Trade",
+  question_en: "A boiler operating with insufficient water flow may result in:",
+  question_pt: "Uma caldeira operando com fluxo de água insuficiente pode resultar em:",
+  options: ["Short cycling and overheating", "Higher airflow", "Lower water temperature", "Reduced pressure drop"],
+  answer: "Short cycling and overheating",
+  difficulty: "hard",
+  reference: "Boiler Operation"
+},
+{
+  id: 1162,
+  category: "HVAC Trade",
+  question_en: "Which side of the cooling tower is MOST affected by high outdoor wet-bulb temperature?",
+  question_pt: "Qual lado da torre de resfriamento é mais afetado por alta temperatura de bulbo úmido externo?",
+  options: ["Electrical side", "Heat rejection capacity", "Pump motor voltage", "Duct static pressure"],
+  answer: "Heat rejection capacity",
+  difficulty: "medium",
+  reference: "Cooling Towers / Psychrometrics"
+},
+{
+  id: 1163,
+  category: "HVAC Trade",
+  question_en: "A smoke control system is primarily intended to:",
+  question_pt: "Um sistema de controle de fumaça tem como objetivo principal:",
+  options: ["Increase cooling", "Manage smoke movement during fire events", "Lower humidity", "Reduce refrigerant pressure"],
+  answer: "Manage smoke movement during fire events",
+  difficulty: "medium",
+  reference: "Smoke Control"
+},
+{
+  id: 1164,
+  category: "HVAC Trade",
+  question_en: "In a commercial kitchen, a make-up air unit is commonly required to:",
+  question_pt: "Em uma cozinha comercial, uma unidade de ar de reposição é comumente exigida para:",
+  options: ["Lower condenser pressure", "Replace exhaust air removed by hoods", "Increase subcooling", "Reduce grease buildup"],
+  answer: "Replace exhaust air removed by hoods",
+  difficulty: "medium",
+  reference: "Commercial Ventilation"
+},
+{
+  id: 1165,
+  category: "HVAC Trade",
+  question_en: "Which parameter is MOST useful to verify chiller performance against design?",
+  question_pt: "Qual parâmetro é mais útil para verificar o desempenho de um chiller em relação ao projeto?",
+  options: ["Wet-bulb only", "Tons produced versus power input", "Static pressure only", "Voltage only"],
+  answer: "Tons produced versus power input",
+  difficulty: "hard",
+  reference: "Chiller Performance"
+},
+{
+  id: 1166,
+  category: "HVAC Trade",
+  question_en: "A building with strong negative pressure will MOST likely experience:",
+  question_pt: "Um edifício com forte pressão negativa provavelmente apresentará:",
+  options: ["Exfiltration", "Infiltration through doors and cracks", "Low ventilation only", "Higher head pressure"],
+  answer: "Infiltration through doors and cracks",
+  difficulty: "medium",
+  reference: "Building Pressure"
+},
+{
+  id: 1167,
+  category: "HVAC Trade",
+  question_en: "An AHU preheat coil is primarily used to:",
+  question_pt: "Uma serpentina de pré-aquecimento em uma UTA é usada principalmente para:",
+  options: ["Reduce static pressure", "Prevent freezing and temper outdoor air", "Increase humidity", "Raise condenser pressure"],
+  answer: "Prevent freezing and temper outdoor air",
+  difficulty: "medium",
+  reference: "Air Handling Units"
+},
+{
+  id: 1168,
+  category: "HVAC Trade",
+  question_en: "Low chilled water flow through a coil will generally cause:",
+  question_pt: "Baixo fluxo de água gelada através de uma serpentina geralmente causará:",
+  options: ["Higher airflow", "Reduced cooling capacity", "Higher SEER", "Lower entering air temperature"],
+  answer: "Reduced cooling capacity",
+  difficulty: "medium",
+  reference: "Hydronic Coils"
+},
+{
+  id: 1169,
+  category: "HVAC Trade",
+  question_en: "A hydronic balancing valve is used to:",
+  question_pt: "Uma válvula de balanceamento hidrônico é usada para:",
+  options: ["Adjust water flow to design value", "Increase pump voltage", "Lower static pressure", "Control refrigerant superheat"],
+  answer: "Adjust water flow to design value",
+  difficulty: "medium",
+  reference: "Hydronic Balancing"
+},
+{
+  id: 1170,
+  category: "HVAC Trade",
+  question_en: "A common cause of low condenser water temperature is:",
+  question_pt: "Uma causa comum de baixa temperatura da água do condensador é:",
+  options: ["Tower overcooling in low ambient conditions", "Overcharge", "Restriction in suction line", "High indoor load"],
+  answer: "Tower overcooling in low ambient conditions",
+  difficulty: "hard",
+  reference: "Cooling Towers"
+},
+{
+  id: 1171,
+  category: "HVAC Trade",
+  question_en: "Which HVAC system is MOST likely to use reheat for humidity control?",
+  question_pt: "Qual sistema HVAC é mais propenso a usar reaquecimento para controle de umidade?",
+  options: ["VAV with humidity control", "Window unit", "Portable unit", "Mini-split only"],
+  answer: "VAV with humidity control",
+  difficulty: "hard",
+  reference: "Humidity Control"
+},
+{
+  id: 1172,
+  category: "HVAC Trade",
+  question_en: "A chiller with fouled evaporator tubes will MOST likely show:",
+  question_pt: "Um chiller com tubos do evaporador sujos provavelmente mostrará:",
+  options: ["Improved heat transfer", "Reduced evaporator performance", "Higher airflow", "Lower approach only"],
+  answer: "Reduced evaporator performance",
+  difficulty: "medium",
+  reference: "Chiller Diagnostics"
+},
+{
+  id: 1173,
+  category: "HVAC Trade",
+  question_en: "The main purpose of a deaerator in large boiler systems is to:",
+  question_pt: "O principal propósito de um desaerador em grandes sistemas de caldeira é:",
+  options: ["Add refrigerant", "Remove dissolved gases from feedwater", "Increase pump speed", "Balance duct pressure"],
+  answer: "Remove dissolved gases from feedwater",
+  difficulty: "hard",
+  reference: "Boilers / Hydronics"
+},
+{
+  id: 1174,
+  category: "HVAC Trade",
+  question_en: "An underloaded centrifugal chiller is at greater risk of:",
+  question_pt: "Um chiller centrífugo com baixa carga tem maior risco de:",
+  options: ["Floodback", "Surge", "Overheating motor", "High subcooling"],
+  answer: "Surge",
+  difficulty: "hard",
+  reference: "Centrifugal Chillers"
+},
+{
+  id: 1175,
+  category: "HVAC Trade",
+  question_en: "A condenser water reset strategy is intended to:",
+  question_pt: "Uma estratégia de reset da água do condensador tem como objetivo:",
+  options: ["Optimize chiller efficiency", "Increase refrigerant charge", "Lower airflow", "Increase static pressure"],
+  answer: "Optimize chiller efficiency",
+  difficulty: "hard",
+  reference: "Energy Optimization"
+},
+{
+  id: 1176,
+  category: "HVAC Trade",
+  question_en: "A face-and-bypass damper arrangement is used to:",
+  question_pt: "Um arranjo de dampers face-and-bypass é usado para:",
+  options: ["Control leaving air temperature", "Increase duct pressure", "Reduce water flow", "Lower voltage"],
+  answer: "Control leaving air temperature",
+  difficulty: "hard",
+  reference: "Air Handling Units"
+},
+{
+  id: 1177,
+  category: "HVAC Trade",
+  question_en: "A low entering condenser water temperature can cause a centrifugal chiller to:",
+  question_pt: "Baixa temperatura da água que entra no condensador pode fazer um chiller centrífugo:",
+  options: ["Lose oil pressure", "Surge at low load", "Increase airflow", "Flood the evaporator"],
+  answer: "Surge at low load",
+  difficulty: "hard",
+  reference: "Chiller Operation"
+},
+{
+  id: 1178,
+  category: "HVAC Trade",
+  question_en: "A four-pipe fan coil system provides:",
+  question_pt: "Um sistema fan coil de quatro tubos fornece:",
+  options: ["Only cooling", "Only heating", "Simultaneous heating or cooling flexibility", "Ventilation only"],
+  answer: "Simultaneous heating or cooling flexibility",
+  difficulty: "medium",
+  reference: "Fan Coil Systems"
+},
+{
+  id: 1179,
+  category: "HVAC Trade",
+  question_en: "The purpose of a terminal reheat coil is to:",
+  question_pt: "O propósito de uma serpentina de reaquecimento terminal é:",
+  options: ["Lower humidity while maintaining room temperature", "Increase static pressure", "Raise condenser pressure", "Reduce airflow to zero"],
+  answer: "Lower humidity while maintaining room temperature",
+  difficulty: "medium",
+  reference: "Humidity Control / VAV"
+},
+{
+  id: 1180,
+  category: "HVAC Trade",
+  question_en: "A heat recovery ventilator (HRV) is designed to:",
+  question_pt: "Um ventilador de recuperação de calor (HRV) é projetado para:",
+  options: ["Store refrigerant", "Transfer heat between exhaust and incoming air", "Increase duct pressure", "Reduce compressor amperage"],
+  answer: "Transfer heat between exhaust and incoming air",
+  difficulty: "medium",
+  reference: "Ventilation / Heat Recovery"
+},
+{
+  id: 1181,
+  category: "HVAC Trade",
+  question_en: "A chilled water coil with air bypassing around it will MOST likely cause:",
+  question_pt: "Uma serpentina de água gelada com ar desviando ao redor dela provavelmente causará:",
+  options: ["Higher delivered air temperature", "Lower head pressure", "Higher subcooling", "Lower humidity only"],
+  answer: "Higher delivered air temperature",
+  difficulty: "medium",
+  reference: "Coil Performance"
+},
+{
+  id: 1182,
+  category: "HVAC Trade",
+  question_en: "A boiler with short cycling may be caused by:",
+  question_pt: "Uma caldeira com ciclos curtos pode ser causada por:",
+  options: ["Oversized boiler or low load", "Low voltage only", "Dirty condenser", "High refrigerant charge"],
+  answer: "Oversized boiler or low load",
+  difficulty: "medium",
+  reference: "Boiler Troubleshooting"
+},
+{
+  id: 1183,
+  category: "HVAC Trade",
+  question_en: "A shell-and-tube heat exchanger transfers heat primarily between:",
+  question_pt: "Um trocador de calor casco e tubos transfere calor principalmente entre:",
+  options: ["Two fluid streams", "Air and refrigerant only", "Electricity and water", "Water and static pressure"],
+  answer: "Two fluid streams",
+  difficulty: "easy",
+  reference: "Heat Exchangers"
+},
+{
+  id: 1184,
+  category: "HVAC Trade",
+  question_en: "A common cause of low air delivery from an AHU is:",
+  question_pt: "Uma causa comum de baixa vazão de ar em uma UTA é:",
+  options: ["Dirty filters or closed dampers", "High humidity only", "Low condenser water temperature", "Boiler scale"],
+  answer: "Dirty filters or closed dampers",
+  difficulty: "easy",
+  reference: "Air Handling Units"
+},
+{
+  id: 1185,
+  category: "HVAC Trade",
+  question_en: "A differential pressure sensor in a VAV system is often used to control:",
+  question_pt: "Um sensor de pressão diferencial em um sistema VAV é frequentemente usado para controlar:",
+  options: ["Supply fan speed", "Refrigerant pressure", "Boiler firing rate", "Cooling tower drift"],
+  answer: "Supply fan speed",
+  difficulty: "medium",
+  reference: "VAV Controls"
+},
+{
+  id: 1186,
+  category: "HVAC Trade",
+  question_en: "A low temperature safety on a coil is intended to:",
+  question_pt: "Uma segurança de baixa temperatura em uma serpentina é destinada a:",
+  options: ["Prevent coil freezing", "Increase airflow", "Lower humidity", "Raise refrigerant pressure"],
+  answer: "Prevent coil freezing",
+  difficulty: "medium",
+  reference: "Freeze Protection"
+},
+{
+  id: 1187,
+  category: "HVAC Trade",
+  question_en: "A water balancing report is used to verify:",
+  question_pt: "Um relatório de balanceamento de água é usado para verificar:",
+  options: ["Actual system flow against design", "Only voltage", "Only humidity", "Only refrigerant type"],
+  answer: "Actual system flow against design",
+  difficulty: "medium",
+  reference: "Testing & Balancing"
+},
+{
+  id: 1188,
+  category: "HVAC Trade",
+  question_en: "In large HVAC systems, diversity factor refers to:",
+  question_pt: "Em grandes sistemas HVAC, fator de diversidade refere-se a:",
+  options: ["Not all loads peak at the same time", "All loads peak together", "Static pressure variation", "Refrigerant migration"],
+  answer: "Not all loads peak at the same time",
+  difficulty: "hard",
+  reference: "Load Calculations"
+},
+{
+  id: 1189,
+  category: "HVAC Trade",
+  question_en: "A common reason for using glycol in hydronic systems is to:",
+  question_pt: "Uma razão comum para usar glicol em sistemas hidrônicos é:",
+  options: ["Increase airflow", "Provide freeze protection", "Raise voltage", "Lower humidity"],
+  answer: "Provide freeze protection",
+  difficulty: "easy",
+  reference: "Hydronic Systems"
+},
+{
+  id: 1190,
+  category: "HVAC Trade",
+  question_en: "A boiler stack temperature that is too high may indicate:",
+  question_pt: "Uma temperatura muito alta na chaminé da caldeira pode indicar:",
+  options: ["Poor heat transfer / fouling", "Low airflow", "Overcharge", "Good efficiency"],
+  answer: "Poor heat transfer / fouling",
+  difficulty: "hard",
+  reference: "Boiler Efficiency"
+},
+{
+  id: 1191,
+  category: "HVAC Trade",
+  question_en: "A VAV system that is not properly balanced may cause:",
+  question_pt: "Um sistema VAV que não foi balanceado corretamente pode causar:",
+  options: ["Uneven zone temperatures", "Higher refrigerant charge", "Lower building pressure only", "Higher pump head"],
+  answer: "Uneven zone temperatures",
+  difficulty: "medium",
+  reference: "Air Balancing"
+},
+{
+  id: 1192,
+  category: "HVAC Trade",
+  question_en: "A condenser water pump failure will MOST directly affect:",
+  question_pt: "A falha da bomba de água do condensador afetará mais diretamente:",
+  options: ["Heat rejection", "Zone humidity only", "Supply voltage", "Return air temperature only"],
+  answer: "Heat rejection",
+  difficulty: "medium",
+  reference: "Water-Cooled Systems"
+},
+{
+  id: 1193,
+  category: "HVAC Trade",
+  question_en: "A system with excessive outside air may result in:",
+  question_pt: "Um sistema com ar externo excessivo pode resultar em:",
+  options: ["Higher load and humidity issues", "Lower load only", "Less ventilation", "Higher SEER"],
+  answer: "Higher load and humidity issues",
+  difficulty: "medium",
+  reference: "Ventilation"
+},
+{
+  id: 1194,
+  category: "HVAC Trade",
+  question_en: "The purpose of a low-loss header in a hydronic system is to:",
+  question_pt: "O propósito de um low-loss header em um sistema hidrônico é:",
+  options: ["Hydraulically separate primary and secondary loops", "Increase refrigerant pressure", "Reduce airflow", "Raise boiler voltage"],
+  answer: "Hydraulically separate primary and secondary loops",
+  difficulty: "hard",
+  reference: "Hydronic Design"
+},
+{
+  id: 1195,
+  category: "HVAC Trade",
+  question_en: "A dedicated outdoor air system (DOAS) is primarily used to:",
+  question_pt: "Um sistema dedicado de ar externo (DOAS) é usado principalmente para:",
+  options: ["Handle ventilation air separately", "Replace all chilled water systems", "Control refrigerant superheat", "Increase static pressure"],
+  answer: "Handle ventilation air separately",
+  difficulty: "medium",
+  reference: "DOAS Systems"
+},
+{
+  id: 1196,
+  category: "HVAC Trade",
+  question_en: "A system with proper supply temperature but poor room comfort may indicate:",
+  question_pt: "Um sistema com temperatura de insuflamento correta mas conforto ruim no ambiente pode indicar:",
+  options: ["Distribution / balancing issues", "Only refrigerant overcharge", "Only low voltage", "Only bad compressor oil"],
+  answer: "Distribution / balancing issues",
+  difficulty: "medium",
+  reference: "Air Distribution"
+},
+{
+  id: 1197,
+  category: "HVAC Trade",
+  question_en: "A cooling tower basin heater is primarily used to:",
+  question_pt: "Um aquecedor da bacia da torre de resfriamento é usado principalmente para:",
+  options: ["Prevent freezing in low ambient conditions", "Increase condenser pressure", "Improve subcooling", "Reduce drift"],
+  answer: "Prevent freezing in low ambient conditions",
+  difficulty: "medium",
+  reference: "Cooling Towers"
+},
+{
+  id: 1198,
+  category: "HVAC Trade",
+  question_en: "A chiller approach temperature that is increasing over time generally indicates:",
+  question_pt: "Uma temperatura de aproximação de chiller que aumenta com o tempo geralmente indica:",
+  options: ["Decreasing fouling", "Dirty heat transfer surfaces", "Higher SEER", "Improved efficiency"],
+  answer: "Dirty heat transfer surfaces",
+  difficulty: "hard",
+  reference: "Chiller Maintenance"
+},
+{
+  id: 1199,
+  category: "HVAC Trade",
+  question_en: "An air handler with inadequate trap design on the drain line may cause:",
+  question_pt: "Uma UTA com projeto inadequado do sifão da linha de dreno pode causar:",
+  options: ["Drainage problems and water blow-off", "Higher subcooling", "Lower static pressure", "Improved airflow"],
+  answer: "Drainage problems and water blow-off",
+  difficulty: "medium",
+  reference: "Air Handling Units / Condensate"
+},
+{
+  id: 1200,
+  category: "HVAC Trade",
+  question_en: "In large commercial HVAC, the MOST important goal of testing and balancing is to:",
+  question_pt: "Em HVAC comercial de grande porte, o objetivo mais importante do testing and balancing é:",
+  options: ["Match actual system performance to design intent", "Increase refrigerant pressure", "Lower voltage", "Reduce equipment size"],
+  answer: "Match actual system performance to design intent",
+  difficulty: "medium",
+  reference: "Testing, Adjusting & Balancing"
+},
+{
+  id: 1201,
+  category: "HVAC Trade",
+  question_en: "A TXV that is stuck closed will MOST likely cause:",
+  question_pt: "Uma válvula TXV travada fechada provavelmente causará:",
+  options: ["Low evaporator pressure and high superheat", "High evaporator pressure", "Flooded compressor", "High subcooling"],
+  answer: "Low evaporator pressure and high superheat",
+  difficulty: "medium",
+  reference: "Metering Devices / TXV"
+},
+{
+  id: 1202,
+  category: "HVAC Trade",
+  question_en: "What is the MAIN function of a filter drier in a refrigeration system?",
+  question_pt: "Qual é a principal função de um filtro secador em um sistema de refrigeração?",
+  options: ["Remove moisture and contaminants", "Increase airflow", "Reduce compressor load", "Control pressure"],
+  answer: "Remove moisture and contaminants",
+  difficulty: "easy",
+  reference: "Refrigeration Components"
+},
+{
+  id: 1203,
+  category: "HVAC Trade",
+  question_en: "A dirty condenser coil will MOST likely result in:",
+  question_pt: "Uma serpentina condensadora suja provavelmente resultará em:",
+  options: ["High head pressure", "Low suction pressure", "Low superheat", "Low voltage"],
+  answer: "High head pressure",
+  difficulty: "easy",
+  reference: "Heat Transfer / Condenser"
+},
+{
+  id: 1204,
+  category: "HVAC Trade",
+  question_en: "The MOST common cause of short cycling is:",
+  question_pt: "A causa mais comum de ciclos curtos (short cycling) é:",
+  options: ["Oversized equipment", "Dirty filter", "Low voltage", "High humidity"],
+  answer: "Oversized equipment",
+  difficulty: "medium",
+  reference: "System Design"
+},
+{
+  id: 1205,
+  category: "HVAC Trade",
+  question_en: "Superheat is used to determine:",
+  question_pt: "O superaquecimento é usado para determinar:",
+  options: ["Evaporator efficiency and refrigerant charge", "Airflow rate", "Voltage level", "Compressor size"],
+  answer: "Evaporator efficiency and refrigerant charge",
+  difficulty: "medium",
+  reference: "Refrigeration Cycle"
+},
+{
+  id: 1206,
+  category: "HVAC Trade",
+  question_en: "A clogged air filter will MOST likely cause:",
+  question_pt: "Um filtro de ar obstruído provavelmente causará:",
+  options: ["Reduced airflow and coil freezing", "High airflow", "Increased voltage", "Improved efficiency"],
+  answer: "Reduced airflow and coil freezing",
+  difficulty: "easy",
+  reference: "Airflow / Maintenance"
+},
+{
+  id: 1207,
+  category: "HVAC Trade",
+  question_en: "The purpose of subcooling is to:",
+  question_pt: "O objetivo do sub-resfriamento é:",
+  options: ["Ensure liquid refrigerant reaches the metering device", "Increase airflow", "Reduce voltage", "Control humidity"],
+  answer: "Ensure liquid refrigerant reaches the metering device",
+  difficulty: "medium",
+  reference: "Refrigeration Cycle"
+},
+{
+  id: 1208,
+  category: "HVAC Trade",
+  question_en: "A failed blower motor will result in:",
+  question_pt: "Um motor de ventilador (blower) com falha resultará em:",
+  options: ["No airflow through the system", "High suction pressure", "High voltage", "Increased cooling"],
+  answer: "No airflow through the system",
+  difficulty: "easy",
+  reference: "Air Handling"
+},
+{
+  id: 1209,
+  category: "HVAC Trade",
+  question_en: "Which component prevents refrigerant from flowing backward?",
+  question_pt: "Qual componente impede o fluxo reverso do refrigerante?",
+  options: ["Check valve", "Compressor", "Evaporator", "TXV"],
+  answer: "Check valve",
+  difficulty: "easy",
+  reference: "Refrigeration Components"
+},
+{
+  id: 1210,
+  category: "HVAC Trade",
+  question_en: "A system with low refrigerant charge will MOST likely show:",
+  question_pt: "Um sistema com baixa carga de refrigerante provavelmente apresentará:",
+  options: ["High superheat", "Low superheat", "High head pressure", "High subcooling"],
+  answer: "High superheat",
+  difficulty: "medium",
+  reference: "Refrigerant Charge"
+},
+{
+  id: 1211,
+  category: "HVAC Trade",
+  question_en: "The MAIN purpose of insulation on refrigerant lines is to:",
+  question_pt: "O principal objetivo do isolamento nas linhas de refrigerante é:",
+  options: ["Prevent heat gain/loss and condensation", "Increase pressure", "Reduce voltage", "Improve airflow"],
+  answer: "Prevent heat gain/loss and condensation",
+  difficulty: "easy",
+  reference: "Installation Practices"
+},
+{
+  id: 1212,
+  category: "HVAC Trade",
+  question_en: "A compressor that overheats is MOST likely due to:",
+  question_pt: "Um compressor superaquecendo provavelmente ocorre devido a:",
+  options: ["Lack of refrigerant cooling", "Too much airflow", "Low voltage", "Dirty duct"],
+  answer: "Lack of refrigerant cooling",
+  difficulty: "medium",
+  reference: "Compressor Operation"
+},
+{
+  id: 1213,
+  category: "HVAC Trade",
+  question_en: "The MOST important safety device for high pressure is:",
+  question_pt: "O dispositivo de segurança mais importante para alta pressão é:",
+  options: ["High-pressure switch", "Low-pressure switch", "Thermostat", "Capacitor"],
+  answer: "High-pressure switch",
+  difficulty: "easy",
+  reference: "Controls & Safety"
+},
+{
+  id: 1214,
+  category: "HVAC Trade",
+  question_en: "Airflow is typically measured in:",
+  question_pt: "O fluxo de ar é normalmente medido em:",
+  options: ["CFM", "PSI", "Volts", "BTU"],
+  answer: "CFM",
+  difficulty: "easy",
+  reference: "Airflow Basics"
+},
+{
+  id: 1215,
+  category: "HVAC Trade",
+  question_en: "A leaking duct system will MOST likely cause:",
+  question_pt: "Um sistema de dutos com vazamento provavelmente causará:",
+  options: ["Loss of efficiency and airflow", "Higher voltage", "Lower humidity", "Improved cooling"],
+  answer: "Loss of efficiency and airflow",
+  difficulty: "easy",
+  reference: "Duct Systems"
+},
+{
+  id: 1216,
+  category: "HVAC Trade",
+  question_en: "The MAIN function of a capacitor is to:",
+  question_pt: "A principal função de um capacitor é:",
+  options: ["Start and run motors", "Control airflow", "Increase pressure", "Reduce humidity"],
+  answer: "Start and run motors",
+  difficulty: "easy",
+  reference: "Electrical Components"
+},
+{
+  id: 1217,
+  category: "HVAC Trade",
+  question_en: "A frozen evaporator coil is MOST often caused by:",
+  question_pt: "Uma serpentina evaporadora congelada é mais frequentemente causada por:",
+  options: ["Low airflow", "High airflow", "High voltage", "High humidity"],
+  answer: "Low airflow",
+  difficulty: "easy",
+  reference: "Evaporator Issues"
+},
+{
+  id: 1218,
+  category: "HVAC Trade",
+  question_en: "The purpose of a thermostat is to:",
+  question_pt: "A função do termostato é:",
+  options: ["Control temperature by cycling the system", "Increase airflow", "Reduce voltage", "Control pressure"],
+  answer: "Control temperature by cycling the system",
+  difficulty: "easy",
+  reference: "Controls"
+},
+{
+  id: 1219,
+  category: "HVAC Trade",
+  question_en: "A system with restricted airflow will MOST likely have:",
+  question_pt: "Um sistema com fluxo de ar restrito provavelmente terá:",
+  options: ["High temperature drop across coil", "Low temperature drop", "High voltage", "Low pressure"],
+  answer: "High temperature drop across coil",
+  difficulty: "medium",
+  reference: "Airflow Diagnostics"
+},
+{
+  id: 1220,
+  category: "HVAC Trade",
+  question_en: "Which refrigerant property is MOST important for heat absorption?",
+  question_pt: "Qual propriedade do refrigerante é mais importante para absorção de calor?",
+  options: ["Latent heat", "Voltage", "Airflow", "Density"],
+  answer: "Latent heat",
+  difficulty: "medium",
+  reference: "Refrigeration Theory"
+},
+{
+  id: 1221,
+  category: "HVAC Trade",
+  question_en: "Low subcooling indicates:",
+  question_pt: "Sub-resfriamento baixo indica:",
+  options: ["Low refrigerant charge", "Overcharge", "Dirty filter", "High airflow"],
+  answer: "Low refrigerant charge",
+  difficulty: "medium",
+  reference: "Refrigerant Charge"
+},
+{
+  id: 1222,
+  category: "HVAC Trade",
+  question_en: "A cracked heat exchanger is dangerous because:",
+  question_pt: "Um trocador de calor rachado é perigoso porque:",
+  options: ["It can leak carbon monoxide", "It increases airflow", "It raises pressure", "It lowers voltage"],
+  answer: "It can leak carbon monoxide",
+  difficulty: "easy",
+  reference: "Heating Safety"
+},
+{
+  id: 1223,
+  category: "HVAC Trade",
+  question_en: "The MOST common duct material in residential systems is:",
+  question_pt: "O material de duto mais comum em residências é:",
+  options: ["Flex duct", "Copper", "PVC", "Steel pipe"],
+  answer: "Flex duct",
+  difficulty: "easy",
+  reference: "Duct Materials"
+},
+{
+  id: 1224,
+  category: "HVAC Trade",
+  question_en: "A contactor is used to:",
+  question_pt: "Um contator é usado para:",
+  options: ["Switch high voltage circuits", "Control airflow", "Measure pressure", "Reduce humidity"],
+  answer: "Switch high voltage circuits",
+  difficulty: "easy",
+  reference: "Electrical Controls"
+},
+{
+  id: 1225,
+  category: "HVAC Trade",
+  question_en: "High head pressure can be caused by:",
+  question_pt: "Alta pressão de descarga pode ser causada por:",
+  options: ["Dirty condenser coil", "Low airflow", "Low voltage", "Clean system"],
+  answer: "Dirty condenser coil",
+  difficulty: "easy",
+  reference: "Troubleshooting"
+},
+{
+  id: 1226,
+  category: "HVAC Trade",
+  question_en: "The MAIN purpose of return air is to:",
+  question_pt: "O principal objetivo do ar de retorno é:",
+  options: ["Bring air back to the system", "Increase pressure", "Reduce humidity", "Cool refrigerant"],
+  answer: "Bring air back to the system",
+  difficulty: "easy",
+  reference: "Air Distribution"
+},
+{
+  id: 1227,
+  category: "HVAC Trade",
+  question_en: "Which tool is used to measure airflow?",
+  question_pt: "Qual ferramenta mede fluxo de ar?",
+  options: ["Anemometer", "Manifold gauge", "Multimeter", "Clamp meter"],
+  answer: "Anemometer",
+  difficulty: "easy",
+  reference: "Tools"
+},
+{
+  id: 1228,
+  category: "HVAC Trade",
+  question_en: "A refrigerant leak will MOST likely cause:",
+  question_pt: "Um vazamento de refrigerante provavelmente causará:",
+  options: ["Reduced cooling capacity", "Increased airflow", "Higher voltage", "Better efficiency"],
+  answer: "Reduced cooling capacity",
+  difficulty: "easy",
+  reference: "Refrigeration"
+},
+{
+  id: 1229,
+  category: "HVAC Trade",
+  question_en: "Which component compresses refrigerant?",
+  question_pt: "Qual componente comprime o refrigerante?",
+  options: ["Compressor", "Condenser", "Evaporator", "TXV"],
+  answer: "Compressor",
+  difficulty: "easy",
+  reference: "Refrigeration Cycle"
+},
+{
+  id: 1230,
+  category: "HVAC Trade",
+  question_en: "The MAIN function of the evaporator is to:",
+  question_pt: "A principal função do evaporador é:",
+  options: ["Absorb heat", "Reject heat", "Compress gas", "Store refrigerant"],
+  answer: "Absorb heat",
+  difficulty: "easy",
+  reference: "Refrigeration Cycle"
+},
+{
+  id: 1231,
+  category: "HVAC Trade",
+  question_en: "The MAIN function of the condenser is to:",
+  question_pt: "A principal função do condensador é:",
+  options: ["Reject heat to the outside air", "Absorb heat", "Compress refrigerant", "Control airflow"],
+  answer: "Reject heat to the outside air",
+  difficulty: "easy",
+  reference: "Refrigeration Cycle"
+},
+{
+  id: 1232,
+  category: "HVAC Trade",
+  question_en: "A system with excessive refrigerant charge will MOST likely show:",
+  question_pt: "Um sistema com excesso de refrigerante provavelmente apresentará:",
+  options: ["High subcooling", "Low subcooling", "High superheat", "Low pressure"],
+  answer: "High subcooling",
+  difficulty: "medium",
+  reference: "Refrigerant Charge"
+},
+{
+  id: 1233,
+  category: "HVAC Trade",
+  question_en: "Which condition can cause compressor slugging?",
+  question_pt: "Qual condição pode causar slugging no compressor?",
+  options: ["Liquid refrigerant entering compressor", "High airflow", "Low voltage", "Dirty filter"],
+  answer: "Liquid refrigerant entering compressor",
+  difficulty: "medium",
+  reference: "Compressor Issues"
+},
+{
+  id: 1234,
+  category: "HVAC Trade",
+  question_en: "The MOST common cause of low airflow is:",
+  question_pt: "A causa mais comum de baixo fluxo de ar é:",
+  options: ["Dirty air filter", "High voltage", "Oversized duct", "Clean coil"],
+  answer: "Dirty air filter",
+  difficulty: "easy",
+  reference: "Airflow"
+},
+{
+  id: 1235,
+  category: "HVAC Trade",
+  question_en: "A system with high superheat and low suction pressure indicates:",
+  question_pt: "Um sistema com alto superaquecimento e baixa pressão de sucção indica:",
+  options: ["Low refrigerant charge", "Overcharge", "Dirty condenser", "High airflow"],
+  answer: "Low refrigerant charge",
+  difficulty: "medium",
+  reference: "Troubleshooting"
+},
+{
+  id: 1236,
+  category: "HVAC Trade",
+  question_en: "The purpose of a sight glass is to:",
+  question_pt: "A função do visor (sight glass) é:",
+  options: ["Observe refrigerant condition and moisture", "Measure airflow", "Control voltage", "Increase pressure"],
+  answer: "Observe refrigerant condition and moisture",
+  difficulty: "easy",
+  reference: "Refrigeration Components"
+},
+{
+  id: 1237,
+  category: "HVAC Trade",
+  question_en: "Which condition causes low head pressure?",
+  question_pt: "Qual condição causa baixa pressão de descarga?",
+  options: ["Cold outdoor temperatures", "Dirty condenser", "Overcharge", "High load"],
+  answer: "Cold outdoor temperatures",
+  difficulty: "medium",
+  reference: "Troubleshooting"
+},
+{
+  id: 1238,
+  category: "HVAC Trade",
+  question_en: "The MOST important factor in duct sizing is:",
+  question_pt: "O fator mais importante no dimensionamento de dutos é:",
+  options: ["Airflow (CFM)", "Voltage", "Refrigerant type", "Humidity"],
+  answer: "Airflow (CFM)",
+  difficulty: "medium",
+  reference: "Duct Design"
+},
+{
+  id: 1239,
+  category: "HVAC Trade",
+  question_en: "Which device controls refrigerant flow into the evaporator?",
+  question_pt: "Qual dispositivo controla o fluxo de refrigerante para o evaporador?",
+  options: ["TXV", "Compressor", "Condenser", "Fan"],
+  answer: "TXV",
+  difficulty: "easy",
+  reference: "Metering Devices"
+},
+{
+  id: 1240,
+  category: "HVAC Trade",
+  question_en: "A blower running but no cooling indicates:",
+  question_pt: "Ventilador funcionando mas sem resfriamento indica:",
+  options: ["Refrigeration issue", "Normal operation", "High airflow", "Low humidity"],
+  answer: "Refrigeration issue",
+  difficulty: "easy",
+  reference: "Troubleshooting"
+},
+{
+  id: 1241,
+  category: "HVAC Trade",
+  question_en: "Which measurement indicates heat removal in air systems?",
+  question_pt: "Qual medição indica remoção de calor em sistemas de ar?",
+  options: ["Temperature difference (ΔT)", "Voltage", "Pressure", "Humidity"],
+  answer: "Temperature difference (ΔT)",
+  difficulty: "medium",
+  reference: "Airflow Diagnostics"
+},
+{
+  id: 1242,
+  category: "HVAC Trade",
+  question_en: "The MOST common cause of high humidity indoors is:",
+  question_pt: "A causa mais comum de alta umidade interna é:",
+  options: ["Oversized system", "Dirty coil", "High voltage", "Low airflow"],
+  answer: "Oversized system",
+  difficulty: "medium",
+  reference: "Humidity Control"
+},
+{
+  id: 1243,
+  category: "HVAC Trade",
+  question_en: "A vacuum pump is used to:",
+  question_pt: "Uma bomba de vácuo é usada para:",
+  options: ["Remove air and moisture", "Increase pressure", "Measure airflow", "Cool refrigerant"],
+  answer: "Remove air and moisture",
+  difficulty: "easy",
+  reference: "Installation"
+},
+{
+  id: 1244,
+  category: "HVAC Trade",
+  question_en: "The MAIN purpose of a relay is to:",
+  question_pt: "A principal função de um relé é:",
+  options: ["Control circuits electrically", "Increase airflow", "Measure pressure", "Cool system"],
+  answer: "Control circuits electrically",
+  difficulty: "easy",
+  reference: "Electrical"
+},
+{
+  id: 1245,
+  category: "HVAC Trade",
+  question_en: "A system that is short cycling may experience:",
+  question_pt: "Um sistema com ciclos curtos pode apresentar:",
+  options: ["Increased wear and inefficiency", "Improved efficiency", "Lower voltage", "Better airflow"],
+  answer: "Increased wear and inefficiency",
+  difficulty: "easy",
+  reference: "System Operation"
+},
+{
+  id: 1246,
+  category: "HVAC Trade",
+  question_en: "Which condition indicates restricted airflow across evaporator?",
+  question_pt: "Qual condição indica fluxo de ar restrito no evaporador?",
+  options: ["Ice formation on coil", "High airflow", "Low pressure drop", "Warm supply air"],
+  answer: "Ice formation on coil",
+  difficulty: "medium",
+  reference: "Evaporator Issues"
+},
+{
+  id: 1247,
+  category: "HVAC Trade",
+  question_en: "The MAIN purpose of supply air is to:",
+  question_pt: "O principal objetivo do ar de insuflação é:",
+  options: ["Deliver conditioned air to spaces", "Return air", "Increase pressure", "Reduce humidity"],
+  answer: "Deliver conditioned air to spaces",
+  difficulty: "easy",
+  reference: "Air Distribution"
+},
+{
+  id: 1248,
+  category: "HVAC Trade",
+  question_en: "A compressor not starting may be due to:",
+  question_pt: "Um compressor não ligando pode ser devido a:",
+  options: ["Faulty capacitor", "High airflow", "Low humidity", "Clean system"],
+  answer: "Faulty capacitor",
+  difficulty: "easy",
+  reference: "Electrical Troubleshooting"
+},
+{
+  id: 1249,
+  category: "HVAC Trade",
+  question_en: "The MOST important factor in cooling load calculation is:",
+  question_pt: "O fator mais importante no cálculo de carga térmica é:",
+  options: ["Heat gain", "Voltage", "Pressure", "Airflow"],
+  answer: "Heat gain",
+  difficulty: "medium",
+  reference: "Load Calculation"
+},
+{
+  id: 1250,
+  category: "HVAC Trade",
+  question_en: "Which instrument measures electrical current?",
+  question_pt: "Qual instrumento mede corrente elétrica?",
+  options: ["Clamp meter", "Thermometer", "Manometer", "Anemometer"],
+  answer: "Clamp meter",
+  difficulty: "easy",
+  reference: "Tools"
+},
+{
+  id: 1251,
+  category: "HVAC Trade",
+  question_en: "A system with high suction pressure and low superheat indicates:",
+  question_pt: "Um sistema com alta pressão de sucção e baixo superaquecimento indica:",
+  options: ["Overcharged system", "Undercharged system", "Dirty filter", "Low airflow"],
+  answer: "Overcharged system",
+  difficulty: "medium",
+  reference: "Refrigerant Charge"
+},
+{
+  id: 1252,
+  category: "HVAC Trade",
+  question_en: "Which component removes heat from indoor air?",
+  question_pt: "Qual componente remove calor do ar interno?",
+  options: ["Evaporator coil", "Condenser coil", "Compressor", "Fan motor"],
+  answer: "Evaporator coil",
+  difficulty: "easy",
+  reference: "Refrigeration Cycle"
+},
+{
+  id: 1253,
+  category: "HVAC Trade",
+  question_en: "A system with a restricted liquid line will show:",
+  question_pt: "Um sistema com linha líquida restrita apresentará:",
+  options: ["Low suction pressure and high superheat", "High suction pressure", "Low superheat", "High airflow"],
+  answer: "Low suction pressure and high superheat",
+  difficulty: "medium",
+  reference: "Troubleshooting"
+},
+{
+  id: 1254,
+  category: "HVAC Trade",
+  question_en: "The MOST common cause of high energy consumption is:",
+  question_pt: "A causa mais comum de alto consumo de energia é:",
+  options: ["Dirty coils", "Low voltage", "High airflow", "Clean filters"],
+  answer: "Dirty coils",
+  difficulty: "easy",
+  reference: "Efficiency"
+},
+{
+  id: 1255,
+  category: "HVAC Trade",
+  question_en: "A fan that is rotating backwards will result in:",
+  question_pt: "Um ventilador girando ao contrário resultará em:",
+  options: ["Reduced airflow", "Increased airflow", "Higher voltage", "Improved cooling"],
+  answer: "Reduced airflow",
+  difficulty: "easy",
+  reference: "Airflow"
+},
+{
+  id: 1256,
+  category: "HVAC Trade",
+  question_en: "Which device protects against compressor overheating?",
+  question_pt: "Qual dispositivo protege contra superaquecimento do compressor?",
+  options: ["Thermal overload protector", "Capacitor", "Relay", "Switch"],
+  answer: "Thermal overload protector",
+  difficulty: "easy",
+  reference: "Compressor Safety"
+},
+{
+  id: 1257,
+  category: "HVAC Trade",
+  question_en: "The MAIN function of a plenum is to:",
+  question_pt: "A principal função do plenum é:",
+  options: ["Distribute air evenly", "Increase pressure", "Store refrigerant", "Measure airflow"],
+  answer: "Distribute air evenly",
+  difficulty: "easy",
+  reference: "Duct Systems"
+},
+{
+  id: 1258,
+  category: "HVAC Trade",
+  question_en: "Low airflow across the condenser will cause:",
+  question_pt: "Baixo fluxo de ar no condensador causará:",
+  options: ["High head pressure", "Low head pressure", "Low suction pressure", "Low superheat"],
+  answer: "High head pressure",
+  difficulty: "easy",
+  reference: "Condenser"
+},
+{
+  id: 1259,
+  category: "HVAC Trade",
+  question_en: "Which condition leads to poor dehumidification?",
+  question_pt: "Qual condição leva a má desumidificação?",
+  options: ["Oversized system", "Dirty coil", "Low airflow", "Low voltage"],
+  answer: "Oversized system",
+  difficulty: "medium",
+  reference: "Humidity Control"
+},
+{
+  id: 1260,
+  category: "HVAC Trade",
+  question_en: "The MOST common refrigerant leak location is:",
+  question_pt: "O local mais comum de vazamento de refrigerante é:",
+  options: ["Evaporator coil", "Thermostat", "Fan blade", "Duct"],
+  answer: "Evaporator coil",
+  difficulty: "medium",
+  reference: "Refrigerant Leaks"
+},
+{
+  id: 1261,
+  category: "HVAC Trade",
+  question_en: "Which tool measures static pressure?",
+  question_pt: "Qual ferramenta mede pressão estática?",
+  options: ["Manometer", "Thermometer", "Clamp meter", "Anemometer"],
+  answer: "Manometer",
+  difficulty: "easy",
+  reference: "Tools"
+},
+{
+  id: 1262,
+  category: "HVAC Trade",
+  question_en: "A system with low airflow and high humidity indicates:",
+  question_pt: "Um sistema com baixo fluxo de ar e alta umidade indica:",
+  options: ["Airflow restriction", "Overcharge", "Low voltage", "Clean system"],
+  answer: "Airflow restriction",
+  difficulty: "medium",
+  reference: "Airflow"
+},
+{
+  id: 1263,
+  category: "HVAC Trade",
+  question_en: "Which component controls system start and stop?",
+  question_pt: "Qual componente controla o ligar e desligar do sistema?",
+  options: ["Thermostat", "Compressor", "Evaporator", "Fan"],
+  answer: "Thermostat",
+  difficulty: "easy",
+  reference: "Controls"
+},
+{
+  id: 1264,
+  category: "HVAC Trade",
+  question_en: "A system with dirty evaporator coil will have:",
+  question_pt: "Um sistema com evaporador sujo terá:",
+  options: ["Reduced heat transfer", "Increased airflow", "Higher voltage", "Better cooling"],
+  answer: "Reduced heat transfer",
+  difficulty: "easy",
+  reference: "Evaporator"
+},
+{
+  id: 1265,
+  category: "HVAC Trade",
+  question_en: "The MAIN purpose of ventilation is to:",
+  question_pt: "O principal objetivo da ventilação é:",
+  options: ["Provide fresh air", "Increase pressure", "Reduce voltage", "Store air"],
+  answer: "Provide fresh air",
+  difficulty: "easy",
+  reference: "Ventilation"
+},
+{
+  id: 1266,
+  category: "HVAC Trade",
+  question_en: "Which condition increases compressor amperage?",
+  question_pt: "Qual condição aumenta a corrente do compressor?",
+  options: ["High head pressure", "Low airflow", "Low voltage", "Clean coil"],
+  answer: "High head pressure",
+  difficulty: "medium",
+  reference: "Electrical"
+},
+{
+  id: 1267,
+  category: "HVAC Trade",
+  question_en: "A faulty contactor may cause:",
+  question_pt: "Um contator defeituoso pode causar:",
+  options: ["Compressor not running", "High airflow", "Low humidity", "Better efficiency"],
+  answer: "Compressor not running",
+  difficulty: "easy",
+  reference: "Electrical"
+},
+{
+  id: 1268,
+  category: "HVAC Trade",
+  question_en: "The MOST important factor in airflow balance is:",
+  question_pt: "O fator mais importante no balanceamento de ar é:",
+  options: ["Proper duct design", "Voltage", "Refrigerant", "Humidity"],
+  answer: "Proper duct design",
+  difficulty: "medium",
+  reference: "Duct Design"
+},
+{
+  id: 1269,
+  category: "HVAC Trade",
+  question_en: "Which condition leads to coil icing?",
+  question_pt: "Qual condição leva ao congelamento da serpentina?",
+  options: ["Low airflow", "High airflow", "High voltage", "Clean filter"],
+  answer: "Low airflow",
+  difficulty: "easy",
+  reference: "Evaporator"
+},
+{
+  id: 1270,
+  category: "HVAC Trade",
+  question_en: "A capacitor failure will MOST likely affect:",
+  question_pt: "Falha no capacitor afetará principalmente:",
+  options: ["Motor starting and running", "Airflow only", "Refrigerant flow", "Humidity"],
+  answer: "Motor starting and running",
+  difficulty: "easy",
+  reference: "Electrical"
+},
+{
+  id: 1271,
+  category: "HVAC Trade",
+  question_en: "Which refrigerant line is insulated?",
+  question_pt: "Qual linha de refrigerante é isolada?",
+  options: ["Suction line", "Liquid line", "Discharge line", "All lines"],
+  answer: "Suction line",
+  difficulty: "easy",
+  reference: "Installation"
+},
+{
+  id: 1272,
+  category: "HVAC Trade",
+  question_en: "A system running continuously may indicate:",
+  question_pt: "Um sistema funcionando continuamente pode indicar:",
+  options: ["Undersized system", "Oversized system", "Low airflow", "Clean coil"],
+  answer: "Undersized system",
+  difficulty: "medium",
+  reference: "Load"
+},
+{
+  id: 1273,
+  category: "HVAC Trade",
+  question_en: "Which condition causes high superheat?",
+  question_pt: "Qual condição causa alto superaquecimento?",
+  options: ["Low refrigerant charge", "Overcharge", "Dirty condenser", "High airflow"],
+  answer: "Low refrigerant charge",
+  difficulty: "medium",
+  reference: "Refrigeration"
+},
+{
+  id: 1274,
+  category: "HVAC Trade",
+  question_en: "The purpose of a disconnect switch is to:",
+  question_pt: "A função do disconnect switch é:",
+  options: ["Provide safe power isolation", "Increase airflow", "Reduce pressure", "Cool system"],
+  answer: "Provide safe power isolation",
+  difficulty: "easy",
+  reference: "Electrical Safety"
+},
+{
+  id: 1275,
+  category: "HVAC Trade",
+  question_en: "Which condition causes low subcooling?",
+  question_pt: "Qual condição causa baixo sub-resfriamento?",
+  options: ["Low refrigerant charge", "Overcharge", "Dirty coil", "High airflow"],
+  answer: "Low refrigerant charge",
+  difficulty: "medium",
+  reference: "Refrigerant Charge"
+},
+{
+  id: 1276,
+  category: "HVAC Trade",
+  question_en: "The MOST important safety practice is:",
+  question_pt: "A prática de segurança mais importante é:",
+  options: ["Disconnect power before service", "Increase airflow", "Reduce pressure", "Add refrigerant"],
+  answer: "Disconnect power before service",
+  difficulty: "easy",
+  reference: "Safety"
+},
+{
+  id: 1277,
+  category: "HVAC Trade",
+  question_en: "Which condition increases head pressure?",
+  question_pt: "Qual condição aumenta a pressão de descarga?",
+  options: ["Dirty condenser", "Cold weather", "Low airflow indoor", "Clean coil"],
+  answer: "Dirty condenser",
+  difficulty: "easy",
+  reference: "Condenser"
+},
+{
+  id: 1278,
+  category: "HVAC Trade",
+  question_en: "A faulty thermostat may cause:",
+  question_pt: "Um termostato defeituoso pode causar:",
+  options: ["System not cycling properly", "High airflow", "Low humidity", "Better cooling"],
+  answer: "System not cycling properly",
+  difficulty: "easy",
+  reference: "Controls"
+},
+{
+  id: 1279,
+  category: "HVAC Trade",
+  question_en: "Which condition reduces system efficiency MOST?",
+  question_pt: "Qual condição reduz mais a eficiência do sistema?",
+  options: ["Dirty coils", "Clean filter", "High airflow", "Proper charge"],
+  answer: "Dirty coils",
+  difficulty: "easy",
+  reference: "Efficiency"
+},
+{
+  id: 1280,
+  category: "HVAC Trade",
+  question_en: "The MAIN purpose of balancing dampers is to:",
+  question_pt: "A função principal dos dampers de balanceamento é:",
+  options: ["Control airflow distribution", "Increase pressure", "Reduce humidity", "Cool system"],
+  answer: "Control airflow distribution",
+  difficulty: "medium",
+  reference: "Airflow"
+},
+{
+  id: 1281,
+  category: "HVAC Trade",
+  question_en: "A system with high head pressure and normal suction pressure indicates:",
+  question_pt: "Um sistema com alta pressão de descarga e sucção normal indica:",
+  options: ["Dirty condenser coil", "Low refrigerant charge", "Restricted airflow indoor", "Low voltage"],
+  answer: "Dirty condenser coil",
+  difficulty: "medium",
+  reference: "Troubleshooting"
+},
+{
+  id: 1282,
+  category: "HVAC Trade",
+  question_en: "The MOST common cause of compressor failure is:",
+  question_pt: "A causa mais comum de falha de compressor é:",
+  options: ["Lack of lubrication", "High airflow", "Low humidity", "Clean coil"],
+  answer: "Lack of lubrication",
+  difficulty: "medium",
+  reference: "Compressor"
+},
+{
+  id: 1283,
+  category: "HVAC Trade",
+  question_en: "Which condition causes low suction pressure?",
+  question_pt: "Qual condição causa baixa pressão de sucção?",
+  options: ["Low refrigerant charge", "Overcharge", "Dirty condenser", "High airflow"],
+  answer: "Low refrigerant charge",
+  difficulty: "easy",
+  reference: "Refrigeration"
+},
+{
+  id: 1284,
+  category: "HVAC Trade",
+  question_en: "A blocked condensate drain will cause:",
+  question_pt: "Um dreno de condensado bloqueado causará:",
+  options: ["Water overflow and potential damage", "High airflow", "Low pressure", "Better cooling"],
+  answer: "Water overflow and potential damage",
+  difficulty: "easy",
+  reference: "Drain Systems"
+},
+{
+  id: 1285,
+  category: "HVAC Trade",
+  question_en: "The MAIN purpose of a heat pump reversing valve is to:",
+  question_pt: "A principal função da válvula reversora é:",
+  options: ["Switch between heating and cooling modes", "Increase airflow", "Reduce pressure", "Store refrigerant"],
+  answer: "Switch between heating and cooling modes",
+  difficulty: "medium",
+  reference: "Heat Pumps"
+},
+{
+  id: 1286,
+  category: "HVAC Trade",
+  question_en: "Which condition increases superheat?",
+  question_pt: "Qual condição aumenta o superaquecimento?",
+  options: ["Low refrigerant charge", "Overcharge", "Dirty condenser", "High airflow"],
+  answer: "Low refrigerant charge",
+  difficulty: "medium",
+  reference: "Refrigeration"
+},
+{
+  id: 1287,
+  category: "HVAC Trade",
+  question_en: "The purpose of a pressure switch is to:",
+  question_pt: "A função de um pressostato é:",
+  options: ["Protect system from unsafe pressures", "Increase airflow", "Reduce humidity", "Control voltage"],
+  answer: "Protect system from unsafe pressures",
+  difficulty: "easy",
+  reference: "Controls"
+},
+{
+  id: 1288,
+  category: "HVAC Trade",
+  question_en: "Which component stores liquid refrigerant?",
+  question_pt: "Qual componente armazena refrigerante líquido?",
+  options: ["Receiver", "Evaporator", "Compressor", "Fan"],
+  answer: "Receiver",
+  difficulty: "medium",
+  reference: "Refrigeration Components"
+},
+{
+  id: 1289,
+  category: "HVAC Trade",
+  question_en: "A system with low airflow and warm supply air indicates:",
+  question_pt: "Um sistema com baixo fluxo de ar e ar de insuflação quente indica:",
+  options: ["Evaporator issue", "Normal operation", "High airflow", "Low humidity"],
+  answer: "Evaporator issue",
+  difficulty: "medium",
+  reference: "Troubleshooting"
+},
+{
+  id: 1290,
+  category: "HVAC Trade",
+  question_en: "Which condition causes high subcooling?",
+  question_pt: "Qual condição causa alto sub-resfriamento?",
+  options: ["Overcharged system", "Undercharged system", "Dirty filter", "Low airflow"],
+  answer: "Overcharged system",
+  difficulty: "medium",
+  reference: "Refrigerant Charge"
+},
+{
+  id: 1291,
+  category: "HVAC Trade",
+  question_en: "The MOST common cause of frozen suction line is:",
+  question_pt: "A causa mais comum de congelamento da linha de sucção é:",
+  options: ["Low airflow", "High airflow", "High voltage", "Clean system"],
+  answer: "Low airflow",
+  difficulty: "easy",
+  reference: "Evaporator"
+},
+{
+  id: 1292,
+  category: "HVAC Trade",
+  question_en: "Which instrument measures temperature?",
+  question_pt: "Qual instrumento mede temperatura?",
+  options: ["Thermometer", "Manometer", "Clamp meter", "Anemometer"],
+  answer: "Thermometer",
+  difficulty: "easy",
+  reference: "Tools"
+},
+{
+  id: 1293,
+  category: "HVAC Trade",
+  question_en: "A system with high humidity and short cycles indicates:",
+  question_pt: "Um sistema com alta umidade e ciclos curtos indica:",
+  options: ["Oversized equipment", "Undersized equipment", "Low airflow", "Dirty coil"],
+  answer: "Oversized equipment",
+  difficulty: "medium",
+  reference: "Humidity"
+},
+{
+  id: 1294,
+  category: "HVAC Trade",
+  question_en: "The MAIN purpose of a blower wheel is to:",
+  question_pt: "A função principal da roda do blower é:",
+  options: ["Move air through the system", "Increase pressure", "Store refrigerant", "Measure airflow"],
+  answer: "Move air through the system",
+  difficulty: "easy",
+  reference: "Air Handling"
+},
+{
+  id: 1295,
+  category: "HVAC Trade",
+  question_en: "Which condition causes high suction pressure?",
+  question_pt: "Qual condição causa alta pressão de sucção?",
+  options: ["Overcharged system", "Low refrigerant charge", "Dirty filter", "Low airflow"],
+  answer: "Overcharged system",
+  difficulty: "medium",
+  reference: "Refrigeration"
+},
+{
+  id: 1296,
+  category: "HVAC Trade",
+  question_en: "The MOST important factor in heat pump efficiency is:",
+  question_pt: "O fator mais importante na eficiência de bomba de calor é:",
+  options: ["Proper refrigerant charge", "Voltage", "Humidity", "Duct size"],
+  answer: "Proper refrigerant charge",
+  difficulty: "medium",
+  reference: "Heat Pumps"
+},
+{
+  id: 1297,
+  category: "HVAC Trade",
+  question_en: "A dirty blower wheel will cause:",
+  question_pt: "Uma roda de blower suja causará:",
+  options: ["Reduced airflow", "Increased airflow", "Higher voltage", "Better cooling"],
+  answer: "Reduced airflow",
+  difficulty: "easy",
+  reference: "Airflow"
+},
+{
+  id: 1298,
+  category: "HVAC Trade",
+  question_en: "Which condition leads to poor air distribution?",
+  question_pt: "Qual condição leva à má distribuição de ar?",
+  options: ["Improper duct design", "High voltage", "Low humidity", "Clean filter"],
+  answer: "Improper duct design",
+  difficulty: "medium",
+  reference: "Duct Design"
+},
+{
+  id: 1299,
+  category: "HVAC Trade",
+  question_en: "The MAIN purpose of a humidifier is to:",
+  question_pt: "A principal função de um umidificador é:",
+  options: ["Add moisture to air", "Remove moisture", "Increase airflow", "Cool air"],
+  answer: "Add moisture to air",
+  difficulty: "easy",
+  reference: "Humidity Control"
+},
+{
+  id: 1300,
+  category: "HVAC Trade",
+  question_en: "Which condition causes compressor overheating?",
+  question_pt: "Qual condição causa superaquecimento do compressor?",
+  options: ["Low refrigerant charge", "High airflow", "Clean system", "Low humidity"],
+  answer: "Low refrigerant charge",
+  difficulty: "medium",
+  reference: "Compressor"
+},
+{
+  id: 1301,
+  category: "HVAC Trade",
+  question_en: "A system with normal pressures but poor cooling indicates:",
+  question_pt: "Um sistema com pressões normais mas pouco resfriamento indica:",
+  options: ["Airflow problem", "Refrigerant issue", "Overcharge", "Low voltage"],
+  answer: "Airflow problem",
+  difficulty: "medium",
+  reference: "Troubleshooting"
+},
+{
+  id: 1302,
+  category: "HVAC Trade",
+  question_en: "The MOST common cause of duct noise is:",
+  question_pt: "A causa mais comum de ruído em dutos é:",
+  options: ["High air velocity", "Low airflow", "Clean ducts", "Low pressure"],
+  answer: "High air velocity",
+  difficulty: "easy",
+  reference: "Duct Systems"
+},
+{
+  id: 1303,
+  category: "HVAC Trade",
+  question_en: "Which condition causes low airflow in one room?",
+  question_pt: "Qual condição causa baixo fluxo de ar em um ambiente?",
+  options: ["Closed damper", "High voltage", "Clean filter", "Proper design"],
+  answer: "Closed damper",
+  difficulty: "easy",
+  reference: "Air Distribution"
+},
+{
+  id: 1304,
+  category: "HVAC Trade",
+  question_en: "The MAIN function of insulation on ducts is to:",
+  question_pt: "A principal função do isolamento dos dutos é:",
+  options: ["Reduce heat loss/gain", "Increase airflow", "Store air", "Reduce pressure"],
+  answer: "Reduce heat loss/gain",
+  difficulty: "easy",
+  reference: "Duct Systems"
+},
+{
+  id: 1305,
+  category: "HVAC Trade",
+  question_en: "A system with high superheat and low subcooling indicates:",
+  question_pt: "Um sistema com alto superaquecimento e baixo sub-resfriamento indica:",
+  options: ["Undercharged system", "Overcharged system", "Dirty coil", "High airflow"],
+  answer: "Undercharged system",
+  difficulty: "medium",
+  reference: "Refrigeration"
+},
+{
+  id: 1306,
+  category: "HVAC Trade",
+  question_en: "Which condition causes high energy bills MOST?",
+  question_pt: "Qual condição mais causa contas altas de energia?",
+  options: ["Dirty coils and filters", "Clean system", "Low airflow", "Low voltage"],
+  answer: "Dirty coils and filters",
+  difficulty: "easy",
+  reference: "Efficiency"
+},
+{
+  id: 1307,
+  category: "HVAC Trade",
+  question_en: "The purpose of a fuse is to:",
+  question_pt: "A função de um fusível é:",
+  options: ["Protect against overcurrent", "Increase airflow", "Reduce pressure", "Cool system"],
+  answer: "Protect against overcurrent",
+  difficulty: "easy",
+  reference: "Electrical Safety"
+},
+{
+  id: 1308,
+  category: "HVAC Trade",
+  question_en: "Which condition causes low cooling capacity?",
+  question_pt: "Qual condição causa baixa capacidade de resfriamento?",
+  options: ["Low refrigerant charge", "Clean coil", "High airflow", "Proper system"],
+  answer: "Low refrigerant charge",
+  difficulty: "easy",
+  reference: "Refrigeration"
+},
+{
+  id: 1309,
+  category: "HVAC Trade",
+  question_en: "A dirty air filter will MOST likely increase:",
+  question_pt: "Um filtro de ar sujo provavelmente aumentará:",
+  options: ["Static pressure", "Airflow", "Cooling capacity", "Efficiency"],
+  answer: "Static pressure",
+  difficulty: "medium",
+  reference: "Airflow"
+},
+{
+  id: 1310,
+  category: "HVAC Trade",
+  question_en: "The MAIN function of a return duct is to:",
+  question_pt: "A principal função do duto de retorno é:",
+  options: ["Return air to system", "Deliver supply air", "Increase pressure", "Cool air"],
+  answer: "Return air to system",
+  difficulty: "easy",
+  reference: "Air Distribution"
+},
+{
+  id: 1311,
+  category: "HVAC Trade",
+  question_en: "A system with high static pressure will MOST likely have:",
+  question_pt: "Um sistema com alta pressão estática provavelmente terá:",
+  options: ["Restricted airflow", "High airflow", "Low humidity", "Clean ducts"],
+  answer: "Restricted airflow",
+  difficulty: "medium",
+  reference: "Airflow"
+},
+{
+  id: 1312,
+  category: "HVAC Trade",
+  question_en: "Which component controls indoor fan speed?",
+  question_pt: "Qual componente controla a velocidade do ventilador interno?",
+  options: ["Blower motor control or ECM", "Compressor", "TXV", "Condenser"],
+  answer: "Blower motor control or ECM",
+  difficulty: "medium",
+  reference: "Electrical / Air Handling"
+},
+{
+  id: 1313,
+  category: "HVAC Trade",
+  question_en: "A system with low suction pressure and low superheat indicates:",
+  question_pt: "Um sistema com baixa pressão de sucção e baixo superaquecimento indica:",
+  options: ["Airflow restriction", "Low refrigerant charge", "Overcharge", "Dirty condenser"],
+  answer: "Airflow restriction",
+  difficulty: "medium",
+  reference: "Troubleshooting"
+},
+{
+  id: 1314,
+  category: "HVAC Trade",
+  question_en: "The MAIN purpose of a cooling tower is to:",
+  question_pt: "A principal função de uma torre de resfriamento é:",
+  options: ["Reject heat from water systems", "Cool air directly", "Increase pressure", "Store refrigerant"],
+  answer: "Reject heat from water systems",
+  difficulty: "medium",
+  reference: "Commercial HVAC"
+},
+{
+  id: 1315,
+  category: "HVAC Trade",
+  question_en: "Which condition causes high discharge temperature?",
+  question_pt: "Qual condição causa alta temperatura de descarga?",
+  options: ["Low refrigerant charge", "Overcharge", "Clean system", "High airflow"],
+  answer: "Low refrigerant charge",
+  difficulty: "medium",
+  reference: "Compressor"
+},
+{
+  id: 1316,
+  category: "HVAC Trade",
+  question_en: "A system that trips breaker repeatedly may indicate:",
+  question_pt: "Um sistema que desarma o disjuntor repetidamente pode indicar:",
+  options: ["Electrical overload", "High airflow", "Low humidity", "Clean system"],
+  answer: "Electrical overload",
+  difficulty: "easy",
+  reference: "Electrical"
+},
+{
+  id: 1317,
+  category: "HVAC Trade",
+  question_en: "The purpose of economizer in HVAC is to:",
+  question_pt: "A função do economizer no HVAC é:",
+  options: ["Use outdoor air for cooling", "Increase pressure", "Reduce airflow", "Heat refrigerant"],
+  answer: "Use outdoor air for cooling",
+  difficulty: "medium",
+  reference: "Energy Efficiency"
+},
+{
+  id: 1318,
+  category: "HVAC Trade",
+  question_en: "Which condition causes uneven cooling?",
+  question_pt: "Qual condição causa resfriamento desigual?",
+  options: ["Poor duct design", "High voltage", "Clean system", "Proper airflow"],
+  answer: "Poor duct design",
+  difficulty: "easy",
+  reference: "Air Distribution"
+},
+{
+  id: 1319,
+  category: "HVAC Trade",
+  question_en: "The MAIN function of a VFD is to:",
+  question_pt: "A principal função de um VFD é:",
+  options: ["Control motor speed", "Increase voltage", "Reduce airflow", "Store energy"],
+  answer: "Control motor speed",
+  difficulty: "medium",
+  reference: "Electrical"
+},
+{
+  id: 1320,
+  category: "HVAC Trade",
+  question_en: "A system with low airflow will MOST likely have:",
+  question_pt: "Um sistema com baixo fluxo de ar provavelmente terá:",
+  options: ["High temperature difference", "Low temperature difference", "High voltage", "Low pressure"],
+  answer: "High temperature difference",
+  difficulty: "medium",
+  reference: "Airflow"
+},
+{
+  id: 1321,
+  category: "HVAC Trade",
+  question_en: "Which condition causes compressor short cycling?",
+  question_pt: "Qual condição causa ciclos curtos do compressor?",
+  options: ["Oversized system", "Dirty filter", "Low voltage", "High airflow"],
+  answer: "Oversized system",
+  difficulty: "easy",
+  reference: "System Design"
+},
+{
+  id: 1322,
+  category: "HVAC Trade",
+  question_en: "The MAIN purpose of zoning system is to:",
+  question_pt: "A principal função de um sistema de zoneamento é:",
+  options: ["Control temperature in different areas", "Increase pressure", "Reduce airflow", "Cool faster"],
+  answer: "Control temperature in different areas",
+  difficulty: "medium",
+  reference: "System Design"
+},
+{
+  id: 1323,
+  category: "HVAC Trade",
+  question_en: "Which condition causes high humidity indoors?",
+  question_pt: "Qual condição causa alta umidade interna?",
+  options: ["Oversized AC unit", "Dirty condenser", "Low airflow", "High voltage"],
+  answer: "Oversized AC unit",
+  difficulty: "medium",
+  reference: "Humidity"
+},
+{
+  id: 1324,
+  category: "HVAC Trade",
+  question_en: "The purpose of a float switch is to:",
+  question_pt: "A função do float switch é:",
+  options: ["Prevent condensate overflow", "Increase airflow", "Reduce pressure", "Measure temperature"],
+  answer: "Prevent condensate overflow",
+  difficulty: "easy",
+  reference: "Drain System"
+},
+{
+  id: 1325,
+  category: "HVAC Trade",
+  question_en: "Which condition increases compressor amperage MOST?",
+  question_pt: "Qual condição mais aumenta a corrente do compressor?",
+  options: ["High head pressure", "Low airflow", "Clean system", "Low humidity"],
+  answer: "High head pressure",
+  difficulty: "medium",
+  reference: "Electrical"
+},
+{
+  id: 1326,
+  category: "HVAC Trade",
+  question_en: "A system with high subcooling and low superheat indicates:",
+  question_pt: "Um sistema com alto sub-resfriamento e baixo superaquecimento indica:",
+  options: ["Overcharged system", "Undercharged system", "Airflow issue", "Dirty filter"],
+  answer: "Overcharged system",
+  difficulty: "medium",
+  reference: "Refrigeration"
+},
+{
+  id: 1327,
+  category: "HVAC Trade",
+  question_en: "The MAIN purpose of duct insulation is to:",
+  question_pt: "A principal função do isolamento dos dutos é:",
+  options: ["Prevent heat gain/loss", "Increase airflow", "Store air", "Reduce humidity"],
+  answer: "Prevent heat gain/loss",
+  difficulty: "easy",
+  reference: "Duct Systems"
+},
+{
+  id: 1328,
+  category: "HVAC Trade",
+  question_en: "Which condition causes low system capacity?",
+  question_pt: "Qual condição causa baixa capacidade do sistema?",
+  options: ["Low refrigerant charge", "High airflow", "Clean system", "Proper sizing"],
+  answer: "Low refrigerant charge",
+  difficulty: "easy",
+  reference: "Refrigeration"
+},
+{
+  id: 1329,
+  category: "HVAC Trade",
+  question_en: "A system with high airflow will MOST likely have:",
+  question_pt: "Um sistema com alto fluxo de ar provavelmente terá:",
+  options: ["Low temperature difference", "High temperature difference", "High pressure", "Low humidity"],
+  answer: "Low temperature difference",
+  difficulty: "medium",
+  reference: "Airflow"
+},
+{
+  id: 1330,
+  category: "HVAC Trade",
+  question_en: "The MAIN purpose of a return grille is to:",
+  question_pt: "A principal função da grelha de retorno é:",
+  options: ["Allow air return to system", "Supply air", "Increase pressure", "Reduce humidity"],
+  answer: "Allow air return to system",
+  difficulty: "easy",
+  reference: "Air Distribution"
+},
+{
+  id: 1331,
+  category: "HVAC Trade",
+  question_en: "Which condition causes high energy consumption in HVAC?",
+  question_pt: "Qual condição causa alto consumo de energia no HVAC?",
+  options: ["Dirty coils and filters", "Clean system", "Low airflow", "Low voltage"],
+  answer: "Dirty coils and filters",
+  difficulty: "easy",
+  reference: "Efficiency"
+},
+{
+  id: 1332,
+  category: "HVAC Trade",
+  question_en: "The MAIN function of a compressor is to:",
+  question_pt: "A principal função do compressor é:",
+  options: ["Increase refrigerant pressure", "Cool air", "Move air", "Store refrigerant"],
+  answer: "Increase refrigerant pressure",
+  difficulty: "easy",
+  reference: "Refrigeration Cycle"
+},
+{
+  id: 1333,
+  category: "HVAC Trade",
+  question_en: "Which condition causes low head pressure?",
+  question_pt: "Qual condição causa baixa pressão de descarga?",
+  options: ["Cold outdoor temperature", "Dirty condenser", "Overcharge", "High load"],
+  answer: "Cold outdoor temperature",
+  difficulty: "medium",
+  reference: "Troubleshooting"
+},
+{
+  id: 1334,
+  category: "HVAC Trade",
+  question_en: "The purpose of a relay is to:",
+  question_pt: "A função de um relé é:",
+  options: ["Control electrical circuits", "Increase airflow", "Reduce humidity", "Measure pressure"],
+  answer: "Control electrical circuits",
+  difficulty: "easy",
+  reference: "Electrical"
+},
+{
+  id: 1335,
+  category: "HVAC Trade",
+  question_en: "A system with restricted airflow will MOST likely cause:",
+  question_pt: "Um sistema com fluxo restrito provavelmente causará:",
+  options: ["Coil freezing", "High airflow", "Low pressure", "Improved cooling"],
+  answer: "Coil freezing",
+  difficulty: "easy",
+  reference: "Evaporator"
+},
+{
+  id: 1336,
+  category: "HVAC Trade",
+  question_en: "Which condition causes high superheat and low suction pressure?",
+  question_pt: "Qual condição causa alto superaquecimento e baixa sucção?",
+  options: ["Low refrigerant charge", "Overcharge", "Dirty condenser", "High airflow"],
+  answer: "Low refrigerant charge",
+  difficulty: "medium",
+  reference: "Refrigeration"
+},
+{
+  id: 1337,
+  category: "HVAC Trade",
+  question_en: "The MAIN function of an evaporator coil is to:",
+  question_pt: "A principal função do evaporador é:",
+  options: ["Absorb heat from indoor air", "Reject heat", "Compress refrigerant", "Store energy"],
+  answer: "Absorb heat from indoor air",
+  difficulty: "easy",
+  reference: "Refrigeration"
+},
+{
+  id: 1338,
+  category: "HVAC Trade",
+  question_en: "Which condition causes low airflow in duct system?",
+  question_pt: "Qual condição causa baixo fluxo de ar no sistema de dutos?",
+  options: ["Blocked ducts", "High voltage", "Clean system", "High airflow"],
+  answer: "Blocked ducts",
+  difficulty: "easy",
+  reference: "Duct Systems"
+},
+{
+  id: 1339,
+  category: "HVAC Trade",
+  question_en: "The purpose of a humidistat is to:",
+  question_pt: "A função de um humidistato é:",
+  options: ["Control humidity levels", "Increase airflow", "Reduce pressure", "Cool air"],
+  answer: "Control humidity levels",
+  difficulty: "easy",
+  reference: "Humidity"
+},
+{
+  id: 1340,
+  category: "HVAC Trade",
+  question_en: "A system with high head pressure and low airflow indicates:",
+  question_pt: "Um sistema com alta pressão e baixo fluxo de ar indica:",
+  options: ["Dirty condenser", "Low refrigerant", "Clean system", "Proper airflow"],
+  answer: "Dirty condenser",
+  difficulty: "medium",
+  reference: "Troubleshooting"
+},
+{
+  id: 1341,
+  category: "HVAC Trade",
+  question_en: "Which condition causes uneven temperatures in building?",
+  question_pt: "Qual condição causa temperaturas desiguais em um prédio?",
+  options: ["Improper duct design", "High voltage", "Clean system", "Low humidity"],
+  answer: "Improper duct design",
+  difficulty: "easy",
+  reference: "Air Distribution"
+},
+{
+  id: 1342,
+  category: "HVAC Trade",
+  question_en: "The MAIN purpose of a filter is to:",
+  question_pt: "A principal função do filtro é:",
+  options: ["Remove contaminants from air", "Increase airflow", "Reduce pressure", "Cool air"],
+  answer: "Remove contaminants from air",
+  difficulty: "easy",
+  reference: "Air Quality"
+},
+{
+  id: 1343,
+  category: "HVAC Trade",
+  question_en: "Which condition causes high static pressure?",
+  question_pt: "Qual condição causa alta pressão estática?",
+  options: ["Dirty filter", "Clean system", "High airflow", "Low pressure"],
+  answer: "Dirty filter",
+  difficulty: "medium",
+  reference: "Airflow"
+},
+{
+  id: 1344,
+  category: "HVAC Trade",
+  question_en: "The purpose of a condenser fan is to:",
+  question_pt: "A função do ventilador do condensador é:",
+  options: ["Remove heat from condenser", "Move indoor air", "Increase pressure", "Cool evaporator"],
+  answer: "Remove heat from condenser",
+  difficulty: "easy",
+  reference: "Condenser"
+},
+{
+  id: 1345,
+  category: "HVAC Trade",
+  question_en: "Which condition causes low system efficiency?",
+  question_pt: "Qual condição causa baixa eficiência do sistema?",
+  options: ["Dirty coils", "Clean system", "High airflow", "Proper charge"],
+  answer: "Dirty coils",
+  difficulty: "easy",
+  reference: "Efficiency"
+},
+{
+  id: 1346,
+  category: "HVAC Trade",
+  question_en: "The MAIN purpose of duct sealing is to:",
+  question_pt: "A principal função da vedação de dutos é:",
+  options: ["Prevent air leakage", "Increase airflow", "Reduce pressure", "Store air"],
+  answer: "Prevent air leakage",
+  difficulty: "easy",
+  reference: "Duct Systems"
+},
+{
+  id: 1347,
+  category: "HVAC Trade",
+  question_en: "Which condition causes compressor overheating?",
+  question_pt: "Qual condição causa superaquecimento do compressor?",
+  options: ["Low refrigerant charge", "High airflow", "Clean system", "Low humidity"],
+  answer: "Low refrigerant charge",
+  difficulty: "medium",
+  reference: "Compressor"
+},
+{
+  id: 1348,
+  category: "HVAC Trade",
+  question_en: "The purpose of a thermostat anticipator is to:",
+  question_pt: "A função do antecipador do termostato é:",
+  options: ["Prevent overshooting temperature", "Increase airflow", "Reduce humidity", "Cool system"],
+  answer: "Prevent overshooting temperature",
+  difficulty: "medium",
+  reference: "Controls"
+},
+{
+  id: 1349,
+  category: "HVAC Trade",
+  question_en: "Which condition causes poor cooling performance?",
+  question_pt: "Qual condição causa baixo desempenho de resfriamento?",
+  options: ["Low refrigerant charge", "Clean system", "High airflow", "Proper sizing"],
+  answer: "Low refrigerant charge",
+  difficulty: "easy",
+  reference: "Refrigeration"
+},
+{
+  id: 1350,
+  category: "HVAC Trade",
+  question_en: "The MAIN function of a return air system is to:",
+  question_pt: "A principal função do sistema de retorno é:",
+  options: ["Bring air back to unit", "Deliver supply air", "Increase pressure", "Cool refrigerant"],
+  answer: "Bring air back to unit",
+  difficulty: "easy",
+  reference: "Air Distribution"
+},
+{
+  id: 1351,
+  category: "HVAC Trade",
+  question_en: "Which condition causes excessive noise in HVAC system?",
+  question_pt: "Qual condição causa ruído excessivo no sistema HVAC?",
+  options: ["High airflow velocity", "Low airflow", "Clean ducts", "Low pressure"],
+  answer: "High airflow velocity",
+  difficulty: "easy",
+  reference: "Duct Systems"
+},
+{
+  id: 1352,
+  category: "HVAC Trade",
+  question_en: "The purpose of an expansion valve is to:",
+  question_pt: "A função da válvula de expansão é:",
+  options: ["Control refrigerant flow and pressure", "Increase airflow", "Reduce humidity", "Cool air"],
+  answer: "Control refrigerant flow and pressure",
+  difficulty: "easy",
+  reference: "Metering Devices"
+},
+{
+  id: 1353,
+  category: "HVAC Trade",
+  question_en: "Which condition causes high humidity indoors?",
+  question_pt: "Qual condição causa alta umidade interna?",
+  options: ["Oversized AC system", "Clean system", "High airflow", "Low voltage"],
+  answer: "Oversized AC system",
+  difficulty: "medium",
+  reference: "Humidity"
+},
+{
+  id: 1354,
+  category: "HVAC Trade",
+  question_en: "The MAIN purpose of ventilation air is to:",
+  question_pt: "A principal função do ar de ventilação é:",
+  options: ["Provide fresh outdoor air", "Increase pressure", "Reduce airflow", "Cool refrigerant"],
+  answer: "Provide fresh outdoor air",
+  difficulty: "easy",
+  reference: "Ventilation"
+},
+{
+  id: 1355,
+  category: "HVAC Trade",
+  question_en: "Which condition causes low cooling capacity?",
+  question_pt: "Qual condição causa baixa capacidade de resfriamento?",
+  options: ["Low refrigerant charge", "Clean system", "High airflow", "Proper design"],
+  answer: "Low refrigerant charge",
+  difficulty: "easy",
+  reference: "Refrigeration"
+},
+{
+  id: 1356,
+  category: "HVAC Trade",
+  question_en: "The purpose of a pressure relief valve is to:",
+  question_pt: "A função da válvula de alívio é:",
+  options: ["Prevent overpressure damage", "Increase airflow", "Reduce humidity", "Cool air"],
+  answer: "Prevent overpressure damage",
+  difficulty: "easy",
+  reference: "Safety"
+},
+{
+  id: 1357,
+  category: "HVAC Trade",
+  question_en: "Which condition causes high superheat?",
+  question_pt: "Qual condição causa alto superaquecimento?",
+  options: ["Low refrigerant charge", "Overcharge", "Clean system", "High airflow"],
+  answer: "Low refrigerant charge",
+  difficulty: "medium",
+  reference: "Refrigeration"
+},
+{
+  id: 1358,
+  category: "HVAC Trade",
+  question_en: "The MAIN purpose of duct design is to:",
+  question_pt: "A principal função do projeto de dutos é:",
+  options: ["Deliver proper airflow", "Increase pressure", "Reduce humidity", "Store air"],
+  answer: "Deliver proper airflow",
+  difficulty: "medium",
+  reference: "Duct Design"
+},
+{
+  id: 1359,
+  category: "HVAC Trade",
+  question_en: "Which condition causes high head pressure?",
+  question_pt: "Qual condição causa alta pressão de descarga?",
+  options: ["Dirty condenser", "Cold weather", "Low refrigerant", "High airflow"],
+  answer: "Dirty condenser",
+  difficulty: "easy",
+  reference: "Condenser"
+},
+{
+  id: 1360,
+  category: "HVAC Trade",
+  question_en: "The purpose of a blower motor is to:",
+  question_pt: "A função do motor do blower é:",
+  options: ["Move air through ducts", "Compress refrigerant", "Increase pressure", "Cool system"],
+  answer: "Move air through ducts",
+  difficulty: "easy",
+  reference: "Air Handling"
+},
+{
+  id: 1361,
+  category: "HVAC Trade",
+  question_en: "A system with low suction pressure and high superheat indicates:",
+  question_pt: "Um sistema com baixa pressão de sucção e alto superaquecimento indica:",
+  options: ["Low refrigerant charge", "Overcharged system", "Dirty condenser", "High airflow"],
+  answer: "Low refrigerant charge",
+  difficulty: "medium",
+  reference: "Refrigeration"
+},
+{
+  id: 1362,
+  category: "HVAC Trade",
+  question_en: "The MAIN function of a condenser coil is to:",
+  question_pt: "A principal função do condensador é:",
+  options: ["Reject heat to outside air", "Absorb heat", "Compress refrigerant", "Move air"],
+  answer: "Reject heat to outside air",
+  difficulty: "easy",
+  reference: "Refrigeration Cycle"
+},
+{
+  id: 1363,
+  category: "HVAC Trade",
+  question_en: "Which condition causes compressor short cycling?",
+  question_pt: "Qual condição causa ciclos curtos no compressor?",
+  options: ["Oversized system", "Dirty filter", "Low voltage", "Low airflow"],
+  answer: "Oversized system",
+  difficulty: "easy",
+  reference: "System Design"
+},
+{
+  id: 1364,
+  category: "HVAC Trade",
+  question_en: "A system with dirty evaporator coil will MOST likely have:",
+  question_pt: "Um sistema com evaporador sujo provavelmente terá:",
+  options: ["Reduced heat transfer", "Increased airflow", "Higher voltage", "Improved cooling"],
+  answer: "Reduced heat transfer",
+  difficulty: "easy",
+  reference: "Evaporator"
+},
+{
+  id: 1365,
+  category: "HVAC Trade",
+  question_en: "The purpose of a suction accumulator is to:",
+  question_pt: "A função do acumulador de sucção é:",
+  options: ["Prevent liquid refrigerant from entering compressor", "Increase airflow", "Reduce pressure", "Store air"],
+  answer: "Prevent liquid refrigerant from entering compressor",
+  difficulty: "medium",
+  reference: "Refrigeration Components"
+},
+{
+  id: 1366,
+  category: "HVAC Trade",
+  question_en: "Which condition causes high discharge pressure?",
+  question_pt: "Qual condição causa alta pressão de descarga?",
+  options: ["Dirty condenser", "Cold weather", "Low refrigerant charge", "High airflow"],
+  answer: "Dirty condenser",
+  difficulty: "easy",
+  reference: "Condenser"
+},
+{
+  id: 1367,
+  category: "HVAC Trade",
+  question_en: "The MAIN function of a return air system is to:",
+  question_pt: "A principal função do sistema de retorno é:",
+  options: ["Bring air back to unit", "Deliver supply air", "Increase pressure", "Cool refrigerant"],
+  answer: "Bring air back to unit",
+  difficulty: "easy",
+  reference: "Air Distribution"
+},
+{
+  id: 1368,
+  category: "HVAC Trade",
+  question_en: "Which condition leads to high humidity indoors?",
+  question_pt: "Qual condição leva a alta umidade interna?",
+  options: ["Oversized system", "Dirty condenser", "High airflow", "Low voltage"],
+  answer: "Oversized system",
+  difficulty: "medium",
+  reference: "Humidity"
+},
+{
+  id: 1369,
+  category: "HVAC Trade",
+  question_en: "A system with restricted airflow will MOST likely cause:",
+  question_pt: "Um sistema com fluxo restrito provavelmente causará:",
+  options: ["Evaporator coil freezing", "High airflow", "Low pressure", "Improved efficiency"],
+  answer: "Evaporator coil freezing",
+  difficulty: "easy",
+  reference: "Evaporator"
+},
+{
+  id: 1370,
+  category: "HVAC Trade",
+  question_en: "The purpose of a filter drier is to:",
+  question_pt: "A função do filtro secador é:",
+  options: ["Remove moisture and contaminants", "Increase airflow", "Reduce pressure", "Cool refrigerant"],
+  answer: "Remove moisture and contaminants",
+  difficulty: "easy",
+  reference: "Refrigeration Components"
+},
+{
+  id: 1371,
+  category: "HVAC Trade",
+  question_en: "Which condition causes low airflow in a room?",
+  question_pt: "Qual condição causa baixo fluxo de ar em um ambiente?",
+  options: ["Closed damper", "High voltage", "Clean filter", "Proper design"],
+  answer: "Closed damper",
+  difficulty: "easy",
+  reference: "Air Distribution"
+},
+{
+  id: 1372,
+  category: "HVAC Trade",
+  question_en: "The MAIN function of a thermostat is to:",
+  question_pt: "A principal função do termostato é:",
+  options: ["Control temperature", "Increase airflow", "Reduce pressure", "Store energy"],
+  answer: "Control temperature",
+  difficulty: "easy",
+  reference: "Controls"
+},
+{
+  id: 1373,
+  category: "HVAC Trade",
+  question_en: "Which condition causes high superheat?",
+  question_pt: "Qual condição causa alto superaquecimento?",
+  options: ["Low refrigerant charge", "Overcharge", "Dirty condenser", "High airflow"],
+  answer: "Low refrigerant charge",
+  difficulty: "medium",
+  reference: "Refrigeration"
+},
+{
+  id: 1374,
+  category: "HVAC Trade",
+  question_en: "The MAIN purpose of duct insulation is to:",
+  question_pt: "A principal função do isolamento de dutos é:",
+  options: ["Prevent heat gain/loss", "Increase airflow", "Reduce pressure", "Store air"],
+  answer: "Prevent heat gain/loss",
+  difficulty: "easy",
+  reference: "Duct Systems"
+},
+{
+  id: 1375,
+  category: "HVAC Trade",
+  question_en: "A system with high subcooling indicates:",
+  question_pt: "Um sistema com alto sub-resfriamento indica:",
+  options: ["Overcharged system", "Undercharged system", "Dirty coil", "Low airflow"],
+  answer: "Overcharged system",
+  difficulty: "medium",
+  reference: "Refrigerant Charge"
+},
+{
+  id: 1376,
+  category: "HVAC Trade",
+  question_en: "Which condition causes high energy consumption?",
+  question_pt: "Qual condição causa alto consumo de energia?",
+  options: ["Dirty coils and filters", "Clean system", "Proper charge", "High airflow"],
+  answer: "Dirty coils and filters",
+  difficulty: "easy",
+  reference: "Efficiency"
+},
+{
+  id: 1377,
+  category: "HVAC Trade",
+  question_en: "The purpose of a relay is to:",
+  question_pt: "A função de um relé é:",
+  options: ["Control electrical circuits", "Increase airflow", "Reduce pressure", "Cool system"],
+  answer: "Control electrical circuits",
+  difficulty: "easy",
+  reference: "Electrical"
+},
+{
+  id: 1378,
+  category: "HVAC Trade",
+  question_en: "Which condition causes uneven temperatures?",
+  question_pt: "Qual condição causa temperaturas desiguais?",
+  options: ["Poor duct design", "High voltage", "Clean system", "Low humidity"],
+  answer: "Poor duct design",
+  difficulty: "easy",
+  reference: "Air Distribution"
+},
+{
+  id: 1379,
+  category: "HVAC Trade",
+  question_en: "The MAIN function of a blower is to:",
+  question_pt: "A principal função do blower é:",
+  options: ["Move air through system", "Compress refrigerant", "Increase pressure", "Cool system"],
+  answer: "Move air through system",
+  difficulty: "easy",
+  reference: "Air Handling"
+},
+{
+  id: 1380,
+  category: "HVAC Trade",
+  question_en: "A system with low refrigerant charge will MOST likely have:",
+  question_pt: "Um sistema com baixa carga de refrigerante provavelmente terá:",
+  options: ["High superheat", "Low superheat", "High pressure", "High subcooling"],
+  answer: "High superheat",
+  difficulty: "medium",
+  reference: "Refrigeration"
+},
+{
+  id: 1381,
+  category: "HVAC Trade",
+  question_en: "Which condition causes compressor overheating?",
+  question_pt: "Qual condição causa superaquecimento do compressor?",
+  options: ["Low refrigerant charge", "High airflow", "Clean system", "Low humidity"],
+  answer: "Low refrigerant charge",
+  difficulty: "medium",
+  reference: "Compressor"
+},
+{
+  id: 1382,
+  category: "HVAC Trade",
+  question_en: "The MAIN purpose of ventilation air is to:",
+  question_pt: "A principal função do ar de ventilação é:",
+  options: ["Provide fresh air", "Increase pressure", "Reduce airflow", "Cool refrigerant"],
+  answer: "Provide fresh air",
+  difficulty: "easy",
+  reference: "Ventilation"
+},
+{
+  id: 1383,
+  category: "HVAC Trade",
+  question_en: "Which condition causes low cooling capacity?",
+  question_pt: "Qual condição causa baixa capacidade de resfriamento?",
+  options: ["Low refrigerant charge", "Clean system", "High airflow", "Proper design"],
+  answer: "Low refrigerant charge",
+  difficulty: "easy",
+  reference: "Refrigeration"
+},
+{
+  id: 1384,
+  category: "HVAC Trade",
+  question_en: "The purpose of a fuse is to:",
+  question_pt: "A função de um fusível é:",
+  options: ["Protect against overcurrent", "Increase airflow", "Reduce pressure", "Cool system"],
+  answer: "Protect against overcurrent",
+  difficulty: "easy",
+  reference: "Electrical"
+},
+{
+  id: 1385,
+  category: "HVAC Trade",
+  question_en: "Which condition causes high head pressure?",
+  question_pt: "Qual condição causa alta pressão de descarga?",
+  options: ["Dirty condenser", "Cold weather", "Low refrigerant", "High airflow"],
+  answer: "Dirty condenser",
+  difficulty: "easy",
+  reference: "Condenser"
+},
+{
+  id: 1386,
+  category: "HVAC Trade",
+  question_en: "The MAIN function of a return grille is to:",
+  question_pt: "A principal função da grelha de retorno é:",
+  options: ["Allow return air", "Supply air", "Increase pressure", "Reduce humidity"],
+  answer: "Allow return air",
+  difficulty: "easy",
+  reference: "Air Distribution"
+},
+{
+  id: 1387,
+  category: "HVAC Trade",
+  question_en: "Which condition causes coil icing?",
+  question_pt: "Qual condição causa congelamento da serpentina?",
+  options: ["Low airflow", "High airflow", "High voltage", "Clean filter"],
+  answer: "Low airflow",
+  difficulty: "easy",
+  reference: "Evaporator"
+},
+{
+  id: 1388,
+  category: "HVAC Trade",
+  question_en: "The purpose of a pressure switch is to:",
+  question_pt: "A função do pressostato é:",
+  options: ["Protect system", "Increase airflow", "Reduce humidity", "Measure voltage"],
+  answer: "Protect system",
+  difficulty: "easy",
+  reference: "Controls"
+},
+{
+  id: 1389,
+  category: "HVAC Trade",
+  question_en: "Which condition causes poor air distribution?",
+  question_pt: "Qual condição causa má distribuição de ar?",
+  options: ["Improper duct design", "High voltage", "Clean system", "Low humidity"],
+  answer: "Improper duct design",
+  difficulty: "easy",
+  reference: "Duct Systems"
+},
+{
+  id: 1390,
+  category: "HVAC Trade",
+  question_en: "The MAIN purpose of a humidifier is to:",
+  question_pt: "A principal função de um umidificador é:",
+  options: ["Add moisture to air", "Remove moisture", "Increase airflow", "Cool air"],
+  answer: "Add moisture to air",
+  difficulty: "easy",
+  reference: "Humidity"
+},
+{
+  id: 1391,
+  category: "HVAC Trade",
+  question_en: "Which condition causes low airflow?",
+  question_pt: "Qual condição causa baixo fluxo de ar?",
+  options: ["Dirty filter", "Clean system", "High airflow", "Proper design"],
+  answer: "Dirty filter",
+  difficulty: "easy",
+  reference: "Airflow"
+},
+{
+  id: 1392,
+  category: "HVAC Trade",
+  question_en: "The purpose of a disconnect switch is to:",
+  question_pt: "A função do disconnect switch é:",
+  options: ["Isolate power safely", "Increase airflow", "Reduce pressure", "Cool system"],
+  answer: "Isolate power safely",
+  difficulty: "easy",
+  reference: "Electrical Safety"
+},
+{
+  id: 1393,
+  category: "HVAC Trade",
+  question_en: "Which condition causes high superheat?",
+  question_pt: "Qual condição causa alto superaquecimento?",
+  options: ["Low refrigerant charge", "Overcharge", "Clean system", "High airflow"],
+  answer: "Low refrigerant charge",
+  difficulty: "medium",
+  reference: "Refrigeration"
+},
+{
+  id: 1394,
+  category: "HVAC Trade",
+  question_en: "The MAIN purpose of duct sealing is to:",
+  question_pt: "A principal função da vedação de dutos é:",
+  options: ["Prevent air leaks", "Increase airflow", "Reduce pressure", "Store air"],
+  answer: "Prevent air leaks",
+  difficulty: "easy",
+  reference: "Duct Systems"
+},
+{
+  id: 1395,
+  category: "HVAC Trade",
+  question_en: "Which condition causes high humidity indoors?",
+  question_pt: "Qual condição causa alta umidade interna?",
+  options: ["Oversized system", "Clean system", "High airflow", "Low voltage"],
+  answer: "Oversized system",
+  difficulty: "medium",
+  reference: "Humidity"
+},
+{
+  id: 1396,
+  category: "HVAC Trade",
+  question_en: "The purpose of a blower motor is to:",
+  question_pt: "A função do motor do blower é:",
+  options: ["Move air", "Compress refrigerant", "Increase pressure", "Cool system"],
+  answer: "Move air",
+  difficulty: "easy",
+  reference: "Air Handling"
+},
+{
+  id: 1397,
+  category: "HVAC Trade",
+  question_en: "Which condition causes low system efficiency?",
+  question_pt: "Qual condição causa baixa eficiência do sistema?",
+  options: ["Dirty coils", "Clean system", "Proper charge", "High airflow"],
+  answer: "Dirty coils",
+  difficulty: "easy",
+  reference: "Efficiency"
+},
+{
+  id: 1398,
+  category: "HVAC Trade",
+  question_en: "The MAIN function of a compressor is to:",
+  question_pt: "A principal função do compressor é:",
+  options: ["Increase refrigerant pressure", "Cool air", "Move air", "Store refrigerant"],
+  answer: "Increase refrigerant pressure",
+  difficulty: "easy",
+  reference: "Refrigeration"
+},
+{
+  id: 1399,
+  category: "HVAC Trade",
+  question_en: "Which condition causes high head pressure?",
+  question_pt: "Qual condição causa alta pressão de descarga?",
+  options: ["Dirty condenser", "Cold weather", "Low refrigerant", "High airflow"],
+  answer: "Dirty condenser",
+  difficulty: "easy",
+  reference: "Condenser"
+},
+{
+  id: 1400,
+  category: "HVAC Trade",
+  question_en: "The MAIN purpose of airflow is to:",
+  question_pt: "A principal função do fluxo de ar é:",
+  options: ["Transfer heat", "Increase pressure", "Reduce humidity", "Store energy"],
+  answer: "Transfer heat",
+  difficulty: "medium",
+  reference: "Airflow"
+},
+{
+  id: 1401,
+  category: "HVAC Trade",
+  question_en: "A system with high superheat and normal subcooling indicates:",
+  question_pt: "Um sistema com alto superaquecimento e sub-resfriamento normal indica:",
+  options: ["Low refrigerant charge", "Overcharged system", "Dirty condenser", "High airflow"],
+  answer: "Low refrigerant charge",
+  difficulty: "medium",
+  reference: "Refrigeration"
+},
+{
+  id: 1402,
+  category: "HVAC Trade",
+  question_en: "The MAIN purpose of a condenser fan motor is to:",
+  question_pt: "A principal função do motor do ventilador do condensador é:",
+  options: ["Move air across condenser coil", "Compress refrigerant", "Cool indoor air", "Increase pressure"],
+  answer: "Move air across condenser coil",
+  difficulty: "easy",
+  reference: "Condenser"
+},
+{
+  id: 1403,
+  category: "HVAC Trade",
+  question_en: "Which condition causes low suction pressure and low superheat?",
+  question_pt: "Qual condição causa baixa sucção e baixo superaquecimento?",
+  options: ["Airflow restriction", "Low refrigerant charge", "Overcharge", "Dirty condenser"],
+  answer: "Airflow restriction",
+  difficulty: "medium",
+  reference: "Troubleshooting"
+},
+{
+  id: 1404,
+  category: "HVAC Trade",
+  question_en: "A system with dirty condenser coil will MOST likely have:",
+  question_pt: "Um sistema com condensador sujo provavelmente terá:",
+  options: ["High head pressure", "Low head pressure", "Low suction pressure", "Low superheat"],
+  answer: "High head pressure",
+  difficulty: "easy",
+  reference: "Condenser"
+},
+{
+  id: 1405,
+  category: "HVAC Trade",
+  question_en: "The purpose of a crankcase heater is to:",
+  question_pt: "A função do aquecedor do cárter é:",
+  options: ["Prevent refrigerant migration", "Increase airflow", "Reduce pressure", "Cool compressor"],
+  answer: "Prevent refrigerant migration",
+  difficulty: "medium",
+  reference: "Compressor"
+},
+{
+  id: 1406,
+  category: "HVAC Trade",
+  question_en: "Which condition causes high humidity indoors?",
+  question_pt: "Qual condição causa alta umidade interna?",
+  options: ["Oversized AC system", "Dirty condenser", "High airflow", "Low voltage"],
+  answer: "Oversized AC system",
+  difficulty: "medium",
+  reference: "Humidity"
+},
+{
+  id: 1407,
+  category: "HVAC Trade",
+  question_en: "The MAIN purpose of a contactor is to:",
+  question_pt: "A principal função do contator é:",
+  options: ["Control high voltage circuits", "Increase airflow", "Reduce pressure", "Cool system"],
+  answer: "Control high voltage circuits",
+  difficulty: "easy",
+  reference: "Electrical"
+},
+{
+  id: 1408,
+  category: "HVAC Trade",
+  question_en: "A system with low refrigerant charge will MOST likely show:",
+  question_pt: "Um sistema com baixa carga de refrigerante provavelmente apresentará:",
+  options: ["High superheat", "Low superheat", "High pressure", "High subcooling"],
+  answer: "High superheat",
+  difficulty: "easy",
+  reference: "Refrigeration"
+},
+{
+  id: 1409,
+  category: "HVAC Trade",
+  question_en: "Which condition causes low airflow?",
+  question_pt: "Qual condição causa baixo fluxo de ar?",
+  options: ["Dirty air filter", "Clean system", "High airflow", "Proper design"],
+  answer: "Dirty air filter",
+  difficulty: "easy",
+  reference: "Airflow"
+},
+{
+  id: 1410,
+  category: "HVAC Trade",
+  question_en: "The MAIN purpose of duct insulation is to:",
+  question_pt: "A principal função do isolamento de dutos é:",
+  options: ["Prevent heat gain/loss", "Increase airflow", "Reduce pressure", "Store air"],
+  answer: "Prevent heat gain/loss",
+  difficulty: "easy",
+  reference: "Duct Systems"
+},
+{
+  id: 1411,
+  category: "HVAC Trade",
+  question_en: "Which condition causes compressor overheating?",
+  question_pt: "Qual condição causa superaquecimento do compressor?",
+  options: ["Low refrigerant charge", "High airflow", "Clean system", "Low humidity"],
+  answer: "Low refrigerant charge",
+  difficulty: "medium",
+  reference: "Compressor"
+},
+{
+  id: 1412,
+  category: "HVAC Trade",
+  question_en: "The purpose of a relay is to:",
+  question_pt: "A função de um relé é:",
+  options: ["Control electrical circuits", "Increase airflow", "Reduce pressure", "Cool system"],
+  answer: "Control electrical circuits",
+  difficulty: "easy",
+  reference: "Electrical"
+},
+{
+  id: 1413,
+  category: "HVAC Trade",
+  question_en: "Which condition causes high head pressure?",
+  question_pt: "Qual condição causa alta pressão de descarga?",
+  options: ["Dirty condenser", "Cold weather", "Low refrigerant", "High airflow"],
+  answer: "Dirty condenser",
+  difficulty: "easy",
+  reference: "Condenser"
+},
+{
+  id: 1414,
+  category: "HVAC Trade",
+  question_en: "The MAIN purpose of airflow is to:",
+  question_pt: "A principal função do fluxo de ar é:",
+  options: ["Transfer heat", "Increase pressure", "Reduce humidity", "Store energy"],
+  answer: "Transfer heat",
+  difficulty: "medium",
+  reference: "Airflow"
+},
+{
+  id: 1415,
+  category: "HVAC Trade",
+  question_en: "A system with restricted airflow will MOST likely cause:",
+  question_pt: "Um sistema com fluxo restrito provavelmente causará:",
+  options: ["Coil freezing", "High airflow", "Low pressure", "Improved cooling"],
+  answer: "Coil freezing",
+  difficulty: "easy",
+  reference: "Evaporator"
+},
+{
+  id: 1416,
+  category: "HVAC Trade",
+  question_en: "Which condition causes low cooling capacity?",
+  question_pt: "Qual condição causa baixa capacidade de resfriamento?",
+  options: ["Low refrigerant charge", "Clean system", "High airflow", "Proper sizing"],
+  answer: "Low refrigerant charge",
+  difficulty: "easy",
+  reference: "Refrigeration"
+},
+{
+  id: 1417,
+  category: "HVAC Trade",
+  question_en: "The purpose of a fuse is to:",
+  question_pt: "A função de um fusível é:",
+  options: ["Protect against overcurrent", "Increase airflow", "Reduce pressure", "Cool system"],
+  answer: "Protect against overcurrent",
+  difficulty: "easy",
+  reference: "Electrical"
+},
+{
+  id: 1418,
+  category: "HVAC Trade",
+  question_en: "Which condition causes high superheat?",
+  question_pt: "Qual condição causa alto superaquecimento?",
+  options: ["Low refrigerant charge", "Overcharge", "Clean system", "High airflow"],
+  answer: "Low refrigerant charge",
+  difficulty: "medium",
+  reference: "Refrigeration"
+},
+{
+  id: 1419,
+  category: "HVAC Trade",
+  question_en: "The MAIN purpose of ventilation air is to:",
+  question_pt: "A principal função do ar de ventilação é:",
+  options: ["Provide fresh air", "Increase pressure", "Reduce airflow", "Cool refrigerant"],
+  answer: "Provide fresh air",
+  difficulty: "easy",
+  reference: "Ventilation"
+},
+{
+  id: 1420,
+  category: "HVAC Trade",
+  question_en: "A system with high humidity and short cycling indicates:",
+  question_pt: "Um sistema com alta umidade e ciclos curtos indica:",
+  options: ["Oversized system", "Undersized system", "Low airflow", "Dirty coil"],
+  answer: "Oversized system",
+  difficulty: "medium",
+  reference: "Humidity"
+},
+{
+  id: 1421,
+  category: "HVAC Trade",
+  question_en: "Which condition causes low airflow in ducts?",
+  question_pt: "Qual condição causa baixo fluxo de ar nos dutos?",
+  options: ["Blocked ducts", "High voltage", "Clean system", "High airflow"],
+  answer: "Blocked ducts",
+  difficulty: "easy",
+  reference: "Duct Systems"
+},
+{
+  id: 1422,
+  category: "HVAC Trade",
+  question_en: "The purpose of a disconnect switch is to:",
+  question_pt: "A função do disconnect switch é:",
+  options: ["Isolate power safely", "Increase airflow", "Reduce pressure", "Cool system"],
+  answer: "Isolate power safely",
+  difficulty: "easy",
+  reference: "Electrical"
+},
+{
+  id: 1423,
+  category: "HVAC Trade",
+  question_en: "Which condition causes uneven temperatures?",
+  question_pt: "Qual condição causa temperaturas desiguais?",
+  options: ["Improper duct design", "High voltage", "Clean system", "Low humidity"],
+  answer: "Improper duct design",
+  difficulty: "easy",
+  reference: "Air Distribution"
+},
+{
+  id: 1424,
+  category: "HVAC Trade",
+  question_en: "The MAIN purpose of a blower is to:",
+  question_pt: "A principal função do blower é:",
+  options: ["Move air through system", "Compress refrigerant", "Increase pressure", "Cool system"],
+  answer: "Move air through system",
+  difficulty: "easy",
+  reference: "Air Handling"
+},
+{
+  id: 1425,
+  category: "HVAC Trade",
+  question_en: "Which condition causes high energy consumption?",
+  question_pt: "Qual condição causa alto consumo de energia?",
+  options: ["Dirty coils", "Clean system", "Proper charge", "High airflow"],
+  answer: "Dirty coils",
+  difficulty: "easy",
+  reference: "Efficiency"
+},
+{
+  id: 1426,
+  category: "HVAC Trade",
+  question_en: "The purpose of duct sealing is to:",
+  question_pt: "A função da vedação de dutos é:",
+  options: ["Prevent air leakage", "Increase airflow", "Reduce pressure", "Store air"],
+  answer: "Prevent air leakage",
+  difficulty: "easy",
+  reference: "Duct Systems"
+},
+{
+  id: 1427,
+  category: "HVAC Trade",
+  question_en: "Which condition causes high subcooling?",
+  question_pt: "Qual condição causa alto sub-resfriamento?",
+  options: ["Overcharged system", "Undercharged system", "Dirty coil", "Low airflow"],
+  answer: "Overcharged system",
+  difficulty: "medium",
+  reference: "Refrigeration"
+},
+{
+  id: 1428,
+  category: "HVAC Trade",
+  question_en: "The MAIN purpose of a humidifier is to:",
+  question_pt: "A principal função de um umidificador é:",
+  options: ["Add moisture to air", "Remove moisture", "Increase airflow", "Cool air"],
+  answer: "Add moisture to air",
+  difficulty: "easy",
+  reference: "Humidity"
+},
+{
+  id: 1429,
+  category: "HVAC Trade",
+  question_en: "Which condition causes coil icing?",
+  question_pt: "Qual condição causa congelamento da serpentina?",
+  options: ["Low airflow", "High airflow", "High voltage", "Clean filter"],
+  answer: "Low airflow",
+  difficulty: "easy",
+  reference: "Evaporator"
+},
+{
+  id: 1430,
+  category: "HVAC Trade",
+  question_en: "The purpose of a pressure relief valve is to:",
+  question_pt: "A função da válvula de alívio é:",
+  options: ["Prevent overpressure", "Increase airflow", "Reduce humidity", "Cool system"],
+  answer: "Prevent overpressure",
+  difficulty: "easy",
+  reference: "Safety"
+},
+{
+  id: 1431,
+  category: "HVAC Trade",
+  question_en: "Which condition causes poor cooling performance?",
+  question_pt: "Qual condição causa baixo desempenho de resfriamento?",
+  options: ["Low refrigerant charge", "Clean system", "High airflow", "Proper sizing"],
+  answer: "Low refrigerant charge",
+  difficulty: "easy",
+  reference: "Refrigeration"
+},
+{
+  id: 1432,
+  category: "HVAC Trade",
+  question_en: "The MAIN function of a compressor is to:",
+  question_pt: "A principal função do compressor é:",
+  options: ["Increase pressure of refrigerant", "Cool air", "Move air", "Store refrigerant"],
+  answer: "Increase pressure of refrigerant",
+  difficulty: "easy",
+  reference: "Refrigeration"
+},
+{
+  id: 1433,
+  category: "HVAC Trade",
+  question_en: "Which condition causes low system efficiency?",
+  question_pt: "Qual condição causa baixa eficiência do sistema?",
+  options: ["Dirty coils", "Clean system", "Proper charge", "High airflow"],
+  answer: "Dirty coils",
+  difficulty: "easy",
+  reference: "Efficiency"
+},
+{
+  id: 1434,
+  category: "HVAC Trade",
+  question_en: "The purpose of a thermostat is to:",
+  question_pt: "A função do termostato é:",
+  options: ["Control temperature", "Increase airflow", "Reduce pressure", "Store energy"],
+  answer: "Control temperature",
+  difficulty: "easy",
+  reference: "Controls"
+},
+{
+  id: 1435,
+  category: "HVAC Trade",
+  question_en: "Which condition causes high head pressure?",
+  question_pt: "Qual condição causa alta pressão de descarga?",
+  options: ["Dirty condenser", "Cold weather", "Low refrigerant", "High airflow"],
+  answer: "Dirty condenser",
+  difficulty: "easy",
+  reference: "Condenser"
+},
+{
+  id: 1436,
+  category: "HVAC Trade",
+  question_en: "The MAIN purpose of airflow is to:",
+  question_pt: "A principal função do fluxo de ar é:",
+  options: ["Transfer heat", "Increase pressure", "Reduce humidity", "Store energy"],
+  answer: "Transfer heat",
+  difficulty: "medium",
+  reference: "Airflow"
+},
+{
+  id: 1437,
+  category: "HVAC Trade",
+  question_en: "Which condition causes low airflow?",
+  question_pt: "Qual condição causa baixo fluxo de ar?",
+  options: ["Dirty filter", "Clean system", "High airflow", "Proper design"],
+  answer: "Dirty filter",
+  difficulty: "easy",
+  reference: "Airflow"
+},
+{
+  id: 1438,
+  category: "HVAC Trade",
+  question_en: "The purpose of a blower motor is to:",
+  question_pt: "A função do motor do blower é:",
+  options: ["Move air", "Compress refrigerant", "Increase pressure", "Cool system"],
+  answer: "Move air",
+  difficulty: "easy",
+  reference: "Air Handling"
+},
+{
+  id: 1439,
+  category: "HVAC Trade",
+  question_en: "Which condition causes high superheat?",
+  question_pt: "Qual condição causa alto superaquecimento?",
+  options: ["Low refrigerant charge", "Overcharge", "Clean system", "High airflow"],
+  answer: "Low refrigerant charge",
+  difficulty: "medium",
+  reference: "Refrigeration"
+},
+{
+  id: 1440,
+  category: "HVAC Trade",
+  question_en: "The MAIN purpose of ventilation is to:",
+  question_pt: "A principal função da ventilação é:",
+  options: ["Provide fresh air", "Increase pressure", "Reduce airflow", "Cool refrigerant"],
+  answer: "Provide fresh air",
+  difficulty: "easy",
+  reference: "Ventilation"
+},
+{
+  id: 1441,
+  category: "HVAC Trade",
+  question_en: "Which condition causes high humidity?",
+  question_pt: "Qual condição causa alta umidade?",
+  options: ["Oversized system", "Clean system", "High airflow", "Low voltage"],
+  answer: "Oversized system",
+  difficulty: "medium",
+  reference: "Humidity"
+},
+{
+  id: 1442,
+  category: "HVAC Trade",
+  question_en: "The purpose of a filter is to:",
+  question_pt: "A função do filtro é:",
+  options: ["Remove contaminants", "Increase airflow", "Reduce pressure", "Cool system"],
+  answer: "Remove contaminants",
+  difficulty: "easy",
+  reference: "Air Quality"
+},
+{
+  id: 1443,
+  category: "HVAC Trade",
+  question_en: "Which condition causes coil freezing?",
+  question_pt: "Qual condição causa congelamento da serpentina?",
+  options: ["Low airflow", "High airflow", "Clean system", "Proper design"],
+  answer: "Low airflow",
+  difficulty: "easy",
+  reference: "Evaporator"
+},
+{
+  id: 1444,
+  category: "HVAC Trade",
+  question_en: "The purpose of duct insulation is to:",
+  question_pt: "A função do isolamento dos dutos é:",
+  options: ["Prevent heat loss/gain", "Increase airflow", "Reduce pressure", "Store air"],
+  answer: "Prevent heat loss/gain",
+  difficulty: "easy",
+  reference: "Duct Systems"
+},
+{
+  id: 1445,
+  category: "HVAC Trade",
+  question_en: "Which condition causes poor air distribution?",
+  question_pt: "Qual condição causa má distribuição de ar?",
+  options: ["Improper duct design", "High voltage", "Clean system", "Low humidity"],
+  answer: "Improper duct design",
+  difficulty: "easy",
+  reference: "Air Distribution"
+},
+{
+  id: 1446,
+  category: "HVAC Trade",
+  question_en: "The purpose of duct sealing is to:",
+  question_pt: "A função da vedação de dutos é:",
+  options: ["Prevent air leaks", "Increase airflow", "Reduce pressure", "Store air"],
+  answer: "Prevent air leaks",
+  difficulty: "easy",
+  reference: "Duct Systems"
+},
+{
+  id: 1447,
+  category: "HVAC Trade",
+  question_en: "Which condition causes low efficiency?",
+  question_pt: "Qual condição causa baixa eficiência?",
+  options: ["Dirty coils", "Clean system", "Proper charge", "High airflow"],
+  answer: "Dirty coils",
+  difficulty: "easy",
+  reference: "Efficiency"
+},
+{
+  id: 1448,
+  category: "HVAC Trade",
+  question_en: "The purpose of a disconnect switch is to:",
+  question_pt: "A função do disconnect switch é:",
+  options: ["Isolate power safely", "Increase airflow", "Reduce pressure", "Cool system"],
+  answer: "Isolate power safely",
+  difficulty: "easy",
+  reference: "Electrical"
+},
+{
+  id: 1449,
+  category: "HVAC Trade",
+  question_en: "Which condition causes high head pressure?",
+  question_pt: "Qual condição causa alta pressão?",
+  options: ["Dirty condenser", "Cold weather", "Low refrigerant", "High airflow"],
+  answer: "Dirty condenser",
+  difficulty: "easy",
+  reference: "Condenser"
+},
+{
+  id: 1450,
+  category: "HVAC Trade",
+  question_en: "The MAIN function of airflow is to:",
+  question_pt: "A principal função do fluxo de ar é:",
+  options: ["Transfer heat", "Increase pressure", "Reduce humidity", "Store energy"],
+  answer: "Transfer heat",
+  difficulty: "medium",
+  reference: "Airflow"
+},
+{
+  id: 1451,
+  category: "HVAC Trade",
+  question_en: "A TXV that is stuck open will MOST likely cause:",
+  question_pt: "Uma válvula TXV travada aberta provavelmente causará:",
+  options: ["Low superheat", "High superheat", "Low head pressure", "Low airflow"],
+  answer: "Low superheat",
+  difficulty: "medium",
+  reference: "Metering Devices"
+},
+{
+  id: 1452,
+  category: "HVAC Trade",
+  question_en: "A restriction in the liquid line will MOST likely result in:",
+  question_pt: "Uma restrição na linha de líquido provavelmente resultará em:",
+  options: ["Low suction pressure", "High suction pressure", "High subcooling", "High airflow"],
+  answer: "Low suction pressure",
+  difficulty: "medium",
+  reference: "Refrigeration"
+},
+{
+  id: 1453,
+  category: "HVAC Trade",
+  question_en: "The PRIMARY function of a reversing valve is to:",
+  question_pt: "A principal função da válvula reversora é:",
+  options: ["Reverse refrigerant flow", "Increase pressure", "Reduce airflow", "Control voltage"],
+  answer: "Reverse refrigerant flow",
+  difficulty: "easy",
+  reference: "Heat Pump"
+},
+{
+  id: 1454,
+  category: "HVAC Trade",
+  question_en: "A clogged condensate drain can cause:",
+  question_pt: "Um dreno de condensado entupido pode causar:",
+  options: ["Water overflow", "Low pressure", "High airflow", "High voltage"],
+  answer: "Water overflow",
+  difficulty: "easy",
+  reference: "Condensate"
+},
+{
+  id: 1455,
+  category: "HVAC Trade",
+  question_en: "Low voltage to a motor will MOST likely cause:",
+  question_pt: "Baixa voltagem em um motor provavelmente causará:",
+  options: ["Overheating", "Higher speed", "Lower current", "Improved efficiency"],
+  answer: "Overheating",
+  difficulty: "medium",
+  reference: "Electrical"
+},
+{
+  id: 1456,
+  category: "HVAC Trade",
+  question_en: "A dirty evaporator coil will MOST likely result in:",
+  question_pt: "Uma serpentina evaporadora suja provavelmente resultará em:",
+  options: ["Reduced airflow", "Increased airflow", "Lower humidity", "Higher efficiency"],
+  answer: "Reduced airflow",
+  difficulty: "easy",
+  reference: "Evaporator"
+},
+{
+  id: 1457,
+  category: "HVAC Trade",
+  question_en: "Which component removes moisture from air?",
+  question_pt: "Qual componente remove umidade do ar?",
+  options: ["Evaporator coil", "Condenser fan", "Compressor", "Thermostat"],
+  answer: "Evaporator coil",
+  difficulty: "easy",
+  reference: "Humidity"
+},
+{
+  id: 1458,
+  category: "HVAC Trade",
+  question_en: "A system with short cycling may indicate:",
+  question_pt: "Um sistema com ciclos curtos pode indicar:",
+  options: ["Oversized unit", "Low airflow", "Dirty coil", "Low voltage"],
+  answer: "Oversized unit",
+  difficulty: "medium",
+  reference: "System Design"
+},
+{
+  id: 1459,
+  category: "HVAC Trade",
+  question_en: "The purpose of a start capacitor is to:",
+  question_pt: "A função de um capacitor de partida é:",
+  options: ["Provide starting torque", "Reduce voltage", "Increase airflow", "Cool motor"],
+  answer: "Provide starting torque",
+  difficulty: "easy",
+  reference: "Electrical"
+},
+{
+  id: 1460,
+  category: "HVAC Trade",
+  question_en: "High subcooling with normal superheat indicates:",
+  question_pt: "Alto sub-resfriamento com superaquecimento normal indica:",
+  options: ["Overcharged system", "Undercharged system", "Low airflow", "Dirty filter"],
+  answer: "Overcharged system",
+  difficulty: "medium",
+  reference: "Refrigeration"
+},
+{
+  id: 1461,
+  category: "HVAC Trade",
+  question_en: "Which condition causes compressor floodback?",
+  question_pt: "Qual condição causa retorno de líquido ao compressor?",
+  options: ["Low superheat", "High superheat", "High head pressure", "Low airflow"],
+  answer: "Low superheat",
+  difficulty: "medium",
+  reference: "Compressor"
+},
+{
+  id: 1462,
+  category: "HVAC Trade",
+  question_en: "The MAIN purpose of a filter drier is to:",
+  question_pt: "A principal função do filtro secador é:",
+  options: ["Remove moisture and contaminants", "Increase airflow", "Reduce pressure", "Store refrigerant"],
+  answer: "Remove moisture and contaminants",
+  difficulty: "easy",
+  reference: "Refrigeration"
+},
+{
+  id: 1463,
+  category: "HVAC Trade",
+  question_en: "Which condition causes high head pressure?",
+  question_pt: "Qual condição causa alta pressão de descarga?",
+  options: ["Dirty condenser", "Low refrigerant", "Cold weather", "High airflow"],
+  answer: "Dirty condenser",
+  difficulty: "easy",
+  reference: "Condenser"
+},
+{
+  id: 1464,
+  category: "HVAC Trade",
+  question_en: "A blower running too fast will MOST likely cause:",
+  question_pt: "Um blower muito rápido provavelmente causará:",
+  options: ["Low humidity removal", "High humidity removal", "Low airflow", "Low pressure"],
+  answer: "Low humidity removal",
+  difficulty: "medium",
+  reference: "Airflow"
+},
+{
+  id: 1465,
+  category: "HVAC Trade",
+  question_en: "Which condition causes coil icing?",
+  question_pt: "Qual condição causa congelamento da serpentina?",
+  options: ["Low airflow", "High airflow", "High voltage", "Clean filter"],
+  answer: "Low airflow",
+  difficulty: "easy",
+  reference: "Evaporator"
+},
+{
+  id: 1466,
+  category: "HVAC Trade",
+  question_en: "The purpose of a dual run capacitor is to:",
+  question_pt: "A função do capacitor duplo é:",
+  options: ["Support compressor and fan", "Reduce voltage", "Increase airflow", "Store refrigerant"],
+  answer: "Support compressor and fan",
+  difficulty: "medium",
+  reference: "Electrical"
+},
+{
+  id: 1467,
+  category: "HVAC Trade",
+  question_en: "Which condition causes low cooling performance?",
+  question_pt: "Qual condição causa baixo desempenho de resfriamento?",
+  options: ["Low refrigerant charge", "Clean system", "High airflow", "Proper sizing"],
+  answer: "Low refrigerant charge",
+  difficulty: "easy",
+  reference: "Refrigeration"
+},
+{
+  id: 1468,
+  category: "HVAC Trade",
+  question_en: "A system with high superheat indicates:",
+  question_pt: "Um sistema com alto superaquecimento indica:",
+  options: ["Low refrigerant charge", "Overcharge", "Dirty coil", "High airflow"],
+  answer: "Low refrigerant charge",
+  difficulty: "medium",
+  reference: "Refrigeration"
+},
+{
+  id: 1469,
+  category: "HVAC Trade",
+  question_en: "Which component controls temperature setpoint?",
+  question_pt: "Qual componente controla a temperatura desejada?",
+  options: ["Thermostat", "Compressor", "Fan motor", "Relay"],
+  answer: "Thermostat",
+  difficulty: "easy",
+  reference: "Controls"
+},
+{
+  id: 1470,
+  category: "HVAC Trade",
+  question_en: "A system with low airflow may cause:",
+  question_pt: "Um sistema com baixo fluxo de ar pode causar:",
+  options: ["Coil freezing", "High airflow", "Low pressure", "Improved efficiency"],
+  answer: "Coil freezing",
+  difficulty: "easy",
+  reference: "Evaporator"
+},
+{
+  id: 1471,
+  category: "HVAC Trade",
+  question_en: "Which condition causes high humidity indoors?",
+  question_pt: "Qual condição causa alta umidade interna?",
+  options: ["Oversized unit", "Clean system", "High airflow", "Low voltage"],
+  answer: "Oversized unit",
+  difficulty: "medium",
+  reference: "Humidity"
+},
+{
+  id: 1472,
+  category: "HVAC Trade",
+  question_en: "The purpose of a contactor is to:",
+  question_pt: "A função do contator é:",
+  options: ["Control electrical power", "Increase airflow", "Reduce pressure", "Cool system"],
+  answer: "Control electrical power",
+  difficulty: "easy",
+  reference: "Electrical"
+},
+{
+  id: 1473,
+  category: "HVAC Trade",
+  question_en: "Which condition causes high energy consumption?",
+  question_pt: "Qual condição causa alto consumo de energia?",
+  options: ["Dirty coils", "Clean system", "Proper charge", "High airflow"],
+  answer: "Dirty coils",
+  difficulty: "easy",
+  reference: "Efficiency"
+},
+{
+  id: 1474,
+  category: "HVAC Trade",
+  question_en: "The purpose of insulation on refrigerant lines is to:",
+  question_pt: "A função do isolamento nas linhas de refrigerante é:",
+  options: ["Prevent heat gain/loss", "Increase pressure", "Reduce airflow", "Store refrigerant"],
+  answer: "Prevent heat gain/loss",
+  difficulty: "easy",
+  reference: "Refrigeration"
+},
+{
+  id: 1475,
+  category: "HVAC Trade",
+  question_en: "Which condition causes low suction pressure?",
+  question_pt: "Qual condição causa baixa pressão de sucção?",
+  options: ["Low refrigerant charge", "Overcharge", "Dirty condenser", "High airflow"],
+  answer: "Low refrigerant charge",
+  difficulty: "easy",
+  reference: "Refrigeration"
+},
+{
+  id: 1476,
+  category: "HVAC Trade",
+  question_en: "A dirty blower wheel will MOST likely cause:",
+  question_pt: "Um blower sujo provavelmente causará:",
+  options: ["Reduced airflow", "Increased airflow", "High pressure", "Low humidity"],
+  answer: "Reduced airflow",
+  difficulty: "easy",
+  reference: "Airflow"
+},
+{
+  id: 1477,
+  category: "HVAC Trade",
+  question_en: "The purpose of a fuse is to:",
+  question_pt: "A função de um fusível é:",
+  options: ["Protect circuit", "Increase airflow", "Reduce pressure", "Cool system"],
+  answer: "Protect circuit",
+  difficulty: "easy",
+  reference: "Electrical"
+},
+{
+  id: 1478,
+  category: "HVAC Trade",
+  question_en: "Which condition causes high head pressure?",
+  question_pt: "Qual condição causa alta pressão?",
+  options: ["Dirty condenser", "Cold weather", "Low refrigerant", "High airflow"],
+  answer: "Dirty condenser",
+  difficulty: "easy",
+  reference: "Condenser"
+},
+{
+  id: 1479,
+  category: "HVAC Trade",
+  question_en: "The purpose of ventilation air is to:",
+  question_pt: "A função do ar de ventilação é:",
+  options: ["Provide fresh air", "Increase pressure", "Reduce airflow", "Cool refrigerant"],
+  answer: "Provide fresh air",
+  difficulty: "easy",
+  reference: "Ventilation"
+},
+{
+  id: 1480,
+  category: "HVAC Trade",
+  question_en: "Which condition causes uneven airflow?",
+  question_pt: "Qual condição causa fluxo de ar desigual?",
+  options: ["Improper duct design", "Clean system", "High voltage", "Low humidity"],
+  answer: "Improper duct design",
+  difficulty: "easy",
+  reference: "Air Distribution"
+},
+{
+  id: 1481,
+  category: "HVAC Trade",
+  question_en: "A system with high subcooling indicates:",
+  question_pt: "Um sistema com alto sub-resfriamento indica:",
+  options: ["Overcharge", "Undercharge", "Low airflow", "Dirty filter"],
+  answer: "Overcharge",
+  difficulty: "medium",
+  reference: "Refrigeration"
+},
+{
+  id: 1482,
+  category: "HVAC Trade",
+  question_en: "Which condition causes poor indoor air quality?",
+  question_pt: "Qual condição causa má qualidade do ar interno?",
+  options: ["Dirty filters", "Clean system", "Proper airflow", "Low humidity"],
+  answer: "Dirty filters",
+  difficulty: "easy",
+  reference: "Air Quality"
+},
+{
+  id: 1483,
+  category: "HVAC Trade",
+  question_en: "The purpose of a blower is to:",
+  question_pt: "A função do blower é:",
+  options: ["Move air", "Compress refrigerant", "Increase pressure", "Store air"],
+  answer: "Move air",
+  difficulty: "easy",
+  reference: "Air Handling"
+},
+{
+  id: 1484,
+  category: "HVAC Trade",
+  question_en: "Which condition causes low cooling capacity?",
+  question_pt: "Qual condição causa baixa capacidade de resfriamento?",
+  options: ["Low refrigerant charge", "Clean system", "High airflow", "Proper sizing"],
+  answer: "Low refrigerant charge",
+  difficulty: "easy",
+  reference: "Refrigeration"
+},
+{
+  id: 1485,
+  category: "HVAC Trade",
+  question_en: "The purpose of duct insulation is to:",
+  question_pt: "A função do isolamento dos dutos é:",
+  options: ["Prevent heat gain/loss", "Increase airflow", "Reduce pressure", "Store air"],
+  answer: "Prevent heat gain/loss",
+  difficulty: "easy",
+  reference: "Duct Systems"
+},
+{
+  id: 1486,
+  category: "HVAC Trade",
+  question_en: "Which condition causes high superheat?",
+  question_pt: "Qual condição causa alto superaquecimento?",
+  options: ["Low refrigerant charge", "Overcharge", "Clean system", "High airflow"],
+  answer: "Low refrigerant charge",
+  difficulty: "medium",
+  reference: "Refrigeration"
+},
+{
+  id: 1487,
+  category: "HVAC Trade",
+  question_en: "The purpose of a disconnect switch is to:",
+  question_pt: "A função do disconnect switch é:",
+  options: ["Isolate power", "Increase airflow", "Reduce pressure", "Cool system"],
+  answer: "Isolate power",
+  difficulty: "easy",
+  reference: "Electrical"
+},
+{
+  id: 1488,
+  category: "HVAC Trade",
+  question_en: "Which condition causes coil freezing?",
+  question_pt: "Qual condição causa congelamento da serpentina?",
+  options: ["Low airflow", "High airflow", "Clean system", "Proper design"],
+  answer: "Low airflow",
+  difficulty: "easy",
+  reference: "Evaporator"
+},
+{
+  id: 1489,
+  category: "HVAC Trade",
+  question_en: "The purpose of airflow is to:",
+  question_pt: "A função do fluxo de ar é:",
+  options: ["Transfer heat", "Increase pressure", "Reduce humidity", "Store energy"],
+  answer: "Transfer heat",
+  difficulty: "medium",
+  reference: "Airflow"
+},
+{
+  id: 1490,
+  category: "HVAC Trade",
+  question_en: "Which condition causes high humidity?",
+  question_pt: "Qual condição causa alta umidade?",
+  options: ["Oversized unit", "Clean system", "High airflow", "Low voltage"],
+  answer: "Oversized unit",
+  difficulty: "medium",
+  reference: "Humidity"
+},
+{
+  id: 1491,
+  category: "HVAC Trade",
+  question_en: "The purpose of a filter is to:",
+  question_pt: "A função do filtro é:",
+  options: ["Remove contaminants", "Increase airflow", "Reduce pressure", "Cool system"],
+  answer: "Remove contaminants",
+  difficulty: "easy",
+  reference: "Air Quality"
+},
+{
+  id: 1492,
+  category: "HVAC Trade",
+  question_en: "Which condition causes poor airflow?",
+  question_pt: "Qual condição causa fluxo de ar ruim?",
+  options: ["Dirty filter", "Clean system", "High airflow", "Proper design"],
+  answer: "Dirty filter",
+  difficulty: "easy",
+  reference: "Airflow"
+},
+{
+  id: 1493,
+  category: "HVAC Trade",
+  question_en: "The purpose of duct sealing is to:",
+  question_pt: "A função da vedação de dutos é:",
+  options: ["Prevent leaks", "Increase airflow", "Reduce pressure", "Store air"],
+  answer: "Prevent leaks",
+  difficulty: "easy",
+  reference: "Duct Systems"
+},
+{
+  id: 1494,
+  category: "HVAC Trade",
+  question_en: "Which condition causes high energy use?",
+  question_pt: "Qual condição causa alto consumo de energia?",
+  options: ["Dirty coils", "Clean system", "Proper charge", "High airflow"],
+  answer: "Dirty coils",
+  difficulty: "easy",
+  reference: "Efficiency"
+},
+{
+  id: 1495,
+  category: "HVAC Trade",
+  question_en: "The purpose of a thermostat is to:",
+  question_pt: "A função do termostato é:",
+  options: ["Control temperature", "Increase airflow", "Reduce pressure", "Store energy"],
+  answer: "Control temperature",
+  difficulty: "easy",
+  reference: "Controls"
+},
+{
+  id: 1496,
+  category: "HVAC Trade",
+  question_en: "Which condition causes high head pressure?",
+  question_pt: "Qual condição causa alta pressão?",
+  options: ["Dirty condenser", "Cold weather", "Low refrigerant", "High airflow"],
+  answer: "Dirty condenser",
+  difficulty: "easy",
+  reference: "Condenser"
+},
+{
+  id: 1497,
+  category: "HVAC Trade",
+  question_en: "The purpose of airflow is to:",
+  question_pt: "A função do fluxo de ar é:",
+  options: ["Transfer heat", "Increase pressure", "Reduce humidity", "Store energy"],
+  answer: "Transfer heat",
+  difficulty: "medium",
+  reference: "Airflow"
+},
+{
+  id: 1498,
+  category: "HVAC Trade",
+  question_en: "Which condition causes uneven temperatures?",
+  question_pt: "Qual condição causa temperaturas desiguais?",
+  options: ["Poor duct design", "Clean system", "High voltage", "Low humidity"],
+  answer: "Poor duct design",
+  difficulty: "easy",
+  reference: "Air Distribution"
+},
+{
+  id: 1499,
+  category: "HVAC Trade",
+  question_en: "The purpose of a blower motor is to:",
+  question_pt: "A função do motor do blower é:",
+  options: ["Move air", "Compress refrigerant", "Increase pressure", "Store energy"],
+  answer: "Move air",
+  difficulty: "easy",
+  reference: "Air Handling"
+},
+{
+  id: 1500,
+  category: "HVAC Trade",
+  question_en: "Which condition causes low efficiency?",
+  question_pt: "Qual condição causa baixa eficiência?",
+  options: ["Dirty coils", "Clean system", "Proper charge", "High airflow"],
+  answer: "Dirty coils",
+  difficulty: "easy",
+  reference: "Efficiency"
+},
+{
+  id: 1501,
+  category: "Business & Finance",
+  question_en: "What is the PRIMARY purpose of a balance sheet?",
+  question_pt: "Qual é a principal função do balanço patrimonial?",
+  options: ["Show financial position at a point in time", "Show cash flow only", "Show profit over time", "Track labor hours"],
+  answer: "Show financial position at a point in time",
+  difficulty: "easy",
+  reference: "Accounting"
+},
+{
+  id: 1502,
+  category: "Business & Finance",
+  question_en: "Which document outlines the scope of work in a construction project?",
+  question_pt: "Qual documento define o escopo de trabalho em um projeto de construção?",
+  options: ["Contract documents", "Invoice", "Payroll report", "Tax return"],
+  answer: "Contract documents",
+  difficulty: "easy",
+  reference: "Contracts"
+},
+{
+  id: 1503,
+  category: "Business & Finance",
+  question_en: "Retainage is BEST defined as:",
+  question_pt: "Retenção (retainage) é melhor definida como:",
+  options: ["Money withheld until project completion", "Tax payment", "Labor cost", "Material markup"],
+  answer: "Money withheld until project completion",
+  difficulty: "medium",
+  reference: "Contracts"
+},
+{
+  id: 1504,
+  category: "Business & Finance",
+  question_en: "What does 'overhead' include?",
+  question_pt: "O que inclui o 'overhead'?",
+  options: ["Indirect business costs", "Direct labor only", "Material costs only", "Profit only"],
+  answer: "Indirect business costs",
+  difficulty: "easy",
+  reference: "Accounting"
+},
+{
+  id: 1505,
+  category: "Business & Finance",
+  question_en: "A lien waiver is used to:",
+  question_pt: "Um 'lien waiver' é usado para:",
+  options: ["Release claim rights after payment", "Increase payment", "Delay project", "Reduce taxes"],
+  answer: "Release claim rights after payment",
+  difficulty: "medium",
+  reference: "Florida Lien Law"
+},
+{
+  id: 1506,
+  category: "Business & Finance",
+  question_en: "Which accounting method recognizes revenue when earned?",
+  question_pt: "Qual método contábil reconhece receita quando ganha?",
+  options: ["Accrual method", "Cash method", "Deferred method", "Tax method"],
+  answer: "Accrual method",
+  difficulty: "medium",
+  reference: "Accounting"
+},
+{
+  id: 1507,
+  category: "Business & Finance",
+  question_en: "What is a Notice to Owner (NTO)?",
+  question_pt: "O que é um Notice to Owner (NTO)?",
+  options: ["Legal notice preserving lien rights", "Invoice", "Permit", "Insurance policy"],
+  answer: "Legal notice preserving lien rights",
+  difficulty: "medium",
+  reference: "Florida Lien Law"
+},
+{
+  id: 1508,
+  category: "Business & Finance",
+  question_en: "Gross profit is calculated as:",
+  question_pt: "O lucro bruto é calculado como:",
+  options: ["Revenue minus cost of goods sold", "Revenue minus taxes", "Revenue minus overhead", "Revenue minus labor"],
+  answer: "Revenue minus cost of goods sold",
+  difficulty: "easy",
+  reference: "Accounting"
+},
+{
+  id: 1509,
+  category: "Business & Finance",
+  question_en: "What is working capital?",
+  question_pt: "O que é capital de giro?",
+  options: ["Current assets minus current liabilities", "Total assets", "Net income", "Gross revenue"],
+  answer: "Current assets minus current liabilities",
+  difficulty: "medium",
+  reference: "Finance"
+},
+{
+  id: 1510,
+  category: "Business & Finance",
+  question_en: "Which contract type has a fixed total price?",
+  question_pt: "Qual tipo de contrato tem preço fixo?",
+  options: ["Lump sum contract", "Cost plus", "Time and material", "Unit price"],
+  answer: "Lump sum contract",
+  difficulty: "easy",
+  reference: "Contracts"
+},
+{
+  id: 1511,
+  category: "Business & Finance",
+  question_en: "Depreciation is used to:",
+  question_pt: "A depreciação é usada para:",
+  options: ["Allocate asset cost over time", "Increase profit", "Reduce labor cost", "Increase cash flow"],
+  answer: "Allocate asset cost over time",
+  difficulty: "medium",
+  reference: "Accounting"
+},
+{
+  id: 1512,
+  category: "Business & Finance",
+  question_en: "A change order is used to:",
+  question_pt: "Uma change order é usada para:",
+  options: ["Modify contract scope or price", "Pay employees", "Reduce taxes", "Close project"],
+  answer: "Modify contract scope or price",
+  difficulty: "easy",
+  reference: "Contracts"
+},
+{
+  id: 1513,
+  category: "Business & Finance",
+  question_en: "What is net profit?",
+  question_pt: "O que é lucro líquido?",
+  options: ["Revenue minus all expenses", "Revenue only", "Labor cost only", "Material cost only"],
+  answer: "Revenue minus all expenses",
+  difficulty: "easy",
+  reference: "Accounting"
+},
+{
+  id: 1514,
+  category: "Business & Finance",
+  question_en: "Which insurance protects against job site injuries?",
+  question_pt: "Qual seguro protege contra acidentes no local de trabalho?",
+  options: ["Workers' compensation", "General liability", "Auto insurance", "Property insurance"],
+  answer: "Workers' compensation",
+  difficulty: "easy",
+  reference: "Insurance"
+},
+{
+  id: 1515,
+  category: "Business & Finance",
+  question_en: "A contractor’s markup is used to cover:",
+  question_pt: "O markup do contractor é usado para cobrir:",
+  options: ["Overhead and profit", "Labor only", "Materials only", "Taxes only"],
+  answer: "Overhead and profit",
+  difficulty: "easy",
+  reference: "Estimating"
+},
+{
+  id: 1516,
+  category: "Business & Finance",
+  question_en: "What is a breach of contract?",
+  question_pt: "O que é quebra de contrato?",
+  options: ["Failure to perform contractual obligations", "Payment made early", "Permit approval", "Inspection passed"],
+  answer: "Failure to perform contractual obligations",
+  difficulty: "easy",
+  reference: "Contracts"
+},
+{
+  id: 1517,
+  category: "Business & Finance",
+  question_en: "Which document is used to request payment?",
+  question_pt: "Qual documento é usado para solicitar pagamento?",
+  options: ["Invoice", "Permit", "Contract", "Lien"],
+  answer: "Invoice",
+  difficulty: "easy",
+  reference: "Accounting"
+},
+{
+  id: 1518,
+  category: "Business & Finance",
+  question_en: "What is cash flow?",
+  question_pt: "O que é fluxo de caixa?",
+  options: ["Movement of money in and out", "Profit only", "Labor hours", "Material cost"],
+  answer: "Movement of money in and out",
+  difficulty: "easy",
+  reference: "Finance"
+},
+{
+  id: 1519,
+  category: "Business & Finance",
+  question_en: "Which contract type reimburses actual costs plus fee?",
+  question_pt: "Qual contrato reembolsa custos reais mais taxa?",
+  options: ["Cost-plus contract", "Lump sum", "Unit price", "Fixed labor"],
+  answer: "Cost-plus contract",
+  difficulty: "easy",
+  reference: "Contracts"
+},
+{
+  id: 1520,
+  category: "Business & Finance",
+  question_en: "General liability insurance covers:",
+  question_pt: "O seguro de responsabilidade geral cobre:",
+  options: ["Third-party injury or damage", "Employee wages", "Equipment depreciation", "Taxes"],
+  answer: "Third-party injury or damage",
+  difficulty: "easy",
+  reference: "Insurance"
+},
+{
+  id: 1521,
+  category: "Business & Finance",
+  question_en: "A contractor submits a bid with a 20% markup on cost. If the total cost is $80,000, what is the correct bid price?",
+  question_pt: "Um contractor envia uma proposta com 20% de markup sobre o custo. Se o custo total é $80.000, qual é o valor correto da proposta?",
+  options: ["$96,000", "$100,000", "$104,000", "$120,000"],
+  answer: "$96,000",
+  difficulty: "hard",
+  reference: "Estimating / Markup"
+},
+{
+  id: 1522,
+  category: "Business & Finance",
+  question_en: "Under Florida lien law, a subcontractor must serve a Notice to Owner within how many days of first furnishing labor or materials?",
+  question_pt: "De acordo com a lei de lien da Flórida, um subcontractor deve enviar o Notice to Owner em quantos dias após iniciar o trabalho ou fornecimento?",
+  options: ["15 days", "30 days", "45 days", "60 days"],
+  answer: "45 days",
+  difficulty: "hard",
+  reference: "Florida Lien Law"
+},
+{
+  id: 1523,
+  category: "Business & Finance",
+  question_en: "Which of the following BEST describes working capital deficiency?",
+  question_pt: "Qual das opções MELHOR descreve deficiência de capital de giro?",
+  options: ["Current liabilities exceed current assets", "Assets exceed liabilities", "Revenue exceeds expenses", "Cash exceeds liabilities"],
+  answer: "Current liabilities exceed current assets",
+  difficulty: "hard",
+  reference: "Finance"
+},
+{
+  id: 1524,
+  category: "Business & Finance",
+  question_en: "A contractor signs a lump sum contract but later encounters unforeseen site conditions. What is the MOST appropriate action?",
+  question_pt: "Um contractor assina contrato de preço fixo e encontra condições inesperadas. Qual é a ação MAIS apropriada?",
+  options: ["Submit a change order", "Increase price unilaterally", "Stop work immediately", "Ignore the issue"],
+  answer: "Submit a change order",
+  difficulty: "hard",
+  reference: "Contracts"
+},
+{
+  id: 1525,
+  category: "Business & Finance",
+  question_en: "Which financial statement shows profitability over a period of time?",
+  question_pt: "Qual demonstrativo financeiro mostra lucratividade ao longo do tempo?",
+  options: ["Income statement", "Balance sheet", "Cash flow forecast", "Trial balance"],
+  answer: "Income statement",
+  difficulty: "medium",
+  reference: "Accounting"
+},
+{
+  id: 1526,
+  category: "Business & Finance",
+  question_en: "If a contractor fails to provide workers' compensation insurance, what is a possible consequence in Florida?",
+  question_pt: "Se um contractor não fornecer workers' comp na Flórida, qual é uma possível consequência?",
+  options: ["Stop-work order", "Tax increase only", "Permit delay", "Lien filing"],
+  answer: "Stop-work order",
+  difficulty: "hard",
+  reference: "Florida Law"
+},
+{
+  id: 1527,
+  category: "Business & Finance",
+  question_en: "A project has $200,000 revenue and $150,000 total costs. What is the gross profit margin?",
+  question_pt: "Um projeto tem $200.000 de receita e $150.000 de custo. Qual é a margem de lucro bruto?",
+  options: ["25%", "33%", "50%", "75%"],
+  answer: "25%",
+  difficulty: "hard",
+  reference: "Accounting"
+},
+{
+  id: 1528,
+  category: "Business & Finance",
+  question_en: "Which of the following is NOT considered overhead?",
+  question_pt: "Qual das opções NÃO é considerada overhead?",
+  options: ["Job-site labor", "Office rent", "Insurance", "Administrative salaries"],
+  answer: "Job-site labor",
+  difficulty: "hard",
+  reference: "Estimating"
+},
+{
+  id: 1529,
+  category: "Business & Finance",
+  question_en: "A lien must be recorded within how many days after final furnishing in Florida?",
+  question_pt: "Um lien deve ser registrado em quantos dias após o término do trabalho na Flórida?",
+  options: ["60 days", "90 days", "120 days", "180 days"],
+  answer: "90 days",
+  difficulty: "hard",
+  reference: "Florida Lien Law"
+},
+{
+  id: 1530,
+  category: "Business & Finance",
+  question_en: "What is the PRIMARY risk of using a cost-plus contract without a guaranteed maximum price?",
+  question_pt: "Qual é o principal risco de usar contrato cost-plus sem teto máximo?",
+  options: ["Unlimited cost exposure", "Lower profit", "Delayed permits", "Reduced labor cost"],
+  answer: "Unlimited cost exposure",
+  difficulty: "hard",
+  reference: "Contracts"
+},
+{
+  id: 1531,
+  category: "Business & Finance",
+  question_en: "Which ratio measures a company’s ability to pay short-term obligations?",
+  question_pt: "Qual índice mede a capacidade de pagar obrigações de curto prazo?",
+  options: ["Current ratio", "Profit margin", "Debt ratio", "Return on investment"],
+  answer: "Current ratio",
+  difficulty: "hard",
+  reference: "Finance"
+},
+{
+  id: 1532,
+  category: "Business & Finance",
+  question_en: "If retainage is 10% on a $50,000 payment, how much is withheld?",
+  question_pt: "Se a retenção é 10% em um pagamento de $50.000, quanto é retido?",
+  options: ["$5,000", "$10,000", "$4,500", "$45,000"],
+  answer: "$5,000",
+  difficulty: "medium",
+  reference: "Contracts"
+},
+{
+  id: 1533,
+  category: "Business & Finance",
+  question_en: "A contractor’s license can be suspended for which of the following?",
+  question_pt: "A licença de contractor pode ser suspensa por qual motivo?",
+  options: ["Fraud or misrepresentation", "High profit", "Delayed schedule", "Low markup"],
+  answer: "Fraud or misrepresentation",
+  difficulty: "hard",
+  reference: "Florida Statutes 455"
+},
+{
+  id: 1534,
+  category: "Business & Finance",
+  question_en: "What is the break-even point?",
+  question_pt: "O que é o ponto de equilíbrio?",
+  options: ["Where revenue equals total cost", "Where profit is maximum", "Where expenses are lowest", "Where taxes are zero"],
+  answer: "Where revenue equals total cost",
+  difficulty: "medium",
+  reference: "Finance"
+},
+{
+  id: 1535,
+  category: "Business & Finance",
+  question_en: "Which document legally binds the contractor and owner?",
+  question_pt: "Qual documento vincula legalmente o contractor e o proprietário?",
+  options: ["Contract agreement", "Invoice", "Estimate", "Permit"],
+  answer: "Contract agreement",
+  difficulty: "easy",
+  reference: "Contracts"
+},
+{
+  id: 1536,
+  category: "Business & Finance",
+  question_en: "If overhead is $20,000 and direct costs are $80,000, what is total cost?",
+  question_pt: "Se overhead é $20.000 e custo direto é $80.000, qual é o custo total?",
+  options: ["$100,000", "$80,000", "$60,000", "$120,000"],
+  answer: "$100,000",
+  difficulty: "easy",
+  reference: "Accounting"
+},
+{
+  id: 1537,
+  category: "Business & Finance",
+  question_en: "Which insurance covers damage caused by the contractor to a third party?",
+  question_pt: "Qual seguro cobre danos causados a terceiros?",
+  options: ["General liability", "Workers' compensation", "Auto insurance", "Builder’s risk"],
+  answer: "General liability",
+  difficulty: "easy",
+  reference: "Insurance"
+},
+{
+  id: 1538,
+  category: "Business & Finance",
+  question_en: "A contractor knowingly submits false documents to obtain a permit. This is considered:",
+  question_pt: "Um contractor envia documentos falsos para obter licença. Isso é considerado:",
+  options: ["Fraud", "Negligence", "Overhead", "Markup"],
+  answer: "Fraud",
+  difficulty: "hard",
+  reference: "Florida Law"
+},
+{
+  id: 1539,
+  category: "Business & Finance",
+  question_en: "What does ROI stand for?",
+  question_pt: "O que significa ROI?",
+  options: ["Return on Investment", "Rate of Income", "Return of Interest", "Revenue on Income"],
+  answer: "Return on Investment",
+  difficulty: "easy",
+  reference: "Finance"
+},
+{
+  id: 1540,
+  category: "Business & Finance",
+  question_en: "Which action can VOID lien rights in Florida?",
+  question_pt: "Qual ação pode INVALIDAR o direito de lien na Flórida?",
+  options: ["Failure to serve Notice to Owner", "Late payment", "High markup", "Low profit"],
+  answer: "Failure to serve Notice to Owner",
+  difficulty: "hard",
+  reference: "Florida Lien Law"
+},
+{
+  id: 1541,
+  category: "Business & Finance",
+  question_en: "A contractor applies a 25% markup on cost. If the final selling price is $125,000, what was the original cost?",
+  question_pt: "Um contractor aplica 25% de markup sobre o custo. Se o preço final é $125.000, qual era o custo original?",
+  options: ["$100,000", "$93,750", "$80,000", "$96,000"],
+  answer: "$100,000",
+  difficulty: "hard",
+  reference: "Estimating / Markup"
+},
+{
+  id: 1542,
+  category: "Business & Finance",
+  question_en: "A subcontractor failed to send a Notice to Owner within 45 days but completed the work. What is the MOST likely consequence?",
+  question_pt: "Um subcontractor não enviou o Notice to Owner dentro de 45 dias, mas concluiu o trabalho. Qual é a consequência MAIS provável?",
+  options: ["Loss of lien rights", "Automatic payment approval", "Contract cancellation", "Permit suspension"],
+  answer: "Loss of lien rights",
+  difficulty: "hard",
+  reference: "Florida Lien Law"
+},
+{
+  id: 1543,
+  category: "Business & Finance",
+  question_en: "A company has current assets of $50,000 and current liabilities of $75,000. What does this indicate?",
+  question_pt: "Uma empresa tem ativos circulantes de $50.000 e passivos circulantes de $75.000. O que isso indica?",
+  options: ["Liquidity problem", "High profitability", "Strong financial position", "Excess working capital"],
+  answer: "Liquidity problem",
+  difficulty: "hard",
+  reference: "Finance"
+},
+{
+  id: 1544,
+  category: "Business & Finance",
+  question_en: "In a cost-plus contract with a GMP (Guaranteed Maximum Price), who bears the risk if costs exceed the GMP?",
+  question_pt: "Em um contrato cost-plus com GMP (preço máximo garantido), quem assume o risco se o custo exceder o GMP?",
+  options: ["Contractor", "Owner", "Subcontractor", "Engineer"],
+  answer: "Contractor",
+  difficulty: "hard",
+  reference: "Contracts"
+},
+{
+  id: 1545,
+  category: "Business & Finance",
+  question_en: "A project shows $300,000 revenue, $180,000 direct costs, and $60,000 overhead. What is the net profit?",
+  question_pt: "Um projeto tem $300.000 de receita, $180.000 de custo direto e $60.000 de overhead. Qual é o lucro líquido?",
+  options: ["$60,000", "$120,000", "$80,000", "$40,000"],
+  answer: "$60,000",
+  difficulty: "hard",
+  reference: "Accounting"
+},
+{
+  id: 1546,
+  category: "Business & Finance",
+  question_en: "A contractor intentionally underbids a project knowing costs will exceed the bid. This is BEST described as:",
+  question_pt: "Um contractor faz proposta baixa sabendo que o custo será maior. Isso é melhor descrito como:",
+  options: ["Fraudulent misrepresentation", "Competitive pricing", "Value engineering", "Normal business practice"],
+  answer: "Fraudulent misrepresentation",
+  difficulty: "hard",
+  reference: "Florida Statutes 455"
+},
+{
+  id: 1547,
+  category: "Business & Finance",
+  question_en: "Which of the following would MOST improve a company’s current ratio?",
+  question_pt: "Qual das opções MAIS melhora o current ratio?",
+  options: ["Paying off short-term debt", "Buying equipment", "Increasing long-term debt", "Increasing overhead"],
+  answer: "Paying off short-term debt",
+  difficulty: "hard",
+  reference: "Finance"
+},
+{
+  id: 1548,
+  category: "Business & Finance",
+  question_en: "A contractor receives a progress payment but fails to pay subcontractors. What is the MOST likely legal consequence?",
+  question_pt: "Um contractor recebe pagamento e não paga os subcontractors. Qual é a consequência MAIS provável?",
+  options: ["Lien claims against project", "Permit approval", "Lower taxes", "Contract extension"],
+  answer: "Lien claims against project",
+  difficulty: "hard",
+  reference: "Florida Lien Law"
+},
+{
+  id: 1549,
+  category: "Business & Finance",
+  question_en: "If a project has a 15% profit margin and total revenue of $200,000, what is the profit amount?",
+  question_pt: "Se um projeto tem margem de lucro de 15% e receita de $200.000, qual é o lucro?",
+  options: ["$30,000", "$15,000", "$45,000", "$25,000"],
+  answer: "$30,000",
+  difficulty: "medium",
+  reference: "Accounting"
+},
+{
+  id: 1550,
+  category: "Business & Finance",
+  question_en: "A contractor signs a contract without reading all terms. Later disputes arise. What is the legal position?",
+  question_pt: "Um contractor assina contrato sem ler todos os termos. Qual é a posição legal?",
+  options: ["Bound by contract terms", "Contract is void", "Owner is liable", "Court cancels contract automatically"],
+  answer: "Bound by contract terms",
+  difficulty: "hard",
+  reference: "Contracts"
+},
+{
+  id: 1551,
+  category: "Business & Finance",
+  question_en: "Which action could result in immediate license suspension in Florida?",
+  question_pt: "Qual ação pode resultar em suspensão imediata da licença na Flórida?",
+  options: ["Operating without required insurance", "Low profit", "Delayed schedule", "High markup"],
+  answer: "Operating without required insurance",
+  difficulty: "hard",
+  reference: "Florida Law"
+},
+{
+  id: 1552,
+  category: "Business & Finance",
+  question_en: "A contractor marks up cost by 20%. What is the equivalent profit margin?",
+  question_pt: "Um contractor aplica 20% de markup. Qual é a margem de lucro equivalente?",
+  options: ["16.67%", "20%", "25%", "18%"],
+  answer: "16.67%",
+  difficulty: "hard",
+  reference: "Estimating"
+},
+{
+  id: 1553,
+  category: "Business & Finance",
+  question_en: "A project delay caused by contractor negligence results in damages. This is known as:",
+  question_pt: "Um atraso causado por negligência do contractor resulta em danos. Isso é chamado de:",
+  options: ["Liquidated damages", "Markup", "Overhead", "Retainage"],
+  answer: "Liquidated damages",
+  difficulty: "hard",
+  reference: "Contracts"
+},
+{
+  id: 1554,
+  category: "Business & Finance",
+  question_en: "Which scenario BEST represents breach of contract?",
+  question_pt: "Qual cenário MELHOR representa quebra de contrato?",
+  options: ["Failure to perform agreed work", "Change order issued", "Permit obtained", "Invoice submitted"],
+  answer: "Failure to perform agreed work",
+  difficulty: "medium",
+  reference: "Contracts"
+},
+{
+  id: 1555,
+  category: "Business & Finance",
+  question_en: "A contractor’s overhead increases but revenue stays the same. What happens to profit?",
+  question_pt: "O overhead aumenta e a receita permanece igual. O que acontece com o lucro?",
+  options: ["Profit decreases", "Profit increases", "No change", "Revenue increases"],
+  answer: "Profit decreases",
+  difficulty: "medium",
+  reference: "Accounting"
+},
+{
+  id: 1556,
+  category: "Business & Finance",
+  question_en: "If a lien is not recorded within the required time, what happens?",
+  question_pt: "Se o lien não for registrado dentro do prazo, o que acontece?",
+  options: ["Lien rights are lost", "Payment increases", "Contract void", "Permit revoked"],
+  answer: "Lien rights are lost",
+  difficulty: "hard",
+  reference: "Florida Lien Law"
+},
+{
+  id: 1557,
+  category: "Business & Finance",
+  question_en: "Which contract type places MOST cost risk on the owner?",
+  question_pt: "Qual tipo de contrato coloca MAIS risco de custo no proprietário?",
+  options: ["Cost-plus without GMP", "Lump sum", "Unit price", "Fixed bid"],
+  answer: "Cost-plus without GMP",
+  difficulty: "hard",
+  reference: "Contracts"
+},
+{
+  id: 1558,
+  category: "Business & Finance",
+  question_en: "A contractor has $500,000 revenue and $400,000 total expenses. What is the profit margin?",
+  question_pt: "Um contractor tem $500.000 de receita e $400.000 de despesas. Qual é a margem de lucro?",
+  options: ["20%", "25%", "10%", "15%"],
+  answer: "20%",
+  difficulty: "hard",
+  reference: "Accounting"
+},
+{
+  id: 1559,
+  category: "Business & Finance",
+  question_en: "Which of the following is considered unethical and illegal in contracting?",
+  question_pt: "Qual das opções é considerada antiética e ilegal na construção?",
+  options: ["Bid rigging", "Competitive bidding", "Cost estimating", "Value engineering"],
+  answer: "Bid rigging",
+  difficulty: "hard",
+  reference: "Florida Law"
+},
+{
+  id: 1560,
+  category: "Business & Finance",
+  question_en: "A contractor receives payment but fails to complete the work intentionally. This is BEST classified as:",
+  question_pt: "Um contractor recebe pagamento e não conclui o trabalho intencionalmente. Isso é classificado como:",
+  options: ["Fraud", "Negligence", "Delay", "Overhead"],
+  answer: "Fraud",
+  difficulty: "hard",
+  reference: "Florida Statutes 455"
+},
+{
+  id: 1561,
+  category: "Business & Finance",
+  question_en: "A contractor estimates a project with $120,000 direct costs and applies a 25% markup. However, the owner negotiates a 10% reduction on the final price. What is the final contract amount?",
+  question_pt: "Um contractor estima $120.000 de custo direto com 25% de markup. O cliente negocia 10% de desconto no preço final. Qual é o valor final do contrato?",
+  options: ["$135,000", "$162,000", "$150,000", "$140,400"],
+  answer: "$135,000",
+  difficulty: "hard",
+  reference: "Estimating"
+},
+{
+  id: 1562,
+  category: "Business & Finance",
+  question_en: "A subcontractor begins work but fails to send Notice to Owner. The owner fully pays the general contractor. What is the subcontractor’s legal position?",
+  question_pt: "Um subcontractor inicia o trabalho sem enviar NTO. O owner paga totalmente o contractor. Qual é a posição legal do subcontractor?",
+  options: ["Cannot file lien", "Can sue owner", "Can demand double payment", "Can stop project"],
+  answer: "Cannot file lien",
+  difficulty: "hard",
+  reference: "Florida Lien Law"
+},
+{
+  id: 1563,
+  category: "Business & Finance",
+  question_en: "A company has a current ratio of 0.8. What does this MOST likely indicate?",
+  question_pt: "Uma empresa tem current ratio de 0.8. O que isso indica?",
+  options: ["Insufficient liquidity", "High profitability", "Strong assets", "Low debt"],
+  answer: "Insufficient liquidity",
+  difficulty: "hard",
+  reference: "Finance"
+},
+{
+  id: 1564,
+  category: "Business & Finance",
+  question_en: "A contractor signs a cost-plus contract without GMP. Project costs increase significantly. Who is responsible for the excess cost?",
+  question_pt: "Um contractor assina contrato cost-plus sem GMP. Os custos aumentam muito. Quem paga o excedente?",
+  options: ["Owner", "Contractor", "Subcontractor", "Engineer"],
+  answer: "Owner",
+  difficulty: "hard",
+  reference: "Contracts"
+},
+{
+  id: 1565,
+  category: "Business & Finance",
+  question_en: "A contractor has $400,000 revenue, $250,000 direct costs, and $100,000 overhead. What is the profit margin?",
+  question_pt: "Um contractor tem $400.000 de receita, $250.000 de custo direto e $100.000 de overhead. Qual é a margem de lucro?",
+  options: ["12.5%", "10%", "15%", "20%"],
+  answer: "12.5%",
+  difficulty: "hard",
+  reference: "Accounting"
+},
+{
+  id: 1566,
+  category: "Business & Finance",
+  question_en: "A contractor knowingly violates building codes to reduce cost. What is the MOST likely consequence?",
+  question_pt: "Um contractor viola códigos para reduzir custo. Qual é a consequência MAIS provável?",
+  options: ["License suspension or revocation", "Higher profit", "Permit approval", "Lower taxes"],
+  answer: "License suspension or revocation",
+  difficulty: "hard",
+  reference: "Florida Law"
+},
+{
+  id: 1567,
+  category: "Business & Finance",
+  question_en: "Which action would MOST improve profitability without increasing revenue?",
+  question_pt: "Qual ação MAIS melhora o lucro sem aumentar receita?",
+  options: ["Reducing overhead", "Increasing markup", "Hiring more staff", "Increasing debt"],
+  answer: "Reducing overhead",
+  difficulty: "hard",
+  reference: "Finance"
+},
+{
+  id: 1568,
+  category: "Business & Finance",
+  question_en: "A contractor receives payment but uses the funds for another project instead of paying suppliers. This is:",
+  question_pt: "Um contractor recebe pagamento e usa o dinheiro em outro projeto sem pagar fornecedores. Isso é:",
+  options: ["Misappropriation of funds", "Overhead allocation", "Normal practice", "Markup adjustment"],
+  answer: "Misappropriation of funds",
+  difficulty: "hard",
+  reference: "Florida Law"
+},
+{
+  id: 1569,
+  category: "Business & Finance",
+  question_en: "A contractor applies 30% markup on cost. What is the equivalent margin?",
+  question_pt: "Um contractor aplica 30% de markup. Qual é a margem equivalente?",
+  options: ["23.08%", "30%", "20%", "25%"],
+  answer: "23.08%",
+  difficulty: "hard",
+  reference: "Estimating"
+},
+{
+  id: 1570,
+  category: "Business & Finance",
+  question_en: "A contract requires completion by a fixed date with penalties for delay. These penalties are called:",
+  question_pt: "Um contrato exige conclusão com penalidade por atraso. Essas penalidades são chamadas de:",
+  options: ["Liquidated damages", "Retainage", "Markup", "Lien"],
+  answer: "Liquidated damages",
+  difficulty: "medium",
+  reference: "Contracts"
+},
+{
+  id: 1571,
+  category: "Business & Finance",
+  question_en: "If a contractor signs a contract under duress, the contract may be:",
+  question_pt: "Se um contractor assina sob coação, o contrato pode ser:",
+  options: ["Voidable", "Automatically valid", "Illegal only after completion", "Binding forever"],
+  answer: "Voidable",
+  difficulty: "hard",
+  reference: "Contracts"
+},
+{
+  id: 1572,
+  category: "Business & Finance",
+  question_en: "A contractor fails to maintain required insurance coverage. What is the immediate risk?",
+  question_pt: "Um contractor não mantém seguro obrigatório. Qual é o risco imediato?",
+  options: ["Stop-work order", "Higher profit", "Lower taxes", "Faster permit"],
+  answer: "Stop-work order",
+  difficulty: "hard",
+  reference: "Florida Law"
+},
+{
+  id: 1573,
+  category: "Business & Finance",
+  question_en: "Which scenario BEST describes insolvency?",
+  question_pt: "Qual cenário MELHOR descreve insolvência?",
+  options: ["Unable to pay debts when due", "High profit margin", "Low overhead", "High revenue"],
+  answer: "Unable to pay debts when due",
+  difficulty: "hard",
+  reference: "Finance"
+},
+{
+  id: 1574,
+  category: "Business & Finance",
+  question_en: "A contractor underestimates a project and incurs losses. This is MOST likely due to:",
+  question_pt: "Um contractor subestima um projeto e tem prejuízo. Isso ocorre provavelmente por:",
+  options: ["Poor estimating", "High markup", "Low overhead", "High revenue"],
+  answer: "Poor estimating",
+  difficulty: "easy",
+  reference: "Estimating"
+},
+{
+  id: 1575,
+  category: "Business & Finance",
+  question_en: "Which document protects against non-payment by the owner?",
+  question_pt: "Qual documento protege contra falta de pagamento do owner?",
+  options: ["Lien", "Invoice", "Permit", "Schedule"],
+  answer: "Lien",
+  difficulty: "medium",
+  reference: "Florida Lien Law"
+},
+{
+  id: 1576,
+  category: "Business & Finance",
+  question_en: "If total cost is $200,000 and profit is $40,000, what is the markup percentage?",
+  question_pt: "Se o custo total é $200.000 e o lucro é $40.000, qual é o markup?",
+  options: ["20%", "25%", "16.67%", "30%"],
+  answer: "20%",
+  difficulty: "hard",
+  reference: "Estimating"
+},
+{
+  id: 1577,
+  category: "Business & Finance",
+  question_en: "A contractor intentionally inflates invoices. This is considered:",
+  question_pt: "Um contractor infla faturas intencionalmente. Isso é:",
+  options: ["Fraud", "Markup", "Overhead", "Negotiation"],
+  answer: "Fraud",
+  difficulty: "easy",
+  reference: "Florida Law"
+},
+{
+  id: 1578,
+  category: "Business & Finance",
+  question_en: "Which financial metric measures profitability relative to revenue?",
+  question_pt: "Qual métrica mede lucro em relação à receita?",
+  options: ["Profit margin", "Current ratio", "Debt ratio", "Working capital"],
+  answer: "Profit margin",
+  difficulty: "medium",
+  reference: "Finance"
+},
+{
+  id: 1579,
+  category: "Business & Finance",
+  question_en: "A contractor fails to meet project specifications. This results in:",
+  question_pt: "Um contractor não cumpre especificações. Isso resulta em:",
+  options: ["Breach of contract", "Higher profit", "Permit approval", "Tax reduction"],
+  answer: "Breach of contract",
+  difficulty: "easy",
+  reference: "Contracts"
+},
+{
+  id: 1580,
+  category: "Business & Finance",
+  question_en: "Which scenario MOST increases financial risk?",
+  question_pt: "Qual cenário MAIS aumenta o risco financeiro?",
+  options: ["High debt with low cash flow", "Low overhead", "High profit margin", "Strong liquidity"],
+  answer: "High debt with low cash flow",
+  difficulty: "hard",
+  reference: "Finance"
+},
+{
+  id: 1581,
+  category: "Business & Finance",
+  question_en: "A contractor applies a 25% profit margin to a project. If total revenue is $200,000, what is the total cost?",
+  question_pt: "Um contractor aplica 25% de margem de lucro. Se a receita é $200.000, qual é o custo total?",
+  options: ["$150,000", "$160,000", "$175,000", "$140,000"],
+  answer: "$150,000",
+  difficulty: "hard",
+  reference: "Estimating / Margin"
+},
+{
+  id: 1582,
+  category: "Business & Finance",
+  question_en: "A Notice of Commencement is required to be recorded when project value exceeds:",
+  question_pt: "O Notice of Commencement deve ser registrado quando o valor do projeto excede:",
+  options: ["$2,500", "$5,000", "$10,000", "$15,000"],
+  answer: "$2,500",
+  difficulty: "hard",
+  reference: "Florida Lien Law"
+},
+{
+  id: 1583,
+  category: "Business & Finance",
+  question_en: "A contractor has $100,000 in receivables but cannot pay $80,000 in immediate obligations. What is the issue?",
+  question_pt: "Um contractor tem $100.000 a receber, mas não consegue pagar $80.000 imediatos. Qual é o problema?",
+  options: ["Cash flow problem", "Low revenue", "High profit", "Low markup"],
+  answer: "Cash flow problem",
+  difficulty: "hard",
+  reference: "Finance"
+},
+{
+  id: 1584,
+  category: "Business & Finance",
+  question_en: "A contractor enters into a contract and later assigns it to another party without consent. This is:",
+  question_pt: "Um contractor transfere contrato sem consentimento. Isso é:",
+  options: ["Breach of contract", "Valid assignment", "Overhead allocation", "Lien waiver"],
+  answer: "Breach of contract",
+  difficulty: "hard",
+  reference: "Contracts"
+},
+{
+  id: 1585,
+  category: "Business & Finance",
+  question_en: "If overhead is underestimated during bidding, the MOST likely result is:",
+  question_pt: "Se o overhead for subestimado, o resultado MAIS provável é:",
+  options: ["Reduced profit", "Higher revenue", "Lower costs", "Improved cash flow"],
+  answer: "Reduced profit",
+  difficulty: "hard",
+  reference: "Estimating"
+},
+{
+  id: 1586,
+  category: "Business & Finance",
+  question_en: "A contractor intentionally omits required permit fees in a bid. This is considered:",
+  question_pt: "Um contractor omite taxas obrigatórias no orçamento. Isso é:",
+  options: ["Misrepresentation", "Value engineering", "Negotiation", "Legal optimization"],
+  answer: "Misrepresentation",
+  difficulty: "hard",
+  reference: "Florida Law"
+},
+{
+  id: 1587,
+  category: "Business & Finance",
+  question_en: "Which financial statement shows a company’s assets, liabilities, and equity at a specific date?",
+  question_pt: "Qual demonstrativo mostra ativos, passivos e patrimônio em uma data específica?",
+  options: ["Balance sheet", "Income statement", "Cash flow statement", "Invoice"],
+  answer: "Balance sheet",
+  difficulty: "medium",
+  reference: "Accounting"
+},
+{
+  id: 1588,
+  category: "Business & Finance",
+  question_en: "If a contractor increases markup but loses contracts due to pricing, what is the MOST likely impact?",
+  question_pt: "Se o contractor aumenta markup e perde contratos, qual o impacto MAIS provável?",
+  options: ["Reduced total profit", "Higher revenue", "Lower overhead", "Improved liquidity"],
+  answer: "Reduced total profit",
+  difficulty: "hard",
+  reference: "Business Strategy"
+},
+{
+  id: 1589,
+  category: "Business & Finance",
+  question_en: "A contractor is paid but fails to deliver materials already billed. This is classified as:",
+  question_pt: "Um contractor recebe por materiais e não entrega. Isso é:",
+  options: ["Fraud", "Negligence", "Delay", "Overhead issue"],
+  answer: "Fraud",
+  difficulty: "easy",
+  reference: "Florida Law"
+},
+{
+  id: 1590,
+  category: "Business & Finance",
+  question_en: "Which scenario indicates a strong financial position?",
+  question_pt: "Qual cenário indica posição financeira forte?",
+  options: ["Current ratio above 1", "High debt only", "Low revenue", "High expenses"],
+  answer: "Current ratio above 1",
+  difficulty: "medium",
+  reference: "Finance"
+},
+{
+  id: 1591,
+  category: "Business & Finance",
+  question_en: "A contractor includes contingency funds in a bid. The PRIMARY purpose is to:",
+  question_pt: "Um contractor inclui contingência no orçamento. O objetivo é:",
+  options: ["Cover unforeseen costs", "Increase taxes", "Reduce labor", "Delay project"],
+  answer: "Cover unforeseen costs",
+  difficulty: "medium",
+  reference: "Estimating"
+},
+{
+  id: 1592,
+  category: "Business & Finance",
+  question_en: "Which action could result in losing lien rights even after work is completed?",
+  question_pt: "Qual ação pode fazer perder o direito de lien mesmo após o trabalho?",
+  options: ["Failure to meet deadlines", "Late invoice", "Low markup", "High cost"],
+  answer: "Failure to meet deadlines",
+  difficulty: "hard",
+  reference: "Florida Lien Law"
+},
+{
+  id: 1593,
+  category: "Business & Finance",
+  question_en: "If total revenue is $250,000 and net profit is $25,000, what is the net profit margin?",
+  question_pt: "Se a receita é $250.000 e o lucro líquido é $25.000, qual é a margem?",
+  options: ["10%", "15%", "20%", "12%"],
+  answer: "10%",
+  difficulty: "medium",
+  reference: "Accounting"
+},
+{
+  id: 1594,
+  category: "Business & Finance",
+  question_en: "A contractor’s license is at risk if they repeatedly:",
+  question_pt: "A licença de um contractor está em risco se ele repetidamente:",
+  options: ["Violates building codes", "Earns profit", "Completes projects early", "Uses subcontractors"],
+  answer: "Violates building codes",
+  difficulty: "medium",
+  reference: "Florida Law"
+},
+{
+  id: 1595,
+  category: "Business & Finance",
+  question_en: "Which contract clause protects against excessive cost increases?",
+  question_pt: "Qual cláusula protege contra aumento excessivo de custos?",
+  options: ["GMP clause", "Lien clause", "Markup clause", "Permit clause"],
+  answer: "GMP clause",
+  difficulty: "hard",
+  reference: "Contracts"
+},
+{
+  id: 1596,
+  category: "Business & Finance",
+  question_en: "A contractor has high revenue but negative cash flow. This indicates:",
+  question_pt: "Um contractor tem alta receita, mas fluxo de caixa negativo. Isso indica:",
+  options: ["Poor cash management", "High profit", "Low expenses", "Strong liquidity"],
+  answer: "Poor cash management",
+  difficulty: "hard",
+  reference: "Finance"
+},
+{
+  id: 1597,
+  category: "Business & Finance",
+  question_en: "Which scenario BEST represents ethical business practice?",
+  question_pt: "Qual cenário representa prática ética?",
+  options: ["Accurate and transparent billing", "Inflated invoices", "Hidden costs", "Delayed payments intentionally"],
+  answer: "Accurate and transparent billing",
+  difficulty: "easy",
+  reference: "Business Ethics"
+},
+{
+  id: 1598,
+  category: "Business & Finance",
+  question_en: "A contractor increases efficiency and reduces labor hours. What is the MOST likely result?",
+  question_pt: "Um contractor aumenta eficiência e reduz horas de trabalho. Qual o resultado MAIS provável?",
+  options: ["Higher profit margin", "Lower revenue", "Higher overhead", "Reduced markup"],
+  answer: "Higher profit margin",
+  difficulty: "medium",
+  reference: "Operations"
+},
+{
+  id: 1599,
+  category: "Business & Finance",
+  question_en: "Which of the following increases financial leverage risk?",
+  question_pt: "Qual das opções aumenta o risco financeiro?",
+  options: ["High debt levels", "Low overhead", "High cash reserves", "Strong revenue"],
+  answer: "High debt levels",
+  difficulty: "medium",
+  reference: "Finance"
+},
+{
+  id: 1600,
+  category: "Business & Finance",
+  question_en: "A contractor intentionally delays payment to suppliers to improve cash flow. This is:",
+  question_pt: "Um contractor atrasa pagamento propositalmente para melhorar fluxo. Isso é:",
+  options: ["Unethical practice", "Normal accounting", "Legal requirement", "Cost control"],
+  answer: "Unethical practice",
+  difficulty: "hard",
+  reference: "Business Ethics"
+},
+{
+  id: 1601,
+  category: "Business & Finance",
+  question_en: "A contractor’s income statement shows high revenue but low net profit. What is the MOST likely cause?",
+  question_pt: "Um P&L mostra alta receita e baixo lucro. Qual a causa MAIS provável?",
+  options: ["High overhead expenses", "Low markup", "High assets", "Low liabilities"],
+  answer: "High overhead expenses",
+  difficulty: "hard",
+  reference: "P&L"
+},
+{
+  id: 1602,
+  category: "Business & Finance",
+  question_en: "Retainage is typically released when:",
+  question_pt: "A retenção (retainage) é liberada quando:",
+  options: ["Project is substantially completed", "Contract is signed", "Permit is issued", "First payment is made"],
+  answer: "Project is substantially completed",
+  difficulty: "medium",
+  reference: "Contracts"
+},
+{
+  id: 1603,
+  category: "Business & Finance",
+  question_en: "A change order must be approved by which party to be enforceable?",
+  question_pt: "Uma change order deve ser aprovada por quem para ser válida?",
+  options: ["Both owner and contractor", "Contractor only", "Subcontractor", "Inspector"],
+  answer: "Both owner and contractor",
+  difficulty: "hard",
+  reference: "Contracts"
+},
+{
+  id: 1604,
+  category: "Business & Finance",
+  question_en: "Job costing is primarily used to:",
+  question_pt: "Job costing é usado principalmente para:",
+  options: ["Track cost per project", "Increase markup", "Reduce taxes", "Control permits"],
+  answer: "Track cost per project",
+  difficulty: "easy",
+  reference: "Job Costing"
+},
+{
+  id: 1605,
+  category: "Business & Finance",
+  question_en: "A contractor shows profit on P&L but has no cash available. This indicates:",
+  question_pt: "Um contractor tem lucro no P&L mas sem caixa. Isso indica:",
+  options: ["Cash flow issue", "High margin", "Low overhead", "High equity"],
+  answer: "Cash flow issue",
+  difficulty: "hard",
+  reference: "Finance"
+},
+{
+  id: 1606,
+  category: "Business & Finance",
+  question_en: "Which bond guarantees project completion?",
+  question_pt: "Qual bond garante a conclusão do projeto?",
+  options: ["Performance bond", "Bid bond", "Payment bond", "Warranty bond"],
+  answer: "Performance bond",
+  difficulty: "medium",
+  reference: "Bonds"
+},
+{
+  id: 1607,
+  category: "Business & Finance",
+  question_en: "Workers' compensation insurance covers:",
+  question_pt: "Workers' comp cobre:",
+  options: ["Employee injuries", "Property damage", "Third-party claims", "Equipment theft"],
+  answer: "Employee injuries",
+  difficulty: "easy",
+  reference: "Insurance"
+},
+{
+  id: 1608,
+  category: "Business & Finance",
+  question_en: "A contractor fails to issue a required change order and proceeds with extra work. What is the risk?",
+  question_pt: "Um contractor executa trabalho extra sem change order. Qual o risco?",
+  options: ["Non-payment", "Higher profit", "Automatic approval", "Permit delay"],
+  answer: "Non-payment",
+  difficulty: "hard",
+  reference: "Contracts"
+},
+{
+  id: 1609,
+  category: "Business & Finance",
+  question_en: "Which balance sheet element represents company ownership?",
+  question_pt: "Qual elemento do balanço representa propriedade da empresa?",
+  options: ["Equity", "Assets", "Liabilities", "Revenue"],
+  answer: "Equity",
+  difficulty: "medium",
+  reference: "Balance Sheet"
+},
+{
+  id: 1610,
+  category: "Business & Finance",
+  question_en: "A contractor with consistently underestimated job costs will MOST likely experience:",
+  question_pt: "Um contractor que subestima custos terá:",
+  options: ["Reduced profitability", "Higher revenue", "Lower overhead", "Improved margins"],
+  answer: "Reduced profitability",
+  difficulty: "easy",
+  reference: "Job Costing"
+},
+{
+  id: 1611,
+  category: "Business & Finance",
+  question_en: "Which bond ensures subcontractors are paid?",
+  question_pt: "Qual bond garante pagamento aos subcontractors?",
+  options: ["Payment bond", "Performance bond", "Bid bond", "Insurance bond"],
+  answer: "Payment bond",
+  difficulty: "medium",
+  reference: "Bonds"
+},
+{
+  id: 1612,
+  category: "Business & Finance",
+  question_en: "General liability insurance protects against:",
+  question_pt: "Seguro de responsabilidade geral protege contra:",
+  options: ["Third-party injury/damage", "Employee injury", "Project delay", "Cost overruns"],
+  answer: "Third-party injury/damage",
+  difficulty: "easy",
+  reference: "Insurance"
+},
+{
+  id: 1613,
+  category: "Business & Finance",
+  question_en: "A contractor fails to maintain required license. What is the MOST likely outcome?",
+  question_pt: "Um contractor não mantém licença válida. Qual o resultado?",
+  options: ["Legal penalties and project shutdown", "Higher profit", "Permit approval", "Lower taxes"],
+  answer: "Legal penalties and project shutdown",
+  difficulty: "hard",
+  reference: "Licensing Law"
+},
+{
+  id: 1614,
+  category: "Business & Finance",
+  question_en: "Which financial statement shows profitability over time?",
+  question_pt: "Qual demonstra lucro ao longo do tempo?",
+  options: ["Income statement", "Balance sheet", "Cash ledger", "Invoice"],
+  answer: "Income statement",
+  difficulty: "easy",
+  reference: "P&L"
+},
+{
+  id: 1615,
+  category: "Business & Finance",
+  question_en: "Retainage percentage is MOST commonly:",
+  question_pt: "A retenção normalmente é:",
+  options: ["5%–10%", "1%–2%", "15%–20%", "25%"],
+  answer: "5%–10%",
+  difficulty: "medium",
+  reference: "Contracts"
+},
+{
+  id: 1616,
+  category: "Business & Finance",
+  question_en: "A contractor submits inaccurate job cost reports. What is the impact?",
+  question_pt: "Relatórios de job costing incorretos causam:",
+  options: ["Poor decision-making", "Higher revenue", "Lower expenses", "Better margins"],
+  answer: "Poor decision-making",
+  difficulty: "hard",
+  reference: "Job Costing"
+},
+{
+  id: 1617,
+  category: "Business & Finance",
+  question_en: "Which contract clause allows adjustments for unforeseen conditions?",
+  question_pt: "Qual cláusula permite ajustes por condições imprevistas?",
+  options: ["Change order clause", "Lien clause", "Bond clause", "Insurance clause"],
+  answer: "Change order clause",
+  difficulty: "medium",
+  reference: "Contracts"
+},
+{
+  id: 1618,
+  category: "Business & Finance",
+  question_en: "A contractor inflates job costs to increase billing. This is:",
+  question_pt: "Inflar custos para faturar mais é:",
+  options: ["Fraud", "Markup", "Overhead", "Negotiation"],
+  answer: "Fraud",
+  difficulty: "easy",
+  reference: "Licensing Law"
+},
+{
+  id: 1619,
+  category: "Business & Finance",
+  question_en: "If liabilities exceed assets, the company is:",
+  question_pt: "Se passivos excedem ativos, a empresa está:",
+  options: ["Insolvent", "Profitable", "Liquid", "Stable"],
+  answer: "Insolvent",
+  difficulty: "medium",
+  reference: "Balance Sheet"
+},
+{
+  id: 1620,
+  category: "Business & Finance",
+  question_en: "A contractor receives retainage early without completion. This is MOST likely:",
+  question_pt: "Receber retenção antes da conclusão é:",
+  options: ["Contract violation", "Normal practice", "Required by law", "Tax benefit"],
+  answer: "Contract violation",
+  difficulty: "hard",
+  reference: "Contracts"
+},
+{
+  id: 1621,
+  category: "Business & Finance",
+  question_en: "Bid bond guarantees:",
+  question_pt: "Bid bond garante:",
+  options: ["Contractor will enter contract if awarded", "Project completion", "Payment to subs", "Insurance coverage"],
+  answer: "Contractor will enter contract if awarded",
+  difficulty: "hard",
+  reference: "Bonds"
+},
+{
+  id: 1622,
+  category: "Business & Finance",
+  question_en: "Which cost is considered indirect?",
+  question_pt: "Qual custo é indireto?",
+  options: ["Office rent", "Labor on site", "Materials", "Equipment rental"],
+  answer: "Office rent",
+  difficulty: "medium",
+  reference: "Accounting"
+},
+{
+  id: 1623,
+  category: "Business & Finance",
+  question_en: "Failure to carry liability insurance exposes contractor to:",
+  question_pt: "Não ter liability insurance expõe o contractor a:",
+  options: ["Personal financial risk", "Higher profit", "Lower cost", "Permit approval"],
+  answer: "Personal financial risk",
+  difficulty: "hard",
+  reference: "Insurance"
+},
+{
+  id: 1624,
+  category: "Business & Finance",
+  question_en: "Which document defines payment terms?",
+  question_pt: "Qual documento define termos de pagamento?",
+  options: ["Contract", "Invoice", "Permit", "Lien"],
+  answer: "Contract",
+  difficulty: "easy",
+  reference: "Contracts"
+},
+{
+  id: 1625,
+  category: "Business & Finance",
+  question_en: "A contractor consistently delays change order approvals. Result?",
+  question_pt: "Atrasar change orders resulta em:",
+  options: ["Cash flow disruption", "Higher profit", "Lower cost", "Faster completion"],
+  answer: "Cash flow disruption",
+  difficulty: "hard",
+  reference: "Contracts"
+},
+{
+  id: 1626,
+  category: "Business & Finance",
+  question_en: "Which item appears on a balance sheet but not P&L?",
+  question_pt: "Qual item aparece no balanço e não no P&L?",
+  options: ["Assets", "Revenue", "Expenses", "Profit"],
+  answer: "Assets",
+  difficulty: "hard",
+  reference: "Accounting"
+},
+{
+  id: 1627,
+  category: "Business & Finance",
+  question_en: "Job costing errors MOST affect:",
+  question_pt: "Erros de job costing afetam:",
+  options: ["Profitability accuracy", "Permit approval", "Insurance rates", "Taxes only"],
+  answer: "Profitability accuracy",
+  difficulty: "hard",
+  reference: "Job Costing"
+},
+{
+  id: 1628,
+  category: "Business & Finance",
+  question_en: "Which insurance covers damage to the project itself?",
+  question_pt: "Qual seguro cobre danos na obra?",
+  options: ["Builder’s risk", "Workers comp", "Liability", "Auto"],
+  answer: "Builder’s risk",
+  difficulty: "medium",
+  reference: "Insurance"
+},
+{
+  id: 1629,
+  category: "Business & Finance",
+  question_en: "A contractor operates outside license scope. This leads to:",
+  question_pt: "Operar fora do escopo da licença leva a:",
+  options: ["License penalties", "Higher revenue", "Lower taxes", "Permit approval"],
+  answer: "License penalties",
+  difficulty: "medium",
+  reference: "Licensing Law"
+},
+{
+  id: 1630,
+  category: "Business & Finance",
+  question_en: "Failure to document change orders properly may result in:",
+  question_pt: "Não documentar change orders resulta em:",
+  options: ["Loss of payment rights", "Higher profit", "Faster project", "Permit approval"],
+  answer: "Loss of payment rights",
+  difficulty: "hard",
+  reference: "Contracts"
+},
+{
+  id: 1631,
+  category: "Business & Finance",
+  question_en: "A contractor signs a $300,000 lump sum contract including a 10% retainage. The contractor completes 80% of the work and submits a pay application. What is the MAXIMUM amount they should expect to receive (excluding previous payments)?",
+  question_pt: "Um contractor assina contrato de $300.000 com retenção de 10%. Ele completa 80% do trabalho e envia medição. Qual o valor MÁXIMO que deve receber (sem considerar pagamentos anteriores)?",
+  options: ["$216,000", "$240,000", "$270,000", "$192,000"],
+  answer: "$216,000",
+  difficulty: "hard",
+  reference: "Contracts / Retainage"
+},
+{
+  id: 1632,
+  category: "Business & Finance",
+  question_en: "A contractor discovers unforeseen site conditions requiring $20,000 extra work. The contractor proceeds without written approval. What is the MOST likely outcome?",
+  question_pt: "Um contractor encontra condição inesperada de $20.000 e executa sem aprovação. Qual o resultado MAIS provável?",
+  options: ["No payment for extra work", "Automatic reimbursement", "Contract increase", "Permit extension"],
+  answer: "No payment for extra work",
+  difficulty: "hard",
+  reference: "Change Orders"
+},
+{
+  id: 1633,
+  category: "Business & Finance",
+  question_en: "A contractor’s balance sheet shows assets of $500,000 and liabilities of $450,000. What is the equity?",
+  question_pt: "Um balanço mostra ativos de $500.000 e passivos de $450.000. Qual o equity?",
+  options: ["$50,000", "$450,000", "$500,000", "$100,000"],
+  answer: "$50,000",
+  difficulty: "medium",
+  reference: "Balance Sheet"
+},
+{
+  id: 1634,
+  category: "Business & Finance",
+  question_en: "A contractor consistently delays paying subcontractors despite receiving funds. This may be considered:",
+  question_pt: "Um contractor atrasa pagamento mesmo recebendo. Isso pode ser considerado:",
+  options: ["Misuse of construction funds", "Normal practice", "Cash optimization", "Legal delay"],
+  answer: "Misuse of construction funds",
+  difficulty: "hard",
+  reference: "Florida Law"
+},
+{
+  id: 1635,
+  category: "Business & Finance",
+  question_en: "A project has total cost of $180,000 and selling price of $240,000. What is the markup percentage?",
+  question_pt: "Um projeto custa $180.000 e vende por $240.000. Qual o markup?",
+  options: ["33.33%", "25%", "20%", "30%"],
+  answer: "33.33%",
+  difficulty: "hard",
+  reference: "Estimating"
+},
+{
+  id: 1636,
+  category: "Business & Finance",
+  question_en: "A contractor carries no general liability insurance and causes property damage. What is the MOST likely consequence?",
+  question_pt: "Um contractor sem seguro causa dano à propriedade. Consequência MAIS provável?",
+  options: ["Personal financial liability", "Permit delay only", "Reduced profit", "Tax penalty only"],
+  answer: "Personal financial liability",
+  difficulty: "hard",
+  reference: "Insurance"
+},
+{
+  id: 1637,
+  category: "Business & Finance",
+  question_en: "A contractor signs a contract requiring written change orders. The owner verbally approves changes. What is the safest action?",
+  question_pt: "Contrato exige change order escrita, owner aprova verbalmente. Qual ação mais segura?",
+  options: ["Obtain written confirmation", "Proceed immediately", "Ignore contract", "Increase invoice"],
+  answer: "Obtain written confirmation",
+  difficulty: "hard",
+  reference: "Contracts"
+},
+{
+  id: 1638,
+  category: "Business & Finance",
+  question_en: "A contractor’s P&L shows profit, but balance sheet shows increasing debt. What does this indicate?",
+  question_pt: "P&L mostra lucro, mas dívida cresce. Isso indica:",
+  options: ["Poor financial structure", "High profitability", "Strong equity", "Low risk"],
+  answer: "Poor financial structure",
+  difficulty: "hard",
+  reference: "Finance"
+},
+{
+  id: 1639,
+  category: "Business & Finance",
+  question_en: "A payment bond protects which party?",
+  question_pt: "Payment bond protege qual parte?",
+  options: ["Subcontractors and suppliers", "Owner only", "Contractor only", "Inspector"],
+  answer: "Subcontractors and suppliers",
+  difficulty: "medium",
+  reference: "Bonds"
+},
+{
+  id: 1640,
+  category: "Business & Finance",
+  question_en: "A contractor submits an intentionally low bid to secure a project and plans to recover profit through change orders. This practice is:",
+  question_pt: "Um contractor faz proposta baixa e compensa com change orders. Isso é:",
+  options: ["Unethical practice", "Value engineering", "Cost control", "Legal strategy"],
+  answer: "Unethical practice",
+  difficulty: "hard",
+  reference: "Business Ethics"
+},
+{
+  id: 1641,
+  category: "Business & Finance",
+  question_en: "If current assets are $120,000 and current liabilities are $80,000, what is the current ratio?",
+  question_pt: "Ativos $120.000 e passivos $80.000. Qual current ratio?",
+  options: ["1.5", "1.2", "2.0", "0.8"],
+  answer: "1.5",
+  difficulty: "medium",
+  reference: "Finance"
+},
+{
+  id: 1642,
+  category: "Business & Finance",
+  question_en: "A contractor does work outside their licensed scope. What is the MOST likely legal result?",
+  question_pt: "Trabalhar fora da licença resulta em:",
+  options: ["License discipline or revocation", "Higher revenue", "Permit approval", "Reduced taxes"],
+  answer: "License discipline or revocation",
+  difficulty: "hard",
+  reference: "Licensing Law"
+},
+{
+  id: 1643,
+  category: "Business & Finance",
+  question_en: "A contractor underestimates labor hours on multiple jobs. Over time this leads to:",
+  question_pt: "Subestimar horas de trabalho leva a:",
+  options: ["Systematic losses", "Higher profit", "Lower cost", "Improved efficiency"],
+  answer: "Systematic losses",
+  difficulty: "hard",
+  reference: "Job Costing"
+},
+{
+  id: 1644,
+  category: "Business & Finance",
+  question_en: "Which bond guarantees the contractor will submit a valid bid and enter the contract?",
+  question_pt: "Qual bond garante que o contractor cumprirá a proposta?",
+  options: ["Bid bond", "Performance bond", "Payment bond", "Insurance bond"],
+  answer: "Bid bond",
+  difficulty: "medium",
+  reference: "Bonds"
+},
+{
+  id: 1645,
+  category: "Business & Finance",
+  question_en: "A contractor inflates job costs to hide inefficiencies. What is the MOST accurate classification?",
+  question_pt: "Inflar custos para esconder ineficiência é:",
+  options: ["Fraudulent behavior", "Cost control", "Normal accounting", "Overhead adjustment"],
+  answer: "Fraudulent behavior",
+  difficulty: "hard",
+  reference: "Licensing Law"
+},
+{
+  id: 1646,
+  category: "Business & Finance",
+  question_en: "A contractor receives retainage before completion due to an agreement. What risk exists?",
+  question_pt: "Receber retenção antes da conclusão gera qual risco?",
+  options: ["Contract dispute or violation", "Higher profit", "Permit delay", "Tax increase"],
+  answer: "Contract dispute or violation",
+  difficulty: "hard",
+  reference: "Contracts"
+},
+{
+  id: 1647,
+  category: "Business & Finance",
+  question_en: "Which scenario MOST likely results in negative cash flow?",
+  question_pt: "Qual cenário gera fluxo de caixa negativo?",
+  options: ["Delayed client payments", "High markup", "Low overhead", "Fast billing"],
+  answer: "Delayed client payments",
+  difficulty: "medium",
+  reference: "Finance"
+},
+{
+  id: 1648,
+  category: "Business & Finance",
+  question_en: "A contractor’s liability insurance lapses during a project. What is the immediate concern?",
+  question_pt: "Seguro vence durante obra. Qual o risco imediato?",
+  options: ["Exposure to claims without coverage", "Higher profit", "Lower costs", "Permit approval"],
+  answer: "Exposure to claims without coverage",
+  difficulty: "hard",
+  reference: "Insurance"
+},
+{
+  id: 1649,
+  category: "Business & Finance",
+  question_en: "A contractor signs a contract with unclear payment terms. What is the MOST likely risk?",
+  question_pt: "Contrato com pagamento mal definido gera:",
+  options: ["Disputes and delayed payments", "Higher profit", "Faster approval", "Lower cost"],
+  answer: "Disputes and delayed payments",
+  difficulty: "hard",
+  reference: "Contracts"
+},
+{
+  id: 1650,
+  category: "Business & Finance",
+  question_en: "A contractor’s job costing shows consistent variance between estimated and actual cost. This indicates:",
+  question_pt: "Diferença constante entre estimado e real indica:",
+  options: ["Poor estimating system", "High profit", "Low overhead", "Strong control"],
+  answer: "Poor estimating system",
+  difficulty: "hard",
+  reference: "Job Costing"
+}
+  ];

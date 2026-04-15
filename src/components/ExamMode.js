@@ -4,6 +4,7 @@ import {
   getNonRepeatingSelection,
   shuffleArray,
 } from "../utils/questionPicker";
+import { getReferenceBook } from "../utils/questionReference";
 
 function ExamMode({ onChangeMode }) {
   const [selectedQuestions, setSelectedQuestions] = useState([]);
@@ -35,6 +36,7 @@ function ExamMode({ onChangeMode }) {
   if (selectedQuestions.length === 0) return <p>Loading Exam...</p>;
 
   const atual = selectedQuestions[index];
+  const referenceBook = getReferenceBook(atual);
 
   const handleAnswer = (option) => {
     if (option === atual.answer) {
@@ -138,6 +140,11 @@ function ExamMode({ onChangeMode }) {
 
       <p className="question-en"><strong>{atual.question_en}</strong></p>
       <p className="question-pt"><em>{atual.question_pt}</em></p>
+      {referenceBook && (
+        <p style={{ fontSize: "14px", opacity: 0.7, marginTop: "6px" }}>
+          Livro: {referenceBook}
+        </p>
+      )}
 
       <div className="options">
         {atual.options.map((op, i) => (

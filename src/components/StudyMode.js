@@ -4,6 +4,7 @@ import {
   getNonRepeatingSelection,
   shuffleArray,
 } from "../utils/questionPicker";
+import { getReferenceBook } from "../utils/questionReference";
 
 function StudyMode({ onChangeMode }) {
   const [questionList, setQuestionList] = useState([]);
@@ -24,6 +25,7 @@ function StudyMode({ onChangeMode }) {
   if (questionList.length === 0) return <p>Loading...</p>;
 
   const atual = questionList[index];
+  const referenceBook = getReferenceBook(atual);
 
   const handleOptionClick = (op) => {
     setSelectedOption(op);
@@ -57,6 +59,11 @@ function StudyMode({ onChangeMode }) {
       <p style={{ fontSize: "16px", opacity: 0.7 }}>
         <em>{atual.question_pt}</em>
       </p>
+      {referenceBook && (
+        <p style={{ fontSize: "14px", opacity: 0.7, marginTop: "6px" }}>
+          Livro: {referenceBook}
+        </p>
+      )}
 
       <div className="options" style={{ marginTop: "20px" }}>
         {atual.options.map((op, i) => (
@@ -79,9 +86,9 @@ function StudyMode({ onChangeMode }) {
         ✅ Correct Answer: {atual.answer}
       </p>
 
-      {atual.reference_book && (
+            {referenceBook && (
         <div style={{ marginTop: "10px", fontSize: "14px", opacity: 0.9 }}>
-          <p><strong>📘 Source:</strong> {atual.reference_book}</p>
+                <p><strong>📘 Source:</strong> {referenceBook}</p>
 
           {atual.reference_chapter && (
             <p>Chapter: {atual.reference_chapter}</p>

@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { questions } from "../data/questionsData";
-
-const shuffleArray = (array) => [...array].sort(() => Math.random() - 0.5);
+import {
+  getNonRepeatingSelection,
+  shuffleArray,
+} from "../utils/questionPicker";
 
 function ExamMode({ onChangeMode }) {
   const [selectedQuestions, setSelectedQuestions] = useState([]);
@@ -13,13 +15,11 @@ function ExamMode({ onChangeMode }) {
   const [timeLeft, setTimeLeft] = useState(120 * 60); // 2 hours
 
   useEffect(() => {
-    const shuffled = shuffleArray(questions)
-      .slice(0, 50)
-      .map((q) => ({
-        ...q,
-        options: shuffleArray(q.options),
-      }));
-    setSelectedQuestions(shuffled);
+    const picked = getNonRepeatingSelection(questions, 50).map((q) => ({
+      ...q,
+      options: shuffleArray(q.options),
+    }));
+    setSelectedQuestions(picked);
   }, []);
 
   useEffect(() => {

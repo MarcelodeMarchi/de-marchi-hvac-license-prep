@@ -1,21 +1,22 @@
 import React, { useState, useEffect } from "react";
 import { questions } from "../data/questionsData";
-
-// Função única de embaralhamento
-const shuffleArray = (array) => {
-  return [...array].sort(() => Math.random() - 0.5);
-};
+import {
+  getNonRepeatingSelection,
+  shuffleArray,
+} from "../utils/questionPicker";
 
 function ReviewMode({ onChangeMode }) {
   const [shuffledQuestions, setShuffledQuestions] = useState([]);
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
-    const mixed = shuffleArray(questions).map((q) => ({
-      ...q,
-      options: shuffleArray(q.options),
-    }));
-    setShuffledQuestions(mixed);
+    const picked = getNonRepeatingSelection(questions, questions.length).map(
+      (q) => ({
+        ...q,
+        options: shuffleArray(q.options),
+      })
+    );
+    setShuffledQuestions(picked);
   }, []);
 
   if (shuffledQuestions.length === 0) return <p>Loading...</p>;

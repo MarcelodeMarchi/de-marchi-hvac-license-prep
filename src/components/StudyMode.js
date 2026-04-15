@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { questions } from "../data/questionsData";
-
-// 🔹 Função para embaralhar arrays (AGORA DEFINIDA CORRETAMENTE)
-const shuffleArray = (array) => {
-  return [...array].sort(() => Math.random() - 0.5);
-};
+import {
+  getNonRepeatingSelection,
+  shuffleArray,
+} from "../utils/questionPicker";
 
 function StudyMode({ onChangeMode }) {
   const [questionList, setQuestionList] = useState([]);
@@ -13,11 +12,13 @@ function StudyMode({ onChangeMode }) {
 
   // Carrega perguntas e respostas embaralhadas somente uma vez
   useEffect(() => {
-    const shuffledQuestions = shuffleArray(questions).map((q) => ({
-      ...q,
-      options: shuffleArray(q.options),
-    }));
-    setQuestionList(shuffledQuestions);
+    const picked = getNonRepeatingSelection(questions, questions.length).map(
+      (q) => ({
+        ...q,
+        options: shuffleArray(q.options),
+      })
+    );
+    setQuestionList(picked);
   }, []);
 
   if (questionList.length === 0) return <p>Loading...</p>;
@@ -70,15 +71,46 @@ function StudyMode({ onChangeMode }) {
         ))}
       </div>
 
-      {selectedOption && (
-        <button
-          onClick={nextQuestion}
-          className="primary-btn"
-          style={{ marginTop: "20px" }}
-        >
-          Next →
-        </button>
+{selectedOption && (
+  <>
+    {/* ✅ Referência do livro */}
+    <div style={{ marginTop: "20px", textAlign: "left" }}>
+      <p style={{ fontWeight: "bold", color: "#2ecc71" }}>
+        ✅ Correct Answer: {atual.answer}
+      </p>
+
+      {atual.reference_book && (
+        <div style={{ marginTop: "10px", fontSize: "14px", opacity: 0.9 }}>
+          <p><strong>📘 Source:</strong> {atual.reference_book}</p>
+
+          {atual.reference_chapter && (
+            <p>Chapter: {atual.reference_chapter}</p>
+          )}
+
+          {atual.reference_section && (
+            <p>Section: {atual.reference_section}</p>
+          )}
+
+          {atual.reference_page && (
+            <p>Page: {atual.reference_page}</p>
+          )}
+
+          {atual.reference_paragraph && (
+            <p>Paragraph: {atual.reference_paragraph}</p>
+          )}
+        </div>
       )}
+    </div>
+
+    <button
+      onClick={nextQuestion}
+      className="primary-btn"
+      style={{ marginTop: "20px" }}
+    >
+      Next →
+    </button>
+  </>
+)}
 
       <button
         onClick={() => onChangeMode("menu")}

@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { questions } from "../data/questionsData";
-
-// Função global única de embaralhar
-const shuffleArray = (array) => [...array].sort(() => Math.random() - 0.5);
+import {
+  getNonRepeatingSelection,
+  shuffleArray,
+} from "../utils/questionPicker";
 
 function OfficialExam({ onChangeMode }) {
   const [selectedQuestions, setSelectedQuestions] = useState([]);
@@ -12,11 +13,12 @@ function OfficialExam({ onChangeMode }) {
 
   // Carrega 100 questões embaralhadas + respostas embaralhadas
   useEffect(() => {
-    const shuffled = shuffleArray(questions)
-      .slice(0, 100)
-      .map((q) => ({ ...q, options: shuffleArray(q.options) }));
+    const picked = getNonRepeatingSelection(questions, 100).map((q) => ({
+      ...q,
+      options: shuffleArray(q.options),
+    }));
 
-    setSelectedQuestions(shuffled);
+    setSelectedQuestions(picked);
   }, []);
 
   if (selectedQuestions.length === 0) return <p>Loading...</p>;

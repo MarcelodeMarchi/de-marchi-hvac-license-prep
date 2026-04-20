@@ -88,15 +88,20 @@ h3 {
   font-size: 18px;
   border-radius: 12px;
   border: none;
-  background: #ff7a00;
+  background: #e45858;
   color: white;
   font-weight: 700;
+  text-align: center;
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  line-height: 1.3;
   cursor: pointer;
   transition: 0.25s;
 }
 
 .option-btn:hover {
-  background: #d96800;
+  background: #cc4b4b;
   transform: scale(1.02);
 }
 
@@ -106,7 +111,7 @@ h3 {
 
 /* Review mode correct/incorrect */
 .correct-btn {
-  background: #0052a2 !important;
+  background: #1f9d48 !important;
   color: white !important;
 }
 
@@ -197,7 +202,9 @@ h3 {
 /*               WELCOME SCREEN             */
 /* ========================================= */
 .welcome-container {
-  height: 100vh;
+  min-height: 100vh;
+  min-height: 100dvh;
+  height: auto;
   display: flex;
   justify-content: center;
   padding: 0 16px;

@@ -4,7 +4,7 @@ import {
   getNonRepeatingSelection,
   shuffleArray,
 } from "../utils/questionPicker";
-import { getReferenceBook } from "../utils/questionReference";
+import { getReferenceInfo } from "../utils/questionReference";
 
 function ExamMode({ onChangeMode }) {
   const [selectedQuestions, setSelectedQuestions] = useState([]);
@@ -36,7 +36,7 @@ function ExamMode({ onChangeMode }) {
   if (selectedQuestions.length === 0) return <p>Loading Exam...</p>;
 
   const atual = selectedQuestions[index];
-  const referenceBook = getReferenceBook(atual);
+  const referenceInfo = getReferenceInfo(atual);
 
   const handleAnswer = (option) => {
     if (option === atual.answer) {
@@ -140,9 +140,21 @@ function ExamMode({ onChangeMode }) {
 
       <p className="question-en"><strong>{atual.question_en}</strong></p>
       <p className="question-pt"><em>{atual.question_pt}</em></p>
-      {referenceBook && (
+      {referenceInfo.book && (
         <p style={{ fontSize: "14px", opacity: 0.7, marginTop: "6px" }}>
-          Livro: {referenceBook}
+          Livro: {referenceInfo.book}
+        </p>
+      )}
+      {referenceInfo.chapter && (
+        <p style={{ fontSize: "13px", opacity: 0.7, marginTop: "2px" }}>
+          Capitulo: {referenceInfo.chapter}
+          {referenceInfo.note ? " (aprox.)" : ""}
+        </p>
+      )}
+      {referenceInfo.page && (
+        <p style={{ fontSize: "13px", opacity: 0.7, marginTop: "2px" }}>
+          Pagina: {referenceInfo.page}
+          {referenceInfo.note ? " (aprox.)" : ""}
         </p>
       )}
 

@@ -4,7 +4,7 @@ import {
   getNonRepeatingSelection,
   shuffleArray,
 } from "../utils/questionPicker";
-import { getReferenceBook } from "../utils/questionReference";
+import { getReferenceInfo } from "../utils/questionReference";
 
 function StudyMode({ onChangeMode }) {
   const [questionList, setQuestionList] = useState([]);
@@ -25,7 +25,7 @@ function StudyMode({ onChangeMode }) {
   if (questionList.length === 0) return <p>Loading...</p>;
 
   const atual = questionList[index];
-  const referenceBook = getReferenceBook(atual);
+  const referenceInfo = getReferenceInfo(atual);
 
   const handleOptionClick = (op) => {
     setSelectedOption(op);
@@ -59,9 +59,21 @@ function StudyMode({ onChangeMode }) {
       <p style={{ fontSize: "16px", opacity: 0.7 }}>
         <em>{atual.question_pt}</em>
       </p>
-      {referenceBook && (
+      {referenceInfo.book && (
         <p style={{ fontSize: "14px", opacity: 0.7, marginTop: "6px" }}>
-          Livro: {referenceBook}
+          Livro: {referenceInfo.book}
+        </p>
+      )}
+      {referenceInfo.chapter && (
+        <p style={{ fontSize: "13px", opacity: 0.7, marginTop: "2px" }}>
+          Capitulo: {referenceInfo.chapter}
+          {referenceInfo.note ? " (aprox.)" : ""}
+        </p>
+      )}
+      {referenceInfo.page && (
+        <p style={{ fontSize: "13px", opacity: 0.7, marginTop: "2px" }}>
+          Pagina: {referenceInfo.page}
+          {referenceInfo.note ? " (aprox.)" : ""}
         </p>
       )}
 
@@ -86,9 +98,15 @@ function StudyMode({ onChangeMode }) {
         ✅ Correct Answer: {atual.answer}
       </p>
 
-            {referenceBook && (
+            {referenceInfo.book && (
         <div style={{ marginTop: "10px", fontSize: "14px", opacity: 0.9 }}>
-                <p><strong>📘 Source:</strong> {referenceBook}</p>
+                <p><strong>📘 Source:</strong> {referenceInfo.book}</p>
+                {referenceInfo.chapter && (
+                  <p>Chapter: {referenceInfo.chapter}{referenceInfo.note ? " (approx.)" : ""}</p>
+                )}
+                {referenceInfo.page && (
+                  <p>Page: {referenceInfo.page}{referenceInfo.note ? " (approx.)" : ""}</p>
+                )}
 
           {atual.reference_chapter && (
             <p>Chapter: {atual.reference_chapter}</p>

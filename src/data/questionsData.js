@@ -15711,5 +15711,670 @@ export const questions = [
   answer: "Poor estimating system",
   difficulty: "hard",
   reference: "Job Costing"
+},
+{
+  id: 1651,
+  category: "Business & Finance",
+  subcategory: "Workers Compensation",
+  question: "Who is responsible for informing an injured employee about their rights and responsibilities?",
+  options: {
+    A: "The employer",
+    B: "The insurance carrier",
+    C: "The project manager",
+    D: "The state inspector"
+  },
+  answer: "B",
+  explanation: "The insurance carrier must send a notice of rights and responsibilities along with a fraud statement to the injured worker.",
+  reference_book: "Florida Contractors Manual",
+  reference_chapter: "Chapter 6",
+  reference_section: "Workers Compensation",
+  reference_page: "6-27",
+  reference_paragraph: "Employer - Employee Questions"
+},
+{
+  id: 1652,
+  category: "Business & Finance",
+  subcategory: "Workers Compensation",
+  question: "Can an injured employee be required to pay part of the workers' compensation insurance premium?",
+  options: {
+    A: "Yes, partially",
+    B: "Only if agreed in contract",
+    C: "No, employer pays all",
+    D: "Only in large companies"
+  },
+  answer: "C",
+  explanation: "The employer is fully responsible for paying the workers’ compensation insurance premium.",
+  reference_book: "Florida Contractors Manual",
+  reference_chapter: "Chapter 6",
+  reference_section: "Workers Compensation",
+  reference_page: "6-27",
+  reference_paragraph: "Employer - Employee Questions"
+},
+{
+  id: 1653,
+  category: "Business & Finance",
+  subcategory: "Workers Compensation",
+  question: "Where can an employer obtain injury report forms required after an employee injury?",
+  options: {
+    A: "Local police department",
+    B: "Insurance carrier or Florida Division of Workers' Compensation",
+    C: "IRS website",
+    D: "City hall"
+  },
+  answer: "B",
+  explanation: "Forms such as DWC-1 are provided by the insurance carrier or available on the Florida Division of Workers’ Compensation website.",
+  reference_book: "Florida Contractors Manual",
+  reference_chapter: "Chapter 6",
+  reference_section: "Workers Compensation",
+  reference_page: "6-27",
+  reference_paragraph: "Injuries"
+},
+{
+  id: 1654,
+  category: "Business & Finance",
+  subcategory: "Workers Compensation",
+  question: "What types of injuries are covered under workers' compensation?",
+  options: {
+    A: "Only physical injuries",
+    B: "Only workplace accidents",
+    C: "Accidental injuries and occupational diseases",
+    D: "Only long-term disabilities"
+  },
+  answer: "C",
+  explanation: "Coverage includes accidental injuries and occupational diseases arising out of employment.",
+  reference_book: "Florida Contractors Manual",
+  reference_chapter: "Chapter 6",
+  reference_section: "Workers Compensation",
+  reference_page: "6-27",
+  reference_paragraph: "Injuries"
+},
+{
+  id: 1655,
+  category: "Business & Finance",
+  subcategory: "Workers Compensation",
+  question: "Within how many days must an injury be reported to the insurance carrier?",
+  options: {
+    A: "3 days",
+    B: "5 days",
+    C: "7 days",
+    D: "10 days"
+  },
+  answer: "C",
+  explanation: "The injury must be reported within 7 days of first knowledge of the injury.",
+  reference_book: "Florida Contractors Manual",
+  reference_chapter: "Chapter 6",
+  reference_section: "Workers Compensation",
+  reference_page: "6-27",
+  reference_paragraph: "Injuries"
+},
+{
+  id: 1656,
+  category: "Business & Finance",
+  subcategory: "Workers Compensation",
+  question: "Which of the following is NOT covered under workers' compensation?",
+  options: {
+    A: "Occupational diseases",
+    B: "Work-related injuries",
+    C: "Pain and suffering",
+    D: "Accidental injuries"
+  },
+  answer: "C",
+  explanation: "Pain and suffering is not compensable under workers' compensation laws.",
+  reference_book: "Florida Contractors Manual",
+  reference_chapter: "Chapter 6",
+  reference_section: "Workers Compensation",
+  reference_page: "6-27",
+  reference_paragraph: "What injuries are not covered"
+},
+{
+  id: 1657,
+  category: "Business & Finance",
+  subcategory: "Workers Compensation",
+  question: "Workers' compensation will NOT be paid if the injury is caused by:",
+  options: {
+    A: "Employer negligence",
+    B: "Employee fatigue",
+    C: "Employee intoxication",
+    D: "Unsafe equipment"
+  },
+  answer: "C",
+  explanation: "Compensation is denied if the employee was intoxicated or under the influence of drugs.",
+  reference_book: "Florida Contractors Manual",
+  reference_chapter: "Chapter 6",
+  reference_section: "Workers Compensation",
+  reference_page: "6-28",
+  reference_paragraph: "Compensation will not be paid"
+},
+{
+  id: 1658,
+  category: "Business & Finance",
+  subcategory: "Workers Compensation",
+  question: "Can an employer be liable for double compensation?",
+  options: {
+    A: "No",
+    B: "Only in federal jobs",
+    C: "Yes, if a minor is illegally employed",
+    D: "Only if insurance is missing"
+  },
+  answer: "C",
+  explanation: "Double compensation may apply if a minor is injured while employed illegally.",
+  reference_book: "Florida Contractors Manual",
+  reference_chapter: "Chapter 6",
+  reference_section: "Workers Compensation",
+  reference_page: "6-28",
+  reference_paragraph: "Double compensation"
+},
+{
+  id: 1659,
+  category: "Business & Finance",
+  subcategory: "Workers Compensation",
+  question: "What happens if an employee refuses to follow safety rules?",
+  options: {
+    A: "No penalty",
+    B: "Termination only",
+    C: "Benefits may be reduced",
+    D: "Insurance is canceled"
+  },
+  answer: "C",
+  explanation: "Benefits may be reduced by 25% if the employee knowingly violates safety rules.",
+  reference_book: "Florida Contractors Manual",
+  reference_chapter: "Chapter 6",
+  reference_section: "Workers Compensation",
+  reference_page: "6-28",
+  reference_paragraph: "Safety"
+},
+{
+  id: 1660,
+  category: "Business & Finance",
+  subcategory: "Workers Compensation",
+  question: "How much can workers' compensation benefits be reduced for safety violations?",
+  options: {
+    A: "10%",
+    B: "15%",
+    C: "25%",
+    D: "50%"
+  },
+  answer: "C",
+  explanation: "Benefits can be reduced by 25% if safety rules are knowingly violated.",
+  reference_book: "Florida Contractors Manual",
+  reference_chapter: "Chapter 6",
+  reference_section: "Workers Compensation",
+  reference_page: "6-28",
+  reference_paragraph: "Safety"
+},
+{
+  id: 1661,
+  category: "Business & Finance",
+  subcategory: "Workers Compensation",
+  question: "What reduction in benefits may occur if an employee knowingly refuses to use safety equipment?",
+  options: {
+    A: "10%",
+    B: "15%",
+    C: "25%",
+    D: "50%"
+  },
+  answer: "C",
+  explanation: "Benefits may be reduced by 25% if safety equipment is not used when required.",
+  reference_book: "Florida Contractors Manual",
+  reference_chapter: "Chapter 6",
+  reference_section: "Workers Compensation",
+  reference_page: "6-28",
+  reference_paragraph: "Safety"
+},
+{
+  id: 1662,
+  category: "Business & Finance",
+  subcategory: "Workers Compensation",
+  question: "Which organization helps Florida employers establish a safety plan?",
+  options: {
+    A: "OSHA only",
+    B: "University of South Florida Safety Program",
+    C: "IRS",
+    D: "FEMA"
+  },
+  answer: "B",
+  explanation: "USF Safety Florida offers consultation and training programs.",
+  reference_book: "Florida Contractors Manual",
+  reference_chapter: "Chapter 6",
+  reference_section: "Workers Compensation",
+  reference_page: "6-29",
+  reference_paragraph: "Safety Plan"
+},
+{
+  id: 1663,
+  category: "Business & Finance",
+  subcategory: "Workers Compensation",
+  question: "What is a benefit of implementing a drug-free workplace program?",
+  options: {
+    A: "Reduced taxes",
+    B: "5% insurance premium credit",
+    C: "Faster permits",
+    D: "Lower payroll"
+  },
+  answer: "B",
+  explanation: "Employers may receive a 5% credit on workers' compensation premiums.",
+  reference_book: "Florida Contractors Manual",
+  reference_chapter: "Chapter 6",
+  reference_section: "Drug-Free Workplace",
+  reference_page: "6-29",
+  reference_paragraph: "Benefits"
+},
+{
+  id: 1664,
+  category: "Business & Finance",
+  subcategory: "Workers Compensation",
+  question: "Is certification required to implement a drug-free workplace program?",
+  options: {
+    A: "Yes, always",
+    B: "Only for construction",
+    C: "No, but required for benefits",
+    D: "Only federal projects"
+  },
+  answer: "C",
+  explanation: "Certification is voluntary but required to receive program benefits.",
+  reference_book: "Florida Contractors Manual",
+  reference_chapter: "Chapter 6",
+  reference_section: "Drug-Free Workplace",
+  reference_page: "6-29",
+  reference_paragraph: "Certification"
+},
+{
+  id: 1665,
+  category: "Business & Finance",
+  subcategory: "Workers Compensation",
+  question: "Can employers conduct random drug testing under Florida law?",
+  options: {
+    A: "No",
+    B: "Only after accidents",
+    C: "Yes, especially for safety-sensitive jobs",
+    D: "Only with court approval"
+  },
+  answer: "C",
+  explanation: "Random testing is allowed, especially for safety-sensitive positions.",
+  reference_book: "Florida Contractors Manual",
+  reference_chapter: "Chapter 6",
+  reference_section: "Drug-Free Workplace",
+  reference_page: "6-29",
+  reference_paragraph: "Drug Testing"
+},
+{
+  id: 1666,
+  category: "Business & Finance",
+  subcategory: "Workers Compensation",
+  question: "Can a breathalyzer be used as a valid drug test under the program?",
+  options: {
+    A: "Yes",
+    B: "Only for alcohol",
+    C: "No",
+    D: "Only after injury"
+  },
+  answer: "C",
+  explanation: "Breathalyzers cannot be used as a valid testing method under this program.",
+  reference_book: "Florida Contractors Manual",
+  reference_chapter: "Chapter 6",
+  reference_section: "Drug-Free Workplace",
+  reference_page: "6-29",
+  reference_paragraph: "Testing Methods"
+},
+{
+  id: 1667,
+  category: "Business & Finance",
+  subcategory: "Workers Compensation",
+  question: "What happens if an employee refuses to take a drug test?",
+  options: {
+    A: "No consequence",
+    B: "Automatic termination only",
+    C: "Loss of benefits and presumed positive result",
+    D: "Fine only"
+  },
+  answer: "C",
+  explanation: "Refusal may result in loss of benefits and is treated as a positive test.",
+  reference_book: "Florida Contractors Manual",
+  reference_chapter: "Chapter 6",
+  reference_section: "Drug-Free Workplace",
+  reference_page: "6-29",
+  reference_paragraph: "Refusal"
+},
+{
+  id: 1668,
+  category: "Business & Finance",
+  subcategory: "Workers Compensation",
+  question: "Can an employer disclose drug test results publicly?",
+  options: {
+    A: "Yes",
+    B: "Only internally",
+    C: "No",
+    D: "Only to clients"
+  },
+  answer: "C",
+  explanation: "Drug test results are confidential and cannot be publicly disclosed.",
+  reference_book: "Florida Contractors Manual",
+  reference_chapter: "Chapter 6",
+  reference_section: "Drug-Free Workplace",
+  reference_page: "6-30",
+  reference_paragraph: "Confidentiality"
+},
+{
+  id: 1669,
+  category: "Business & Finance",
+  subcategory: "Workers Compensation",
+  question: "Who pays for drug testing required by the employer?",
+  options: {
+    A: "Employee",
+    B: "Employer",
+    C: "Insurance only",
+    D: "Shared cost"
+  },
+  answer: "B",
+  explanation: "The employer must pay for required drug testing.",
+  reference_book: "Florida Contractors Manual",
+  reference_chapter: "Chapter 6",
+  reference_section: "Drug-Free Workplace",
+  reference_page: "6-30",
+  reference_paragraph: "Cost"
+},
+{
+  id: 1670,
+  category: "Business & Finance",
+  subcategory: "Workers Compensation",
+  question: "If an employee requests a retest, who pays for it?",
+  options: {
+    A: "Employer",
+    B: "Insurance",
+    C: "Employee",
+    D: "State"
+  },
+  answer: "C",
+  explanation: "If the employee requests a retest, they must pay for it.",
+  reference_book: "Florida Contractors Manual",
+  reference_chapter: "Chapter 6",
+  reference_section: "Drug-Free Workplace",
+  reference_page: "6-30",
+  reference_paragraph: "Retesting"
+},
+{
+  id: 1671,
+  category: "Business & Finance",
+  subcategory: "Workers Compensation",
+  question: "How many days does an employee have to request a retest after a positive result?",
+  options: {
+    A: "30 days",
+    B: "60 days",
+    C: "180 days",
+    D: "1 year"
+  },
+  answer: "C",
+  explanation: "Employees have 180 days to request retesting.",
+  reference_book: "Florida Contractors Manual",
+  reference_chapter: "Chapter 6",
+  reference_section: "Drug-Free Workplace",
+  reference_page: "6-30",
+  reference_paragraph: "Retesting"
+},
+{
+  id: 1672,
+  category: "Business & Finance",
+  subcategory: "Workers Compensation",
+  question: "Where should workers' compensation fraud be reported?",
+  options: {
+    A: "IRS",
+    B: "Division of Fraud",
+    C: "City Hall",
+    D: "Police department"
+  },
+  answer: "B",
+  explanation: "Fraud is reported to the Division of Fraud in Florida.",
+  reference_book: "Florida Contractors Manual",
+  reference_chapter: "Chapter 6",
+  reference_section: "Fraud",
+  reference_page: "6-28",
+  reference_paragraph: "Fraud Reporting"
+},
+{
+  id: 1673,
+  category: "Business & Finance",
+  subcategory: "Workers Compensation",
+  question: "Can workers' compensation fraud be reported anonymously?",
+  options: {
+    A: "No",
+    B: "Only by employers",
+    C: "Yes",
+    D: "Only online"
+  },
+  answer: "C",
+  explanation: "Anonymous reporting is allowed.",
+  reference_book: "Florida Contractors Manual",
+  reference_chapter: "Chapter 6",
+  reference_section: "Fraud",
+  reference_page: "6-28",
+  reference_paragraph: "Fraud Reporting"
+},
+{
+  id: 1674,
+  category: "Business & Finance",
+  subcategory: "Workers Compensation",
+  question: "Who enforces compliance with workers' compensation laws?",
+  options: {
+    A: "OSHA",
+    B: "Division of Workers’ Compensation",
+    C: "IRS",
+    D: "EPA"
+  },
+  answer: "B",
+  explanation: "The Division of Workers’ Compensation enforces compliance.",
+  reference_book: "Florida Contractors Manual",
+  reference_chapter: "Chapter 6",
+  reference_section: "Compliance",
+  reference_page: "6-27",
+  reference_paragraph: "Enforcement"
+},
+{
+  id: 1675,
+  category: "Business & Finance",
+  subcategory: "Workers Compensation",
+  question: "Who is responsible for verifying subcontractor insurance coverage?",
+  options: {
+    A: "Subcontractor",
+    B: "Employee",
+    C: "Primary contractor",
+    D: "City inspector"
+  },
+  answer: "C",
+  explanation: "The primary contractor must verify subcontractor coverage.",
+  reference_book: "Florida Contractors Manual",
+  reference_chapter: "Chapter 6",
+  reference_section: "Insurance Coverage",
+  reference_page: "6-25",
+  reference_paragraph: "Subcontractors"
+},
+{
+  id: 1676,
+  category: "Business & Finance",
+  subcategory: "Workers Compensation",
+  question: "If a subcontractor has no insurance and a worker is injured, who is liable?",
+  options: {
+    A: "Employee",
+    B: "Subcontractor",
+    C: "Primary contractor",
+    D: "State"
+  },
+  answer: "C",
+  explanation: "The contractor becomes responsible for benefits if coverage is missing.",
+  reference_book: "Florida Contractors Manual",
+  reference_chapter: "Chapter 6",
+  reference_section: "Insurance Coverage",
+  reference_page: "6-25",
+  reference_paragraph: "Subcontractors"
+},
+{
+  id: 1677,
+  category: "Business & Finance",
+  subcategory: "Workers Compensation",
+  question: "What document verifies workers’ compensation coverage from a subcontractor?",
+  options: {
+    A: "Invoice",
+    B: "Certificate of Liability Insurance",
+    C: "Tax return",
+    D: "Permit"
+  },
+  answer: "B",
+  explanation: "A Certificate of Liability Insurance confirms coverage.",
+  reference_book: "Florida Contractors Manual",
+  reference_chapter: "Chapter 6",
+  reference_section: "Insurance Coverage",
+  reference_page: "6-25",
+  reference_paragraph: "Verification"
+},
+{
+  id: 1678,
+  category: "Business & Finance",
+  subcategory: "Workers Compensation",
+  question: "What is one factor affecting workers' compensation insurance cost?",
+  options: {
+    A: "Weather",
+    B: "Payroll",
+    C: "Project size",
+    D: "Material cost"
+  },
+  answer: "B",
+  explanation: "Cost depends on payroll, type of work, and claims history.",
+  reference_book: "Florida Contractors Manual",
+  reference_chapter: "Chapter 6",
+  reference_section: "Cost",
+  reference_page: "6-26",
+  reference_paragraph: "Cost Factors"
+},
+{
+  id: 1679,
+  category: "Business & Finance",
+  subcategory: "Workers Compensation",
+  question: "What additional factor affects workers' compensation premium cost?",
+  options: {
+    A: "Company logo",
+    B: "Claims history",
+    C: "Office size",
+    D: "Marketing budget"
+  },
+  answer: "B",
+  explanation: "Claims history is a major factor in determining premium costs.",
+  reference_book: "Florida Contractors Manual",
+  reference_chapter: "Chapter 6",
+  reference_section: "Cost",
+  reference_page: "6-26",
+  reference_paragraph: "Cost Factors"
+},
+{
+  id: 1680,
+  category: "Business & Finance",
+  subcategory: "Workers Compensation",
+  question: "What discount may employers receive for workplace safety programs?",
+  options: {
+    A: "2%–5%",
+    B: "10%",
+    C: "15%",
+    D: "20%"
+  },
+  answer: "A",
+  explanation: "Employers may receive 2% to 5% premium discounts.",
+  reference_book: "Florida Contractors Manual",
+  reference_chapter: "Chapter 6",
+  reference_section: "Cost",
+  reference_page: "6-26",
+  reference_paragraph: "Discounts"
+},
+{
+  id: 1681,
+  category: "Business & Finance",
+  subcategory: "Workers Compensation",
+  question: "Can construction workers be classified as independent contractors to avoid coverage?",
+  options: {
+    A: "Yes",
+    B: "Only part-time",
+    C: "No",
+    D: "Only with contract"
+  },
+  answer: "C",
+  explanation: "Florida law does not allow independent contractor classification in construction.",
+  reference_book: "Florida Contractors Manual",
+  reference_chapter: "Chapter 6",
+  reference_section: "Independent Contractors",
+  reference_page: "6-26",
+  reference_paragraph: "Classification"
+},
+{
+  id: 1682,
+  category: "Business & Finance",
+  subcategory: "Workers Compensation",
+  question: "What statute governs workers’ compensation in Florida?",
+  options: {
+    A: "Chapter 455",
+    B: "Chapter 440",
+    C: "Chapter 489",
+    D: "Chapter 553"
+  },
+  answer: "B",
+  explanation: "Workers’ compensation is governed by Chapter 440, Florida Statutes.",
+  reference_book: "Florida Contractors Manual",
+  reference_chapter: "Chapter 6",
+  reference_section: "Law",
+  reference_page: "6-25",
+  reference_paragraph: "Statutes"
+},
+{
+  id: 1683,
+  category: "Business & Finance",
+  subcategory: "Workers Compensation",
+  question: "What must an out-of-state employer do before working in Florida?",
+  options: {
+    A: "Nothing",
+    B: "Register only",
+    C: "Notify insurer and obtain Florida-compliant policy",
+    D: "Pay local tax only"
+  },
+  answer: "C",
+  explanation: "They must notify their insurer and meet Florida insurance requirements.",
+  reference_book: "Florida Contractors Manual",
+  reference_chapter: "Chapter 6",
+  reference_section: "Out-of-State Employers",
+  reference_page: "6-25",
+  reference_paragraph: "Requirements"
+},
+{
+  id: 1684,
+  category: "Business & Finance",
+  subcategory: "Workers Compensation",
+  question: "Who determines if benefits provided are sufficient after an injury?",
+  options: {
+    A: "Employer",
+    B: "Employee",
+    C: "Judge of compensation claims",
+    D: "Insurance agent"
+  },
+  answer: "C",
+  explanation: "A judge determines adequacy of benefits when disputed.",
+  reference_book: "Florida Contractors Manual",
+  reference_chapter: "Chapter 6",
+  reference_section: "Claims",
+  reference_page: "6-28",
+  reference_paragraph: "Disputes"
+},
+{
+  id: 1685,
+  category: "Business & Finance",
+  subcategory: "Workers Compensation",
+  question: "Who ultimately decides independent contractor status in disputes?",
+  options: {
+    A: "Employer",
+    B: "Employee",
+    C: "Court or legal authority",
+    D: "Insurance company"
+  },
+  answer: "C",
+  explanation: "Final determination is made through legal process or authority.",
+  reference_book: "Florida Contractors Manual",
+  reference_chapter: "Chapter 6",
+  reference_section: "Independent Contractors",
+  reference_page: "6-26",
+  reference_paragraph: "Determination"
 }
   ];

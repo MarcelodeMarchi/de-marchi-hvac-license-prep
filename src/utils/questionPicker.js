@@ -24,6 +24,41 @@ const saveUsedIds = (storageKey, usedIds) => {
   window.localStorage.setItem(storageKey, JSON.stringify(payload));
 };
 
+const normalizeQuestion = (question) => {
+  if (!question || typeof question !== "object") return null;
+
+  let options = question.options;
+  let optionMap = null;
+
+  if (options && !Array.isArray(options) && typeof options === "object") {
+    optionMap = options;
+    const orderedKeys = ["A", "B", "C", "D"];
+    const ordered = orderedKeys
+      .map((key) => options[key])
+      .filter((value) => value != null);
+    options = ordered.length ? ordered : Object.values(options);
+  }
+
+  const questionEn = question.question_en ?? question.question ?? "";
+  const questionPt = question.question_pt ?? question.question ?? "";
+  let answer = question.answer;
+
+  if (optionMap && typeof answer === "string" && optionMap[answer]) {
+    answer = optionMap[answer];
+  }
+
+  if (!Array.isArray(options) || options.length === 0) return null;
+  if (!answer || !options.includes(answer)) return null;
+
+  return {
+    ...question,
+    question_en: questionEn,
+    question_pt: questionPt,
+    options,
+    answer,
+  };
+};
+
 export const shuffleArray = (array) => {
   const cloned = [...array];
   for (let i = cloned.length - 1; i > 0; i -= 1) {
@@ -40,12 +75,18 @@ export const getNonRepeatingSelection = (
 ) => {
   if (!Array.isArray(pool)) return [];
 
+  const normalizedPool = pool
+    .map((question) => normalizeQuestion(question))
+    .filter(Boolean);
+
+  if (normalizedPool.length === 0) return [];
+
   const usedIds = loadUsedIds(storageKey);
-  let available = pool.filter((q) => !usedIds.has(q.id));
+  let available = normalizedPool.filter((q) => !usedIds.has(q.id));
 
   if (available.length < count) {
     usedIds.clear();
-    available = pool;
+    available = normalizedPool;
   }
 
   const shuffled = shuffleArray(available);

@@ -17421,5 +17421,305 @@ export const questions = [
   reference_section: "",
   reference_page: "61",
   reference_paragraph: "Question 15"
+}'
+{
+  id: 1746,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "When you write off a bad debt, an entry is made in:",
+  question_pt: "Quando você baixa uma dívida incobrável, o lançamento é feito em:",
+  options: [
+    "The customer's individual account",
+    "The general journal",
+    "The general ledger",
+    "All of the above"
+  ],
+  answer: "All of the above",
+  explanation: "Writing off bad debt affects customer records, journals, and the general ledger.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Bad Debts",
+  reference_section: "",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 1"
+},
+{
+  id: 1747,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "A journal entry for recording a bad debt consists of:",
+  question_pt: "O lançamento contábil para registrar uma dívida incobrável consiste em:",
+  options: [
+    "Debit accounts receivable and credit sales",
+    "Debit bad debt expense and credit accounts payable",
+    "Debit bad debt expense and credit reserve for bad debts",
+    "Debit sales and credit miscellaneous expense"
+  ],
+  answer: "Debit bad debt expense and credit reserve for bad debts",
+  explanation: "Bad debts are recorded as an expense with a corresponding reserve.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Bad Debts",
+  reference_section: "Journal Entries",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 2"
+},
+{
+  id: 1748,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "For tax purposes, a debt becomes worthless when:",
+  question_pt: "Para fins fiscais, uma dívida se torna incobrável quando:",
+  options: [
+    "The business is abandoned",
+    "The debtor cannot be found",
+    "The debtor dies with no assets",
+    "All of the above"
+  ],
+  answer: "All of the above",
+  explanation: "Any of these conditions can qualify a debt as uncollectible for tax purposes.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Bad Debts",
+  reference_section: "",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 3"
+},
+{
+  id: 1749,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "A reserve for bad debts is established as:",
+  question_pt: "Uma provisão para devedores duvidosos é estabelecida como:",
+  options: [
+    "A credit balance or negative asset",
+    "A liability",
+    "An adjustment to sales",
+    "A net worth account"
+  ],
+  answer: "A credit balance or negative asset",
+  explanation: "It reduces accounts receivable and is considered a contra-asset.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Bad Debts",
+  reference_section: "Reserve",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 4"
+},
+{
+  id: 1750,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Setting up a reserve for bad debts is beneficial because:",
+  question_pt: "Criar uma provisão para inadimplência é útil porque:",
+  options: [
+    "Saves money",
+    "Acts as an equalizing account for future write-offs",
+    "Prevents future losses",
+    "All of the above"
+  ],
+  answer: "Acts as an equalizing account for future write-offs",
+  explanation: "The reserve smooths out recognition of bad debt losses over time.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Bad Debts",
+  reference_section: "Reserve",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 5"
+},
+{
+  id: 1751,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "A bad debt ratio is computed by:",
+  question_pt: "A taxa de inadimplência é calculada por:",
+  options: [
+    "Bad debt losses / total credit sales",
+    "Total credit sales / bad debt losses",
+    "Receivables / bad debts",
+    "Sales / receivables"
+  ],
+  answer: "Total credit sales / bad debt losses",
+  explanation: "The book defines the ratio using total credit sales relative to bad debt losses.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Bad Debts",
+  reference_section: "Ratios",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 6"
+},
+{
+  id: 1752,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "If the ratio of delinquent receivables decreases, the trend is:",
+  question_pt: "Se a taxa de inadimplência diminui, a tendência é:",
+  options: [
+    "Meaningless",
+    "Negative",
+    "Positive",
+    "Depends"
+  ],
+  answer: "Positive",
+  explanation: "A decreasing delinquency ratio indicates improvement in collections.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Receivables",
+  reference_section: "Trends",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 7"
+},
+{
+  id: 1753,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "If bad debt dollar amounts are increasing monthly:",
+  question_pt: "Se o valor de inadimplência aumenta mensalmente:",
+  options: [
+    "Serious problem",
+    "Growing bad debt amount but may not be negative if ratio stable",
+    "Weak collection procedures",
+    "Need better controls"
+  ],
+  answer: "Growing bad debt amount but may not be negative if ratio stable",
+  explanation: "Absolute values must be compared with ratios to evaluate performance.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Bad Debts",
+  reference_section: "Analysis",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 8"
+},
+{
+  id: 1754,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Analyzing bad debts and receivables is important because:",
+  question_pt: "Analisar inadimplência e contas a receber é importante porque:",
+  options: [
+    "Banks require it",
+    "Bonding companies evaluate it",
+    "Helps control trends",
+    "All of the above"
+  ],
+  answer: "All of the above",
+  explanation: "Financial analysis is essential for lenders, bonding, and internal control.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Analysis",
+  reference_section: "",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 9"
+},
+{
+  id: 1755,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "A year-to-date bad debt ratio helps you:",
+  question_pt: "A taxa anual de inadimplência ajuda a:",
+  options: [
+    "Comply with rules",
+    "Track trends for control",
+    "Identify customer abuse",
+    "All of the above"
+  ],
+  answer: "Track trends for control",
+  explanation: "Trend tracking allows better financial management.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Analysis",
+  reference_section: "",
+  reference_page: "70",
+  reference_paragraph: "Question 10"
+},
+{
+  id: 1756,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "A bad debt is essentially:",
+  question_pt: "Uma bad debt é essencialmente:",
+  options: [
+    "Late payment",
+    "A loan that the IRS discounts",
+    "Receivable written off as uncollectible",
+    "Loan given to customer"
+  ],
+  answer: "A loan that the IRS discounts",
+  explanation: "Segui sua marcação da página enviada.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Bad Debts",
+  reference_section: "",
+  reference_page: "70",
+  reference_paragraph: "Question 11"
+},
+{
+  id: 1757,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "A journal for bad debts consists of:",
+  question_pt: "O processo contábil de inadimplência consiste em:",
+  options: [
+    "Adjusting cash and income",
+    "Adjusting income and receivables",
+    "Recording expense against reserve then reducing receivable",
+    "None"
+  ],
+  answer: "Adjusting cash and income",
+  explanation: "The method involves adjustment followed by reversal per book guidance.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Bad Debts",
+  reference_section: "",
+  reference_page: "70",
+  reference_paragraph: "Question 12"
+},
+{
+  id: 1758,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Under the reserve system, bad debts are:",
+  question_pt: "No sistema de provisão, bad debts são:",
+  options: [
+    "Exact amount",
+    "Estimated based on trends",
+    "Dictated by federal law",
+    "Percentage of receivables"
+  ],
+  answer: "Dictated by federal law",
+  explanation: "Segui sua marcação da página enviada.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Bad Debts",
+  reference_section: "Reserve System",
+  reference_page: "70",
+  reference_paragraph: "Question 13"
+},
+{
+  id: 1759,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "A bad debt trend shows:",
+  question_pt: "A tendência de inadimplência mostra:",
+  options: [
+    "Ratio over time",
+    "Customer trends",
+    "Cash flow",
+    "Payment habits"
+  ],
+  answer: "Ratio over time",
+  explanation: "Trends track how bad debt ratios change over time.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Analysis",
+  reference_section: "Trends",
+  reference_page: "70",
+  reference_paragraph: "Question 14"
+},
+{
+  id: 1760,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Using the cash system instead of accrual:",
+  question_pt: "Usando regime de caixa em vez de competência:",
+  options: [
+    "No bad debt recorded",
+    "No entry because no sale recorded",
+    "Still record as expense",
+    "Record bad debt to track receivables"
+  ],
+  answer: "Record bad debt to track receivables",
+  explanation: "Even in cash systems, tracking receivables is necessary.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Accounting Methods",
+  reference_section: "Cash System",
+  reference_page: "70",
+  reference_paragraph: "Question 15"
 }
   ];

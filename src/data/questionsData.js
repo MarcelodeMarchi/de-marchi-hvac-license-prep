@@ -17421,7 +17421,7 @@ export const questions = [
   reference_section: "",
   reference_page: "61",
   reference_paragraph: "Question 15"
-}'
+},
 {
   id: 1746,
   category: "Business & Finance",

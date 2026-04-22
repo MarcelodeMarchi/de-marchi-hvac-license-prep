@@ -16223,18 +16223,1203 @@ export const questions = [
   reference_paragraph: "Disputes"
 },
 {
-  id: 1685,
+  id: 1686,
   category: "Business & Finance",
-  subcategory: "Workers Compensation",
-  question_en: "Who ultimately decides independent contractor status in disputes?",
-  question_pt: "Who ultimately decides independent contractor status in disputes?",
-  options: ["Employer", "Employee", "Court or legal authority", "Insurance company"],
-  answer: "Court or legal authority",
-  explanation: "Final determination is made through legal process or authority.",
-  reference_book: "Florida Contractors Manual",
-  reference_chapter: "Chapter 6",
-  reference_section: "Independent Contractors",
-  reference_page: "6-26",
-  reference_paragraph: "Determination"
+  subcategory: "Accounting",
+  question_en: "You are required to keep records:",
+  question_pt: "Você é obrigado a manter registros:",
+  options: [
+    "Because it is required by law",
+    "For tax return preparation and planning",
+    "To keep track of where you're spending money",
+    "All of the above"
+  ],
+  answer: "All of the above",
+  explanation: "Record keeping is required for legal compliance, tax preparation, and financial tracking.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Why Keep Records",
+  reference_section: "",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 1"
+},
+{
+  id: 1687,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "The check register is:",
+  question_pt: "O registro de cheques é:",
+  options: [
+    "A record of things you need to check",
+    "A listing of the checks you have written",
+    "A listing of checks returned by the bank",
+    "The bank's encoded number on each check"
+  ],
+  answer: "A listing of the checks you have written",
+  explanation: "A check register tracks all checks issued for accurate financial control.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Why Keep Records",
+  reference_section: "",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 2"
+},
+{
+  id: 1688,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Balancing your bank account involves:",
+  question_pt: "Conciliar sua conta bancária envolve:",
+  options: [
+    "Visiting the bank",
+    "Avoiding writing checks",
+    "Accounting for all timing differences and double-checking your math",
+    "Changing your balance to match the bank"
+  ],
+  answer: "Accounting for all timing differences and double-checking your math",
+  explanation: "Bank reconciliation requires adjusting for timing differences and verifying accuracy.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Why Keep Records",
+  reference_section: "",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 3"
+},
+{
+  id: 1689,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Overhead expenses are:",
+  question_pt: "Despesas indiretas (overhead) são:",
+  options: [
+    "All expenses that can’t be assigned to a specific job",
+    "Expenses above the first floor",
+    "Expenses exceeding budget",
+    "Direct job costs"
+  ],
+  answer: "All expenses that can’t be assigned to a specific job",
+  explanation: "Overhead includes general business expenses not tied to specific jobs.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Overhead",
+  reference_section: "",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 4"
+},
+{
+  id: 1690,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Accruals in your books are:",
+  question_pt: "Acréscimos contábeis são:",
+  options: [
+    "Sum of unpaid liabilities",
+    "Total assets owned",
+    "Expenses incurred but not yet paid or income earned but not received",
+    "Adjustments to improve appearance"
+  ],
+  answer: "Expenses incurred but not yet paid or income earned but not received",
+  explanation: "Accrual accounting recognizes income and expenses when incurred, not when paid.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Accrual Accounting",
+  reference_section: "",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 5"
+},
+{
+  id: 1691,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Ratios are useful to:",
+  question_pt: "Os índices financeiros são úteis para:",
+  options: [
+    "Summarize results",
+    "Follow trends",
+    "Control expenses",
+    "All of the above"
+  ],
+  answer: "All of the above",
+  explanation: "Ratios help summarize, analyze trends, and control business performance.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Ratios",
+  reference_section: "",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 6"
+},
+{
+  id: 1692,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "The chart of accounts is:",
+  question_pt: "O plano de contas é:",
+  options: [
+    "List of people who owe money",
+    "List of suppliers",
+    "Accounting device for confidentiality",
+    "A numerical listing of accounts in your general ledger"
+  ],
+  answer: "A numerical listing of accounts in your general ledger",
+  explanation: "The chart of accounts organizes all ledger accounts numerically.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Chart of Accounts",
+  reference_section: "",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 7"
+},
+{
+  id: 1693,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Double-entry bookkeeping:",
+  question_pt: "A contabilidade de dupla entrada:",
+  options: [
+    "Is illegal",
+    "Used for fraud",
+    "Requires twice the work",
+    "None of the above"
+  ],
+  answer: "None of the above",
+  explanation: "Double-entry bookkeeping is a standard, legitimate accounting system.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Bookkeeping",
+  reference_section: "",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 8"
+},
+{
+  id: 1694,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "The correct formula for the balance sheet is:",
+  question_pt: "A fórmula correta do balanço é:",
+  options: [
+    "Assets = Liabilities - Net Worth",
+    "Assets = Liabilities + Net Worth",
+    "Assets + Liabilities = Net Worth",
+    "Assets + Net Worth = Liabilities"
+  ],
+  answer: "Assets = Liabilities + Net Worth",
+  explanation: "The fundamental accounting equation defines balance sheet structure.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Financial Statements",
+  reference_section: "",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 9"
+},
+{
+  id: 1695,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "The general ledger is:",
+  question_pt: "O razão geral é:",
+  options: [
+    "A place for extra entries",
+    "Used only for income",
+    "A summary of all transactions",
+    "None of the above"
+  ],
+  answer: "A summary of all transactions",
+  explanation: "The general ledger consolidates all financial activity.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "General Ledger",
+  reference_section: "",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 10"
+},
+{
+  id: 1696,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Business equity is shown on the:",
+  question_pt: "O patrimônio líquido aparece no:",
+  options: [
+    "Summary of operations",
+    "Balance sheet",
+    "Cash flow statement",
+    "Income statement"
+  ],
+  answer: "Balance sheet",
+  explanation: "Equity is reported on the balance sheet.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Financial Statements",
+  reference_section: "",
+  reference_page: "21",
+  reference_paragraph: "Question 11"
+},
+{
+  id: 1697,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Another name for the income statement is:",
+  question_pt: "Outro nome para a demonstração de resultados é:",
+  options: [
+    "Profit and Loss Statement",
+    "Balance sheet",
+    "Cash flow statement",
+    "None of the above"
+  ],
+  answer: "Profit and Loss Statement",
+  explanation: "The income statement is also called the P&L.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Financial Statements",
+  reference_section: "",
+  reference_page: "21",
+  reference_paragraph: "Question 12"
+},
+{
+  id: 1698,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "The petty cash system documents expenses using a:",
+  question_pt: "O sistema de caixa pequeno usa:",
+  options: [
+    "Requisition form",
+    "Job cost receipt",
+    "Voucher",
+    "Deposit slip"
+  ],
+  answer: "Voucher",
+  explanation: "Petty cash expenses are tracked using vouchers.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Cash Management",
+  reference_section: "",
+  reference_page: "21",
+  reference_paragraph: "Question 13"
+},
+{
+  id: 1699,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Under double-entry bookkeeping, assets are normally:",
+  question_pt: "Na contabilidade de dupla entrada, ativos são:",
+  options: [
+    "Debits",
+    "Credits",
+    "Not reported",
+    "Accruals only"
+  ],
+  answer: "Debits",
+  explanation: "Assets increase with debits in double-entry accounting.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Bookkeeping",
+  reference_section: "",
+  reference_page: "21",
+  reference_paragraph: "Question 14"
+},
+{
+  id: 1700,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Overhead expenses describe:",
+  question_pt: "Despesas indiretas descrevem:",
+  options: [
+    "Expenses above budget",
+    "Fixed and necessary business expenses",
+    "Direct job costs",
+    "Uncontrollable costs"
+  ],
+  answer: "Fixed and necessary business expenses",
+  explanation: "Overhead consists of ongoing business operating costs.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Overhead",
+  reference_section: "",
+  reference_page: "21",
+  reference_paragraph: "Question 15"
+},
+{
+  id: 1701,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Booking income is the process of:",
+  question_pt: "Registrar receita é o processo de:",
+  options: [
+    "Making journal entries",
+    "Showing income as income in the books",
+    "Recording deposit slip amounts",
+    "Transferring entries to the ledger"
+  ],
+  answer: "Showing income as income in the books",
+  explanation: "Booking income means recognizing revenue in the accounting records.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Accounting Methods",
+  reference_section: "Income Recognition",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 1"
+},
+{
+  id: 1702,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Under the percentage-of-completion method, income is booked:",
+  question_pt: "No método de percentual de conclusão, a receita é reconhecida:",
+  options: [
+    "Only when received",
+    "Only when payable",
+    "As a percentage of the total job completed",
+    "Only at completion"
+  ],
+  answer: "As a percentage of the total job completed",
+  explanation: "Revenue is recognized based on progress of the job.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Accounting Methods",
+  reference_section: "Percentage of Completion",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 2"
+},
+{
+  id: 1703,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "When percentage-of-completion income is booked, excess payments received are:",
+  question_pt: "Quando a receita é registrada por percentual de conclusão, pagamentos em excesso são:",
+  options: [
+    "Returned to payer",
+    "Held in reserve",
+    "Recorded as unearned income",
+    "Recorded as profit"
+  ],
+  answer: "Recorded as unearned income",
+  explanation: "Excess payments are treated as liabilities until earned.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Accounting Methods",
+  reference_section: "Unearned Income",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 3"
+},
+{
+  id: 1704,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "If recognized income exceeds payments received, the difference is:",
+  question_pt: "Se a receita reconhecida for maior que o recebido, a diferença é:",
+  options: [
+    "Accrued income",
+    "Loss",
+    "Expense",
+    "Unrecorded"
+  ],
+  answer: "Accrued income",
+  explanation: "Revenue earned but not received is recorded as accrued income.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Accounting Methods",
+  reference_section: "Accrual",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 4"
+},
+{
+  id: 1705,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Under the completed-contract method, income is booked:",
+  question_pt: "No método de contrato concluído, a receita é registrada:",
+  options: [
+    "At contract start",
+    "As payments are made",
+    "At the end of the job",
+    "At each inspection"
+  ],
+  answer: "At the end of the job",
+  explanation: "Income is recognized only when the project is completed.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Accounting Methods",
+  reference_section: "Completed Contract",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 5"
+},
+{
+  id: 1706,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "A major disadvantage of completed-contract accounting is:",
+  question_pt: "Uma desvantagem do método de contrato concluído é:",
+  options: [
+    "Inaccurate performance tracking",
+    "Income grouped in one year",
+    "Requires special tracking",
+    "All of the above"
+  ],
+  answer: "All of the above",
+  explanation: "This method delays recognition and may distort financial results.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Accounting Methods",
+  reference_section: "Completed Contract",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 6"
+},
+{
+  id: 1707,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Earned income accounts are:",
+  question_pt: "Contas de receita ganha são:",
+  options: [
+    "Asset accounts",
+    "Liability accounts",
+    "Profit and loss accounts",
+    "None"
+  ],
+  answer: "Asset accounts",
+  explanation: "Earned income represents value already delivered.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Income",
+  reference_section: "",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 7"
+},
+{
+  id: 1708,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Deferred income accounts are:",
+  question_pt: "Contas de receita diferida são:",
+  options: [
+    "Asset accounts",
+    "Liability accounts",
+    "Expense accounts",
+    "None"
+  ],
+  answer: "Liability accounts",
+  explanation: "Deferred income represents money received but not yet earned.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Income",
+  reference_section: "",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 8"
+},
+{
+  id: 1709,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "When earned and deferred income entries are made, what is required?",
+  question_pt: "Quando lançamentos de receita ganha e diferida são feitos, o que é necessário?",
+  options: [
+    "Netting entries",
+    "Using only larger entry",
+    "Billing customers",
+    "Reversal entries for prior month"
+  ],
+  answer: "Reversal entries for prior month",
+  explanation: "Reversals ensure proper tracking between periods.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Adjustments",
+  reference_section: "",
+  reference_page: "35",
+  reference_paragraph: "Question 9"
+},
+{
+  id: 1710,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Percentage-of-completion and completed-contract are both types of:",
+  question_pt: "Os métodos percentual de conclusão e contrato concluído são:",
+  options: [
+    "Double-entry systems",
+    "Accrual accounting",
+    "Cash accounting",
+    "Single-entry"
+  ],
+  answer: "Accrual accounting",
+  explanation: "Both methods follow accrual accounting principles.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Accounting Methods",
+  reference_section: "",
+  reference_page: "35",
+  reference_paragraph: "Question 10"
+},
+{
+  id: 1711,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "The cash method of accounting recognizes income:",
+  question_pt: "O método de caixa reconhece receita:",
+  options: [
+    "When documents received",
+    "When finalized",
+    "When cash changes hands",
+    "When invoiced"
+  ],
+  answer: "When cash changes hands",
+  explanation: "Cash accounting records transactions only when cash is received or paid.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Accounting Methods",
+  reference_section: "Cash Method",
+  reference_page: "35",
+  reference_paragraph: "Question 11"
+},
+{
+  id: 1712,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "In accrual accounting, payments received but not yet earned are:",
+  question_pt: "No regime de competência, valores recebidos e não ganhos são:",
+  options: [
+    "Profit",
+    "Returned",
+    "Accrued",
+    "Unearned"
+  ],
+  answer: "Unearned",
+  explanation: "Such payments are liabilities until earned.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Accrual",
+  reference_section: "",
+  reference_page: "35",
+  reference_paragraph: "Question 12"
+},
+{
+  id: 1713,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "If a job costs $822,000 and $295,900 has been spent, what is completion percentage?",
+  question_pt: "Se o custo total é $822,000 e já foram gastos $295,900, qual o percentual?",
+  options: [
+    "2.7%",
+    "27%",
+    "3.6%",
+    "36%"
+  ],
+  answer: "36%",
+  explanation: "Completion % = 295,900 / 822,000 ≈ 36%.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Percentage of Completion",
+  reference_section: "",
+  reference_page: "35",
+  reference_paragraph: "Question 13"
+},
+{
+  id: 1714,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "When part of a progress billing is held back, it is called:",
+  question_pt: "Quando parte do pagamento é retida, chama-se:",
+  options: [
+    "Accrual",
+    "Retainage",
+    "Deferred income",
+    "Withholding"
+  ],
+  answer: "Retainage",
+  explanation: "Retainage is a portion withheld until completion.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Contracts",
+  reference_section: "",
+  reference_page: "35",
+  reference_paragraph: "Question 14"
+},
+{
+  id: 1715,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "The purpose of percentage-of-completion accounting is to:",
+  question_pt: "O objetivo do método percentual de conclusão é:",
+  options: [
+    "Allow multiple jobs",
+    "Report income at completion only",
+    "Report income progressively",
+    "Simplify accounting"
+  ],
+  answer: "Report income progressively",
+  explanation: "It matches revenue with work progress over time.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Accounting Methods",
+  reference_section: "Percentage of Completion",
+  reference_page: "35",
+  reference_paragraph: "Question 15"
+},
+{
+  id: 1716,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "The monthly bank statement is useful for verification of sales because:",
+  question_pt: "O extrato bancário mensal é útil para verificar vendas porque:",
+  options: [
+    "It provides a written record of all money going into your account",
+    "Deposits can be reconciled to reported sales",
+    "It provides independent verification of your books",
+    "All of the above"
+  ],
+  answer: "All of the above",
+  explanation: "Bank statements serve as an independent verification tool for accounting records.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Sales & Receivables",
+  reference_section: "",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 1"
+},
+{
+  id: 1717,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "The sales journal is used for:",
+  question_pt: "O diário de vendas é usado para:",
+  options: [
+    "Recording sales and transactions in accounts receivable",
+    "Recording sales and accounts payable",
+    "Recording equipment purchases",
+    "Recording sales and expenses"
+  ],
+  answer: "Recording sales and transactions in accounts receivable",
+  explanation: "Sales journals track revenue and receivables transactions.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Sales",
+  reference_section: "",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 2"
+},
+{
+  id: 1718,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "The sales journal might include more than just sales because:",
+  question_pt: "O diário de vendas pode incluir mais do que vendas porque:",
+  options: [
+    "To include marketing expenses",
+    "To include all payments",
+    "It records both cash and charge sales and payments on account",
+    "All of the above"
+  ],
+  answer: "It records both cash and charge sales and payments on account",
+  explanation: "Sales journals may include both cash and credit sales activity.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Sales",
+  reference_section: "",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 3"
+},
+{
+  id: 1719,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Accounts receivable record keeping is time-consuming because:",
+  question_pt: "O controle de contas a receber é demorado porque:",
+  options: [
+    "You need accounts for each customer and balance them with the general ledger",
+    "Customers abuse credit",
+    "Government requirements",
+    "It never balances"
+  ],
+  answer: "You need accounts for each customer and balance them with the general ledger",
+  explanation: "Each customer account must be tracked and reconciled individually.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Receivables",
+  reference_section: "",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 4"
+},
+{
+  id: 1720,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "An aging list of receivables helps determine:",
+  question_pt: "Uma lista de envelhecimento de contas a receber ajuda a determinar:",
+  options: [
+    "How long it takes to collect money",
+    "Recording hours",
+    "Accounts less than 30 days old",
+    "Ledger balance"
+  ],
+  answer: "How long it takes to collect money",
+  explanation: "Aging schedules track how long receivables remain unpaid.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Receivables",
+  reference_section: "Aging",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 5"
+},
+{
+  id: 1721,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "A pegboard system is used to:",
+  question_pt: "O sistema de pegboard é usado para:",
+  options: [
+    "Record job scheduling",
+    "Record transactions once while keeping multiple records",
+    "Hold ledger pages",
+    "None of the above"
+  ],
+  answer: "Record transactions once while keeping multiple records",
+  explanation: "Pegboard systems allow simultaneous recording of transactions.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Systems",
+  reference_section: "",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 6"
+},
+{
+  id: 1722,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "When payments on account are received, the entry is:",
+  question_pt: "Quando pagamentos de contas a receber são recebidos:",
+  options: [
+    "Increase receivable and reduce sales",
+    "Increase sales and reduce receivable",
+    "Increase cash and reduce sales",
+    "Increase cash and reduce accounts receivable"
+  ],
+  answer: "Increase cash and reduce accounts receivable",
+  explanation: "Cash increases and receivables decrease when payment is received.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Receivables",
+  reference_section: "",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 7"
+},
+{
+  id: 1723,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "When sales on account are recorded, the entry is:",
+  question_pt: "Quando vendas a prazo são registradas:",
+  options: [
+    "Increase sales and increase accounts receivable",
+    "Increase sales and reduce receivable",
+    "Increase sales and reduce cash",
+    "Increase receivable and reduce cash"
+  ],
+  answer: "Increase sales and increase accounts receivable",
+  explanation: "Credit sales increase both revenue and receivables.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Sales",
+  reference_section: "",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 8"
+},
+{
+  id: 1724,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Individual billing cards are important because:",
+  question_pt: "Fichas individuais de clientes são importantes porque:",
+  options: [
+    "Without them people won't pay",
+    "They track each customer's charges and payments",
+    "They balance accounts",
+    "They are required by law"
+  ],
+  answer: "They track each customer's charges and payments",
+  explanation: "They provide detailed tracking per customer.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Receivables",
+  reference_section: "",
+  reference_page: "52",
+  reference_paragraph: "Question 9"
+},
+{
+  id: 1725,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "If you have too many manual transactions, the best alternative is:",
+  question_pt: "Se você tem muitas transações manuais:",
+  options: [
+    "Reduce transactions",
+    "Automate accounts receivable",
+    "Hire more staff",
+    "Reduce record keeping"
+  ],
+  answer: "Automate accounts receivable",
+  explanation: "Automation improves efficiency and accuracy.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Systems",
+  reference_section: "",
+  reference_page: "52",
+  reference_paragraph: "Question 10"
+},
+{
+  id: 1726,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Cash sales are best handled by:",
+  question_pt: "Vendas à vista são melhor tratadas:",
+  options: [
+    "Grouping monthly",
+    "Recording in a cash sales journal",
+    "Treating like credit sales",
+    "Depositing personally"
+  ],
+  answer: "Recording in a cash sales journal",
+  explanation: "Cash sales should be recorded separately for clarity.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Sales",
+  reference_section: "",
+  reference_page: "52",
+  reference_paragraph: "Question 11"
+},
+{
+  id: 1727,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Past-due accounts should be handled by:",
+  question_pt: "Contas vencidas devem ser tratadas:",
+  options: [
+    "Immediate legal action",
+    "Write off after 30 days",
+    "Control further charges until current",
+    "File lien immediately"
+  ],
+  answer: "Control further charges until current",
+  explanation: "Limiting further credit encourages payment.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Receivables",
+  reference_section: "",
+  reference_page: "52",
+  reference_paragraph: "Question 12"
+},
+{
+  id: 1728,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "An accounts receivable aging list shows:",
+  question_pt: "Lista de envelhecimento mostra:",
+  options: [
+    "Total owed",
+    "Range of days past due",
+    "Payment speed",
+    "Efficiency"
+  ],
+  answer: "Range of days past due",
+  explanation: "It categorizes receivables by how overdue they are.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Receivables",
+  reference_section: "Aging",
+  reference_page: "52",
+  reference_paragraph: "Question 13"
+},
+{
+  id: 1729,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "In receivables tracking, retainage is treated as:",
+  question_pt: "No controle de recebíveis, retenção é:",
+  options: [
+    "Included in past due",
+    "Excluded from past due",
+    "Sent to collections",
+    "Distributed evenly"
+  ],
+  answer: "Excluded from past due",
+  explanation: "Retainage is not yet collectible, so it is excluded.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Receivables",
+  reference_section: "",
+  reference_page: "52",
+  reference_paragraph: "Question 14"
+},
+{
+  id: 1730,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Automating receivables makes sense when:",
+  question_pt: "Automatizar contas a receber faz sentido quando:",
+  options: [
+    "Competitors use computers",
+    "Software is cheap",
+    "You don't understand accounting",
+    "Volume justifies it"
+  ],
+  answer: "Volume justifies it",
+  explanation: "Automation is cost-effective when transaction volume is high.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Systems",
+  reference_section: "",
+  reference_page: "52",
+  reference_paragraph: "Question 15"
+},
+{
+  id: 1731,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "The average number of days that accounts receivable are outstanding is computed by:",
+  question_pt: "O número médio de dias que contas a receber ficam em aberto é calculado por:",
+  options: [
+    "Dividing 12 months' charge sales by average receivables",
+    "Dividing average receivables by annual sales",
+    "Dividing unpaid balances by the number of days since sale",
+    "Multiplying the number of days by the average of monthly sales, excluding cash sales"
+  ],
+  answer: "Dividing average receivables by annual sales",
+  explanation: "This ratio uses average receivables in relation to annual sales to measure collection time.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Managing Receivables",
+  reference_section: "Average Collection Period",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 1"
+},
+{
+  id: 1732,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "If receivable days outstanding are increasing, it indicates:",
+  question_pt: "Se os dias em aberto das contas a receber estão aumentando, isso indica:",
+  options: [
+    "Collection controls are improving",
+    "You are collecting faster",
+    "It is taking more time to collect",
+    "Profits are increasing"
+  ],
+  answer: "It is taking more time to collect",
+  explanation: "An increase in days outstanding signals slower collections and potential cash flow issues.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Managing Receivables",
+  reference_section: "",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 2"
+},
+{
+  id: 1733,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Taking credit applications is important because:",
+  question_pt: "Solicitar cadastro de crédito é importante porque:",
+  options: [
+    "Ensures correct billing information",
+    "Customers expect it",
+    "You can check credit history and risk",
+    "You cannot collect without it"
+  ],
+  answer: "You can check credit history and risk",
+  explanation: "Credit applications allow evaluation of customer risk before extending credit.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Credit",
+  reference_section: "",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 3"
+},
+{
+  id: 1734,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Allowing accounts to become too far past due is bad because:",
+  question_pt: "Permitir que contas atrasem muito é ruim porque:",
+  options: [
+    "Harder to collect over time",
+    "Hurts cash flow",
+    "Requires more time and cost",
+    "All of the above"
+  ],
+  answer: "All of the above",
+  explanation: "Late accounts increase risk, reduce cash flow, and require more effort to recover.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Collections",
+  reference_section: "",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 4"
+},
+{
+  id: 1735,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "When turning an account over to collections, you should:",
+  question_pt: "Ao enviar uma conta para cobrança, você deve:",
+  options: [
+    "Exclude it from aging analysis",
+    "Reduce accounts receivable balance",
+    "Set up a liability account",
+    "All of the above"
+  ],
+  answer: "Exclude it from aging analysis",
+  explanation: "Accounts in collection should be excluded to avoid distorting aging reports.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Collections",
+  reference_section: "",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 5"
+},
+{
+  id: 1736,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Retainage balances should be:",
+  question_pt: "Valores de retenção devem ser:",
+  options: [
+    "Excluded from aging studies",
+    "Included in receivables",
+    "Recorded separately",
+    "Treated as income"
+  ],
+  answer: "Excluded from aging studies",
+  explanation: "Retainage is not yet collectible, so it is excluded from aging analysis.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Receivables",
+  reference_section: "Retainage",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 6"
+},
+{
+  id: 1737,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Collection procedures can be improved by:",
+  question_pt: "Procedimentos de cobrança podem ser melhorados por:",
+  options: [
+    "Accurate statements",
+    "Calling customers",
+    "Restricting credit",
+    "All of the above"
+  ],
+  answer: "All of the above",
+  explanation: "Effective collection requires multiple proactive strategies.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Collections",
+  reference_section: "",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 7"
+},
+{
+  id: 1738,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Receivable control is critical during high-volume periods because:",
+  question_pt: "O controle de contas a receber é crítico em períodos de alto volume porque:",
+  options: [
+    "Accountants require it",
+    "Controls tend to relax as volume increases",
+    "Employees get lazy",
+    "Billing errors cannot be corrected"
+  ],
+  answer: "Controls tend to relax as volume increases",
+  explanation: "Higher volume increases risk of poor control and missed collections.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Receivables",
+  reference_section: "",
+  reference_page: "Test Questions",
+  reference_paragraph: "Question 8"
+},
+{
+  id: 1739,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "You can provide customer incentives by:",
+  question_pt: "Você pode incentivar clientes por meio de:",
+  options: [
+    "Avoiding collection calls",
+    "Increasing credit limits",
+    "Offering discounts for early payment",
+    "Hiring collection agents"
+  ],
+  answer: "Offering discounts for early payment",
+  explanation: "Discounts encourage faster cash inflow.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Collections",
+  reference_section: "",
+  reference_page: "61",
+  reference_paragraph: "Question 9"
+},
+{
+  id: 1740,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "If a customer cannot make payments on time:",
+  question_pt: "Se um cliente não pode pagar em dia:",
+  options: [
+    "Set repayment schedule",
+    "Limit future credit",
+    "Set deadline",
+    "All of the above"
+  ],
+  answer: "All of the above",
+  explanation: "Multiple strategies help manage delinquent accounts.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Collections",
+  reference_section: "",
+  reference_page: "61",
+  reference_paragraph: "Question 10"
+},
+{
+  id: 1741,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "An accounts receivable average length study shows:",
+  question_pt: "Um estudo de tempo médio de contas a receber mostra:",
+  options: [
+    "Days outstanding",
+    "Comparison of charge vs cash sales",
+    "Economic trends",
+    "Loan repayment time"
+  ],
+  answer: "Days outstanding",
+  explanation: "It measures how long receivables remain unpaid.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Receivables",
+  reference_section: "",
+  reference_page: "61",
+  reference_paragraph: "Question 11"
+},
+{
+  id: 1742,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Unfavorable trends in receivables indicate:",
+  question_pt: "Tendências desfavoráveis indicam:",
+  options: [
+    "Out of control",
+    "Need aggressive collection",
+    "Little long-term effect",
+    "Career change needed"
+  ],
+  answer: "Need aggressive collection",
+  explanation: "Negative trends signal the need for stronger collection efforts.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Receivables",
+  reference_section: "",
+  reference_page: "61",
+  reference_paragraph: "Question 12"
+},
+{
+  id: 1743,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Collection problems can be reduced by:",
+  question_pt: "Problemas de cobrança podem ser reduzidos por:",
+  options: [
+    "Cash-only policy",
+    "Same-day payment",
+    "Credit checks and applications",
+    "Legal threats"
+  ],
+  answer: "Credit checks and applications",
+  explanation: "Proper screening reduces risk before extending credit.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Credit",
+  reference_section: "",
+  reference_page: "61",
+  reference_paragraph: "Question 13"
+},
+{
+  id: 1744,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Collection logs are best organized by:",
+  question_pt: "Registros de cobrança devem ser organizados por:",
+  options: [
+    "Phone number",
+    "Last name",
+    "Date",
+    "Job code"
+  ],
+  answer: "Date",
+  explanation: "Tracking by date allows chronological follow-up and documentation.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Collections",
+  reference_section: "",
+  reference_page: "61",
+  reference_paragraph: "Question 14"
+},
+{
+  id: 1745,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Incentives for faster payment include:",
+  question_pt: "Incentivos para pagamento rápido incluem:",
+  options: [
+    "Discounts for timely payment",
+    "Raising prices",
+    "Free merchandise",
+    "Different pricing tiers"
+  ],
+  answer: "Discounts for timely payment",
+  explanation: "Early payment discounts improve cash flow and reduce receivables.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Collections",
+  reference_section: "",
+  reference_page: "61",
+  reference_paragraph: "Question 15"
 }
   ];

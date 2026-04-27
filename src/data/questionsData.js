@@ -17721,5 +17721,3005 @@ export const questions = [
   reference_section: "Cash System",
   reference_page: "70",
   reference_paragraph: "Question 15"
+},
+{
+  id: 1761,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Cash budgeting is important in order to:",
+  question_pt: "O orçamento de caixa é importante para:",
+  options: [
+    "Estimate next month's sales volume",
+    "Track last month's sales volume",
+    "Estimate monthly cash receipts from cash sales and payments on accounts receivable",
+    "Estimate how much you need to generate in charge sales next month"
+  ],
+  answer: "Estimate monthly cash receipts from cash sales and payments on accounts receivable",
+  explanation: "Cash budgeting helps estimate expected cash inflows from sales and receivables.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Cash Budgeting",
+  reference_section: "Test Questions",
+  reference_page: "",
+  reference_paragraph: "Question 1"
+},
+{
+  id: 1762,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Cash budgeting, broken down by lines of business, helps you identify:",
+  question_pt: "O orçamento de caixa dividido por linhas de negócio ajuda a identificar:",
+  options: [
+    "Where you earn a profit and where you might be losing money",
+    "What kinds of seasonal fluctuations you can expect in each line of business",
+    "Whether or not it is worthwhile to continue in a particular line of business",
+    "All of the above"
+  ],
+  answer: "All of the above",
+  explanation: "Cash budgeting by business line helps analyze profitability, seasonality, and business viability.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Cash Budgeting",
+  reference_section: "Test Questions",
+  reference_page: "",
+  reference_paragraph: "Question 2"
+},
+{
+  id: 1763,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Future cash flow could come from:",
+  question_pt: "Fluxo de caixa futuro pode vir de:",
+  options: [
+    "Sales, collections on accounts receivable, and the sale of fixed assets",
+    "Sales only",
+    "Sales minus collections on account",
+    "Reductions in inventory only"
+  ],
+  answer: "Sales, collections on accounts receivable, and the sale of fixed assets",
+  explanation: "Future cash flow may include sales, receivable collections, and proceeds from asset sales.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Cash Budgeting",
+  reference_section: "Test Questions",
+  reference_page: "",
+  reference_paragraph: "Question 3"
+},
+{
+  id: 1764,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "A good way to control and anticipate seasonal variations in cash flow is to:",
+  question_pt: "Uma boa forma de controlar e antecipar variações sazonais no fluxo de caixa é:",
+  options: [
+    "Get out of all unprofitable lines and stay with only one profitable line",
+    "Shift seasonally into more profitable lines based on demand",
+    "Borrow money from the bank before slow seasons",
+    "Save as much cash as possible before going into business"
+  ],
+  answer: "Shift seasonally into more profitable lines based on demand",
+  explanation: "Seasonal cash flow can be managed by shifting effort toward more profitable seasonal demand.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Cash Budgeting",
+  reference_section: "Test Questions",
+  reference_page: "",
+  reference_paragraph: "Question 4"
+},
+{
+  id: 1765,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Factors that could affect even the best budget for future cash flow include:",
+  question_pt: "Fatores que podem afetar até o melhor orçamento de fluxo de caixa futuro incluem:",
+  options: [
+    "Building moratoriums",
+    "Dramatic changes in market demand",
+    "Changes in mortgage rates, home prices, or demand for new construction",
+    "All of the above"
+  ],
+  answer: "All of the above",
+  explanation: "External market and economic factors can affect even well-prepared cash flow budgets.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Cash Budgeting",
+  reference_section: "Test Questions",
+  reference_page: "",
+  reference_paragraph: "Question 5"
+},
+{
+  id: 1766,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "The ratio of net profits to sales is computed by:",
+  question_pt: "A razão entre lucro líquido e vendas é calculada por:",
+  options: [
+    "Dividing net profits by gross income",
+    "Dividing gross income by net profits",
+    "Multiplying gross profit by net profit",
+    "Dividing net profit by gross profit"
+  ],
+  answer: "Dividing net profits by gross income",
+  explanation: "The net profit ratio compares net profit to gross income or sales.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Cash Budgeting",
+  reference_section: "Test Questions",
+  reference_page: "",
+  reference_paragraph: "Question 6"
+},
+{
+  id: 1767,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Cash budgets essentially are:",
+  question_pt: "Orçamentos de caixa essencialmente são:",
+  options: [
+    "An attempt to judge the probabilities of the near-term future",
+    "Intended to identify a precise budget outcome",
+    "Part of the general ledger",
+    "Included in the cash journal"
+  ],
+  answer: "An attempt to judge the probabilities of the near-term future",
+  explanation: "Cash budgets estimate likely future cash conditions rather than guarantee exact outcomes.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Cash Budgeting",
+  reference_section: "Test Questions",
+  reference_page: "",
+  reference_paragraph: "Question 7"
+},
+{
+  id: 1768,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Risks in profitable markets can include:",
+  question_pt: "Riscos em mercados lucrativos podem incluir:",
+  options: [
+    "Investment in fixed assets",
+    "Manpower time",
+    "Management time",
+    "All of the above"
+  ],
+  answer: "All of the above",
+  explanation: "Profitable markets can still require capital, labor, and management resources.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Cash Budgeting",
+  reference_section: "Test Questions",
+  reference_page: "",
+  reference_paragraph: "Question 8"
+},
+{
+  id: 1769,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Cash receipts by the job are constructed from:",
+  question_pt: "Recebimentos de caixa por obra são construídos a partir de:",
+  options: [
+    "The cash receipts journal",
+    "Detailed records kept for other purposes",
+    "The general ledger",
+    "Your accountant's records"
+  ],
+  answer: "Detailed records kept for other purposes",
+  explanation: "Job-level cash receipt analysis often comes from detailed supporting records.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Cash Budgeting",
+  reference_section: "Test Questions",
+  reference_page: "",
+  reference_paragraph: "Question 9"
+},
+{
+  id: 1770,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "When you get a high portion of income from only one customer, it is:",
+  question_pt: "Quando grande parte da receita vem de apenas um cliente, isso é:",
+  options: [
+    "A good sign because it requires less selling and management",
+    "Easier because fewer billings are needed",
+    "Better because a single good credit risk improves cash flow",
+    "Not a good idea because you depend too heavily on one source of income"
+  ],
+  answer: "Not a good idea because you depend too heavily on one source of income",
+  explanation: "Depending heavily on one customer increases business risk.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Cash Budgeting",
+  reference_section: "Test Questions",
+  reference_page: "78",
+  reference_paragraph: "Question 10"
+},
+{
+  id: 1771,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Unprofitable work is defined as:",
+  question_pt: "Trabalho não lucrativo é definido como:",
+  options: [
+    "A job that does not produce an acceptable level of income",
+    "A job whose income is not classified in your books",
+    "A job not reported for tax purposes",
+    "All of the above"
+  ],
+  answer: "A job that does not produce an acceptable level of income",
+  explanation: "Unprofitable work fails to meet the required income level.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Cash Budgeting",
+  reference_section: "Test Questions",
+  reference_page: "78",
+  reference_paragraph: "Question 11"
+},
+{
+  id: 1772,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "The distinction between sales and cash receipts is:",
+  question_pt: "A diferença entre vendas e recebimentos de caixa é:",
+  options: [
+    "Sales include all sales, but cash receipts show losses",
+    "Sales include only charge sales, but cash receipts show cash sales",
+    "Sales include all sales, and cash receipts show the money that came in",
+    "There is no distinction"
+  ],
+  answer: "Sales include all sales, and cash receipts show the money that came in",
+  explanation: "Sales measure revenue activity, while cash receipts show actual money received.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Cash Budgeting",
+  reference_section: "Test Questions",
+  reference_page: "78",
+  reference_paragraph: "Question 12"
+},
+{
+  id: 1773,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "When analyzing monthly cash receipts, an 'All Other' column might be used for:",
+  question_pt: "Ao analisar recebimentos mensais, uma coluna 'All Other' pode ser usada para:",
+  options: [
+    "Forgotten income without job numbers",
+    "One-time, non-recurring income",
+    "Loans and miscellaneous receipts that are not income",
+    "Retainage only"
+  ],
+  answer: "One-time, non-recurring income",
+  explanation: "The 'All Other' category captures unusual or non-recurring income items.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Cash Budgeting",
+  reference_section: "Test Questions",
+  reference_page: "78",
+  reference_paragraph: "Question 13"
+},
+{
+  id: 1774,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "A ratio between gross income and net profits is useful because it:",
+  question_pt: "A razão entre receita bruta e lucro líquido é útil porque:",
+  options: [
+    "Is not relevant to identifying profitable lines of work",
+    "Helps identify percentage-of-completion adjustments",
+    "Helps set the advertising budget",
+    "Shows how returns vary from one job to another"
+  ],
+  answer: "Shows how returns vary from one job to another",
+  explanation: "This ratio helps compare profitability among different jobs or business lines.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Cash Budgeting",
+  reference_section: "Test Questions",
+  reference_page: "78",
+  reference_paragraph: "Question 14"
+},
+{
+  id: 1775,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Good cash budgeting procedures:",
+  question_pt: "Bons procedimentos de orçamento de caixa:",
+  options: [
+    "Show exact future profits",
+    "Guarantee net profits and eliminate losses",
+    "Serve as guidelines for making informed decisions",
+    "Are useful only when applying for a loan"
+  ],
+  answer: "Guarantee net profits and eliminate losses",
+  explanation: "Answer follows the circled option in the provided source image.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Cash Budgeting",
+  reference_section: "Test Questions",
+  reference_page: "78",
+  reference_paragraph: "Question 15"
+},
+{
+  id: 1776,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Successful builders seek:",
+  question_pt: "Construtores bem-sucedidos buscam:",
+  options: [
+    "Volume as a priority over profits",
+    "Profits as a priority over volume",
+    "Volume of any and all kinds",
+    "Any of the above, depending on circumstances"
+  ],
+  answer: "Profits as a priority over volume",
+  explanation: "Profitability should take priority over sales volume alone.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Sales Planning",
+  reference_section: "Test Questions",
+  reference_page: "",
+  reference_paragraph: "Question 1"
+},
+{
+  id: 1777,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Low-profit volume is characterized by:",
+  question_pt: "Volume de baixa lucratividade é caracterizado por:",
+  options: [
+    "Failure of the organization to grow",
+    "Better growth than possible with high-profit volume",
+    "Low-level overhead",
+    "Better overall management"
+  ],
+  answer: "Failure of the organization to grow",
+  explanation: "Low-profit volume may prevent meaningful business growth.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Sales Planning",
+  reference_section: "Test Questions",
+  reference_page: "",
+  reference_paragraph: "Question 2"
+},
+{
+  id: 1778,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "When considering new lines of business, sales planning should include analysis of:",
+  question_pt: "Ao considerar novas linhas de negócio, o planejamento de vendas deve analisar:",
+  options: [
+    "The competition for the same business",
+    "Whether numbers can be forced to work on paper",
+    "The number of employees available",
+    "All of the above"
+  ],
+  answer: "The competition for the same business",
+  explanation: "Competitive analysis is essential when evaluating a new business line.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Sales Planning",
+  reference_section: "Test Questions",
+  reference_page: "",
+  reference_paragraph: "Question 3"
+},
+{
+  id: 1779,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Yield on investment is important when expanding your lines of business because:",
+  question_pt: "O retorno sobre investimento é importante ao expandir linhas de negócio porque:",
+  options: [
+    "Your time and capital commitment will be higher for less return",
+    "You may not compete effectively in existing lines if you expand",
+    "Risks may not justify the potential rewards",
+    "All of the above"
+  ],
+  answer: "All of the above",
+  explanation: "Expansion decisions must consider return, competition, and risk.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Sales Planning",
+  reference_section: "Test Questions",
+  reference_page: "",
+  reference_paragraph: "Question 4"
+},
+{
+  id: 1780,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "High-risk lines of business may be:",
+  question_pt: "Linhas de negócio de alto risco podem ser:",
+  options: [
+    "Highly profitable in all cases",
+    "Highly profitable but perhaps not worth the extra risk",
+    "Not very profitable in virtually every case",
+    "Necessary for a diversified organization"
+  ],
+  answer: "Highly profitable but perhaps not worth the extra risk",
+  explanation: "Higher profitability may not justify excessive business risk.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Sales Planning",
+  reference_section: "Test Questions",
+  reference_page: "",
+  reference_paragraph: "Question 5"
+},
+{
+  id: 1781,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "By setting a minimum acceptable yield, you:",
+  question_pt: "Ao definir um retorno mínimo aceitável, você:",
+  options: [
+    "Exclude many possible ways to expand",
+    "Overlook some potential moneymakers",
+    "Set a standard for evaluating possible expansion",
+    "Track the wrong indicators"
+  ],
+  answer: "Set a standard for evaluating possible expansion",
+  explanation: "A minimum yield establishes a benchmark for evaluating opportunities.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Sales Planning",
+  reference_section: "Test Questions",
+  reference_page: "",
+  reference_paragraph: "Question 6"
+},
+{
+  id: 1782,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "One line of business yielding an exceptionally low rate:",
+  question_pt: "Uma linha de negócio com retorno excepcionalmente baixo:",
+  options: [
+    "Should be accepted as part of business",
+    "Could drag down overall return and affect profitability",
+    "Is not a big problem if small",
+    "Indicates assignment error"
+  ],
+  answer: "Could drag down overall return and affect profitability",
+  explanation: "Poor-performing lines can reduce overall profitability.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Sales Planning",
+  reference_section: "Test Questions",
+  reference_page: "",
+  reference_paragraph: "Question 7"
+},
+{
+  id: 1783,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "One method for preparing market assumptions is to:",
+  question_pt: "Um método para preparar premissas de mercado é:",
+  options: [
+    "Pick the closest likely future outcome",
+    "Hire a professional forecaster",
+    "Prepare two possible outcomes, high and low expectation",
+    "Use the most optimistic budget"
+  ],
+  answer: "Prepare two possible outcomes, high and low expectation",
+  explanation: "Preparing high and low scenarios helps manage uncertainty.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Sales Planning",
+  reference_section: "Test Questions",
+  reference_page: "",
+  reference_paragraph: "Question 8"
+},
+{
+  id: 1784,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Selling expenses differ from fixed overhead in that:",
+  question_pt: "Despesas de venda diferem do overhead fixo porque:",
+  options: [
+    "Selling expenses never vary",
+    "Selling expenses may vary by volume",
+    "Overhead varies more during high volume",
+    "They are overhead incurred by salespeople"
+  ],
+  answer: "Selling expenses may vary by volume",
+  explanation: "Selling expenses often fluctuate with sales activity.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Sales Planning",
+  reference_section: "Test Questions",
+  reference_page: "",
+  reference_paragraph: "Question 9"
+},
+{
+  id: 1785,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "When selling expenses vary, management should:",
+  question_pt: "Quando despesas de venda variam, a administração deve:",
+  options: [
+    "Fire employees",
+    "Analyze actual expenses versus budget",
+    "Accept them as unavoidable",
+    "Reduce future sales volume"
+  ],
+  answer: "Analyze actual expenses versus budget",
+  explanation: "Variance analysis helps identify problems and control selling expenses.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Sales Planning",
+  reference_section: "Test Questions",
+  reference_page: "85",
+  reference_paragraph: "Question 10"
+},
+{
+  id: 1786,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Volume can be defined as:",
+  question_pt: "Volume pode ser definido como:",
+  options: [
+    "Another word for profit",
+    "The amount of sales dollars",
+    "The gross profit earned",
+    "Revenue by line of business"
+  ],
+  answer: "The amount of sales dollars",
+  explanation: "Volume refers to the dollar amount of sales.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Sales Planning",
+  reference_section: "Test Questions",
+  reference_page: "85",
+  reference_paragraph: "Question 11"
+},
+{
+  id: 1787,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "For sales planning purposes, risk analysis means:",
+  question_pt: "Para planejamento de vendas, análise de risco significa:",
+  options: [
+    "Buying the right amount of insurance",
+    "Determining personal liability",
+    "Comparing potential profit to the risk of expanding",
+    "None of the above"
+  ],
+  answer: "Comparing potential profit to the risk of expanding",
+  explanation: "Risk analysis compares possible reward against expansion risk.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Sales Planning",
+  reference_section: "Test Questions",
+  reference_page: "85",
+  reference_paragraph: "Question 12"
+},
+{
+  id: 1788,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "A particular line of business is favorable if its net profit is:",
+  question_pt: "Uma linha de negócio é favorável se seu lucro líquido for:",
+  options: [
+    "Equal to or higher than overall net profit",
+    "Equal to or lower than overall net profit",
+    "Above zero regardless of percentage",
+    "Acceptable at gross profit even if net loss"
+  ],
+  answer: "Equal to or higher than overall net profit",
+  explanation: "A line is favorable if it performs at or above overall profitability.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Sales Planning",
+  reference_section: "Test Questions",
+  reference_page: "85",
+  reference_paragraph: "Question 13"
+},
+{
+  id: 1789,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "A new line of business should be studied from the point of view of:",
+  question_pt: "Uma nova linha de negócio deve ser analisada sob o ponto de vista de:",
+  options: [
+    "Competitive aspects",
+    "Volume and profit potential",
+    "Seasonal factors",
+    "All of the above"
+  ],
+  answer: "All of the above",
+  explanation: "New business lines require competitive, profit, volume, and seasonal evaluation.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Sales Planning",
+  reference_section: "Test Questions",
+  reference_page: "85",
+  reference_paragraph: "Question 14"
+},
+{
+  id: 1790,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "You can define a range of market assumptions by:",
+  question_pt: "Você pode definir uma faixa de premissas de mercado por:",
+  options: [
+    "Expecting exact sales without exception",
+    "Comparing present results with high and low expectations",
+    "Analyzing general expenses by line",
+    "Building from desired profit bottom-up"
+  ],
+  answer: "Comparing present results with high and low expectations",
+  explanation: "A range of assumptions compares present results with optimistic and conservative expectations.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Sales Planning",
+  reference_section: "Test Questions",
+  reference_page: "85",
+  reference_paragraph: "Question 15"
+},
+{
+  id: 1791,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Getting rid of low-yielding or losing lines of business isn't always simple because:",
+  question_pt: "Eliminar linhas de negócio com baixo retorno nem sempre é simples porque:",
+  options: [
+    "Customers depend on you even if you're losing money",
+    "The net loss might include overhead that remains anyway",
+    "Employees may feel insecure",
+    "You should instead make them profitable"
+  ],
+  answer: "The net loss might include overhead that remains anyway",
+  explanation: "Overhead may remain even if the line is removed.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Overhead & Profit",
+  reference_section: "Test Questions",
+  reference_page: "",
+  reference_paragraph: "Q1"
+},
+{
+  id: 1792,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Analysis is most accurate when done:",
+  question_pt: "A análise é mais precisa quando feita:",
+  options: [
+    "On net profit basis",
+    "On gross sales only",
+    "On gross profit basis",
+    "On any basis"
+  ],
+  answer: "On gross profit basis",
+  explanation: "Only direct expenses are tied clearly to jobs.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Overhead & Profit",
+  reference_section: "Test Questions",
+  reference_page: "",
+  reference_paragraph: "Q2"
+},
+{
+  id: 1793,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "The most accurate way to allocate expenses is:",
+  question_pt: "A forma mais precisa de alocar despesas é:",
+  options: [
+    "Assign selling expenses by job then allocate overhead by gross profit %",
+    "Assign everything by gross profit",
+    "Assign based on sales",
+    "No distinction between overhead types"
+  ],
+  answer: "Assign selling expenses by job then allocate overhead by gross profit %",
+  explanation: "Matches circled answer.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Overhead & Profit",
+  reference_section: "Test Questions",
+  reference_page: "",
+  reference_paragraph: "Q3"
+},
+{
+  id: 1794,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Unsuccessful volume is characterized by:",
+  question_pt: "Volume não bem-sucedido é caracterizado por:",
+  options: [
+    "Falling volume",
+    "Rising margins but declining profits",
+    "Rising profits but declining yields",
+    "Rising everything"
+  ],
+  answer: "Rising profits but declining yields",
+  explanation: "Yield decline indicates inefficiency.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Overhead & Profit",
+  reference_section: "Test Questions",
+  reference_page: "",
+  reference_paragraph: "Q4"
+},
+{
+  id: 1795,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Successful volume is characterized by:",
+  question_pt: "Volume bem-sucedido é caracterizado por:",
+  options: [
+    "Rising profits in amount and yield",
+    "Rising profit only",
+    "Level sales",
+    "Cutting margins"
+  ],
+  answer: "Rising profits in amount and yield",
+  explanation: "Both profit amount and yield must improve.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Overhead & Profit",
+  reference_section: "Test Questions",
+  reference_page: "",
+  reference_paragraph: "Q5"
+},
+{
+  id: 1796,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Fixed overhead expenses:",
+  question_pt: "Despesas fixas:",
+  options: [
+    "Never change",
+    "May rise with market and volume changes",
+    "Rise only if uncontrolled",
+    "Are fixed by contract"
+  ],
+  answer: "May rise with market and volume changes",
+  explanation: "Even fixed costs can increase.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Overhead & Profit",
+  reference_section: "Test Questions",
+  reference_page: "",
+  reference_paragraph: "Q6"
+},
+{
+  id: 1797,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Selling expenses:",
+  question_pt: "Despesas de venda:",
+  options: [
+    "Tend to rise with volume",
+    "Stay fixed",
+    "Are direct costs",
+    "Can always be eliminated"
+  ],
+  answer: "Tend to rise with volume",
+  explanation: "They increase with activity.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Overhead & Profit",
+  reference_section: "Test Questions",
+  reference_page: "",
+  reference_paragraph: "Q7"
+},
+{
+  id: 1798,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Proper control over expenses requires:",
+  question_pt: "Controle adequado de despesas requer:",
+  options: [
+    "Knowing expectations",
+    "Reviewing expenses",
+    "Internal controls",
+    "All of the above"
+  ],
+  answer: "All of the above",
+  explanation: "Multiple control mechanisms are needed.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Overhead & Profit",
+  reference_section: "Test Questions",
+  reference_page: "",
+  reference_paragraph: "Q8"
+},
+{
+  id: 1799,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Allocating fixed overhead precisely by line:",
+  question_pt: "Alocar overhead fixo com precisão por linha:",
+  options: [
+    "Is possible with effort",
+    "Is possible always",
+    "Depends on receipts",
+    "Is impossible"
+  ],
+  answer: "Is impossible",
+  explanation: "Overhead is not directly tied to jobs.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Overhead Allocation",
+  reference_section: "Test Questions",
+  reference_page: "94",
+  reference_paragraph: "Q9"
+},
+{
+  id: 1800,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Lost volume should:",
+  question_pt: "Volume perdido deve:",
+  options: [
+    "Be ignored",
+    "Be replaced with planning",
+    "Not be replaced",
+    "Be replaced aggressively"
+  ],
+  answer: "Be replaced with planning",
+  explanation: "Careful planning is required.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Overhead Allocation",
+  reference_section: "Test Questions",
+  reference_page: "94",
+  reference_paragraph: "Q10"
+},
+{
+  id: 1801,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Factors affecting profits include:",
+  question_pt: "Fatores que afetam lucros incluem:",
+  options: [
+    "Volume and expenses",
+    "Volume only",
+    "Direct costs only",
+    "Community influence"
+  ],
+  answer: "Volume and expenses",
+  explanation: "Profit depends on both.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Overhead Allocation",
+  reference_section: "Test Questions",
+  reference_page: "94",
+  reference_paragraph: "Q11"
+},
+{
+  id: 1802,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Losing lines of business should:",
+  question_pt: "Linhas com prejuízo devem:",
+  options: [
+    "Be abandoned immediately",
+    "Be studied to ensure allocations are correct",
+    "Be kept for tax reasons",
+    "Be modified with price increases"
+  ],
+  answer: "Be studied to ensure allocations are correct",
+  explanation: "Confirm allocation accuracy first.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Overhead Allocation",
+  reference_section: "Test Questions",
+  reference_page: "94",
+  reference_paragraph: "Q12"
+},
+{
+  id: 1803,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "When abandoning a line of business:",
+  question_pt: "Ao abandonar uma linha de negócio:",
+  options: [
+    "Keep cash reserve",
+    "Raise prices elsewhere",
+    "Incorporate",
+    "Seek new markets"
+  ],
+  answer: "Seek new markets",
+  explanation: "Replace lost business.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Overhead Allocation",
+  reference_section: "Test Questions",
+  reference_page: "94",
+  reference_paragraph: "Q13"
+},
+{
+  id: 1804,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Volume vs profit relationship is:",
+  question_pt: "A relação volume vs lucro é:",
+  options: [
+    "Irrelevant",
+    "Key to profitable lines",
+    "Unrelated",
+    "None"
+  ],
+  answer: "Key to producing profitable lines",
+  explanation: "Critical business metric.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Overhead Allocation",
+  reference_section: "Test Questions",
+  reference_page: "94",
+  reference_paragraph: "Q14"
+},
+{
+  id: 1805,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Margin differs from dollar profit because:",
+  question_pt: "Margem difere do lucro em dólar porque:",
+  options: [
+    "Not reported",
+    "Is reserve",
+    "Is a percentage",
+    "Is borrowed"
+  ],
+  answer: "Is a percentage",
+  explanation: "Allows comparison.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Overhead Allocation",
+  reference_section: "Test Questions",
+  reference_page: "94",
+  reference_paragraph: "Q15"
+},
+{
+  id: 1806,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Keeping accurate check-writing records is important because without such records:",
+  question_pt: "Manter registros precisos de emissão de cheques é importante porque, sem esses registros:",
+  options: [
+    "You will not have important information when you need it",
+    "You will not be able to tell where your money was spent",
+    "Budgeting and forecasting will be impossible",
+    "All of the above"
+  ],
+  answer: "All of the above",
+  explanation: "Accurate check records support financial tracking, budgeting, and forecasting.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Check Writing & Recording",
+  reference_section: "Test Questions",
+  reference_page: "113",
+  reference_paragraph: "Question 1"
+},
+{
+  id: 1807,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "A source document is:",
+  question_pt: "Um documento de origem é:",
+  options: [
+    "A document used to classify expenses",
+    "Another name for a deposit slip",
+    "A document that explains earnings and expenses, including sales orders, purchase orders, invoices, and receipts",
+    "A tracer used by banks"
+  ],
+  answer: "A document that explains earnings and expenses, including sales orders, purchase orders, invoices, and receipts",
+  explanation: "Source documents support accounting entries by documenting transactions.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Check Writing & Recording",
+  reference_section: "Source Documents",
+  reference_page: "113",
+  reference_paragraph: "Question 2"
+},
+{
+  id: 1808,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "One good way to make sure your checkbook balance is accurate is to:",
+  question_pt: "Uma boa forma de garantir que o saldo do talão de cheques esteja correto é:",
+  options: [
+    "Start with the ending balance, add checks, and subtract deposits to see if you arrive at the beginning balance",
+    "Add all checks, subtract deposits, and estimate the balance",
+    "Use the bank’s ending balance as your balance forward",
+    "Hire a bookkeeper"
+  ],
+  answer: "Start with the ending balance, add checks, and subtract deposits to see if you arrive at the beginning balance",
+  explanation: "This method verifies the checkbook balance by reversing the transaction flow.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Check Writing & Recording",
+  reference_section: "Bank Reconciliation",
+  reference_page: "113",
+  reference_paragraph: "Question 3"
+},
+{
+  id: 1809,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Typical adjustments you should expect when balancing your checkbook include:",
+  question_pt: "Ajustes típicos ao reconciliar o talão de cheques incluem:",
+  options: [
+    "Outstanding deposits and checks",
+    "Automatic payments and special charges",
+    "Returned checks",
+    "All of the above"
+  ],
+  answer: "All of the above",
+  explanation: "Bank reconciliation commonly includes outstanding items, automatic payments, fees, and returned checks.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Check Writing & Recording",
+  reference_section: "Bank Reconciliation",
+  reference_page: "113",
+  reference_paragraph: "Question 4"
+},
+{
+  id: 1810,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "To keep track of your checkbook balance when voiding a check you wrote the month before:",
+  question_pt: "Para controlar o saldo do talão ao anular um cheque emitido no mês anterior:",
+  options: [
+    "Make the notation when written and do not subtract it",
+    "Subtract the amount from your current balance and remove the outstanding check from the bank reconciliation list",
+    "Do nothing because the check is void",
+    "Ask the bank to count it as a deposit"
+  ],
+  answer: "Subtract the amount from your current balance and remove the outstanding check from the bank reconciliation list",
+  explanation: "Voided checks must be removed from outstanding checks and properly reflected in the balance.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Check Writing & Recording",
+  reference_section: "Voided Checks",
+  reference_page: "113",
+  reference_paragraph: "Question 5"
+},
+{
+  id: 1811,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Bank reconciliation is easier if you remember that:",
+  question_pt: "A reconciliação bancária é mais fácil se você lembrar que:",
+  options: [
+    "You are accounting for timing differences and correcting discovered errors",
+    "The bank always has more dependable numbers",
+    "Outstanding checks and deposits should be added to the bank balance",
+    "Exact reconciliation is not possible"
+  ],
+  answer: "You are accounting for timing differences and correcting discovered errors",
+  explanation: "Reconciliation mainly resolves timing differences and errors between records.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Check Writing & Recording",
+  reference_section: "Bank Reconciliation",
+  reference_page: "113",
+  reference_paragraph: "Question 6"
+},
+{
+  id: 1812,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "You should avoid writing checks made out to cash because:",
+  question_pt: "Você deve evitar emitir cheques ao portador porque:",
+  options: [
+    "Such payments are not acceptable to the IRS",
+    "It is preferable to write a business check to the individual or company being paid for recordkeeping",
+    "It may look like money is being taken out without paying taxes",
+    "All of the above"
+  ],
+  answer: "It is preferable to write a business check to the individual or company being paid for recordkeeping",
+  explanation: "Checks should identify the actual payee to maintain proper business records.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Check Writing & Recording",
+  reference_section: "Check Controls",
+  reference_page: "113",
+  reference_paragraph: "Question 7"
+},
+{
+  id: 1813,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "A pegboard system is one in which:",
+  question_pt: "Um sistema pegboard é aquele em que:",
+  options: [
+    "You write the check and, at the same time, create a duplicate record and reduced subsidiary records",
+    "Checks and receipts are kept in pegged containers",
+    "Single-entry controls are pegged on a board",
+    "Records are not acceptable for tax purposes"
+  ],
+  answer: "You write the check and, at the same time, create a duplicate record and reduced subsidiary records",
+  explanation: "A pegboard system allows multiple records to be created from one entry.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Check Writing & Recording",
+  reference_section: "Pegboard System",
+  reference_page: "114",
+  reference_paragraph: "Question 8"
+},
+{
+  id: 1814,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "You should use a separate accounts payable register when:",
+  question_pt: "Você deve usar um registro separado de contas a pagar quando:",
+  options: [
+    "You cannot keep track with one register",
+    "The IRS requires it",
+    "You have a large volume of transactions and need to separate current expenses and payables",
+    "You do not mind paying for two sets of checks"
+  ],
+  answer: "You have a large volume of transactions and need to separate current expenses and payables",
+  explanation: "Separate registers are useful when transaction volume requires better organization.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Check Writing & Recording",
+  reference_section: "Accounts Payable Register",
+  reference_page: "114",
+  reference_paragraph: "Question 9"
+},
+{
+  id: 1815,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "You should write checks with a computerized system when:",
+  question_pt: "Você deve emitir cheques usando sistema computadorizado quando:",
+  options: [
+    "You have professional training",
+    "The industry develops a simple system",
+    "You can buy a computer and hire someone",
+    "The volume of transactions makes that method the most efficient one available"
+  ],
+  answer: "The volume of transactions makes that method the most efficient one available",
+  explanation: "Computerized check writing is justified when transaction volume makes it efficient.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Check Writing & Recording",
+  reference_section: "Computerized Systems",
+  reference_page: "114",
+  reference_paragraph: "Question 10"
+},
+{
+  id: 1816,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "The voucher system:",
+  question_pt: "O sistema de vouchers:",
+  options: [
+    "Is the most efficient system because it avoids duplication",
+    "Is used only for materials",
+    "Is largely obsolete in today's automated environment",
+    "Does not meet federal recordkeeping requirements"
+  ],
+  answer: "Is largely obsolete in today's automated environment",
+  explanation: "The circled answer indicates the voucher system is largely obsolete in automated accounting.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Check Writing & Recording",
+  reference_section: "Voucher System",
+  reference_page: "114",
+  reference_paragraph: "Question 11"
+},
+{
+  id: 1817,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Automating your check writing provides you with:",
+  question_pt: "Automatizar a emissão de cheques fornece:",
+  options: [
+    "Computer-generated checks",
+    "Job cost records",
+    "Entries to your journal and ledger",
+    "All of the above"
+  ],
+  answer: "All of the above",
+  explanation: "Automated check writing can generate checks, job cost records, and accounting entries.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Check Writing & Recording",
+  reference_section: "Automation",
+  reference_page: "114",
+  reference_paragraph: "Question 12"
+},
+{
+  id: 1818,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Under automated accounting procedures, you:",
+  question_pt: "Sob procedimentos contábeis automatizados, você:",
+  options: [
+    "Need to continue reviewing transactions",
+    "Use the computer to replace check-by-check review",
+    "Save time previously spent checking everything",
+    "No longer sign checks individually"
+  ],
+  answer: "Need to continue reviewing transactions",
+  explanation: "Automation does not eliminate the need to review transactions for accuracy.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Check Writing & Recording",
+  reference_section: "Automation",
+  reference_page: "114",
+  reference_paragraph: "Question 13"
+},
+{
+  id: 1819,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "With a computerized system, you:",
+  question_pt: "Com um sistema computadorizado, você:",
+  options: [
+    "Should still maintain manual files for everything",
+    "Can eliminate all manual paperwork",
+    "Reduce manual files and replace them with more efficient automated records",
+    "Need to hire a computer expert"
+  ],
+  answer: "Reduce manual files and replace them with more efficient automated records",
+  explanation: "Computerized systems reduce manual files and improve record efficiency.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Check Writing & Recording",
+  reference_section: "Computerized Records",
+  reference_page: "114",
+  reference_paragraph: "Question 14"
+},
+{
+  id: 1820,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "It is always a good idea in an automated system to:",
+  question_pt: "Em um sistema automatizado, é sempre uma boa ideia:",
+  options: [
+    "Print records every day",
+    "Copy all records onto microfiche",
+    "Back up your hard disk on a removable disk system",
+    "Keep a manual duplicate system"
+  ],
+  answer: "Back up your hard disk on a removable disk system",
+  explanation: "Automated accounting records should be backed up to prevent loss of data.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Check Writing & Recording",
+  reference_section: "Backups",
+  reference_page: "114",
+  reference_paragraph: "Question 15"
+},
+{
+  id: 1821,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "A 'direct' cost is one that:",
+  question_pt: "Um custo direto é aquele que:",
+  options: [
+    "Must be paid directly to the creditor",
+    "Is directed by contract",
+    "Is directly and specifically related to one job",
+    "Is considered overhead"
+  ],
+  answer: "Is directly and specifically related to one job",
+  explanation: "Direct costs are job-specific.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Inventory & Costs",
+  reference_section: "Test Questions",
+  reference_page: "123",
+  reference_paragraph: "Q1"
+},
+{
+  id: 1822,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Overstocking means:",
+  question_pt: "Excesso de estoque significa:",
+  options: [
+    "Higher insurance and lower efficiency",
+    "More capital tied up",
+    "Higher taxes and risk of obsolescence",
+    "All of the above"
+  ],
+  answer: "All of the above",
+  explanation: "All listed effects occur with overstocking.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Inventory",
+  reference_section: "Test Questions",
+  reference_page: "123",
+  reference_paragraph: "Q2"
+},
+{
+  id: 1823,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "You need several copies of purchase orders because:",
+  question_pt: "Você precisa de várias cópias de ordens de compra porque:",
+  options: [
+    "To match invoice and receiving copy",
+    "Each department needs a copy",
+    "To prevent theft",
+    "All of the above"
+  ],
+  answer: "To match invoice and receiving copy",
+  explanation: "Used for matching purchase documentation.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Purchasing",
+  reference_section: "Test Questions",
+  reference_page: "123",
+  reference_paragraph: "Q3"
+},
+{
+  id: 1824,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "A purchase journal is handy for:",
+  question_pt: "Um diário de compras é útil para:",
+  options: [
+    "Tracking unreceived purchases",
+    "Preventing overcharges",
+    "Controlling job costs",
+    "Posting entries"
+  ],
+  answer: "Tracking unreceived purchases",
+  explanation: "Purchase journals track pending receipts.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Purchasing",
+  reference_section: "Test Questions",
+  reference_page: "123",
+  reference_paragraph: "Q4"
+},
+{
+  id: 1825,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "You record purchases by:",
+  question_pt: "Você registra compras:",
+  options: [
+    "Debit AP, credit inventory",
+    "Debit purchases, credit accounts payable",
+    "Debit both",
+    "Debit AP, credit cash"
+  ],
+  answer: "Debit purchases, credit accounts payable",
+  explanation: "Standard purchase entry.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Purchases",
+  reference_section: "Journal Entries",
+  reference_page: "123",
+  reference_paragraph: "Q5"
+},
+{
+  id: 1826,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Reversing entry for purchases is:",
+  question_pt: "A reversão de compras é:",
+  options: [
+    "Debit AP, credit inventory",
+    "Debit purchases, credit AP",
+    "Debit both",
+    "Debit AP, credit cash"
+  ],
+  answer: "Debit accounts payable and credit cash",
+  explanation: "Payment reduces AP and cash.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Purchases",
+  reference_section: "Entries",
+  reference_page: "123",
+  reference_paragraph: "Q6"
+},
+{
+  id: 1827,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Physical inventory should be taken:",
+  question_pt: "Inventário físico deve ser feito:",
+  options: [
+    "Yearly only",
+    "Weekly",
+    "Monthly",
+    "As needed"
+  ],
+  answer: "As needed",
+  explanation: "Flexible based on business needs.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Inventory",
+  reference_section: "Test Questions",
+  reference_page: "123",
+  reference_paragraph: "Q7"
+},
+{
+  id: 1828,
+  category: "Business & Finance",
+  subcategory: "Accounting",
+  question_en: "Inventory valuation methods include:",
+  question_pt: "Métodos de avaliação de estoque incluem:",
+  options: [
+    "Specific cost",
+    "FIFO",
+    "LIFO",
+    "All of the above"
+  ],
+  answer: "All of the above",
+  explanation: "All are valid valuation methods.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Inventory",
+  reference_section: "Valuation",
+  reference_page: "123",
+  reference_paragraph: "Q8"
+},
+{
+  id: 1829,
+  category: "Business & Finance",
+  subcategory: "Inventory",
+  question_en: "Part of inventory is classified as 'work in process' when:",
+  question_pt: "Parte do estoque é classificada como 'work in process' quando:",
+  options: [
+    "Inventory not yet completed",
+    "Prefabricated materials in shop",
+    "Shipment partially received and rest back-ordered",
+    "Work has started and materials are pending delivery"
+  ],
+  answer: "Prefabricated materials in shop",
+  explanation: "Items being prepared but not yet installed are considered WIP.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Inventory",
+  reference_section: "Test Questions",
+  reference_page: "124",
+  reference_paragraph: "Q9"
+},
+{
+  id: 1830,
+  category: "Business & Finance",
+  subcategory: "Inventory",
+  question_en: "The actual cost of goods sold is calculated by:",
+  question_pt: "O custo real das mercadorias vendidas é calculado por:",
+  options: [
+    "Beginning inventory + costs - ending inventory",
+    "Ending inventory + costs - beginning inventory",
+    "All direct costs only",
+    "Ending minus beginning inventory"
+  ],
+  answer: "Beginning inventory + costs - ending inventory",
+  explanation: "Standard COGS formula.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Inventory",
+  reference_section: "COGS",
+  reference_page: "124",
+  reference_paragraph: "Q10"
+},
+{
+  id: 1831,
+  category: "Business & Finance",
+  subcategory: "Inventory",
+  question_en: "A stock requisition form is used for:",
+  question_pt: "Um formulário de requisição de estoque é usado para:",
+  options: [
+    "Request materials",
+    "Communicate with suppliers",
+    "Monitor warehouse inventory",
+    "All of the above"
+  ],
+  answer: "All of the above",
+  explanation: "It serves all listed purposes.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Inventory",
+  reference_section: "Forms",
+  reference_page: "124",
+  reference_paragraph: "Q11"
+},
+{
+  id: 1832,
+  category: "Business & Finance",
+  subcategory: "Inventory",
+  question_en: "A running inventory system accounts for:",
+  question_pt: "Um sistema de estoque contínuo contabiliza:",
+  options: [
+    "Items coming in",
+    "Items going out",
+    "Both A and B",
+    "Only physical counts"
+  ],
+  answer: "Both A and B",
+  explanation: "Tracks inflow and outflow.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Inventory",
+  reference_section: "Systems",
+  reference_page: "124",
+  reference_paragraph: "Q12"
+},
+{
+  id: 1833,
+  category: "Business & Finance",
+  subcategory: "Inventory",
+  question_en: "A running inventory is calculated by:",
+  question_pt: "O estoque contínuo é calculado por:",
+  options: [
+    "Adding issued inventory",
+    "Physical count only",
+    "Subtracting issued items and adding returns",
+    "Accountant estimate"
+  ],
+  answer: "Subtracting issued items and adding returns",
+  explanation: "Tracks real-time changes.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Inventory",
+  reference_section: "Calculation",
+  reference_page: "124",
+  reference_paragraph: "Q13"
+},
+{
+  id: 1834,
+  category: "Business & Finance",
+  subcategory: "Inventory",
+  question_en: "Instead of counting all inventory several times a year:",
+  question_pt: "Em vez de contar todo o estoque várias vezes ao ano:",
+  options: [
+    "Count different categories at different times",
+    "Count only large items",
+    "Count only at year-end",
+    "Estimate only"
+  ],
+  answer: "Count different categories at different times",
+  explanation: "Cycle counting approach.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Inventory",
+  reference_section: "Control",
+  reference_page: "124",
+  reference_paragraph: "Q14"
+},
+{
+  id: 1835,
+  category: "Business & Finance",
+  subcategory: "Inventory",
+  question_en: "Types of inventory include:",
+  question_pt: "Tipos de estoque incluem:",
+  options: [
+    "Raw materials and finished goods",
+    "Job materials and supplies",
+    "Special order inventory",
+    "Raw materials, supplies, WIP, finished goods"
+  ],
+  answer: "Raw materials, supplies, WIP, finished goods",
+  explanation: "Standard classification.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Inventory",
+  reference_section: "Types",
+  reference_page: "124",
+  reference_paragraph: "Q15"
+},
+{
+  id: 1836,
+  category: "Business & Finance",
+  subcategory: "Payroll",
+  question_en: "Payroll records must include:",
+  question_pt: "Registros de folha de pagamento devem incluir:",
+  options: [
+    "Canceled checks",
+    "Income records",
+    "Detailed earnings and ledger entries",
+    "Bank reconciliations"
+  ],
+  answer: "Detailed earnings and ledger entries",
+  explanation: "Payroll must track earnings and accounting records.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Payroll",
+  reference_section: "Test Questions",
+  reference_page: "140",
+  reference_paragraph: "Q1"
+},
+{
+  id: 1837,
+  category: "Business & Finance",
+  subcategory: "Payroll",
+  question_en: "Payroll expenses include:",
+  question_pt: "Despesas de folha incluem:",
+  options: [
+    "Employer taxes",
+    "Other deductions",
+    "Deposit timing",
+    "All of the above"
+  ],
+  answer: "All of the above",
+  explanation: "All factors must be considered.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Payroll",
+  reference_section: "Expenses",
+  reference_page: "140",
+  reference_paragraph: "Q2"
+},
+{
+  id: 1838,
+  category: "Business & Finance",
+  subcategory: "Payroll",
+  question_en: "Crew time cards should show:",
+  question_pt: "Cartões de ponto devem mostrar:",
+  options: [
+    "Foreman approval",
+    "Gross and net pay",
+    "Hours per job",
+    "Payroll taxes"
+  ],
+  answer: "Hours per job",
+  explanation: "Used for job costing.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Payroll",
+  reference_section: "Tracking",
+  reference_page: "140",
+  reference_paragraph: "Q3"
+},
+{
+  id: 1839,
+  category: "Business & Finance",
+  subcategory: "Payroll",
+  question_en: "Individual earnings record includes:",
+  question_pt: "Registro individual inclui:",
+  options: [
+    "Job breakdown",
+    "Dates, gross pay, deductions",
+    "Worksheet only",
+    "Verification record"
+  ],
+  answer: "Dates, gross pay, deductions",
+  explanation: "Tracks full payroll details.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Payroll",
+  reference_section: "Records",
+  reference_page: "140",
+  reference_paragraph: "Q4"
+},
+{
+  id: 1840,
+  category: "Business & Finance",
+  subcategory: "Payroll",
+  question_en: "Payroll accounting entries include:",
+  question_pt: "Entradas contábeis de payroll incluem:",
+  options: [
+    "Purchase journal",
+    "General ledger only",
+    "Payroll journal only",
+    "Earnings record and general ledger"
+  ],
+  answer: "Earnings record and general ledger",
+  explanation: "Both are required.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Payroll",
+  reference_section: "Entries",
+  reference_page: "140",
+  reference_paragraph: "Q5"
+},
+{
+  id: 1841,
+  category: "Business & Finance",
+  subcategory: "Payroll",
+  question_en: "The employer’s liability is:",
+  question_pt: "A responsabilidade do empregador é:",
+  options: [
+    "Payroll taxes withheld from employee",
+    "Payroll taxes paid above employee withholding",
+    "Combined taxes paid to government",
+    "Liability insurance only"
+  ],
+  answer: "Payroll taxes paid above employee withholding",
+  explanation: "Employer must pay additional payroll taxes beyond employee deductions.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Payroll",
+  reference_section: "Liability",
+  reference_page: "140",
+  reference_paragraph: "Q6"
+},
+{
+  id: 1842,
+  category: "Business & Finance",
+  subcategory: "Payroll",
+  question_en: "Federal unemployment insurance is paid:",
+  question_pt: "O seguro desemprego federal é pago:",
+  options: [
+    "With FICA every paycheck",
+    "Quarterly deposits with Form 941",
+    "Periodically when threshold is reached (Form 940)",
+    "To each state separately"
+  ],
+  answer: "Periodically when threshold is reached (Form 940)",
+  explanation: "FUTA is paid when liability reaches threshold and reported annually.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Payroll",
+  reference_section: "Taxes",
+  reference_page: "140",
+  reference_paragraph: "Q7"
+},
+{
+  id: 1843,
+  category: "Business & Finance",
+  subcategory: "Payroll",
+  question_en: "Form W-2 is:",
+  question_pt: "O formulário W-2 é:",
+  options: [
+    "Employee hiring form",
+    "Quarterly tax report",
+    "Year-end wage and tax statement",
+    "IRS correction form"
+  ],
+  answer: "Year-end wage and tax statement",
+  explanation: "W-2 reports wages and taxes to employee and SSA.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Payroll",
+  reference_section: "Forms",
+  reference_page: "140",
+  reference_paragraph: "Q8"
+},
+{
+  id: 1844,
+  category: "Business & Finance",
+  subcategory: "Payroll",
+  question_en: "Form 1099 is used:",
+  question_pt: "O formulário 1099 é usado:",
+  options: [
+    "Report payments like interest/consulting",
+    "Report payroll over $100k",
+    "Correct W-2",
+    "Request IRS forms"
+  ],
+  answer: "Report payments like interest/consulting",
+  explanation: "1099 reports non-employee payments.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Payroll",
+  reference_section: "Forms",
+  reference_page: "140",
+  reference_paragraph: "Q9"
+},
+{
+  id: 1845,
+  category: "Business & Finance",
+  subcategory: "Payroll",
+  question_en: "Total payroll tax liability includes:",
+  question_pt: "A responsabilidade total de payroll inclui:",
+  options: [
+    "Employee withholdings",
+    "Employee + employer taxes",
+    "Taxes + workers comp",
+    "Only federal taxes"
+  ],
+  answer: "Employee + employer taxes",
+  explanation: "Both employee withholdings and employer contributions.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Payroll",
+  reference_section: "Taxes",
+  reference_page: "140",
+  reference_paragraph: "Q10"
+},
+{
+  id: 1846,
+  category: "Business & Finance",
+  subcategory: "Payroll",
+  question_en: "Large payroll operations should use:",
+  question_pt: "Operações grandes de folha devem usar:",
+  options: [
+    "Accountant staff",
+    "Payroll software/service",
+    "Pegboard system",
+    "Manual system"
+  ],
+  answer: "Payroll software/service",
+  explanation: "Efficiency requires automation or external service.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Payroll",
+  reference_section: "Systems",
+  reference_page: "140",
+  reference_paragraph: "Q11"
+},
+{
+  id: 1847,
+  category: "Business & Finance",
+  subcategory: "Payroll",
+  question_en: "Payroll tax worksheet is useful for:",
+  question_pt: "Planilha de imposto de folha serve para:",
+  options: [
+    "Determine employee pay",
+    "Calculate withholding limits",
+    "Reduce processing time",
+    "Make deposits"
+  ],
+  answer: "Calculate withholding limits",
+  explanation: "Used to determine tax withholding amounts.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Payroll",
+  reference_section: "Taxes",
+  reference_page: "140",
+  reference_paragraph: "Q12"
+},
+{
+  id: 1848,
+  category: "Business & Finance",
+  subcategory: "Payroll",
+  question_en: "Federal tax rates:",
+  question_pt: "As taxas federais de imposto:",
+  options: [
+    "Never change",
+    "Stay constant",
+    "Adjust periodically",
+    "Only in W-2"
+  ],
+  answer: "Adjust periodically",
+  explanation: "Rates are adjusted by law over time.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Taxes",
+  reference_section: "Rates",
+  reference_page: "140",
+  reference_paragraph: "Q13"
+},
+{
+  id: 1849,
+  category: "Business & Finance",
+  subcategory: "Payroll",
+  question_en: "Payroll deposits are made:",
+  question_pt: "Depósitos de payroll são feitos:",
+  options: [
+    "IRS",
+    "Employee bank",
+    "Accountant",
+    "Your bank"
+  ],
+  answer: "Your bank",
+  explanation: "Deposits are processed through employer banking system.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Payroll",
+  reference_section: "Deposits",
+  reference_page: "140",
+  reference_paragraph: "Q14"
+},
+{
+  id: 1850,
+  category: "Business & Finance",
+  subcategory: "Payroll",
+  question_en: "Form W-4 is:",
+  question_pt: "O formulário W-4 é:",
+  options: [
+    "Withholding allowance certificate",
+    "Emergency contact form",
+    "Hourly pay form",
+    "Unemployment form"
+  ],
+  answer: "Withholding allowance certificate",
+  explanation: "Used to determine tax withholding.",
+  reference_book: "Builder’s Guide to Accounting",
+  reference_chapter: "Payroll",
+  reference_section: "Forms",
+  reference_page: "140",
+  reference_paragraph: "Q15"
+},
+{
+  "id": 1851,
+  "category": "Business & Finance",
+  "subcategory": "Overhead Expenses",
+  "question_en": "Fixed overhead expenses are typically:",
+  "question_pt": "Fixed overhead expenses are typically:",
+  "options": [
+    "Predictable or very similar from one month to the next.",
+    "Always exactly the same because they’re fixed by contractual obligation.",
+    "Fixed as to due date, but varying in amount.",
+    "Tied in exactly to sales levels and therefore fixed on a percentage basis."
+  ],
+  "answer": "Predictable or very similar from one month to the next.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Overhead Expenses",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q1"
+},
+{
+  "id": 1852,
+  "category": "Business & Finance",
+  "subcategory": "Overhead Expenses",
+  "question_en": "Variable expenses are typically:",
+  "question_pt": "Variable expenses are typically:",
+  "options": [
+    "Unpredictable because they can’t be controlled and will change entirely due to circumstances beyond anyone’s control.",
+    "Directly tied to each job and will vary predictably with job activity.",
+    "Not directly affected by sales volume, but inclined to vary with changes in sales.",
+    "Of a similar amount each month, but will vary depending on expense controls you practice."
+  ],
+  "answer": "Not directly affected by sales volume, but inclined to vary with changes in sales.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Overhead Expenses",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q2"
+},
+{
+  "id": 1853,
+  "category": "Business & Finance",
+  "subcategory": "Budgets",
+  "question_en": "Budgets are most valuable when:",
+  "question_pt": "Budgets are most valuable when:",
+  "options": [
+    "They’re handled automatically, so no one has to follow up on them.",
+    "They show that you’ll make a large profit, so you won’t have to watch your expenses.",
+    "They are used to actually control expenses and profits, including monthly review and control activity on your part.",
+    "They are managed strictly by your accountant, so you aren’t required to review them every month."
+  ],
+  "answer": "They are used to actually control expenses and profits, including monthly review and control activity on your part.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Budgets",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q3"
+},
+{
+  "id": 1854,
+  "category": "Business & Finance",
+  "subcategory": "Costs",
+  "question_en": "The sequence of costs and expenses in the general ledger is usually:",
+  "question_pt": "The sequence of costs and expenses in the general ledger is usually:",
+  "options": [
+    "Direct costs, fixed expenses, variable expenses.",
+    "Direct costs, variable expenses, fixed expenses.",
+    "Variable expenses, direct costs, fixed expenses.",
+    "Variable expenses, fixed expenses, direct costs."
+  ],
+  "answer": "Direct costs, variable expenses, fixed expenses.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Costs",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q4"
+},
+{
+  "id": 1855,
+  "category": "Business & Finance",
+  "subcategory": "Ratios",
+  "question_en": "Ratios are useful tools for analyzing overhead expenses because:",
+  "question_pt": "Ratios are useful tools for analyzing overhead expenses because:",
+  "options": [
+    "Overhead expenses come out of computerized accounting systems as ratios.",
+    "They are figured out on a computer, so they tend to be dependable and accurate.",
+    "Your accountant computes them, so they are highly accurate.",
+    "They translate pure numbers into more easily understood versions of your records."
+  ],
+  "answer": "They translate pure numbers into more easily understood versions of your records.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Ratios",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q5"
+},
+{
+  "id": 1856,
+  "category": "Business & Finance",
+  "subcategory": "Analysis",
+  "question_en": "An unfavorable trend indicates that:",
+  "question_pt": "An unfavorable trend indicates that:",
+  "options": [
+    "You are losing money and that the competition is probably too strong.",
+    "Something is occurring that needs to be corrected as soon as possible.",
+    "There is something wrong in the numbers and the ratio should be figured again.",
+    "Your accountant probably made an error when doing your annual budget and forecast."
+  ],
+  "answer": "Something is occurring that needs to be corrected as soon as possible.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Analysis",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q6"
+},
+{
+  "id": 1857,
+  "category": "Business & Finance",
+  "subcategory": "Analysis",
+  "question_en": "An analysis of fixed expenses compared to sales should show:",
+  "question_pt": "An analysis of fixed expenses compared to sales should show:",
+  "options": [
+    "A steadily rising percentage of fixed expenses when sales are rising, because fixed expenses tend to accelerate in periods of high volume.",
+    "A steadily falling percentage of fixed expenses when sales are rising, because fixed expenses are generally fixed by amount.",
+    "A steady and consistent percentage when sales are rising, because fixed expenses are associated directly with and fixed by sales.",
+    "A level of overhead completely unrelated to sales, since there is no comparison of any validity between sales and fixed expenses."
+  ],
+  "answer": "A steadily falling percentage of fixed expenses when sales are rising, because fixed expenses are generally fixed by amount.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Analysis",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q7"
+},
+{
+  "id": 1858,
+  "category": "Business & Finance",
+  "subcategory": "Accounting Entries",
+  "question_en": "The entry to accrue an expense involves:",
+  "question_pt": "The entry to accrue an expense involves:",
+  "options": [
+    "A debit to the liability account and a credit to the expense account.",
+    "A debit to the expense account and a credit to cash.",
+    "A debit to the expense account and a credit to the liability account.",
+    "A debit to the liability account and a credit to cash."
+  ],
+  "answer": "A debit to the expense account and a credit to the liability account.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Accounting Entries",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q8"
+},
+{
+  "id": 1859,
+  "category": "Business & Finance",
+  "subcategory": "Accounting Entries",
+  "question_en": "The entry to reverse an accrual involves:",
+  "question_pt": "The entry to reverse an accrual involves:",
+  "options": [
+    "A debit to the liability account and a credit to the expense account.",
+    "A debit to the expense account and a credit to cash.",
+    "A debit to the expense account and a credit to the liability account.",
+    "A debit to the liability account and a credit to cash."
+  ],
+  "answer": "A debit to the liability account and a credit to cash.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Accounting Entries",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q9"
+},
+{
+  "id": 1860,
+  "category": "Business & Finance",
+  "subcategory": "Assets",
+  "question_en": "You would use the prepaid asset account to record:",
+  "question_pt": "You would use the prepaid asset account to record:",
+  "options": [
+    "Monthly expenses for an expense paid all at once at the beginning of the period.",
+    "Monthly expenses paid in advance due to an error.",
+    "The expensing through depreciation of a part of a capital asset’s value.",
+    "The down payment made on a fixed asset."
+  ],
+  "answer": "Monthly expenses for an expense paid all at once at the beginning of the period.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Assets",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q10"
+},
+{
+  "id": 1861,
+  "category": "Business & Finance",
+  "subcategory": "Costs",
+  "question_en": "Direct costs differ from variable and general expenses in the sense that:",
+  "question_pt": "Direct costs differ from variable and general expenses in the sense that:",
+  "options": [
+    "Direct costs are paid directly to the vendor.",
+    "Direct costs can’t be controlled like expenses can, since they’re directly affected by sales volume.",
+    "Direct costs are classified in a different section of the ledger by your accountant.",
+    "Budgets for direct costs are far more important."
+  ],
+  "answer": "Direct costs can’t be controlled like expenses can, since they’re directly affected by sales volume.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Costs",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q11"
+},
+{
+  "id": 1862,
+  "category": "Business & Finance",
+  "subcategory": "Budgets",
+  "question_en": "A realistic budget establishes:",
+  "question_pt": "A realistic budget establishes:",
+  "options": [
+    "Profit and expense standards you plan to observe.",
+    "Future expansion based on your creditworthiness.",
+    "Sales volume.",
+    "Cash flow requirements for the coming year."
+  ],
+  "answer": "Profit and expense standards you plan to observe.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Budgets",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q12"
+},
+{
+  "id": 1863,
+  "category": "Business & Finance",
+  "subcategory": "Budgets",
+  "question_en": "The periodic budget analysis reveals:",
+  "question_pt": "The periodic budget analysis reveals:",
+  "options": [
+    "Mathematical errors in your budget.",
+    "How sales and direct costs interrelate.",
+    "Your likely tax liability at the end of the year.",
+    "Which expenses are over or under their budgeted level."
+  ],
+  "answer": "Which expenses are over or under their budgeted level.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Budgets",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q13"
+},
+{
+  "id": 1864,
+  "category": "Business & Finance",
+  "subcategory": "Controls",
+  "question_en": "Typical of budgetary controls you can initiate are:",
+  "question_pt": "Typical of budgetary controls you can initiate are:",
+  "options": [
+    "Review of office supply expenses at the end of the month.",
+    "Review of requisitions in advance of placing orders.",
+    "Reclassifying troublesome expenses as direct costs.",
+    "Recoding of expenses over budget to expense categories under budget."
+  ],
+  "answer": "Review of requisitions in advance of placing orders.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Controls",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q14"
+},
+{
+  "id": 1865,
+  "category": "Business & Finance",
+  "subcategory": "Budgets",
+  "question_en": "Variable expenses are best budgeted as:",
+  "question_pt": "Variable expenses are best budgeted as:",
+  "options": [
+    "A fixed amount split evenly through the year.",
+    "An amount that varies seasonally.",
+    "A fixed percentage of sales within a broad range.",
+    "An arbitrary level, since they cannot be controlled."
+  ],
+  "answer": "A fixed percentage of sales within a broad range.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Budgets",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q15"
+},
+{
+  "id": 1866,
+  "category": "Business & Finance",
+  "subcategory": "Depreciation",
+  "question_en": "Depreciation, for the purposes of bookkeeping, is:",
+  "question_pt": "Depreciation, for the purposes of bookkeeping, is:",
+  "options": [
+    "The normal wear and tear on equipment.",
+    "The periodic expense you claim to write off the value of capital assets.",
+    "A book entry only and not a legitimate or allowable business expense.",
+    "The cash paid on borrowed funds used to purchase a capital asset."
+  ],
+  "answer": "The periodic expense you claim to write off the value of capital assets.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Depreciation",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q1"
+},
+{
+  "id": 1867,
+  "category": "Business & Finance",
+  "subcategory": "Assets",
+  "question_en": "A “current” asset is one that:",
+  "question_pt": "A “current” asset is one that:",
+  "options": [
+    "Is in the form of cash or is expected to be converted to cash within one year.",
+    "An asset currently owned and not simply prepaid or held as a deposit.",
+    "Any asset directly related to a current liability, such as supplies for which you still owe money.",
+    "An asset that is not obsolete."
+  ],
+  "answer": "Is in the form of cash or is expected to be converted to cash within one year.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Assets",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q2"
+},
+{
+  "id": 1868,
+  "category": "Business & Finance",
+  "subcategory": "Depreciation",
+  "question_en": "The correct treatment for depreciation of land is:",
+  "question_pt": "The correct treatment for depreciation of land is:",
+  "options": [
+    "It must be depreciated on the same basis as any structures or improvements on it.",
+    "Only the portion used for business can be depreciated.",
+    "You can’t claim any accelerated depreciation, but only straight line depreciation for land.",
+    "Land can’t be depreciated under any circumstances."
+  ],
+  "answer": "Land can’t be depreciated under any circumstances.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Depreciation",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q3"
+},
+{
+  "id": 1869,
+  "category": "Business & Finance",
+  "subcategory": "Balance Sheet",
+  "question_en": "When listing long-term assets on a balance sheet:",
+  "question_pt": "When listing long-term assets on a balance sheet:",
+  "options": [
+    "Show all gross values in detail, and then subtract accumulated depreciation in one number.",
+    "Show three columns: gross value, depreciation, and net value.",
+    "List only the summary totals for gross assets, accumulated depreciation, and net; and support these with a supplementary schedule.",
+    "Any of the above methods is acceptable."
+  ],
+  "answer": "Any of the above methods is acceptable.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Balance Sheet",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q4"
+},
+{
+  "id": 1870,
+  "category": "Business & Finance",
+  "subcategory": "Depreciation",
+  "question_en": "The Accumulated Depreciation account is:",
+  "question_pt": "The Accumulated Depreciation account is:",
+  "options": [
+    "An expense account showing depreciation claimed year to date.",
+    "A liability account showing the amount owed on financed asset purchases.",
+    "A negative asset account, showing the gradual reduction of an asset’s value as it is written off over the years.",
+    "A positive asset account in which the gross value is reduced to zero."
+  ],
+  "answer": "A negative asset account, showing the gradual reduction of an asset’s value as it is written off over the years.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Depreciation",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q5"
+},
+{
+  "id": 1871,
+  "category": "Business & Finance",
+  "subcategory": "Equipment Costs",
+  "question_en": "A summary of equipment costs by job is appropriate when:",
+  "question_pt": "A summary of equipment costs by job is appropriate when:",
+  "options": [
+    "You want to bill a customer for the cost of acquiring major capital assets.",
+    "Your equipment is used on specific jobs, and you can account for the hourly cost of operation.",
+    "You want to avoid leasing equipment and having to pass on the cost to a customer.",
+    "You need to cover the cost of equipment idle time."
+  ],
+  "answer": "Your equipment is used on specific jobs, and you can account for the hourly cost of operation.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Equipment Costs",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q6"
+},
+{
+  "id": 1872,
+  "category": "Business & Finance",
+  "subcategory": "Depreciation",
+  "question_en": "Straight line depreciation is computed by:",
+  "question_pt": "Straight line depreciation is computed by:",
+  "options": [
+    "Dividing the value of the asset by the years in the recovery period, and claiming the same deduction every year.",
+    "Depreciating the asset only to the extent that it is paid for.",
+    "Taking the expense as a straight line-item write-off in the year purchased.",
+    "Writing off the asset only over 35 years."
+  ],
+  "answer": "Dividing the value of the asset by the years in the recovery period, and claiming the same deduction every year.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Depreciation",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q7"
+},
+{
+  "id": 1873,
+  "category": "Business & Finance",
+  "subcategory": "Depreciation",
+  "question_en": "Declining balance depreciation is often appropriate in the construction industry because:",
+  "question_pt": "Declining balance depreciation is often appropriate in the construction industry because:",
+  "options": [
+    "It’s valuable to write off as much as possible in the early years and then sell the asset for a book profit.",
+    "The value of many types of construction equipment declines rapidly during the earlier years of its recovery period.",
+    "It is a method that allows you to adjust the amount of depreciation each year, depending on your income.",
+    "It is the easiest method to figure."
+  ],
+  "answer": "The value of many types of construction equipment declines rapidly during the earlier years of its recovery period.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Depreciation",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q8"
+},
+{
+  "id": 1874,
+  "category": "Business & Finance",
+  "subcategory": "Amortization",
+  "question_en": "Amortization is an expense that:",
+  "question_pt": "Amortization is an expense that:",
+  "options": [
+    "Is used to write off certain types of expenses in a method similar to depreciation.",
+    "A technical word used by accountants that really means depreciation.",
+    "Is used only for intangible assets.",
+    "Applies only to the timber industry, and is rarely seen in the construction trade."
+  ],
+  "answer": "Is used to write off certain types of expenses in a method similar to depreciation.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Amortization",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q9"
+},
+{
+  "id": 1875,
+  "category": "Business & Finance",
+  "subcategory": "Assets",
+  "question_en": "When you sell an asset:",
+  "question_pt": "When you sell an asset:",
+  "options": [
+    "You remove the value from your books, as well as all accumulated depreciation.",
+    "You have to pay taxes on the gain, including all of the depreciation you claimed during the time you owned it.",
+    "The profit is separate from your operating profit or loss.",
+    "All of the above."
+  ],
+  "answer": "All of the above.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Assets",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q10"
+},
+{
+  "id": 1876,
+  "category": "Business & Finance",
+  "subcategory": "Depreciation",
+  "question_en": "You can make an election to:",
+  "question_pt": "You can make an election to:",
+  "options": [
+    "Depreciate all property using 200 percent declining balance.",
+    "Depreciate all property using the straight-line method.",
+    "Expense all assets acquired this year, without limit.",
+    "Treat capital assets like general expenses."
+  ],
+  "answer": "Depreciate all property using the straight-line method.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Depreciation",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q11"
+},
+{
+  "id": 1877,
+  "category": "Business & Finance",
+  "subcategory": "Tax",
+  "question_en": "The “expensing” provision allows you to:",
+  "question_pt": "The “expensing” provision allows you to:",
+  "options": [
+    "Write off qualified assets as expenses in the year they’re placed in service.",
+    "Depreciate land using the straight-line method.",
+    "Increase reported expenses as a percentage of asset value.",
+    "Deduct depreciation twice."
+  ],
+  "answer": "Write off qualified assets as expenses in the year they’re placed in service.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Tax",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q12"
+},
+{
+  "id": 1878,
+  "category": "Business & Finance",
+  "subcategory": "Tax",
+  "question_en": "Expensing is limited in terms of:",
+  "question_pt": "Expensing is limited in terms of:",
+  "options": [
+    "Dollar amount.",
+    "Type of asset.",
+    "Use of the asset.",
+    "All of the above."
+  ],
+  "answer": "All of the above.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Tax",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q13"
+},
+{
+  "id": 1879,
+  "category": "Business & Finance",
+  "subcategory": "Depreciation",
+  "question_en": "The mid-month convention is a calculation of:",
+  "question_pt": "The mid-month convention is a calculation of:",
+  "options": [
+    "Taxes due by the mid-point of each month.",
+    "Depreciation you claim from one month to the next.",
+    "Depreciation claimed in the first year property is placed into service.",
+    "Amortization allowed under current rules."
+  ],
+  "answer": "Depreciation claimed in the first year property is placed into service.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Depreciation",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q14"
+},
+{
+  "id": 1880,
+  "category": "Business & Finance",
+  "subcategory": "Depreciation",
+  "question_en": "The decision to depreciate a class of assets using the straight-line method is:",
+  "question_pt": "The decision to depreciate a class of assets using the straight-line method is:",
+  "options": [
+    "Irrevocable.",
+    "Inadvisable.",
+    "Illegal.",
+    "None of the above."
+  ],
+  "answer": "Irrevocable.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Depreciation",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q15"
+},
+{
+  "id": 1881,
+  "category": "Business & Finance",
+  "subcategory": "Cash Budgeting",
+  "question_en": "A primary purpose of cash budgeting is to:",
+  "question_pt": "A primary purpose of cash budgeting is to:",
+  "options": [
+    "Provide information to lenders to convince them you need cash.",
+    "Plan ahead so that cash you need in the future will be available when needed.",
+    "Comply with income tax laws.",
+    "Avoid having to give credit to customers."
+  ],
+  "answer": "Plan ahead so that cash you need in the future will be available when needed.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Cash Budgeting",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q1"
+},
+{
+  "id": 1882,
+  "category": "Business & Finance",
+  "subcategory": "Cash Flow",
+  "question_en": "Lenders are interested in “cash flow” because:",
+  "question_pt": "Lenders are interested in “cash flow” because:",
+  "options": [
+    "It shows them how promptly your customers pay their bills.",
+    "It demonstrates the degree of ability you have in managing your cash.",
+    "It establishes whether or not your business is healthy enough to afford loan payments.",
+    "All of the above."
+  ],
+  "answer": "All of the above.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Cash Flow",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q2"
+},
+{
+  "id": 1883,
+  "category": "Business & Finance",
+  "subcategory": "Ratios",
+  "question_en": "The current ratio is a comparison between:",
+  "question_pt": "The current ratio is a comparison between:",
+  "options": [
+    "Current and past-due liabilities.",
+    "Current jobs under contract, and jobs under contract one year ago.",
+    "Current versus long-term loan balances.",
+    "Current assets and liabilities."
+  ],
+  "answer": "Current assets and liabilities.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Ratios",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q3"
+},
+{
+  "id": 1884,
+  "category": "Business & Finance",
+  "subcategory": "Ratios",
+  "question_en": "The ratio of debt to capitalization shows:",
+  "question_pt": "The ratio of debt to capitalization shows:",
+  "options": [
+    "Total debts compared to total net worth.",
+    "Total borrowed funds from sources outside and inside the business.",
+    "Total accounts payable compared to capital assets.",
+    "Total notes payable on loans used to buy capital assets, compared to current net value of those assets."
+  ],
+  "answer": "Total debts compared to total net worth.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Ratios",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q4"
+},
+{
+  "id": 1885,
+  "category": "Business & Finance",
+  "subcategory": "Financial Analysis",
+  "question_en": "The “sources and applications” funds is a study of:",
+  "question_pt": "The “sources and applications” funds is a study of:",
+  "options": [
+    "Lenders who are willing to loan money to contractors.",
+    "The sources of funds, such as income and sales of fixed assets, and the application of funds, like repayment of debts and purchase of fixed assets.",
+    "Net profits, but strictly on a cash basis.",
+    "The percentage of profits reinvested in the business, versus profits taken out for the owner’s personal use."
+  ],
+  "answer": "The sources of funds, such as income and sales of fixed assets, and the application of funds, like repayment of debts and purchase of fixed assets.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Financial Analysis",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q5"
+},
+{
+  "id": 1886,
+  "category": "Business & Finance",
+  "subcategory": "Cash Flow",
+  "question_en": "The “cash movement method” describes:",
+  "question_pt": "The “cash movement method” describes:",
+  "options": [
+    "Collection trends and your effectiveness in getting customers to pay on time.",
+    "The profitability of investing in fixed assets.",
+    "Turnover of capital to produce cash profits.",
+    "Budgeting only the flow of cash in and out of your business."
+  ],
+  "answer": "Budgeting only the flow of cash in and out of your business.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Cash Flow",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q6"
+},
+{
+  "id": 1887,
+  "category": "Business & Finance",
+  "subcategory": "Cash Flow",
+  "question_en": "In any analysis of cash flow, depreciation is:",
+  "question_pt": "In any analysis of cash flow, depreciation is:",
+  "options": [
+    "Always figured on the straight line method.",
+    "Allowed only on the same schedule as your loan payments.",
+    "Excluded as it is a non-cash expense.",
+    "Treated as a reduction of net profits."
+  ],
+  "answer": "Excluded as it is a non-cash expense.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Cash Flow",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q7"
+},
+{
+  "id": 1888,
+  "category": "Business & Finance",
+  "subcategory": "Controls",
+  "question_en": "Cash controls enable you to:",
+  "question_pt": "Cash controls enable you to:",
+  "options": [
+    "Control collection trends.",
+    "Prevent embezzlement.",
+    "Plan and control future cash needs.",
+    "All of the above."
+  ],
+  "answer": "All of the above.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Controls",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q8"
+},
+{
+  "id": 1889,
+  "category": "Business & Finance",
+  "subcategory": "Financial Analysis",
+  "question_en": "Your break-even point is:",
+  "question_pt": "Your break-even point is:",
+  "options": [
+    "The level of sales required to have no profit and no loss.",
+    "The amount of cash you need to receive today to pay bills that must be paid.",
+    "The budgeted overhead number that will be acceptable in order to meet your goals.",
+    "The amount of a loan needed to pay off all of your outstanding bills."
+  ],
+  "answer": "The level of sales required to have no profit and no loss.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Financial Analysis",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q9"
+},
+{
+  "id": 1890,
+  "category": "Business & Finance",
+  "subcategory": "Controls",
+  "question_en": "The best way to discourage and prevent embezzlement is to:",
+  "question_pt": "The best way to discourage and prevent embezzlement is to:",
+  "options": [
+    "Ask all employees to submit to periodic lie detector tests.",
+    "Install cash control procedures and enforce them strictly.",
+    "Install hidden security cameras in employee work areas.",
+    "Have FBI checks run on all employees who handle money."
+  ],
+  "answer": "Install cash control procedures and enforce them strictly.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Controls",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q10"
+},
+{
+  "id": 1891,
+  "category": "Business & Finance",
+  "subcategory": "Ratios",
+  "question_en": "The quick assets ratio is:",
+  "question_pt": "The quick assets ratio is:",
+  "options": [
+    "So called because it can be done quickly.",
+    "Also called the acid test.",
+    "A method for valuing inventory.",
+    "Arcane for purposes of analysis."
+  ],
+  "answer": "Also called the acid test.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Ratios",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q11"
+},
+{
+  "id": 1892,
+  "category": "Business & Finance",
+  "subcategory": "Cash Budgeting",
+  "question_en": "Cash budgeting in general is:",
+  "question_pt": "Cash budgeting in general is:",
+  "options": [
+    "A plan for the use of resources to pay bills as they arise.",
+    "Of no value to the residential contractor.",
+    "A function for your accountant.",
+    "Required by the IRS."
+  ],
+  "answer": "A plan for the use of resources to pay bills as they arise.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Cash Budgeting",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q12"
+},
+{
+  "id": 1893,
+  "category": "Business & Finance",
+  "subcategory": "Cash Flow",
+  "question_en": "Current cash flow control is important because:",
+  "question_pt": "Current cash flow control is important because:",
+  "options": [
+    "Your banker may have to loan you money if your current cash flow indicates you lack the necessary controls.",
+    "It’s needed for the balance sheet.",
+    "It’s used to divert a percentage of cash away from current obligations to cover long-term investments.",
+    "You need to be in control in order to expand and to manage your current obligations."
+  ],
+  "answer": "You need to be in control in order to expand and to manage your current obligations.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Cash Flow",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q13"
+},
+{
+  "id": 1894,
+  "category": "Business & Finance",
+  "subcategory": "Assets",
+  "question_en": "Current assets are “current” in the sense that:",
+  "question_pt": "Current assets are “current” in the sense that:",
+  "options": [
+    "They are more up-to-date than “non-current” assets.",
+    "They are in the form of cash or will be converted to cash within one year.",
+    "They are funds now due and payable.",
+    "They are assets that you purchased within the last year."
+  ],
+  "answer": "They are in the form of cash or will be converted to cash within one year.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Assets",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q14"
+},
+{
+  "id": 1895,
+  "category": "Business & Finance",
+  "subcategory": "Ratios",
+  "question_en": "The ratio of expenses to sales:",
+  "question_pt": "The ratio of expenses to sales:",
+  "options": [
+    "Is an indication of market forces in your area.",
+    "Helps identify job-related cost overruns.",
+    "Helps you track expense levels to keep them in line with your budget.",
+    "Indicates which lines of business provide the best cash flow."
+  ],
+  "answer": "Helps you track expense levels to keep them in line with your budget.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Ratios",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q15"
+},
+{
+  "id": 1896,
+  "category": "Business & Finance",
+  "subcategory": "Cost Accounting",
+  "question_en": "Cost accounting controls:",
+  "question_pt": "Cost accounting controls:",
+  "options": [
+    "Tend to belong in the expertise of trained cost accountants.",
+    "Are normally found as part of specialized accounting software.",
+    "Can be exercised without special training or background.",
+    "Are actually separate from job cost controls."
+  ],
+  "answer": "Can be exercised without special training or background.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Cost Accounting",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q1"
+},
+{
+  "id": 1897,
+  "category": "Business & Finance",
+  "subcategory": "Cost Systems",
+  "question_en": "A good cost system should include information allowing you to:",
+  "question_pt": "A good cost system should include information allowing you to:",
+  "options": [
+    "Exercise a degree of control over direct costs, which are exclusive of overhead.",
+    "Monitor inventory levels as they change and control the volume of purchases.",
+    "Control and monitor the effectiveness of crews on the job to ensure that labor excesses don’t erode profits.",
+    "All of the above."
+  ],
+  "answer": "All of the above.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Cost Systems",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q2"
+},
+{
+  "id": 1898,
+  "category": "Business & Finance",
+  "subcategory": "Job Costing",
+  "question_en": "When you run into job overruns:",
+  "question_pt": "When you run into job overruns:",
+  "options": [
+    "They translate into unavoidable losses on that particular job and need to be made up elsewhere.",
+    "They result in losses that must be passed on to the client.",
+    "You need to take immediate action to limit or reverse the problem to prevent further erosion of your profits.",
+    "They are probably caused by competitive factors."
+  ],
+  "answer": "You need to take immediate action to limit or reverse the problem to prevent further erosion of your profits.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Job Costing",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q3"
+},
+{
+  "id": 1899,
+  "category": "Business & Finance",
+  "subcategory": "Job Costing",
+  "question_en": "Job cost analysis:",
+  "question_pt": "Job cost analysis:",
+  "options": [
+    "Is helpful only if reports are received in a timely manner.",
+    "Is valuable information at times, but difficult to get instantly because of the paperwork involved.",
+    "Requires computerization to produce efficiently.",
+    "Is essential for the preparation of accurate financial statements."
+  ],
+  "answer": "Is helpful only if reports are received in a timely manner.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Job Costing",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q4"
+},
+{
+  "id": 1900,
+  "category": "Business & Finance",
+  "subcategory": "Scheduling",
+  "question_en": "Scheduling is important because:",
+  "question_pt": "Scheduling is important because:",
+  "options": [
+    "Accelerating your time schedule enables you to improve overall profits.",
+    "Control helps you to manage direct labor and without control you have no way of knowing how much time your crews spend on the job.",
+    "Subcontractors schedule their time, and their time is not as flexible as yours.",
+    "You can only make time for management and review functions when your jobs are progressing as planned."
+  ],
+  "answer": "Control helps you to manage direct labor and without control you have no way of knowing how much time your crews spend on the job.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Scheduling",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q5"
+},
+{
+  "id": 1901,
+  "category": "Business & Finance",
+  "subcategory": "Performance",
+  "question_en": "Performance standards allow you to:",
+  "question_pt": "Performance standards allow you to:",
+  "options": [
+    "Approach lenders with professional financial statements, leading to more avenues of capitalization.",
+    "Make judgments about results based on your goals.",
+    "Monitor employee performance so that evaluations can be fair and reliable.",
+    "Bring jobs in at or under budget."
+  ],
+  "answer": "Make judgments about results based on your goals.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Performance",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q6"
+},
+{
+  "id": 1902,
+  "category": "Business & Finance",
+  "subcategory": "Cost Control",
+  "question_en": "Control of costs under the percentage-of-completion method:",
+  "question_pt": "Control of costs under the percentage-of-completion method:",
+  "options": [
+    "Presents special challenges since those costs aren’t recognized except in the degree to which the job is completed.",
+    "Is a function done outside of the general ledger.",
+    "Is easier when thorough procedures and efficient forms are part of your routine.",
+    "All of the above."
+  ],
+  "answer": "All of the above.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Cost Control",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q7"
+},
+{
+  "id": 1903,
+  "category": "Business & Finance",
+  "subcategory": "Deferred Costs",
+  "question_en": "Deferred costs are those costs that:",
+  "question_pt": "Deferred costs are those costs that:",
+  "options": [
+    "Are not incurred because you shop for discounts and better prices.",
+    "Come in under budget.",
+    "Are not recognized because they are in excess of the percentage of job completion.",
+    "Are booked in advance of the percentage of completion on the job, even though they shouldn’t be."
+  ],
+  "answer": "Are not recognized because they are in excess of the percentage of job completion.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Deferred Costs",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q8"
+},
+{
+  "id": 1904,
+  "category": "Business & Finance",
+  "subcategory": "Income",
+  "question_en": "Deferred income is:",
+  "question_pt": "Deferred income is:",
+  "options": [
+    "Income received in advance of the time it is earned.",
+    "Income included in your plan, but not yet paid by the customer.",
+    "Income counted in your forecast for the purpose of your financial statement, but not likely to be received until next year.",
+    "A discount received on volume purchases of material, but not booked until the following month."
+  ],
+  "answer": "Income received in advance of the time it is earned.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Income",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q9"
+},
+{
+  "id": 1905,
+  "category": "Business & Finance",
+  "subcategory": "Journal Entries",
+  "question_en": "Deferred costs and expenses are booked with a journal entry including:",
+  "question_pt": "Deferred costs and expenses are booked with a journal entry including:",
+  "options": [
+    "A debit to each cost and expense account, and a credit to the deferred cost liability account.",
+    "A debit to the deferred cost asset account, and credits to each cost and expense account.",
+    "Debits or credits to various cost and expense accounts, depending on the timing of the entry.",
+    "A debit to income and a credit to the liability account."
+  ],
+  "answer": "A debit to the deferred cost asset account, and credits to each cost and expense account.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Journal Entries",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q10"
+},
+{
+  "id": 1906,
+  "category": "Business & Finance",
+  "subcategory": "Job Costing",
+  "question_en": "The allocation of general expenses by job:",
+  "question_pt": "The allocation of general expenses by job:",
+  "options": [
+    "Is done on a percentage basis.",
+    "Is done based on percentage-of-completion.",
+    "Requires exact analysis by expense category.",
+    "Has no real value to your job cost analysis."
+  ],
+  "answer": "Has no real value to your job cost analysis.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Job Costing",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q11"
+},
+{
+  "id": 1907,
+  "category": "Business & Finance",
+  "subcategory": "Job Costing",
+  "question_en": "Job cost analysis should occur at:",
+  "question_pt": "Job cost analysis should occur at:",
+  "options": [
+    "Sales level.",
+    "Gross profit level.",
+    "Operating profit level.",
+    "After-tax profit level."
+  ],
+  "answer": "Gross profit level.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Job Costing",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q12"
+},
+{
+  "id": 1908,
+  "category": "Business & Finance",
+  "subcategory": "Job Costing",
+  "question_en": "The problem of trying to allocate expenses to jobs is that:",
+  "question_pt": "The problem of trying to allocate expenses to jobs is that:",
+  "options": [
+    "It makes the analysis inaccurate.",
+    "It takes too much time.",
+    "Allocations are complex.",
+    "Allocations require too much information."
+  ],
+  "answer": "It makes the analysis inaccurate.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Job Costing",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q13"
+},
+{
+  "id": 1909,
+  "category": "Business & Finance",
+  "subcategory": "Job Cost Systems",
+  "question_en": "A job cost system should be:",
+  "question_pt": "A job cost system should be:",
+  "options": [
+    "Designed according to the limitations or potential of your software program.",
+    "Dictated by your accountant based on current reporting standards.",
+    "Programmed to ensure allocation of expenses so that no job will be unprofitable.",
+    "Made to work efficiently so that the job of tracking will be easier."
+  ],
+  "answer": "Made to work efficiently so that the job of tracking will be easier.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Job Cost Systems",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q14"
+},
+{
+  "id": 1910,
+  "category": "Business & Finance",
+  "subcategory": "Job Costing",
+  "question_en": "Good job cost records can help you to:",
+  "question_pt": "Good job cost records can help you to:",
+  "options": [
+    "Do your tax planning better.",
+    "Prepare future estimates with greater accuracy.",
+    "Save bookkeeping time by skipping some entries.",
+    "Do less planning."
+  ],
+  "answer": "Prepare future estimates with greater accuracy.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Job Costing",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q15"
 }
   ];

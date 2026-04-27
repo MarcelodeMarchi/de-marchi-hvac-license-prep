@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from "react";
-import { questions } from "../data/questionsData";
+import { questions as allQuestions } from "../data/questionsData";
 import {
   getNonRepeatingSelection,
   shuffleArray,
 } from "../utils/questionPicker";
 import { getReferenceInfo } from "../utils/questionReference";
 
-function ExamMode({ onChangeMode }) {
+function ExamMode({ onChangeMode, onChangeTrack, questions }) {
+  const questionsSource = questions || allQuestions;
   const [selectedQuestions, setSelectedQuestions] = useState([]);
   const [index, setIndex] = useState(0);
   const [score, setScore] = useState(0);
@@ -16,12 +17,13 @@ function ExamMode({ onChangeMode }) {
   const [timeLeft, setTimeLeft] = useState(120 * 60); // 2 hours
 
   useEffect(() => {
-    const picked = getNonRepeatingSelection(questions, 50).map((q) => ({
+    const count = Math.min(50, questionsSource.length);
+    const picked = getNonRepeatingSelection(questionsSource, count).map((q) => ({
       ...q,
       options: shuffleArray(q.options),
     }));
     setSelectedQuestions(picked);
-  }, []);
+  }, [questionsSource]);
 
   useEffect(() => {
     if (finished) return;
@@ -120,6 +122,10 @@ function ExamMode({ onChangeMode }) {
         <button className="secondary-btn" onClick={() => onChangeMode("menu")}>
           Return to Menu
         </button>
+
+        <button className="secondary-btn" onClick={onChangeTrack}>
+          Change Track
+        </button>
       </div>
     );
   }
@@ -135,7 +141,7 @@ function ExamMode({ onChangeMode }) {
 
       {/* 🔹 ADICIONADO: número da questão */}
       <h3 style={{ color: "#0052a2", marginBottom: "15px" }}>
-        Question {index + 1} of 50
+        Question {index + 1} of {selectedQuestions.length}
       </h3>
 
       <p className="question-en"><strong>{atual.question_en}</strong></p>
@@ -172,6 +178,10 @@ function ExamMode({ onChangeMode }) {
 
       <button className="secondary-btn" onClick={() => onChangeMode("menu")}>
         Cancel Exam
+      </button>
+
+      <button className="secondary-btn" onClick={onChangeTrack}>
+        Change Track
       </button>
     </div>
   );

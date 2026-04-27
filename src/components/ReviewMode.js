@@ -1,24 +1,28 @@
 import React, { useState, useEffect } from "react";
-import { questions } from "../data/questionsData";
+import { questions as allQuestions } from "../data/questionsData";
 import {
   getNonRepeatingSelection,
   shuffleArray,
 } from "../utils/questionPicker";
 import { getReferenceInfo } from "../utils/questionReference";
 
-function ReviewMode({ onChangeMode }) {
+function ReviewMode({ onChangeMode, onChangeTrack, questions }) {
+  const questionsSource = questions || allQuestions;
   const [shuffledQuestions, setShuffledQuestions] = useState([]);
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
-    const picked = getNonRepeatingSelection(questions, questions.length).map(
+    const picked = getNonRepeatingSelection(
+      questionsSource,
+      questionsSource.length
+    ).map(
       (q) => ({
         ...q,
         options: shuffleArray(q.options),
       })
     );
     setShuffledQuestions(picked);
-  }, []);
+  }, [questionsSource]);
 
   if (shuffledQuestions.length === 0) return <p>Loading...</p>;
 
@@ -87,6 +91,14 @@ function ReviewMode({ onChangeMode }) {
         style={{ marginTop: "15px" }}
       >
         Return to Menu
+      </button>
+
+      <button
+        onClick={onChangeTrack}
+        className="secondary-btn"
+        style={{ marginTop: "10px" }}
+      >
+        Change Track
       </button>
     </div>
   );

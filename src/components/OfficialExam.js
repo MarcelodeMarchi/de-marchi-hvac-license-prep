@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
-import { questions } from "../data/questionsData";
+import { questions as allQuestions } from "../data/questionsData";
 import {
   getNonRepeatingSelection,
   shuffleArray,
 } from "../utils/questionPicker";
 
-function OfficialExam({ onChangeMode }) {
+function OfficialExam({ onChangeMode, onChangeTrack, questions }) {
+  const questionsSource = questions || allQuestions;
   const [selectedQuestions, setSelectedQuestions] = useState([]);
   const [index, setIndex] = useState(0);
   const [score, setScore] = useState(0);
@@ -13,13 +14,14 @@ function OfficialExam({ onChangeMode }) {
 
   // Carrega 100 questões embaralhadas + respostas embaralhadas
   useEffect(() => {
-    const picked = getNonRepeatingSelection(questions, 100).map((q) => ({
+    const count = Math.min(100, questionsSource.length);
+    const picked = getNonRepeatingSelection(questionsSource, count).map((q) => ({
       ...q,
       options: shuffleArray(q.options),
     }));
 
     setSelectedQuestions(picked);
-  }, []);
+  }, [questionsSource]);
 
   if (selectedQuestions.length === 0) return <p>Loading...</p>;
 
@@ -45,10 +47,14 @@ function OfficialExam({ onChangeMode }) {
 
         <h2>Official Exam 🎯</h2>
 
-        <h3>Your Score: {score} / 100</h3>
+        <h3>Your Score: {score} / {selectedQuestions.length}</h3>
 
         <button className="primary-btn" onClick={() => onChangeMode("menu")}>
           Return to Menu
+        </button>
+
+        <button className="secondary-btn" onClick={onChangeTrack}>
+          Change Track
         </button>
       </div>
     );
@@ -61,7 +67,7 @@ function OfficialExam({ onChangeMode }) {
     <div className="page-container">
       <img src="/logo.png" className="watermark" alt="watermark" />
 
-      <h2>Official Exam (100 Questions) 🎯</h2>
+      <h2>Official Exam ({selectedQuestions.length} Questions) 🎯</h2>
 
       {/* Número da Questão */}
       <h3>
@@ -85,6 +91,10 @@ function OfficialExam({ onChangeMode }) {
 
       <button className="secondary-btn" onClick={() => onChangeMode("menu")}>
         Cancel Exam
+      </button>
+
+      <button className="secondary-btn" onClick={onChangeTrack}>
+        Change Track
       </button>
     </div>
   );

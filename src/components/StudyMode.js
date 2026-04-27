@@ -1,26 +1,28 @@
 import React, { useState, useEffect } from "react";
-import { questions } from "../data/questionsData";
+import { questions as allQuestions } from "../data/questionsData";
 import {
   getNonRepeatingSelection,
   shuffleArray,
 } from "../utils/questionPicker";
 import { getReferenceInfo } from "../utils/questionReference";
 
-function StudyMode({ onChangeMode }) {
+function StudyMode({ onChangeMode, onChangeTrack, questions }) {
+  const questionsSource = questions || allQuestions;
   const [questionList, setQuestionList] = useState([]);
   const [index, setIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState(null);
 
   // Carrega perguntas e respostas embaralhadas somente uma vez
   useEffect(() => {
-    const picked = getNonRepeatingSelection(questions, questions.length).map(
-      (q) => ({
-        ...q,
-        options: shuffleArray(q.options),
-      })
-    );
+    const picked = getNonRepeatingSelection(
+      questionsSource,
+      questionsSource.length
+    ).map((q) => ({
+      ...q,
+      options: shuffleArray(q.options),
+    }));
     setQuestionList(picked);
-  }, []);
+  }, [questionsSource]);
 
   if (questionList.length === 0) return <p>Loading...</p>;
 
@@ -143,6 +145,14 @@ function StudyMode({ onChangeMode }) {
         style={{ marginTop: "15px" }}
       >
         Return to Menu
+      </button>
+
+      <button
+        onClick={onChangeTrack}
+        className="secondary-btn"
+        style={{ marginTop: "10px" }}
+      >
+        Change Track
       </button>
     </div>
   );

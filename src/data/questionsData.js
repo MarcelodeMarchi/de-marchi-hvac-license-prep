@@ -22521,5 +22521,2105 @@ export const questions = [
   "reference_section": "",
   "reference_page": "",
   "reference_paragraph": "Q15"
+},
+{
+  "id": 2001,
+  "category": "Business & Finance",
+  "subcategory": "Financial Analysis",
+  "question_en": "Analysis of financial information is necessary for:",
+  "question_pt": "Analysis of financial information is necessary for:",
+  "options": [
+    "The preparation of accurate billing statements.",
+    "Posting transactions to proper accounts in your books.",
+    "Controlling profits.",
+    "All of the above."
+  ],
+  "answer": "Controlling profits.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Financial Analysis",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q1"
+},
+{
+  "id": 2002,
+  "category": "Business & Finance",
+  "subcategory": "Financial Analysis",
+  "question_en": "Knowing the amount of profit you earn isn’t enough, because those profits could be absorbed by:",
+  "question_pt": "Knowing the amount of profit you earn isn’t enough, because those profits could be absorbed by:",
+  "options": [
+    "Increasing levels of accounts receivable.",
+    "Growth in retained earnings account balances.",
+    "Increases in accounts payable.",
+    "Growing competition from other companies."
+  ],
+  "answer": "Increasing levels of accounts receivable.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Financial Analysis",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q2"
+},
+{
+  "id": 2003,
+  "category": "Business & Finance",
+  "subcategory": "Planning",
+  "question_en": "Timing the purchase or sale of fixed assets:",
+  "question_pt": "Timing the purchase or sale of fixed assets:",
+  "options": [
+    "Is always a function of your need for available cash.",
+    "Is a function of management goals and planning.",
+    "Depends largely on your credit status.",
+    "Should be based on requirements of current jobs."
+  ],
+  "answer": "Is a function of management goals and planning.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Planning",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q3"
+},
+{
+  "id": 2004,
+  "category": "Business & Finance",
+  "subcategory": "Financial Management",
+  "question_en": "Debt planning and management:",
+  "question_pt": "Debt planning and management:",
+  "options": [
+    "Requires good contacts with local bank loan officers.",
+    "Involves timely collection of accounts receivable.",
+    "Involves careful analysis of financial statements and cash flow trends.",
+    "All of the above."
+  ],
+  "answer": "Involves careful analysis of financial statements and cash flow trends.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Financial Management",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q4"
+},
+{
+  "id": 2005,
+  "category": "Business & Finance",
+  "subcategory": "Cost Control",
+  "question_en": "Controlling costs and expenses:",
+  "question_pt": "Controlling costs and expenses:",
+  "options": [
+    "Is an on-going task for a well-trained bookkeeper.",
+    "Occurs at the point of budget preparation and planning.",
+    "May be helpful to some, but good managers always know where they stand.",
+    "Enables you to maintain profits and profit goals."
+  ],
+  "answer": "Enables you to maintain profits and profit goals.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Cost Control",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q5"
+},
+{
+  "id": 2006,
+  "category": "Business & Finance",
+  "subcategory": "Standards",
+  "question_en": "Financial “standards” are:",
+  "question_pt": "Financial “standards” are:",
+  "options": [
+    "The regulatory requirements for preparation of financial statements.",
+    "Developed internally as a method of measuring results.",
+    "The accepted arrangement of accounts on financial statements.",
+    "The rules and regulations accountants follow in auditing your books."
+  ],
+  "answer": "Developed internally as a method of measuring results.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Standards",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q6"
+},
+{
+  "id": 2007,
+  "category": "Business & Finance",
+  "subcategory": "Standards",
+  "question_en": "Standards should be:",
+  "question_pt": "Standards should be:",
+  "options": [
+    "Set and enforced without exception.",
+    "Established for the entire industry by the Federal Standards Board.",
+    "Set and revised continuously to adjust to the changing environment.",
+    "Established specifically for each job."
+  ],
+  "answer": "Set and revised continuously to adjust to the changing environment.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Standards",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q7"
+},
+{
+  "id": 2008,
+  "category": "Business & Finance",
+  "subcategory": "Standards",
+  "question_en": "Standards need to be set as part of:",
+  "question_pt": "Standards need to be set as part of:",
+  "options": [
+    "Analysis, so you know what the numbers reveal on comparison.",
+    "Financial statement formatting, for consistency from year to year.",
+    "Clear communication with your accountant.",
+    "All of the above."
+  ],
+  "answer": "Analysis, so you know what the numbers reveal on comparison.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Standards",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q8"
+},
+{
+  "id": 2009,
+  "category": "Business & Finance",
+  "subcategory": "Standards",
+  "question_en": "Financial standards are most valuable when:",
+  "question_pt": "Financial standards are most valuable when:",
+  "options": [
+    "They’re in compliance with bank forms and requirements.",
+    "They’re used to spot and reverse negative trends.",
+    "They conform to FSB regulations.",
+    "They’re included in a financial review by your accountant."
+  ],
+  "answer": "They’re used to spot and reverse negative trends.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Standards",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q9"
+},
+{
+  "id": 2010,
+  "category": "Business & Finance",
+  "subcategory": "Goals",
+  "question_en": "Short-term goals are:",
+  "question_pt": "Short-term goals are:",
+  "options": [
+    "Unreliable, because real trends are best reviewed over many months.",
+    "Short segments of your larger, long-term goals.",
+    "Also defined as day-to-day operational goals.",
+    "The least understood of business goals."
+  ],
+  "answer": "Also defined as day-to-day operational goals.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Goals",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q10"
+},
+{
+  "id": 2011,
+  "category": "Business & Finance",
+  "subcategory": "Standards",
+  "question_en": "Setting financial standards on the basis of other operations is:",
+  "question_pt": "Setting financial standards on the basis of other operations is:",
+  "options": [
+    "A valuable, timesaving method.",
+    "Untrustworthy.",
+    "A standard procedure in the industry.",
+    "Recommended by the FSB."
+  ],
+  "answer": "Untrustworthy.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Standards",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q11"
+},
+{
+  "id": 2012,
+  "category": "Business & Finance",
+  "subcategory": "Cash Flow",
+  "question_en": "Cash flow analysis should take place:",
+  "question_pt": "Cash flow analysis should take place:",
+  "options": [
+    "Only when a full budget review is being conducted.",
+    "At least monthly, if not more often.",
+    "As part of your quarterly review.",
+    "Before you close the books."
+  ],
+  "answer": "At least monthly, if not more often.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Cash Flow",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q12"
+},
+{
+  "id": 2013,
+  "category": "Business & Finance",
+  "subcategory": "Cash Flow",
+  "question_en": "Cash flow analysis is actually a study of:",
+  "question_pt": "Cash flow analysis is actually a study of:",
+  "options": [
+    "Where cash comes from, and where it goes.",
+    "How well your cash accounts are kept in balance.",
+    "Quarterly budget increases.",
+    "All of the above."
+  ],
+  "answer": "Where cash comes from, and where it goes.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Cash Flow",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q13"
+},
+{
+  "id": 2014,
+  "category": "Business & Finance",
+  "subcategory": "Accounts Receivable",
+  "question_en": "Accounts receivable analysis:",
+  "question_pt": "Accounts receivable analysis:",
+  "options": [
+    "Includes a study of customer credit history.",
+    "Requires an analysis of the level of charge amounts.",
+    "Is based on the time it takes for customers to pay you.",
+    "Is a function of budgetary control only."
+  ],
+  "answer": "Is based on the time it takes for customers to pay you.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Accounts Receivable",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q14"
+},
+{
+  "id": 2015,
+  "category": "Business & Finance",
+  "subcategory": "Accounts Receivable",
+  "question_en": "Not controlling accounts receivable results in:",
+  "question_pt": "Not controlling accounts receivable results in:",
+  "options": [
+    "Fewer sales than you have forecast.",
+    "Fewer kickbacks to customers.",
+    "Financial statements that are out of balance.",
+    "Not having enough cash on hand."
+  ],
+  "answer": "Not having enough cash on hand.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Accounts Receivable",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q15"
+},
+{
+  "id": 2016,
+  "category": "Business & Finance",
+  "subcategory": "Financial Ratios",
+  "question_en": "Ratios are useful in financial analysis because:",
+  "question_pt": "Ratios are useful in financial analysis because:",
+  "options": [
+    "They’re easier to comprehend than dollar values.",
+    "They make sense when summarized as relationships between financial values.",
+    "Commonly-used ratios make sense to many people, including lenders.",
+    "All of the above."
+  ],
+  "answer": "All of the above.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Financial Ratios",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q1"
+},
+{
+  "id": 2017,
+  "category": "Business & Finance",
+  "subcategory": "Financial Ratios",
+  "question_en": "Balance sheet ratios include:",
+  "question_pt": "Balance sheet ratios include:",
+  "options": [
+    "Any two values, both of which are found in balance sheet accounts.",
+    "Comparisons of values in any two accounts, but affecting something of significance in financial strength or net worth.",
+    "Sales information compared to debts.",
+    "Any ratio that is footnoted on the balance sheet."
+  ],
+  "answer": "Any two values, both of which are found in balance sheet accounts.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Financial Ratios",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q2"
+},
+{
+  "id": 2018,
+  "category": "Business & Finance",
+  "subcategory": "Financial Ratios",
+  "question_en": "The current ratio is a comparison between:",
+  "question_pt": "The current ratio is a comparison between:",
+  "options": [
+    "Any two current accounts, as opposed to comparisons between reporting periods.",
+    "Current assets and current liabilities.",
+    "Current and long-term notes payable.",
+    "Current sales and cost information, as opposed to current versus long-term averages."
+  ],
+  "answer": "Current assets and current liabilities.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Financial Ratios",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q3"
+},
+{
+  "id": 2019,
+  "category": "Business & Finance",
+  "subcategory": "Financial Ratios",
+  "question_en": "The quick assets ratio is:",
+  "question_pt": "The quick assets ratio is:",
+  "options": [
+    "Just like the current ratio, but without inventory values.",
+    "Another name for the current ratio.",
+    "A comparison of assets that could be sold quickly and converted to cash.",
+    "An income statement ratio comparing sales quickly and converted to cash."
+  ],
+  "answer": "Just like the current ratio, but without inventory values.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Financial Ratios",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q4"
+},
+{
+  "id": 2020,
+  "category": "Business & Finance",
+  "subcategory": "Financial Ratios",
+  "question_en": "Working capital is:",
+  "question_pt": "Working capital is:",
+  "options": [
+    "The owner’s original investment in the business.",
+    "The amount of cash in the bank account at the time the ratio is computed.",
+    "Profits reinvested in the business.",
+    "Current assets less current liabilities."
+  ],
+  "answer": "Current assets less current liabilities.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Financial Ratios",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q5"
+},
+{
+  "id": 2021,
+  "category": "Business & Finance",
+  "subcategory": "Financial Ratios",
+  "question_en": "A combined ratio is one that compares:",
+  "question_pt": "A combined ratio is one that compares:",
+  "options": [
+    "Current period information to past period information.",
+    "Three or more different accounts combined together on one side of the ratio.",
+    "A balance sheet account to an income statement account.",
+    "All of the above."
+  ],
+  "answer": "A balance sheet account to an income statement account.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Financial Ratios",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q6"
+},
+{
+  "id": 2022,
+  "category": "Business & Finance",
+  "subcategory": "Financial Ratios",
+  "question_en": "The “real” turnover ratio compares:",
+  "question_pt": "The “real” turnover ratio compares:",
+  "options": [
+    "Sales to inventory at cost.",
+    "Sales to inventory at current market value.",
+    "Cost of sales to inventory at cost.",
+    "Cost of sales to inventory at current market value."
+  ],
+  "answer": "Cost of sales to inventory at cost.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Financial Ratios",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q7"
+},
+{
+  "id": 2023,
+  "category": "Business & Finance",
+  "subcategory": "Financial Ratios",
+  "question_en": "A ratio comparing accounts receivable to depreciation is:",
+  "question_pt": "A ratio comparing accounts receivable to depreciation is:",
+  "options": [
+    "A combined ratio.",
+    "A static ratio.",
+    "Generally assumed positive if the result is better than 2 to 1.",
+    "Worthless, because there is no relationship between these accounts."
+  ],
+  "answer": "Worthless, because there is no relationship between these accounts.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Financial Ratios",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q8"
+},
+{
+  "id": 2024,
+  "category": "Business & Finance",
+  "subcategory": "Financial Ratios",
+  "question_en": "Ratios can be presented:",
+  "question_pt": "Ratios can be presented:",
+  "options": [
+    "In the form “x to 1” or “x per y.”",
+    "As a percentage.",
+    "As a fraction.",
+    "All of the above."
+  ],
+  "answer": "All of the above.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Financial Ratios",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q9"
+},
+{
+  "id": 2025,
+  "category": "Business & Finance",
+  "subcategory": "Financial Ratios",
+  "question_en": "When analyzing the results of ratios, it is best to:",
+  "question_pt": "When analyzing the results of ratios, it is best to:",
+  "options": [
+    "Consider each period separately.",
+    "Always compare between periods, to spot emerging trends.",
+    "Let your accountant use his specialized training to judge results.",
+    "Begin with a series of assumptions."
+  ],
+  "answer": "Always compare between periods, to spot emerging trends.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Financial Ratios",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q10"
+},
+{
+  "id": 2026,
+  "category": "Business & Finance",
+  "subcategory": "Financial Ratios",
+  "question_en": "The working capital to funded debt ratio indicates:",
+  "question_pt": "The working capital to funded debt ratio indicates:",
+  "options": [
+    "Whether or not it’s time to borrow more money.",
+    "How many current accounts payable are past due.",
+    "Your ability to generate fast payment of accounts receivable.",
+    "Your ability to meet your obligations."
+  ],
+  "answer": "Your ability to meet your obligations.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Financial Ratios",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q11"
+},
+{
+  "id": 2027,
+  "category": "Business & Finance",
+  "subcategory": "Financial Ratios",
+  "question_en": "Ratios comparing specific current assets to total current assets:",
+  "question_pt": "Ratios comparing specific current assets to total current assets:",
+  "options": [
+    "Help in the period-to-period analysis of accounts, such as inventory accounts.",
+    "Are a meaningless exercise providing no useful information.",
+    "Should always show a high percentage of cash.",
+    "Are required by all lenders."
+  ],
+  "answer": "Help in the period-to-period analysis of accounts, such as inventory accounts.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Financial Ratios",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q12"
+},
+{
+  "id": 2028,
+  "category": "Business & Finance",
+  "subcategory": "Financial Ratios",
+  "question_en": "The net worth to assets ratio breaks down assets between:",
+  "question_pt": "The net worth to assets ratio breaks down assets between:",
+  "options": [
+    "Current and long term.",
+    "Tangible and intangible.",
+    "Those financed for the short term and those financed for the long term.",
+    "Those owned by the company and those financed by creditors."
+  ],
+  "answer": "Those owned by the company and those financed by creditors.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Financial Ratios",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q13"
+},
+{
+  "id": 2029,
+  "category": "Business & Finance",
+  "subcategory": "Financial Ratios",
+  "question_en": "A ratio comparing sales to accounts receivable:",
+  "question_pt": "A ratio comparing sales to accounts receivable:",
+  "options": [
+    "Should include all sales.",
+    "Should exclude cash sales, involving charge sales only.",
+    "Is shown as a percentage on your report.",
+    "Doesn’t provide any useful conclusions."
+  ],
+  "answer": "Should exclude cash sales, involving charge sales only.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Financial Ratios",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q14"
+},
+{
+  "id": 2030,
+  "category": "Business & Finance",
+  "subcategory": "Financial Ratios",
+  "question_en": "A ratio studying maintenance costs with the total value of fixed assets:",
+  "question_pt": "A ratio studying maintenance costs with the total value of fixed assets:",
+  "options": [
+    "Tells you if maintenance personnel are overcharging.",
+    "Helps you to justify next year’s budget numbers.",
+    "Helps show you when equipment might need to be replaced.",
+    "Helps you determine the salvage value of capital assets."
+  ],
+  "answer": "Helps show you when equipment might need to be replaced.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Financial Ratios",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q15"
+},
+{
+  "id": 2031,
+  "category": "Business & Finance",
+  "subcategory": "General Ledger",
+  "question_en": "Consistent account coding is important because:",
+  "question_pt": "Consistent account coding is important because:",
+  "options": [
+    "Accountants insist on consistency.",
+    "Proper analysis from one period to another requires proper assignment of coding.",
+    "You’re not allowed to spend too much money in any one expense category.",
+    "All of the above."
+  ],
+  "answer": "Proper analysis from one period to another requires proper assignment of coding.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "General Ledger",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q1"
+},
+{
+  "id": 2032,
+  "category": "Business & Finance",
+  "subcategory": "General Ledger",
+  "question_en": "The general ledger is:",
+  "question_pt": "The general ledger is:",
+  "options": [
+    "A highly summarized record of business transactions.",
+    "A collection point of great detail for every transaction.",
+    "The original book of entry.",
+    "A ledger to capture all of the entries that cannot be classified in one of the more specialized ledgers."
+  ],
+  "answer": "A highly summarized record of business transactions.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "General Ledger",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q2"
+},
+{
+  "id": 2033,
+  "category": "Business & Finance",
+  "subcategory": "General Ledger",
+  "question_en": "The sequence of the general ledger:",
+  "question_pt": "The sequence of the general ledger:",
+  "options": [
+    "Is alphabetical.",
+    "Doesn’t matter as long as all accounts are listed.",
+    "Is income statement accounts first, then balance sheet accounts.",
+    "Is balance sheet accounts first, then income statement accounts."
+  ],
+  "answer": "Is balance sheet accounts first, then income statement accounts.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "General Ledger",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q3"
+},
+{
+  "id": 2034,
+  "category": "Business & Finance",
+  "subcategory": "General Ledger",
+  "question_en": "In the general ledger, positive-balance accounts are:",
+  "question_pt": "In the general ledger, positive-balance accounts are:",
+  "options": [
+    "Increased by debit entries.",
+    "Increased by credit entries.",
+    "Increased by either debits or credits.",
+    "Generally unchanging except in extraordinary situations."
+  ],
+  "answer": "Increased by debit entries.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "General Ledger",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q4"
+},
+{
+  "id": 2035,
+  "category": "Business & Finance",
+  "subcategory": "General Ledger",
+  "question_en": "When the general ledger is out of balance, it indicates that:",
+  "question_pt": "When the general ledger is out of balance, it indicates that:",
+  "options": [
+    "You need to reconcile your checking account.",
+    "Your business is operating at a loss.",
+    "Your accountant has not completed his monthly analysis.",
+    "An error has been made in posting entries to the ledger."
+  ],
+  "answer": "An error has been made in posting entries to the ledger.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "General Ledger",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q5"
+},
+{
+  "id": 2036,
+  "category": "Business & Finance",
+  "subcategory": "Adjustments",
+  "question_en": "Adjustments made after the trial balance:",
+  "question_pt": "Adjustments made after the trial balance:",
+  "options": [
+    "May include changes for inventory levels, depreciation, and accounts payable.",
+    "Are always listed in the footnotes.",
+    "Should not be made, since the trial balance is the last step before financial statements are drawn.",
+    "May include last-minute changes to reduce tax liabilities."
+  ],
+  "answer": "May include changes for inventory levels, depreciation, and accounts payable.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Adjustments",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q6"
+},
+{
+  "id": 2037,
+  "category": "Business & Finance",
+  "subcategory": "Closing Entries",
+  "question_en": "Closing entries are always:",
+  "question_pt": "Closing entries are always:",
+  "options": [
+    "Made up of credits only.",
+    "Made up of debits and credits only, with no particular need to have them balance.",
+    "Equal, so that you maintain the balance of the general ledger and trial balance.",
+    "Made only in the subsidiary journals."
+  ],
+  "answer": "Equal, so that you maintain the balance of the general ledger and trial balance.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Closing Entries",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q7"
+},
+{
+  "id": 2038,
+  "category": "Business & Finance",
+  "subcategory": "Inventory",
+  "question_en": "Changes made to inventory are:",
+  "question_pt": "Changes made to inventory are:",
+  "options": [
+    "Never entered more than once per year.",
+    "Made to reflect changes in physical count and serve to adjust direct costs.",
+    "One-sided entries only.",
+    "Never made by journal entry."
+  ],
+  "answer": "Made to reflect changes in physical count and serve to adjust direct costs.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Inventory",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q8"
+},
+{
+  "id": 2039,
+  "category": "Business & Finance",
+  "subcategory": "Closing",
+  "question_en": "Closing the books means:",
+  "question_pt": "Closing the books means:",
+  "options": [
+    "Finishing the month’s posting.",
+    "Finishing posting for the year and finally balancing all accounts.",
+    "Zeroing out every income statement account and making a net entry for the difference to the profit and loss account.",
+    "Further entries can only be made by your accountant."
+  ],
+  "answer": "Zeroing out every income statement account and making a net entry for the difference to the profit and loss account.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Closing",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q9"
+},
+{
+  "id": 2040,
+  "category": "Business & Finance",
+  "subcategory": "Equity",
+  "question_en": "The capital stock account is found in:",
+  "question_pt": "The capital stock account is found in:",
+  "options": [
+    "The books of corporations only.",
+    "The net worth section of all businesses.",
+    "The income statement accounts.",
+    "The asset section."
+  ],
+  "answer": "The books of corporations only.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Equity",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q10"
+},
+{
+  "id": 2041,
+  "category": "Business & Finance",
+  "subcategory": "Accounting Systems",
+  "question_en": "If account coding has been inconsistent:",
+  "question_pt": "If account coding has been inconsistent:",
+  "options": [
+    "You need to make corrections in the proper month only.",
+    "You need to make corrections and then improve account definitions.",
+    "It indicates your bookkeeper is not doing his/her job.",
+    "Your system needs upgrading."
+  ],
+  "answer": "You need to make corrections and then improve account definitions.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Accounting Systems",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q11"
+},
+{
+  "id": 2042,
+  "category": "Business & Finance",
+  "subcategory": "Posting",
+  "question_en": "The abbreviated posting reference “CR-0109” means:",
+  "question_pt": "The abbreviated posting reference “CR-0109” means:",
+  "options": [
+    "First entry, 9th page.",
+    "Year 2001, 9th month.",
+    "First page, 9th entry.",
+    "Year 2001, page 9."
+  ],
+  "answer": "Year 2001, page 9.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Posting",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q12"
+},
+{
+  "id": 2043,
+  "category": "Business & Finance",
+  "subcategory": "General Ledger",
+  "question_en": "A general ledger page contains:",
+  "question_pt": "A general ledger page contains:",
+  "options": [
+    "All details of transactions.",
+    "Entries only if no subsidiary ledgers are needed.",
+    "Summary entries only for each month.",
+    "Entries that don’t fit specialized journals."
+  ],
+  "answer": "Summary entries only for each month.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "General Ledger",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q13"
+},
+{
+  "id": 2044,
+  "category": "Business & Finance",
+  "subcategory": "Trial Balance",
+  "question_en": "The purpose of the trial balance is to:",
+  "question_pt": "The purpose of the trial balance is to:",
+  "options": [
+    "Summarize the ledger balances and make closing adjustments.",
+    "Look for ways to improve numbers.",
+    "Prepare statements by job.",
+    "Check if estimated balances are close."
+  ],
+  "answer": "Summarize the ledger balances and make closing adjustments.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Trial Balance",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q14"
+},
+{
+  "id": 2045,
+  "category": "Business & Finance",
+  "subcategory": "Income Statement",
+  "question_en": "The Income Statement shows:",
+  "question_pt": "The Income Statement shows:",
+  "options": [
+    "Incoming cash summaries only.",
+    "Job breakdowns only.",
+    "Cash flow only.",
+    "Income, costs, expenses, and profit for your operation."
+  ],
+  "answer": "Income, costs, expenses, and profit for your operation.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Income Statement",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q15"
+},
+{
+  "id": 2046,
+  "category": "Business & Finance",
+  "subcategory": "Comparative Statements",
+  "question_en": "A comparative statement shows:",
+  "question_pt": "A comparative statement shows:",
+  "options": [
+    "Results from one company to another.",
+    "Actual to budgeted results.",
+    "Results from one period or date, to another period or date.",
+    "Varying outcomes depending on classification of transactions."
+  ],
+  "answer": "Results from one period or date, to another period or date.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Comparative Statements",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q1"
+},
+{
+  "id": 2047,
+  "category": "Business & Finance",
+  "subcategory": "Comparative Statements",
+  "question_en": "A comparative balance sheet always reflects results:",
+  "question_pt": "A comparative balance sheet always reflects results:",
+  "options": [
+    "At two different dates.",
+    "For two different periods of time.",
+    "For the company compared to industry averages.",
+    "With both dollar amounts and percentages for each account."
+  ],
+  "answer": "At two different dates.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Comparative Statements",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q2"
+},
+{
+  "id": 2048,
+  "category": "Business & Finance",
+  "subcategory": "Comparative Statements",
+  "question_en": "A comparative income statement always shows:",
+  "question_pt": "A comparative income statement always shows:",
+  "options": [
+    "What should have occurred in the budget.",
+    "The current year plus a pro forma.",
+    "Results from the current and the past periods.",
+    "Results as of two different dates."
+  ],
+  "answer": "Results from the current and the past periods.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Comparative Statements",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q3"
+},
+{
+  "id": 2049,
+  "category": "Business & Finance",
+  "subcategory": "Income Statement",
+  "question_en": "An income statement can be prepared:",
+  "question_pt": "An income statement can be prepared:",
+  "options": [
+    "With summarized totals and supplementary schedules.",
+    "With all details on one report.",
+    "With percentages of sales for each line.",
+    "All of the above."
+  ],
+  "answer": "All of the above.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Income Statement",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q4"
+},
+{
+  "id": 2050,
+  "category": "Business & Finance",
+  "subcategory": "Income Statement",
+  "question_en": "Income statements for relatively short periods of time are:",
+  "question_pt": "Income statements for relatively short periods of time are:",
+  "options": [
+    "Good indicators of what to expect.",
+    "Not good indicators of the future.",
+    "Good indicators if accrual entries are adjusted properly.",
+    "Not good indicators because numbers will change."
+  ],
+  "answer": "Not good indicators of the future.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Income Statement",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q5"
+},
+{
+  "id": 2051,
+  "category": "Business & Finance",
+  "subcategory": "Comparative Analysis",
+  "question_en": "A 12-month worksheet showing every month’s results is useful for:",
+  "question_pt": "A 12-month worksheet showing every month’s results is useful for:",
+  "options": [
+    "Comparing results and spotting unusual changes.",
+    "Completing budgets.",
+    "Spotting favorable and unfavorable trends.",
+    "All of the above."
+  ],
+  "answer": "All of the above.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Comparative Analysis",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q6"
+},
+{
+  "id": 2052,
+  "category": "Business & Finance",
+  "subcategory": "Comparative Analysis",
+  "question_en": "Comparative periods should be:",
+  "question_pt": "Comparative periods should be:",
+  "options": [
+    "Identical in terms of time so that the comparison is valid.",
+    "Varied to include seasonal fluctuations.",
+    "Used only if accountant thinks useful.",
+    "Only used to compare months."
+  ],
+  "answer": "Identical in terms of time so that the comparison is valid.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Comparative Analysis",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q7"
+},
+{
+  "id": 2053,
+  "category": "Business & Finance",
+  "subcategory": "Comparative Analysis",
+  "question_en": "Comparisons are:",
+  "question_pt": "Comparisons are:",
+  "options": [
+    "Commonplace and used all the time.",
+    "Rarely used.",
+    "Dangerous due to variables.",
+    "The only reliable budgeting method."
+  ],
+  "answer": "Commonplace and used all the time.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Comparative Analysis",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q8"
+},
+{
+  "id": 2054,
+  "category": "Business & Finance",
+  "subcategory": "Budget vs Actual",
+  "question_en": "When comparing actual results to budget:",
+  "question_pt": "When comparing actual results to budget:",
+  "options": [
+    "Always adjust budget.",
+    "Subtract one from the other to isolate variance.",
+    "Prepare journal entries.",
+    "Revise budget when variance exceeds 5%."
+  ],
+  "answer": "Subtract one from the other to isolate variance.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Budget vs Actual",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q9"
+},
+{
+  "id": 2055,
+  "category": "Business & Finance",
+  "subcategory": "Variance Analysis",
+  "question_en": "Favorable variances are:",
+  "question_pt": "Favorable variances are:",
+  "options": [
+    "Good news requiring no action.",
+    "Good news but require revised budget.",
+    "Serious if large because they affect planning.",
+    "Bad news indicating losses."
+  ],
+  "answer": "Serious if large because they affect planning.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Variance Analysis",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q10"
+},
+{
+  "id": 2056,
+  "category": "Business & Finance",
+  "subcategory": "Comparative Statements",
+  "question_en": "Comparative statements are useful for ratio analysis because:",
+  "question_pt": "Comparative statements are useful for ratio analysis because:",
+  "options": [
+    "Ratios appear on statements.",
+    "They compare dollar amounts to ratios.",
+    "Ratios are most useful when comparing periods.",
+    "None of the above."
+  ],
+  "answer": "Ratios are most useful when comparing periods.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Comparative Statements",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q11"
+},
+{
+  "id": 2057,
+  "category": "Business & Finance",
+  "subcategory": "Accounting Changes",
+  "question_en": "A change in accounting methods:",
+  "question_pt": "A change in accounting methods:",
+  "options": [
+    "Makes comparative statements moot.",
+    "Requires restatement so both years are comparable.",
+    "Does not affect statements.",
+    "Is not allowed."
+  ],
+  "answer": "Requires restatement so both years are comparable.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Accounting Changes",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q12"
+},
+{
+  "id": 2058,
+  "category": "Business & Finance",
+  "subcategory": "Comparative Statements",
+  "question_en": "To make comparative statements meaningful:",
+  "question_pt": "To make comparative statements meaningful:",
+  "options": [
+    "Use percentage-of-completion only.",
+    "Use completion contract only.",
+    "Use cash basis only.",
+    "Use consistent accounting methods."
+  ],
+  "answer": "Use consistent accounting methods.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Comparative Statements",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q13"
+},
+{
+  "id": 2059,
+  "category": "Business & Finance",
+  "subcategory": "Inventory",
+  "question_en": "When preparing a comparative income statement, beginning inventory:",
+  "question_pt": "When preparing a comparative income statement, beginning inventory:",
+  "options": [
+    "Is ending inventory of previous month.",
+    "Is same as previous year.",
+    "Does not change.",
+    "Only if physical count."
+  ],
+  "answer": "Is ending inventory of previous month.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Inventory",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q14"
+},
+{
+  "id": 2060,
+  "category": "Business & Finance",
+  "subcategory": "Income Statement",
+  "question_en": "A “Percentage Income Statement” is:",
+  "question_pt": "A “Percentage Income Statement” is:",
+  "options": [
+    "Uses estimated dollar values.",
+    "More detailed than monthly statements.",
+    "Shows results as percentage of sales.",
+    "Analyzes balance sheet accounts."
+  ],
+  "answer": "Shows results as percentage of sales.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Income Statement",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q15"
+},
+{
+  "id": 2061,
+  "category": "Business & Finance",
+  "subcategory": "Accounting Methods",
+  "question_en": "Books kept under the percentage-of-completion method of accounting show:",
+  "question_pt": "Books kept under the percentage-of-completion method of accounting show:",
+  "options": [
+    "Only a portion of income, but all costs and expenses for each job.",
+    "All income, but only a portion of all costs and expenses for each job.",
+    "Only a portion of income, costs, and expenses for each job.",
+    "Nothing for any job until it is completed."
+  ],
+  "answer": "Only a portion of income, costs, and expenses for each job.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Accounting Methods",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q1"
+},
+{
+  "id": 2062,
+  "category": "Business & Finance",
+  "subcategory": "Accounting Methods",
+  "question_en": "Books kept under the completed-contract method of accounting show:",
+  "question_pt": "Books kept under the completed-contract method of accounting show:",
+  "options": [
+    "Only a portion of income, but all costs and expenses for each job.",
+    "All income, but only a portion of all costs and expenses for each job.",
+    "Only a portion of income, costs, and expenses for each job.",
+    "Nothing for any job until it is completed."
+  ],
+  "answer": "Nothing for any job until it is completed.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Accounting Methods",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q2"
+},
+{
+  "id": 2063,
+  "category": "Business & Finance",
+  "subcategory": "Accounting Methods",
+  "question_en": "A restatement by accounting method involves:",
+  "question_pt": "A restatement by accounting method involves:",
+  "options": [
+    "Requesting permission from the IRS.",
+    "Keeping two sets of books.",
+    "Calculating percentage-of-completion for records kept under the completed-contract method, or vice versa.",
+    "Making a lot of accrual entries."
+  ],
+  "answer": "Calculating percentage-of-completion for records kept under the completed-contract method, or vice versa.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Accounting Methods",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q3"
+},
+{
+  "id": 2064,
+  "category": "Business & Finance",
+  "subcategory": "Accounting Methods",
+  "question_en": "Restatements by accounting methods are done at the end of the year because:",
+  "question_pt": "Restatements by accounting methods are done at the end of the year because:",
+  "options": [
+    "The law requires it.",
+    "It simplifies methods of keeping the books from month to month.",
+    "Taxes can be reduced.",
+    "You can’t know when a job will finish."
+  ],
+  "answer": "It simplifies methods of keeping the books from month to month.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Accounting Methods",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q4"
+},
+{
+  "id": 2065,
+  "category": "Business & Finance",
+  "subcategory": "Cash Accounting",
+  "question_en": "The cash accounting method is:",
+  "question_pt": "The cash accounting method is:",
+  "options": [
+    "The easiest method for keeping books, but among the least accurate.",
+    "Not an acceptable method.",
+    "Difficult due to accruals.",
+    "Only worthwhile for cash businesses."
+  ],
+  "answer": "The easiest method for keeping books, but among the least accurate.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Cash Accounting",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q5"
+},
+{
+  "id": 2066,
+  "category": "Business & Finance",
+  "subcategory": "Cash Accounting",
+  "question_en": "Under the cash accounting method, transactions are posted:",
+  "question_pt": "Under the cash accounting method, transactions are posted:",
+  "options": [
+    "When work is contracted.",
+    "When money exchanges hands.",
+    "When income is earned.",
+    "At the end of the month."
+  ],
+  "answer": "When money exchanges hands.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Cash Accounting",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q6"
+},
+{
+  "id": 2067,
+  "category": "Business & Finance",
+  "subcategory": "Cash Accounting",
+  "question_en": "Under the cash accounting method, prepaid insurance is:",
+  "question_pt": "Under the cash accounting method, prepaid insurance is:",
+  "options": [
+    "Deducted during the period.",
+    "Deducted all at once when paid for.",
+    "Amortized.",
+    "Not deductible."
+  ],
+  "answer": "Deducted all at once when paid for.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Cash Accounting",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q7"
+},
+{
+  "id": 2068,
+  "category": "Business & Finance",
+  "subcategory": "Cash Accounting",
+  "question_en": "Under the cash accounting method, accounts receivable are:",
+  "question_pt": "Under the cash accounting method, accounts receivable are:",
+  "options": [
+    "Income when due.",
+    "Taxed when due.",
+    "Income only when collected.",
+    "Taxed when incurred."
+  ],
+  "answer": "Income only when collected.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Cash Accounting",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q8"
+},
+{
+  "id": 2069,
+  "category": "Business & Finance",
+  "subcategory": "Cash Accounting",
+  "question_en": "Under the cash method of accounting:",
+  "question_pt": "Under the cash method of accounting:",
+  "options": [
+    "There are no balances in accounts payable.",
+    "Income isn’t taxed until collected.",
+    "No accrual entries are made.",
+    "All of the above."
+  ],
+  "answer": "All of the above.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Cash Accounting",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q9"
+},
+{
+  "id": 2070,
+  "category": "Business & Finance",
+  "subcategory": "Cash Accounting",
+  "question_en": "Analysis under the cash method is:",
+  "question_pt": "Analysis under the cash method is:",
+  "options": [
+    "Much easier.",
+    "More accurate.",
+    "Inaccurate due to differences between recorded and true results.",
+    "Best due to consistency."
+  ],
+  "answer": "Inaccurate due to differences between recorded and true results.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Cash Accounting",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q10"
+},
+{
+  "id": 2071,
+  "category": "Business & Finance",
+  "subcategory": "Accounting Methods",
+  "question_en": "Completed-contract and percentage-of-completion accounting are:",
+  "question_pt": "Completed-contract and percentage-of-completion accounting are:",
+  "options": [
+    "Cash methods.",
+    "Accrual methods.",
+    "Either system.",
+    "Unique methods."
+  ],
+  "answer": "Accrual methods.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Accounting Methods",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q11"
+},
+{
+  "id": 2072,
+  "category": "Business & Finance",
+  "subcategory": "Accounting Methods",
+  "question_en": "It’s more practical and easier to keep your books:",
+  "question_pt": "It’s more practical and easier to keep your books:",
+  "options": [
+    "On a cash basis.",
+    "On an accrual basis.",
+    "On percentage-of-completion.",
+    "On pegboard."
+  ],
+  "answer": "On a cash basis.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Accounting Methods",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q12"
+},
+{
+  "id": 2073,
+  "category": "Business & Finance",
+  "subcategory": "Adjustments",
+  "question_en": "It’s more practical and easier to prepare month-end adjustments by:",
+  "question_pt": "It’s more practical and easier to prepare month-end adjustments by:",
+  "options": [
+    "Detailed journal entries.",
+    "Using a computerized system.",
+    "Reporting cash basis.",
+    "Using a worksheet and not entering adjustments in your books."
+  ],
+  "answer": "Using a worksheet and not entering adjustments in your books.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Adjustments",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q13"
+},
+{
+  "id": 2074,
+  "category": "Business & Finance",
+  "subcategory": "Adjustments",
+  "question_en": "The time your bookkeeper spends making month-end adjustments:",
+  "question_pt": "The time your bookkeeper spends making month-end adjustments:",
+  "options": [
+    "Is most valuable.",
+    "Could be better spent updating job cost and billing records.",
+    "Cuts down time.",
+    "Improves accuracy significantly."
+  ],
+  "answer": "Could be better spent updating job cost and billing records.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Adjustments",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q14"
+},
+{
+  "id": 2075,
+  "category": "Business & Finance",
+  "subcategory": "Adjustments",
+  "question_en": "Restated income statements will be distorted by:",
+  "question_pt": "Restated income statements will be distorted by:",
+  "options": [
+    "Interim adjustments.",
+    "Changes in receivables.",
+    "Changes in inventory.",
+    "All of the above."
+  ],
+  "answer": "All of the above.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Adjustments",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q15"
+},
+{
+  "id": 2076,
+  "category": "Business & Finance",
+  "subcategory": "Job Costing",
+  "question_en": "When you prepare Income Statements by job:",
+  "question_pt": "When you prepare Income Statements by job:",
+  "options": [
+    "All sections of the statement should be broken down by job or category.",
+    "The total of all the breakdowns has to equal the total Income Statement.",
+    "The breakdown can be by specific job or by accounting method.",
+    "All of the above."
+  ],
+  "answer": "All of the above.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Job Costing",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q1"
+},
+{
+  "id": 2077,
+  "category": "Business & Finance",
+  "subcategory": "Balance Sheet",
+  "question_en": "A Balance Sheet prepared by job:",
+  "question_pt": "A Balance Sheet prepared by job:",
+  "options": [
+    "Should match income statement divisions.",
+    "Should show cash and accrual outcomes.",
+    "Can be divided between accounting methods.",
+    "Would make no sense and provide no useful information."
+  ],
+  "answer": "Would make no sense and provide no useful information.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Balance Sheet",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q2"
+},
+{
+  "id": 2078,
+  "category": "Business & Finance",
+  "subcategory": "Job Costing",
+  "question_en": "Breaking down information by job is useful because:",
+  "question_pt": "Breaking down information by job is useful because:",
+  "options": [
+    "Required for IRS reporting.",
+    "Helps identify variance trends and correct problems early.",
+    "Banks require it.",
+    "All of the above."
+  ],
+  "answer": "Helps identify variance trends and correct problems early.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Job Costing",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q3"
+},
+{
+  "id": 2079,
+  "category": "Business & Finance",
+  "subcategory": "Project Control",
+  "question_en": "Job progress graphs are most useful when they:",
+  "question_pt": "Job progress graphs are most useful when they:",
+  "options": [
+    "Indicate problems in time to take corrective action.",
+    "Match expectations.",
+    "Compare similar jobs.",
+    "Show certainty of profits."
+  ],
+  "answer": "Indicate problems in time to take corrective action.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Project Control",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q4"
+},
+{
+  "id": 2080,
+  "category": "Business & Finance",
+  "subcategory": "Profit Analysis",
+  "question_en": "If your graph’s profit curve does not swing upward as expected:",
+  "question_pt": "If your graph’s profit curve does not swing upward as expected:",
+  "options": [
+    "You used wrong scale.",
+    "Recalculate numbers.",
+    "Job might finish late or with lower profit.",
+    "Wrong type of jobs."
+  ],
+  "answer": "Job might finish late or with lower profit.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Profit Analysis",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q5"
+},
+{
+  "id": 2081,
+  "category": "Business & Finance",
+  "subcategory": "Reporting",
+  "question_en": "The best way to present graphs to outsiders is:",
+  "question_pt": "The best way to present graphs to outsiders is:",
+  "options": [
+    "Graphs alone.",
+    "With supporting numerical statements.",
+    "As part of consultant plan.",
+    "As presentation slides."
+  ],
+  "answer": "With supporting numerical statements.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Reporting",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q6"
+},
+{
+  "id": 2082,
+  "category": "Business & Finance",
+  "subcategory": "Job Control",
+  "question_en": "Statements by job can be used for control in:",
+  "question_pt": "Statements by job can be used for control in:",
+  "options": [
+    "Managing jobs in progress.",
+    "Planning future work.",
+    "Controlling results and completion.",
+    "All of the above."
+  ],
+  "answer": "All of the above.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Job Control",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q7"
+},
+{
+  "id": 2083,
+  "category": "Business & Finance",
+  "subcategory": "Planning",
+  "question_en": "For short-range planning, statements by job are:",
+  "question_pt": "For short-range planning, statements by job are:",
+  "options": [
+    "Not useful.",
+    "Valuable for day-to-day control.",
+    "Too time-consuming.",
+    "Only useful for large jobs."
+  ],
+  "answer": "Valuable for day-to-day control.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Planning",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q8"
+},
+{
+  "id": 2084,
+  "category": "Business & Finance",
+  "subcategory": "Profit Improvement",
+  "question_en": "If you face unacceptably low profits, you should:",
+  "question_pt": "If you face unacceptably low profits, you should:",
+  "options": [
+    "Institute new controls and consider avoiding some markets.",
+    "Bid higher.",
+    "Tighten internal controls.",
+    "Renegotiate contracts."
+  ],
+  "answer": "Institute new controls and consider avoiding some markets.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Profit Improvement",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q9"
+},
+{
+  "id": 2085,
+  "category": "Business & Finance",
+  "subcategory": "Profit Strategy",
+  "question_en": "To retain a low-yield job type and meet profit goals, you must:",
+  "question_pt": "To retain a low-yield job type and meet profit goals, you must:",
+  "options": [
+    "Increase volume.",
+    "Increase productivity in other areas.",
+    "Enter new markets.",
+    "Add capital."
+  ],
+  "answer": "Increase productivity in other areas.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Profit Strategy",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q10"
+},
+{
+  "id": 2086,
+  "category": "Business & Finance",
+  "subcategory": "Business Factors",
+  "question_en": "Factors affecting your ability to do work include:",
+  "question_pt": "Factors affecting your ability to do work include:",
+  "options": [
+    "Capital and competition.",
+    "Personality and management.",
+    "Experience.",
+    "All of the above."
+  ],
+  "answer": "All of the above.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Business Factors",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q11"
+},
+{
+  "id": 2087,
+  "category": "Business & Finance",
+  "subcategory": "Productivity",
+  "question_en": "You keep idle time to a minimum through:",
+  "question_pt": "You keep idle time to a minimum through:",
+  "options": [
+    "Keeping employees busy.",
+    "Careful daily scheduling.",
+    "Computer modeling.",
+    "Tracking charts."
+  ],
+  "answer": "Careful daily scheduling.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Productivity",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q12"
+},
+{
+  "id": 2088,
+  "category": "Business & Finance",
+  "subcategory": "Growth",
+  "question_en": "Expansion of your business operation is:",
+  "question_pt": "Expansion of your business operation is:",
+  "options": [
+    "Essential to survive.",
+    "A matter of determining how much you want to grow.",
+    "Driven by market forces.",
+    "Done by cutting prices."
+  ],
+  "answer": "A matter of determining how much you want to grow.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Growth",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q13"
+},
+{
+  "id": 2089,
+  "category": "Business & Finance",
+  "subcategory": "Profit Analysis",
+  "question_en": "Year-to-year improvement in profit is:",
+  "question_pt": "Year-to-year improvement in profit is:",
+  "options": [
+    "Most popular measure.",
+    "Sometimes misleading.",
+    "Not always necessary.",
+    "All of the above."
+  ],
+  "answer": "All of the above.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Profit Analysis",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q14"
+},
+{
+  "id": 2090,
+  "category": "Business & Finance",
+  "subcategory": "Control Systems",
+  "question_en": "The three stages of accounting control in job planning are:",
+  "question_pt": "The three stages of accounting control in job planning are:",
+  "options": [
+    "Journal entries, balancing, ledger.",
+    "Financial statements.",
+    "Books/records, reports/worksheets, and business goals.",
+    "Experience, hiring, cost system."
+  ],
+  "answer": "Books/records, reports/worksheets, and business goals.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Control Systems",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q15"
+},
+{
+  "id": 2091,
+  "category": "Business & Finance",
+  "subcategory": "Financing",
+  "question_en": "When you borrow money from the bank, you are:",
+  "question_pt": "When you borrow money from the bank, you are:",
+  "options": [
+    "Virtually getting extra money.",
+    "Renting money, because the interest you pay is the cost of using other people’s money.",
+    "Beating the odds.",
+    "Starting a course you can’t reverse."
+  ],
+  "answer": "Renting money, because the interest you pay is the cost of using other people’s money.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Financing",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q1"
+},
+{
+  "id": 2092,
+  "category": "Business & Finance",
+  "subcategory": "Financing",
+  "question_en": "To be considered a “good risk” by a bank, it helps most if:",
+  "question_pt": "To be considered a “good risk” by a bank, it helps most if:",
+  "options": [
+    "Your business is low-risk.",
+    "You have enough insurance.",
+    "You have good credit and a healthy cash flow.",
+    "You rarely missed payments."
+  ],
+  "answer": "You have good credit and a healthy cash flow.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Financing",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q2"
+},
+{
+  "id": 2093,
+  "category": "Business & Finance",
+  "subcategory": "Loans",
+  "question_en": "When explaining to the bank why you are applying for a loan, a good reason is:",
+  "question_pt": "When explaining to the bank why you are applying for a loan, a good reason is:",
+  "options": [
+    "You’ll be able to produce greater profits by buying equipment that reduces costs.",
+    "You can’t afford to stay in business.",
+    "You want to save money.",
+    "You need to survive winter."
+  ],
+  "answer": "You’ll be able to produce greater profits by buying equipment that reduces costs.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Loans",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q3"
+},
+{
+  "id": 2094,
+  "category": "Business & Finance",
+  "subcategory": "Bank Requirements",
+  "question_en": "If you are self-employed, most banks will require:",
+  "question_pt": "If you are self-employed, most banks will require:",
+  "options": [
+    "Two or three years tax returns and a current financial statement.",
+    "CPA prepared statement.",
+    "A deposit.",
+    "References."
+  ],
+  "answer": "Two or three years tax returns and a current financial statement.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Bank Requirements",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q4"
+},
+{
+  "id": 2095,
+  "category": "Business & Finance",
+  "subcategory": "Loans",
+  "question_en": "If you have negative information like late payments, you should:",
+  "question_pt": "If you have negative information like late payments, you should:",
+  "options": [
+    "Avoid mentioning it.",
+    "Blame misunderstanding.",
+    "Mention it honestly and explain briefly.",
+    "Say bookkeeping issue."
+  ],
+  "answer": "Mention it honestly and explain briefly.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Loans",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q5"
+},
+{
+  "id": 2096,
+  "category": "Business & Finance",
+  "subcategory": "Loans",
+  "question_en": "A guarantor is someone who:",
+  "question_pt": "A guarantor is someone who:",
+  "options": [
+    "Processes your loan.",
+    "Charges fee.",
+    "Vouches for you and promises to pay if you don’t.",
+    "Borrows with you."
+  ],
+  "answer": "Vouches for you and promises to pay if you don’t.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Loans",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q6"
+},
+{
+  "id": 2097,
+  "category": "Business & Finance",
+  "subcategory": "SBA",
+  "question_en": "The Small Business Administration is an agency that:",
+  "question_pt": "The Small Business Administration is an agency that:",
+  "options": [
+    "Loans money directly.",
+    "Acts as consultant and guarantor.",
+    "Gives grants.",
+    "Controls compliance."
+  ],
+  "answer": "Acts as consultant and guarantor.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "SBA",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q7"
+},
+{
+  "id": 2098,
+  "category": "Business & Finance",
+  "subcategory": "Bank Presentation",
+  "question_en": "The prospectus format is:",
+  "question_pt": "The prospectus format is:",
+  "options": [
+    "5-year projections.",
+    "Customer study.",
+    "Business plan.",
+    "Narrative explanation of operations, markets, profits, and cash flow."
+  ],
+  "answer": "Narrative explanation of operations, markets, profits, and cash flow.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Bank Presentation",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q8"
+},
+{
+  "id": 2099,
+  "category": "Business & Finance",
+  "subcategory": "Bank Presentation",
+  "question_en": "The most effective presentation at the bank includes:",
+  "question_pt": "The most effective presentation at the bank includes:",
+  "options": [
+    "Financial statements.",
+    "Narrative description.",
+    "Notes on circumstances.",
+    "All of the above."
+  ],
+  "answer": "All of the above.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Bank Presentation",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q9"
+},
+{
+  "id": 2100,
+  "category": "Business & Finance",
+  "subcategory": "Bank Presentation",
+  "question_en": "The best way to explain something negative is:",
+  "question_pt": "The best way to explain something negative is:",
+  "options": [
+    "Just facts.",
+    "PR approach.",
+    "Honest compromise with explanation.",
+    "Stonewall approach."
+  ],
+  "answer": "Honest compromise with explanation.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Bank Presentation",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q10"
+},
+{
+  "id": 2101,
+  "category": "Business & Finance",
+  "subcategory": "SBA",
+  "question_en": "The SBA defines a small business as:",
+  "question_pt": "The SBA defines a small business as:",
+  "options": [
+    "$1M sales.",
+    "$1M + 20 employees.",
+    "$17M + 100 employees.",
+    "No definition."
+  ],
+  "answer": "$17M + 100 employees.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "SBA",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q11"
+},
+{
+  "id": 2102,
+  "category": "Business & Finance",
+  "subcategory": "SBA",
+  "question_en": "SBA can’t loan money if:",
+  "question_pt": "SBA can’t loan money if:",
+  "options": [
+    "Outside US.",
+    "Parole.",
+    "Real estate investment.",
+    "All of the above."
+  ],
+  "answer": "All of the above.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "SBA",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q12"
+},
+{
+  "id": 2103,
+  "category": "Business & Finance",
+  "subcategory": "SBA",
+  "question_en": "SBA guaranty loans can be made up to:",
+  "question_pt": "SBA guaranty loans can be made up to:",
+  "options": [
+    "Unlimited.",
+    "$1M.",
+    "Any amount, but guarantee max $750k.",
+    "$200k."
+  ],
+  "answer": "Any amount, but guarantee max $750k.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "SBA",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q13"
+},
+{
+  "id": 2104,
+  "category": "Business & Finance",
+  "subcategory": "SBA",
+  "question_en": "The SBA CAPLine program is:",
+  "question_pt": "The SBA CAPLine program is:",
+  "options": [
+    "Short-term loan programs.",
+    "Long-term loan.",
+    "Non-repayable capital.",
+    "Large company only."
+  ],
+  "answer": "Short-term loan programs.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "SBA",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q14"
+},
+{
+  "id": 2105,
+  "category": "Business & Finance",
+  "subcategory": "SBA",
+  "question_en": "Builders needing financial assistance can apply for:",
+  "question_pt": "Builders needing financial assistance can apply for:",
+  "options": [
+    "Standard SBA loan.",
+    "Long-term capital assistance.",
+    "Builders Line using project as collateral.",
+    "Working capital loan."
+  ],
+  "answer": "Builders Line using project as collateral.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "SBA",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q15"
 }
   ];

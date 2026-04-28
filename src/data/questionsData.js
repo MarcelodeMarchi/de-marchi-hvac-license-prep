@@ -20721,5 +20721,1805 @@ export const questions = [
   "reference_section": "",
   "reference_page": "",
   "reference_paragraph": "Q15"
+},
+{
+  "id": 1911,
+  "category": "Business & Finance",
+  "subcategory": "Labor Costs",
+  "question_en": "The best way to analyze labor costs is:",
+  "question_pt": "The best way to analyze labor costs is:",
+  "options": [
+    "According to how payroll taxes have to be computed and paid.",
+    "By the job.",
+    "By variations between pay periods.",
+    "By variations by season of the year."
+  ],
+  "answer": "By the job.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Labor Costs",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q1"
+},
+{
+  "id": 1912,
+  "category": "Business & Finance",
+  "subcategory": "Labor Costs",
+  "question_en": "A lot of labor cost overruns are caused by:",
+  "question_pt": "A lot of labor cost overruns are caused by:",
+  "options": [
+    "Your foreman allowing crews to work too slowly when you’re not around.",
+    "Too many rules imposed by labor unions.",
+    "The difficulty of accurately estimating the real cost of completing tasks.",
+    "Excessive idle time and inefficient work schedules."
+  ],
+  "answer": "Excessive idle time and inefficient work schedules.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Labor Costs",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q2"
+},
+{
+  "id": 1913,
+  "category": "Business & Finance",
+  "subcategory": "Labor Analysis",
+  "question_en": "A logical place for completing a by-job analysis of labor is:",
+  "question_pt": "A logical place for completing a by-job analysis of labor is:",
+  "options": [
+    "In the general ledger, where all transactions are already recorded.",
+    "In the payroll register, where all labor is recorded.",
+    "In the job cost files, where each job’s records have to be broken down.",
+    "On time cards, where each employee reports the hours worked on each job."
+  ],
+  "answer": "In the payroll register, where all labor is recorded.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Labor Analysis",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q3"
+},
+{
+  "id": 1914,
+  "category": "Business & Finance",
+  "subcategory": "Job Costing",
+  "question_en": "Job cost breakdowns for materials and subcontractors are best performed:",
+  "question_pt": "Job cost breakdowns for materials and subcontractors are best performed:",
+  "options": [
+    "At the time payments are made, because they can be easily identified by job.",
+    "With a special analysis at the end of each week, to save recording time each day.",
+    "In the general ledger, to ensure that you account for all transactions.",
+    "In the job cost subsidiary journal."
+  ],
+  "answer": "At the time payments are made, because they can be easily identified by job.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Job Costing",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q4"
+},
+{
+  "id": 1915,
+  "category": "Business & Finance",
+  "subcategory": "Cost Systems",
+  "question_en": "With a computerized system, you can break down costs by job with:",
+  "question_pt": "With a computerized system, you can break down costs by job with:",
+  "options": [
+    "A very sophisticated computer that is able to figure the job breakdown for you.",
+    "An assignment to a specific job at the time you input each transaction.",
+    "The assistance of a programmer or systems analyst.",
+    "With an investment in specialized programming and operating hardware and software."
+  ],
+  "answer": "An assignment to a specific job at the time you input each transaction.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Cost Systems",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q5"
+},
+{
+  "id": 1916,
+  "category": "Business & Finance",
+  "subcategory": "Job Costing",
+  "question_en": "Job costing for overhead:",
+  "question_pt": "Job costing for overhead:",
+  "options": [
+    "Can be performed on the same basis as direct costs.",
+    "Has to be done in accordance with the overhead allowance you built into your original bid.",
+    "Has to be allocated on some logical basis, but cannot be assigned specifically to each job.",
+    "None of the above."
+  ],
+  "answer": "Has to be allocated on some logical basis, but cannot be assigned specifically to each job.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Job Costing",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q6"
+},
+{
+  "id": 1917,
+  "category": "Business & Finance",
+  "subcategory": "Overhead",
+  "question_en": "The most reasonable way to allocate overhead by job is:",
+  "question_pt": "The most reasonable way to allocate overhead by job is:",
+  "options": [
+    "In the same proportion as direct labor.",
+    "On a strictly itemized basis.",
+    "On a proportionate basis based on sales.",
+    "In such a way as to equalize profits as much as possible."
+  ],
+  "answer": "In the same proportion as direct labor.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Overhead",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q7"
+},
+{
+  "id": 1918,
+  "category": "Business & Finance",
+  "subcategory": "Accounting Systems",
+  "question_en": "On a manual pegboard system, direct costs are recorded:",
+  "question_pt": "On a manual pegboard system, direct costs are recorded:",
+  "options": [
+    "On a separate register, requiring duplication of entries.",
+    "On the check register, requiring a detailed breakdown at the end of the month.",
+    "Only at the end of each day.",
+    "On a job cost ledger card, the sum of which will equal general ledger distribution columns."
+  ],
+  "answer": "On a job cost ledger card, the sum of which will equal general ledger distribution columns.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Accounting Systems",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q8"
+},
+{
+  "id": 1919,
+  "category": "Business & Finance",
+  "subcategory": "Accounting Methods",
+  "question_en": "Completed-contract monthly entries to record expense deferrals are made with:",
+  "question_pt": "Completed-contract monthly entries to record expense deferrals are made with:",
+  "options": [
+    "A debit to each expense and a credit to the deferral account.",
+    "A debit to the deferred debits account and credits to expense and deferral accounts.",
+    "A debit to the deferred debit account and credits to each selling expense general ledger account.",
+    "A debit to expense deferral accounts and credits to cash."
+  ],
+  "answer": "A debit to the deferred debits account and credits to expense and deferral accounts.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Accounting Methods",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q9"
+},
+{
+  "id": 1920,
+  "category": "Business & Finance",
+  "subcategory": "Accounting Methods",
+  "question_en": "Under the completed-contract method:",
+  "question_pt": "Under the completed-contract method:",
+  "options": [
+    "All income, costs and expenses are booked with a single entry.",
+    "All deferral accounts are zeroed out to profit and loss.",
+    "Income entries made previously are reversed.",
+    "All of the above."
+  ],
+  "answer": "All income, costs and expenses are booked with a single entry.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Accounting Methods",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q10"
+},
+{
+  "id": 1921,
+  "category": "Business & Finance",
+  "subcategory": "Labor Analysis",
+  "question_en": "The purpose of analyzing labor costs is to figure out:",
+  "question_pt": "The purpose of analyzing labor costs is to figure out:",
+  "options": [
+    "The actual cost of completing projects and their stages.",
+    "What the competition pays its labor force.",
+    "How efficiently your employees are working when you’re not there.",
+    "What you owe in payroll taxes."
+  ],
+  "answer": "The actual cost of completing projects and their stages.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Labor Analysis",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q11"
+},
+{
+  "id": 1922,
+  "category": "Business & Finance",
+  "subcategory": "Automation",
+  "question_en": "Breaking down labor costs in an automated system:",
+  "question_pt": "Breaking down labor costs in an automated system:",
+  "options": [
+    "Is a highly complex task requiring training in computer programming.",
+    "Is impossible in an automated system.",
+    "Can be achieved at the time accounting entries are made.",
+    "Is not necessary as it can be done more quickly by hand."
+  ],
+  "answer": "Can be achieved at the time accounting entries are made.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Automation",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q12"
+},
+{
+  "id": 1923,
+  "category": "Business & Finance",
+  "subcategory": "Cost Accounting",
+  "question_en": "The cost accounting system:",
+  "question_pt": "The cost accounting system:",
+  "options": [
+    "Requires skilled accounting training.",
+    "Demands full automation without exception.",
+    "Doesn’t have to be complicated.",
+    "Is the same as your general ledger."
+  ],
+  "answer": "Doesn’t have to be complicated.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Cost Accounting",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q13"
+},
+{
+  "id": 1924,
+  "category": "Business & Finance",
+  "subcategory": "Labor",
+  "question_en": "The term “direct” labor means:",
+  "question_pt": "The term “direct” labor means:",
+  "options": [
+    "Payments are made to a garnishing agency directly instead of the employee.",
+    "Labor is identified by job and is a direct cost.",
+    "Withholding rates are directed by the government.",
+    "None of the above."
+  ],
+  "answer": "Labor is identified by job and is a direct cost.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Labor",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q14"
+},
+{
+  "id": 1925,
+  "category": "Business & Finance",
+  "subcategory": "Job Costing",
+  "question_en": "The job cost ledger card is a record that shows:",
+  "question_pt": "The job cost ledger card is a record that shows:",
+  "options": [
+    "The cost of keeping books by hand or on a computer.",
+    "Job cost breakdown for the general expense categories.",
+    "How entries are made to your general ledger.",
+    "How direct costs are classified by each job."
+  ],
+  "answer": "How direct costs are classified by each job.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Job Costing",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q15"
+},
+{
+  "id": 1926,
+  "category": "Business & Finance",
+  "subcategory": "Petty Cash",
+  "question_en": "You probably need a petty cash fund because:",
+  "question_pt": "You probably need a petty cash fund because:",
+  "options": [
+    "It’s a good place to put cash payments made by your customers.",
+    "Employees sometimes need to borrow a few dollars.",
+    "It’s convenient to cash checks for employees or customers.",
+    "It allows you to capture and record minor expenses paid for in cash."
+  ],
+  "answer": "It allows you to capture and record minor expenses paid for in cash.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Petty Cash",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q1"
+},
+{
+  "id": 1927,
+  "category": "Business & Finance",
+  "subcategory": "Petty Cash",
+  "question_en": "You can set up an initial petty cash fund by:",
+  "question_pt": "You can set up an initial petty cash fund by:",
+  "options": [
+    "Withholding cash from a bank deposit.",
+    "Writing out a check to “cash.”",
+    "Putting additional capital into the business in the form of cash.",
+    "None of the above."
+  ],
+  "answer": "None of the above.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Petty Cash",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q2"
+},
+{
+  "id": 1928,
+  "category": "Business & Finance",
+  "subcategory": "Petty Cash",
+  "question_en": "The problem with writing a check payable to “cash” to pay for minor expenses is:",
+  "question_pt": "The problem with writing a check payable to “cash” to pay for minor expenses is:",
+  "options": [
+    "The IRS won’t allow you to use your business account for unexplained payments.",
+    "It looks suspicious, because business owners almost never write checks that way.",
+    "It doesn’t provide you a method for capturing minor expenses and recording them in your books.",
+    "All of the above."
+  ],
+  "answer": "It doesn’t provide you a method for capturing minor expenses and recording them in your books.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Petty Cash",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q3"
+},
+{
+  "id": 1929,
+  "category": "Business & Finance",
+  "subcategory": "Petty Cash",
+  "question_en": "The “imprest system” of petty cash is:",
+  "question_pt": "The “imprest system” of petty cash is:",
+  "options": [
+    "Set up so that you’re always reimbursing the fund to a pre-established level.",
+    "Constantly changing in balance based on the volume of receipts submitted.",
+    "Given the name because when it was first developed, accountants were very impressed with the results.",
+    "The only method approved by the IRS."
+  ],
+  "answer": "Set up so that you’re always reimbursing the fund to a pre-established level.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Petty Cash",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q4"
+},
+{
+  "id": 1930,
+  "category": "Business & Finance",
+  "subcategory": "Petty Cash",
+  "question_en": "Your petty cash fund’s level should be established:",
+  "question_pt": "Your petty cash fund’s level should be established:",
+  "options": [
+    "According to the cash available at the time you set it up.",
+    "Based on need, so that you need to reimburse it only once or twice per month.",
+    "At no more than 5 percent of your monthly sales average.",
+    "By your accountant."
+  ],
+  "answer": "Based on need, so that you need to reimburse it only once or twice per month.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Petty Cash",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q5"
+},
+{
+  "id": 1931,
+  "category": "Business & Finance",
+  "subcategory": "Petty Cash",
+  "question_en": "To increase the balance of a petty cash fund:",
+  "question_pt": "To increase the balance of a petty cash fund:",
+  "options": [
+    "Write a check above the reimbursement amount, and increase the balance in the general ledger.",
+    "Write a check above the reimbursement amount, but make no changes to the permanent balance in the general ledger.",
+    "Write a check below the reimbursement amount; the difference between that and the total of receipts will increase your fund balance.",
+    "Don’t reimburse receipts one month, so that you have more money available in the fund."
+  ],
+  "answer": "Write a check above the reimbursement amount, and increase the balance in the general ledger.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Petty Cash",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q6"
+},
+{
+  "id": 1932,
+  "category": "Business & Finance",
+  "subcategory": "Petty Cash",
+  "question_en": "To decrease the petty cash fund balance:",
+  "question_pt": "To decrease the petty cash fund balance:",
+  "options": [
+    "Write a check to reimburse the fund, minus the decrease amount, but don’t change the general ledger balance.",
+    "Write a check to reimburse the fund, minus the decrease amount, also decrease the fund balance in the general ledger.",
+    "Simply let the cash balance fall to the level you want, and don’t make any special entries.",
+    "Write a reimbursement check above the level required to reimburse the fund."
+  ],
+  "answer": "Write a check to reimburse the fund, minus the decrease amount, also decrease the fund balance in the general ledger.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Petty Cash",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q7"
+},
+{
+  "id": 1933,
+  "category": "Business & Finance",
+  "subcategory": "Petty Cash",
+  "question_en": "Control over petty cash consists of:",
+  "question_pt": "Control over petty cash consists of:",
+  "options": [
+    "Completion of a worksheet by your accountant.",
+    "Accounting for the total of cash plus receipts.",
+    "Reimbursing to the desired balance, regardless of the receipt totals.",
+    "Filling out a petty cash receipt form."
+  ],
+  "answer": "Accounting for the total of cash plus receipts.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Petty Cash",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q8"
+},
+{
+  "id": 1934,
+  "category": "Business & Finance",
+  "subcategory": "Petty Cash",
+  "question_en": "Control over the fund itself:",
+  "question_pt": "Control over the fund itself:",
+  "options": [
+    "Is based on the honor system, with each employee being asked to always replace cash with a receipt.",
+    "Should be left only to the accountant or the company president.",
+    "Is not important, since the amount of cash involved is very minor.",
+    "Should be left with one person, who should reimburse those presenting proper receipts."
+  ],
+  "answer": "Should be left with one person, who should reimburse those presenting proper receipts.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Petty Cash",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q9"
+},
+{
+  "id": 1935,
+  "category": "Business & Finance",
+  "subcategory": "Petty Cash",
+  "question_en": "A petty cash summary:",
+  "question_pt": "A petty cash summary:",
+  "options": [
+    "Summarizes the transactions and should be prepared each time the fund is reimbursed.",
+    "Is another name for a petty cash receipt.",
+    "Is part of the accounting record, and is not of concern to the contractor.",
+    "Should always come out exactly to the penny."
+  ],
+  "answer": "Summarizes the transactions and should be prepared each time the fund is reimbursed.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Petty Cash",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q10"
+},
+{
+  "id": 1936,
+  "category": "Business & Finance",
+  "subcategory": "Petty Cash",
+  "question_en": "Because it’s desirable to run all transactions through the books:",
+  "question_pt": "Because it’s desirable to run all transactions through the books:",
+  "options": [
+    "All expenses must be paid by check, without exception.",
+    "Petty cash funds are necessary for documenting unavoidable cash outlays.",
+    "Cash expenses are not deductible even with a receipt.",
+    "Petty cash is not considered part of your bookkeeping system."
+  ],
+  "answer": "Petty cash funds are necessary for documenting unavoidable cash outlays.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Petty Cash",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q11"
+},
+{
+  "id": 1937,
+  "category": "Business & Finance",
+  "subcategory": "Petty Cash",
+  "question_en": "The level of a petty cash fund is determined by your needs. Most operations need to establish a fund of at least:",
+  "question_pt": "The level of a petty cash fund is determined by your needs. Most operations need to establish a fund of at least:",
+  "options": [
+    "$50.",
+    "$100.",
+    "$200.",
+    "$300."
+  ],
+  "answer": "$50.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Petty Cash",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q12"
+},
+{
+  "id": 1938,
+  "category": "Business & Finance",
+  "subcategory": "Petty Cash",
+  "question_en": "Petty cash funds are most appropriate for:",
+  "question_pt": "Petty cash funds are most appropriate for:",
+  "options": [
+    "Expenses too minor to justify writing a check.",
+    "Anything you don’t want to appear in your books.",
+    "The occasional off-the-books lunch.",
+    "Payment of non-deductible payments."
+  ],
+  "answer": "Expenses too minor to justify writing a check.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Petty Cash",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q13"
+},
+{
+  "id": 1939,
+  "category": "Business & Finance",
+  "subcategory": "Petty Cash",
+  "question_en": "All money removed from petty cash is:",
+  "question_pt": "All money removed from petty cash is:",
+  "options": [
+    "Non-taxable profit to the owner.",
+    "Documented by way of a canceled check.",
+    "Written off as a loss.",
+    "Replaced with a receipt."
+  ],
+  "answer": "Replaced with a receipt.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Petty Cash",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q14"
+},
+{
+  "id": 1940,
+  "category": "Business & Finance",
+  "subcategory": "Petty Cash",
+  "question_en": "Your petty cash fund consists of:",
+  "question_pt": "Your petty cash fund consists of:",
+  "options": [
+    "Postage stamps and postal receipts.",
+    "Bills payable.",
+    "Currency, change and receipts adding up to the imprest balance.",
+    "Documents showing your attempts at balancing the fund."
+  ],
+  "answer": "Currency, change and receipts adding up to the imprest balance.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Petty Cash",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q15"
+},
+{
+  "id": 1941,
+  "category": "Business & Finance",
+  "subcategory": "Bank Reconciliation",
+  "question_en": "The best way to get a true balance in your account is to:",
+  "question_pt": "The best way to get a true balance in your account is to:",
+  "options": [
+    "Check with the bank and go with their balance.",
+    "Balance the account every month.",
+    "Stop using the account until everything clears.",
+    "Ask your accountant for help."
+  ],
+  "answer": "Balance the account every month.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Bank Reconciliation",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q1"
+},
+{
+  "id": 1942,
+  "category": "Business & Finance",
+  "subcategory": "Bank Reconciliation",
+  "question_en": "A “good” starting balance is:",
+  "question_pt": "A “good” starting balance is:",
+  "options": [
+    "One with a positive balance and not a negative balance.",
+    "Resolving the bank’s errors.",
+    "The discovery that you have more cash than you thought.",
+    "A balance forward with a balanced account."
+  ],
+  "answer": "A balance forward with a balanced account.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Bank Reconciliation",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q2"
+},
+{
+  "id": 1943,
+  "category": "Business & Finance",
+  "subcategory": "Bank Reconciliation",
+  "question_en": "A bank reconciliation is nothing more than:",
+  "question_pt": "A bank reconciliation is nothing more than:",
+  "options": [
+    "Accounting for all of the differences between your balance and the bank’s balance.",
+    "Resolving the bank’s errors.",
+    "A form used by accountants.",
+    "An agreement with your bank on the amount of monthly charges they will assess you."
+  ],
+  "answer": "Accounting for all of the differences between your balance and the bank’s balance.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Bank Reconciliation",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q3"
+},
+{
+  "id": 1944,
+  "category": "Business & Finance",
+  "subcategory": "Bank Reconciliation",
+  "question_en": "The bank reconciliation includes:",
+  "question_pt": "The bank reconciliation includes:",
+  "options": [
+    "Listing and accounting for outstanding checks.",
+    "Identifying deposits in transit.",
+    "Listing all adjustments and errors, and then correcting them.",
+    "All of the above."
+  ],
+  "answer": "All of the above.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Bank Reconciliation",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q4"
+},
+{
+  "id": 1945,
+  "category": "Business & Finance",
+  "subcategory": "Bank Reconciliation",
+  "question_en": "If you account for every item in your checkbook, and you still can’t balance:",
+  "question_pt": "If you account for every item in your checkbook, and you still can’t balance:",
+  "options": [
+    "Call the bank and ask them to find the error.",
+    "Adjust your cash balance for the difference.",
+    "Look for math errors in the checkbook or your lists, and make sure you made all corrections from last month’s reconciliation.",
+    "Write a check for the difference and deliver it to the bank."
+  ],
+  "answer": "Look for math errors in the checkbook or your lists, and make sure you made all corrections from last month’s reconciliation.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Bank Reconciliation",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q5"
+},
+{
+  "id": 1946,
+  "category": "Business & Finance",
+  "subcategory": "Bank Reconciliation",
+  "question_en": "Keeping a record of your bank balance outside of the checking account provides you with:",
+  "question_pt": "Keeping a record of your bank balance outside of the checking account provides you with:",
+  "options": [
+    "One more form to fill out each day.",
+    "Foolproof verification of the balance.",
+    "A useful tool for controlling your account balance and completing the reconciliation each month.",
+    "A record your bank will want to see before they will correct their error."
+  ],
+  "answer": "A useful tool for controlling your account balance and completing the reconciliation each month.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Bank Reconciliation",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q6"
+},
+{
+  "id": 1947,
+  "category": "Business & Finance",
+  "subcategory": "Bank Reconciliation",
+  "question_en": "Your account will be out of balance if:",
+  "question_pt": "Your account will be out of balance if:",
+  "options": [
+    "You void a check from last month and forget to remove it from the listing of outstanding checks.",
+    "You make a math error on a deposit slip that the bank corrects.",
+    "You overlook an adjustment journal from the previous month for a math error made in the cash account.",
+    "All of the above."
+  ],
+  "answer": "All of the above.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Bank Reconciliation",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q7"
+},
+{
+  "id": 1948,
+  "category": "Business & Finance",
+  "subcategory": "Bank Reconciliation",
+  "question_en": "A “deposit in transit” is one that:",
+  "question_pt": "A “deposit in transit” is one that:",
+  "options": [
+    "Is currently being transferred from one branch of the bank to another.",
+    "Was made by the end of the month, but not recorded on the current bank statement.",
+    "Was recorded on the bank statement, but not written in your books until the following month.",
+    "Is being reviewed by the bank’s operations officer because it contained a math error."
+  ],
+  "answer": "Was made by the end of the month, but not recorded on the current bank statement.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Bank Reconciliation",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q8"
+},
+{
+  "id": 1949,
+  "category": "Business & Finance",
+  "subcategory": "Bank Reconciliation",
+  "question_en": "When you add a returned check in error instead of subtracting it from your balance:",
+  "question_pt": "When you add a returned check in error instead of subtracting it from your balance:",
+  "options": [
+    "You will have a higher balance than your checkbook shows.",
+    "It won’t matter because you will have redeposited the check anyway.",
+    "Your balance will be overstated by twice the amount of the deposit returned.",
+    "The error reverses the original deposit so no further adjustment is needed."
+  ],
+  "answer": "Your balance will be overstated by twice the amount of the deposit returned.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Bank Reconciliation",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q9"
+},
+{
+  "id": 1950,
+  "category": "Business & Finance",
+  "subcategory": "Bank Reconciliation",
+  "question_en": "You construct a beginning balance by:",
+  "question_pt": "You construct a beginning balance by:",
+  "options": [
+    "Making enough deposits to bring your balance up to the level shown by the bank.",
+    "Starting with the bank’s balance, adding any deposits known to be in transit, and subtracting all outstanding checks.",
+    "Erasing your current balance and replacing it with the amount the bank says you have.",
+    "Reconciling your account in the prescribed manner."
+  ],
+  "answer": "Starting with the bank’s balance, adding any deposits known to be in transit, and subtracting all outstanding checks.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Bank Reconciliation",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q10"
+},
+{
+  "id": 1951,
+  "category": "Business & Finance",
+  "subcategory": "Bank Reconciliation",
+  "question_en": "Checks returned to you by your bank affect your reconciliation by:",
+  "question_pt": "Checks returned to you by your bank affect your reconciliation by:",
+  "options": [
+    "Requiring you to increase your checkbook balance.",
+    "Requiring you to decrease your checkbook balance.",
+    "Requiring you to contact the bank to fix the bank error.",
+    "Changing your list of outstanding checks."
+  ],
+  "answer": "Requiring you to decrease your checkbook balance.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Bank Reconciliation",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q11"
+},
+{
+  "id": 1952,
+  "category": "Business & Finance",
+  "subcategory": "Bank Reconciliation",
+  "question_en": "A returned check means that:",
+  "question_pt": "A returned check means that:",
+  "options": [
+    "Someone has non-sufficient account funds or stopped payment on their check to you.",
+    "The bank has reduced your account balance.",
+    "You need to make a journal entry showing the adjustment in your books.",
+    "All of the above."
+  ],
+  "answer": "All of the above.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Bank Reconciliation",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q12"
+},
+{
+  "id": 1953,
+  "category": "Business & Finance",
+  "subcategory": "Bank Reconciliation",
+  "question_en": "When you void a check written in a previous month, you also need to:",
+  "question_pt": "When you void a check written in a previous month, you also need to:",
+  "options": [
+    "Put more money into your account to cover the difference.",
+    "Force the balance, otherwise it won’t work this month.",
+    "Remove the check from your list of outstanding checks.",
+    "Reduce your balance so that it will remain correct."
+  ],
+  "answer": "Remove the check from your list of outstanding checks.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Bank Reconciliation",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q13"
+},
+{
+  "id": 1954,
+  "category": "Business & Finance",
+  "subcategory": "Bank Reconciliation",
+  "question_en": "An easy way to remember how to make special adjustments is to remember that:",
+  "question_pt": "An easy way to remember how to make special adjustments is to remember that:",
+  "options": [
+    "All entries made by the bank have to also be made in your records.",
+    "The net difference is simply added or subtracted so you’ll always balance.",
+    "The bank has to be watched or they will add fees without telling you.",
+    "No one really understands how or why accounts go out of balance."
+  ],
+  "answer": "All entries made by the bank have to also be made in your records.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Bank Reconciliation",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q14"
+},
+{
+  "id": 1955,
+  "category": "Business & Finance",
+  "subcategory": "Bank Reconciliation",
+  "question_en": "Returned checks that were deposited this month require:",
+  "question_pt": "Returned checks that were deposited this month require:",
+  "options": [
+    "A journal entry only.",
+    "A journal entry and adjustment to your running balance.",
+    "An adjustment to your running balance only.",
+    "An adjustment on your bank reconciliation, but no bookkeeping entries."
+  ],
+  "answer": "A journal entry and adjustment to your running balance.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Bank Reconciliation",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q15"
+},
+{
+  "id": 1956,
+  "category": "Business & Finance",
+  "subcategory": "Estimating",
+  "question_en": "The estimate can be thought of as:",
+  "question_pt": "The estimate can be thought of as:",
+  "options": [
+    "A type of budget for a specific job, by which you can measure and monitor results.",
+    "A schedule with goals in the form of dollar amounts, providing you both a financial and time guideline.",
+    "A tool with which you can anticipate upcoming problems, and troubleshoot them before they turn into cost overruns.",
+    "All of the above."
+  ],
+  "answer": "All of the above.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Estimating",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q1"
+},
+{
+  "id": 1957,
+  "category": "Business & Finance",
+  "subcategory": "Estimating",
+  "question_en": "Estimates can be made more accurate with the use of:",
+  "question_pt": "Estimates can be made more accurate with the use of:",
+  "options": [
+    "A computer program, allowing you to do less of the detail work yourself.",
+    "Records from previous estimates, both the successful ones and the ones on which you had cost overruns.",
+    "A full-time estimator on staff.",
+    "A well-designed pegboard system."
+  ],
+  "answer": "Records from previous estimates, both the successful ones and the ones on which you had cost overruns.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Estimating",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q2"
+},
+{
+  "id": 1958,
+  "category": "Business & Finance",
+  "subcategory": "Estimating",
+  "question_en": "When estimating payroll costs, you should include:",
+  "question_pt": "When estimating payroll costs, you should include:",
+  "options": [
+    "A cushion, in case you end up needing more people working for more hours.",
+    "An allowance for hourly pay increases, especially if the job will run more than six months.",
+    "Gross pay plus all benefits and taxes you will have to pay.",
+    "Only the net amount you actually have to pay out to crews after deducting taxes and benefits."
+  ],
+  "answer": "Gross pay plus all benefits and taxes you will have to pay.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Estimating",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q3"
+},
+{
+  "id": 1959,
+  "category": "Business & Finance",
+  "subcategory": "Estimating",
+  "question_en": "A good way to allow for equipment costs, in estimates involving the use of capital assets, is:",
+  "question_pt": "A good way to allow for equipment costs, in estimates involving the use of capital assets, is:",
+  "options": [
+    "Estimate the time you think each type of equipment has to be used, and multiply by the hourly equipment cost.",
+    "Simply figure how long the project will take, and use the amount of your total monthly payments during that period.",
+    "Add up all bills for maintenance, repairs, and insurance, and include a percentage with each job using that equipment.",
+    "Lease equipment for each job rather than tying up your capital, and bill it directly to the customer."
+  ],
+  "answer": "Estimate the time you think each type of equipment has to be used, and multiply by the hourly equipment cost.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Estimating",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q4"
+},
+{
+  "id": 1960,
+  "category": "Business & Finance",
+  "subcategory": "Estimating",
+  "question_en": "You should allocate fixed overhead to each job by:",
+  "question_pt": "You should allocate fixed overhead to each job by:",
+  "options": [
+    "A set percentage in all cases, no matter how much your overhead actually rises or falls.",
+    "A percentage of direct labor, based on overall labor and the labor for each job.",
+    "A percentage of sales or cash receipts, minus retainage.",
+    "A percentage of gross profit estimated by job."
+  ],
+  "answer": "A percentage of direct labor, based on overall labor and the labor for each job.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Estimating",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q5"
+},
+{
+  "id": 1961,
+  "category": "Business & Finance",
+  "subcategory": "Estimating",
+  "question_en": "Fixed overhead is:",
+  "question_pt": "Fixed overhead is:",
+  "options": [
+    "Easier to allocate, because it can be identified by the job more readily.",
+    "Easier to estimate because the amount doesn’t vary significantly, but it’s less applicable to each job.",
+    "Easy to estimate and to allocate, and thus the simplest part of your estimate.",
+    "Very difficult to estimate or to allocate, and thus the most troublesome aspect of estimating."
+  ],
+  "answer": "Easier to estimate because the amount doesn’t vary significantly, but it’s less applicable to each job.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Estimating",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q6"
+},
+{
+  "id": 1962,
+  "category": "Business & Finance",
+  "subcategory": "Estimating",
+  "question_en": "When allocating labor to a job, be sure to allow for the number of months the project should take, because:",
+  "question_pt": "When allocating labor to a job, be sure to allow for the number of months the project should take, because:",
+  "options": [
+    "The shorter the project, the higher your profits will be with a standard allocation formula.",
+    "The longer the project, the higher your profits will be with a standard allocation formula.",
+    "You need to allocate the correct monthly amount, times the number of months; otherwise, you may allocate too much or too little to each job.",
+    "Some months absorb more overhead than others, so you want to err on the high side; use only high-volume months in your estimate."
+  ],
+  "answer": "You need to allocate the correct monthly amount, times the number of months; otherwise, you may allocate too much or too little to each job.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Estimating",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q7"
+},
+{
+  "id": 1963,
+  "category": "Business & Finance",
+  "subcategory": "Estimating",
+  "question_en": "Annualized direct labor costs are helpful in allocating overhead because:",
+  "question_pt": "Annualized direct labor costs are helpful in allocating overhead because:",
+  "options": [
+    "You want to reflect as accurately as possible the allocation for labor, and direct labor is the most reliable method to use.",
+    "Although the formula is complicated, your accountant will insist on some form of verification.",
+    "Most jobs take about one year, so annualized labor is a reliable shortcut method for allocating expenses.",
+    "It always comes out a little higher this way, so it provides you an extra cushion against unanticipated overruns."
+  ],
+  "answer": "You want to reflect as accurately as possible the allocation for labor, and direct labor is the most reliable method to use.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Estimating",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q8"
+},
+{
+  "id": 1964,
+  "category": "Business & Finance",
+  "subcategory": "Estimating",
+  "question_en": "You should provide complete documentation of all estimate calculations so that:",
+  "question_pt": "You should provide complete documentation of all estimate calculations so that:",
+  "options": [
+    "You can find the causes of problems in future estimates based on the same information.",
+    "You will be able to explain exactly how you arrived at a cost calculation, in case the customer requests a change order during the job.",
+    "It provides a good working model to continue improving your estimating technique.",
+    "All of the above."
+  ],
+  "answer": "All of the above.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Estimating",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q9"
+},
+{
+  "id": 1965,
+  "category": "Business & Finance",
+  "subcategory": "Estimating",
+  "question_en": "The best time to control costs is:",
+  "question_pt": "The best time to control costs is:",
+  "options": [
+    "Immediately following a monthly project review meeting, when any cost overruns for the past month are explained fully.",
+    "As the job progresses, based on a comparison between the estimate and actual costs and expenses.",
+    "Whenever your foreman brings problems to your attention.",
+    "At the time you approve invoices and statements for payment."
+  ],
+  "answer": "As the job progresses, based on a comparison between the estimate and actual costs and expenses.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Estimating",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q10"
+},
+{
+  "id": 1966,
+  "category": "Business & Finance",
+  "subcategory": "Estimating",
+  "question_en": "The estimate can be used as:",
+  "question_pt": "The estimate can be used as:",
+  "options": [
+    "A substitute for more complicated general ledger records.",
+    "A type of journal for recording source documents.",
+    "A means for monitoring, just like a forecast and budget for each job.",
+    "All of the above."
+  ],
+  "answer": "A means for monitoring, just like a forecast and budget for each job.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Estimating",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q11"
+},
+{
+  "id": 1967,
+  "category": "Business & Finance",
+  "subcategory": "Estimating",
+  "question_en": "When you haven’t decided whether you might sub out part of a job or do it yourself, you should:",
+  "question_pt": "When you haven’t decided whether you might sub out part of a job or do it yourself, you should:",
+  "options": [
+    "Estimate total costs on the job above the usual level.",
+    "Estimate total costs on the job below the usual level.",
+    "Add five percent across the board.",
+    "Prepare the estimate on the assumption that you’ll sub out the work."
+  ],
+  "answer": "Prepare the estimate on the assumption that you’ll sub out the work.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Estimating",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q12"
+},
+{
+  "id": 1968,
+  "category": "Business & Finance",
+  "subcategory": "Estimating",
+  "question_en": "The job completion schedule is:",
+  "question_pt": "The job completion schedule is:",
+  "options": [
+    "Essential for controlling all phases of the job.",
+    "A document that may reveal omissions in your estimate.",
+    "A computer-generated form used by accountants to track job costs.",
+    "Provided by your local building department."
+  ],
+  "answer": "Essential for controlling all phases of the job.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Estimating",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q13"
+},
+{
+  "id": 1969,
+  "category": "Business & Finance",
+  "subcategory": "Estimating",
+  "question_en": "Materials to be used on the job are:",
+  "question_pt": "Materials to be used on the job are:",
+  "options": [
+    "Not included in the estimate if they come out of inventory.",
+    "More accurately accounted for with solid, well-documented expense allocations.",
+    "Impossible to estimate accurately because costs change constantly.",
+    "Accurately estimated with the use of take-off records from previous jobs."
+  ],
+  "answer": "Accurately estimated with the use of take-off records from previous jobs.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Estimating",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q14"
+},
+{
+  "id": 1970,
+  "category": "Business & Finance",
+  "subcategory": "Job Costing",
+  "question_en": "Control over job costs occurs:",
+  "question_pt": "Control over job costs occurs:",
+  "options": [
+    "Historically, with the value of hindsight.",
+    "At each phase of the job, tightening your controls.",
+    "Only at key points in the progress of the job.",
+    "Only when subcontractors are involved."
+  ],
+  "answer": "At each phase of the job, tightening your controls.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Job Costing",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q15"
+},
+{
+  "id": 1971,
+  "category": "Business & Finance",
+  "subcategory": "Accruals",
+  "question_en": "An accrual in your books is:",
+  "question_pt": "An accrual in your books is:",
+  "options": [
+    "Simply the balance in any liability account.",
+    "An entry made to balance your actual records to the budget and forecast.",
+    "An entry for income earned but not yet received, or for an expense incurred but not yet paid.",
+    "Any journal entry."
+  ],
+  "answer": "An entry for income earned but not yet received, or for an expense incurred but not yet paid.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Accruals",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q1"
+},
+{
+  "id": 1972,
+  "category": "Business & Finance",
+  "subcategory": "Accruals",
+  "question_en": "Accruals have to be made because:",
+  "question_pt": "Accruals have to be made because:",
+  "options": [
+    "Income and expenses don’t always cause a cash transaction in the correct period.",
+    "Jobs rarely get completed on schedule.",
+    "It is the only way to bill customers in a timely manner.",
+    "All of the above."
+  ],
+  "answer": "Income and expenses don’t always cause a cash transaction in the correct period.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Accruals",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q2"
+},
+{
+  "id": 1973,
+  "category": "Business & Finance",
+  "subcategory": "Accruals",
+  "question_en": "An entry to record an accrual for sales made on account consists of:",
+  "question_pt": "An entry to record an accrual for sales made on account consists of:",
+  "options": [
+    "A debit to cash and a credit to sales.",
+    "A debit to sales and a credit to cash.",
+    "A debit to accounts receivable and a credit to sales.",
+    "A debit to sales and a credit to accounts receivable."
+  ],
+  "answer": "A debit to accounts receivable and a credit to sales.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Accruals",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q3"
+},
+{
+  "id": 1974,
+  "category": "Business & Finance",
+  "subcategory": "Accruals",
+  "question_en": "When a customer pays an account on credit from a previous period, the entry involves:",
+  "question_pt": "When a customer pays an account on credit from a previous period, the entry involves:",
+  "options": [
+    "A debit to accounts receivable and a credit to sales.",
+    "A debit to sales and a credit to cash.",
+    "A debit to cash and a credit to sales.",
+    "A debit to cash and a credit to accounts receivable."
+  ],
+  "answer": "A debit to cash and a credit to accounts receivable.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Accruals",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q4"
+},
+{
+  "id": 1975,
+  "category": "Business & Finance",
+  "subcategory": "Prepaid Expenses",
+  "question_en": "Prepaid expenses are:",
+  "question_pt": "Prepaid expenses are:",
+  "options": [
+    "Accruals made to refer some portion of the year’s expense to next year, when you need the write-off on your taxes.",
+    "Payments for expenses that apply over several months, that are set up as assets and then written off over the applicable period.",
+    "Holding deposits on materials to be drop shipped to job sites within the coming week.",
+    "Payments required from suppliers in advance of accepting orders, when you have a history of late payments."
+  ],
+  "answer": "Payments for expenses that apply over several months, that are set up as assets and then written off over the applicable period.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Prepaid Expenses",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q5"
+},
+{
+  "id": 1976,
+  "category": "Business & Finance",
+  "subcategory": "Accruals",
+  "question_en": "The difference between an accrual and a deferral is:",
+  "question_pt": "The difference between an accrual and a deferral is:",
+  "options": [
+    "The accrual is allowed by law, while deferrals are considered as tax avoidance.",
+    "The accrual is made before the cash transaction takes place; the deferral delays recognition of income or expense to a later period.",
+    "The deferral is made before the cash transaction takes place; the accrual delays recognition of income or expense to a later period.",
+    "Only a matter of terminology; they are essentially the same thing."
+  ],
+  "answer": "The accrual is made before the cash transaction takes place; the deferral delays recognition of income or expense to a later period.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Accruals",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q6"
+},
+{
+  "id": 1977,
+  "category": "Business & Finance",
+  "subcategory": "Deferred Income",
+  "question_en": "An example of deferred income is:",
+  "question_pt": "An example of deferred income is:",
+  "options": [
+    "A customer pays you before you actually earn the income. You set it up as a deferred liability, and recognize it in the future.",
+    "A customer owes you money now but does not pay it. So you have to defer receiving payment until the future.",
+    "A customer agrees to hire you but, before you sign contracts, decides to use someone else. The income you anticipated is permanently deferred.",
+    "You manage to reduce taxable income this year by paying a lot of expenses before December 31. However, next year you will have lower expenses, so you have deferred the taxable income."
+  ],
+  "answer": "A customer pays you before you actually earn the income. You set it up as a deferred liability, and recognize it in the future.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Deferred Income",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q7"
+},
+{
+  "id": 1978,
+  "category": "Business & Finance",
+  "subcategory": "Bad Debts",
+  "question_en": "A bad debt reserve is:",
+  "question_pt": "A bad debt reserve is:",
+  "options": [
+    "A cash fund you establish in case you experience bad debts next year.",
+    "A fund banks set up to cover loan defaults by contractors.",
+    "A reserve set up in your books by journal entry to allow for any future bad debts you might experience.",
+    "A reserve fund set up in the net worth section of your general ledger, in case any customers overpay you."
+  ],
+  "answer": "A reserve set up in your books by journal entry to allow for any future bad debts you might experience.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Bad Debts",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q8"
+},
+{
+  "id": 1979,
+  "category": "Business & Finance",
+  "subcategory": "Accruals",
+  "question_en": "Any accrual or deferral account has to be carefully controlled because:",
+  "question_pt": "Any accrual or deferral account has to be carefully controlled because:",
+  "options": [
+    "They are likely accounts for embezzlers to use to hide unbalanced receivables.",
+    "You need to be able to verify everything in case of a tax audit.",
+    "Your accountant will want to zero out these accounts at the end of every month.",
+    "You will need to identify all required reversal entries in a future period."
+  ],
+  "answer": "You will need to identify all required reversal entries in a future period.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Accruals",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q9"
+},
+{
+  "id": 1980,
+  "category": "Business & Finance",
+  "subcategory": "Cash Accounting",
+  "question_en": "The cash accounting method:",
+  "question_pt": "The cash accounting method:",
+  "options": [
+    "Is recommended because you can avoid any accrual or deferral entries.",
+    "Is not allowed by law, so you cannot use this method for your bookkeeping needs.",
+    "Does not enable you to book income and expenses in the proper period, so it presents an unrealistic version of events.",
+    "Cannot be used for your income tax returns since no accruals or deferrals show up for the entire year."
+  ],
+  "answer": "Does not enable you to book income and expenses in the proper period, so it presents an unrealistic version of events.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Cash Accounting",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q10"
+},
+{
+  "id": 1981,
+  "category": "Business & Finance",
+  "subcategory": "Accounting Methods",
+  "question_en": "Under the percentage-of-completion method of accounting:",
+  "question_pt": "Under the percentage-of-completion method of accounting:",
+  "options": [
+    "Unearned income is deferred when financial statements are prepared.",
+    "Unearned income is accrued and added back into the income statement.",
+    "Unearned income is left off until the entire job is finished.",
+    "No accruals are required to adjust income."
+  ],
+  "answer": "Unearned income is deferred when financial statements are prepared.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Accounting Methods",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q11"
+},
+{
+  "id": 1982,
+  "category": "Business & Finance",
+  "subcategory": "Accounting Methods",
+  "question_en": "Under the percentage-of-completion method of accounting:",
+  "question_pt": "Under the percentage-of-completion method of accounting:",
+  "options": [
+    "Prepaid costs of sales are accrued.",
+    "Prepaid costs of sales are left on the books in all cases.",
+    "Prepaid costs of sales are removed until the correct period.",
+    "No accruals are required for cost adjustments."
+  ],
+  "answer": "Prepaid costs of sales are removed until the correct period.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Accounting Methods",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q12"
+},
+{
+  "id": 1983,
+  "category": "Business & Finance",
+  "subcategory": "Accounting Methods",
+  "question_en": "Under the completed contract method:",
+  "question_pt": "Under the completed contract method:",
+  "options": [
+    "All prepaid and unearned accounts are adjusted based on percentage of completion.",
+    "Only sales accounts have to be adjusted based on completion status.",
+    "Accruals are made on a month-to-month schedule.",
+    "All uncompleted sales received and costs paid are removed from the books at the end of the year, and are not reported until the job is completed."
+  ],
+  "answer": "All uncompleted sales received and costs paid are removed from the books at the end of the year, and are not reported until the job is completed.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Accounting Methods",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q13"
+},
+{
+  "id": 1984,
+  "category": "Business & Finance",
+  "subcategory": "Accruals",
+  "question_en": "Essentially, accruals and deferrals are intended as adjustments that:",
+  "question_pt": "Essentially, accruals and deferrals are intended as adjustments that:",
+  "options": [
+    "Help reduce taxes by putting taxable income into the following year.",
+    "Accountants can use to make your financial status look as good as possible.",
+    "Reflect accurately what is going on, even when cash hasn’t traded hands yet.",
+    "Help make up for accounting errors in your books."
+  ],
+  "answer": "Reflect accurately what is going on, even when cash hasn’t traded hands yet.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Accruals",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q14"
+},
+{
+  "id": 1985,
+  "category": "Business & Finance",
+  "subcategory": "Accruals",
+  "question_en": "To keep your books accurate, all accrual entries:",
+  "question_pt": "To keep your books accurate, all accrual entries:",
+  "options": [
+    "Should be made only by your accountant.",
+    "Have to have at least two supporting documents.",
+    "Take place only after cash changes hands.",
+    "Have to be reversed at some point in the future."
+  ],
+  "answer": "Have to be reversed at some point in the future.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Accruals",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q15"
+},
+{
+  "id": 1986,
+  "category": "Business & Finance",
+  "subcategory": "Financial Statements",
+  "question_en": "The Balance Sheet:",
+  "question_pt": "The Balance Sheet:",
+  "options": [
+    "Summarizes income, costs, and expenses, and shows the balance between income and profits.",
+    "Summarizes cash flow for the period covered.",
+    "Shows the status of assets, liabilities and net worth as of a specific date.",
+    "Includes assets, liabilities, net worth, cash flow, and profit or loss, all on one page."
+  ],
+  "answer": "Shows the status of assets, liabilities and net worth as of a specific date.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Financial Statements",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q1"
+},
+{
+  "id": 1987,
+  "category": "Business & Finance",
+  "subcategory": "Financial Statements",
+  "question_en": "The Income Statement:",
+  "question_pt": "The Income Statement:",
+  "options": [
+    "Is prepared only if there is a net profit for the year; when there is a loss, a loss statement is prepared instead.",
+    "Summarizes income, costs, and expenses for a specified period of time.",
+    "Is vastly different than the profit and loss statement.",
+    "Is always prepared on the accrual basis."
+  ],
+  "answer": "Summarizes income, costs, and expenses for a specified period of time.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Financial Statements",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q2"
+},
+{
+  "id": 1988,
+  "category": "Business & Finance",
+  "subcategory": "Financial Statements",
+  "question_en": "The Statement of Cash Flows:",
+  "question_pt": "The Statement of Cash Flows:",
+  "options": [
+    "Is a summary of cash received and cash paid during the year.",
+    "Is simply an income statement, prepared on the cash basis.",
+    "Is a relatively obscure financial statement that is of little real value.",
+    "All of the above."
+  ],
+  "answer": "Is a summary of cash received and cash paid during the year.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Financial Statements",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q3"
+},
+{
+  "id": 1989,
+  "category": "Business & Finance",
+  "subcategory": "Financial Statements",
+  "question_en": "The Statement of Cash Flows’ net increase or decrease should be equal to the change between:",
+  "question_pt": "The Statement of Cash Flows’ net increase or decrease should be equal to the change between:",
+  "options": [
+    "Net profit from the earlier period to the current period.",
+    "All assets minus all liabilities, from the beginning to the ending date of the statement.",
+    "Retained earnings from one year to the next.",
+    "Current assets minus current liabilities, between the beginning and ending dates of the period."
+  ],
+  "answer": "Current assets minus current liabilities, between the beginning and ending dates of the period.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Financial Statements",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q4"
+},
+{
+  "id": 1990,
+  "category": "Business & Finance",
+  "subcategory": "Balance Sheet",
+  "question_en": "The basic formula for the Balance Sheet is:",
+  "question_pt": "The basic formula for the Balance Sheet is:",
+  "options": [
+    "Assets plus liabilities equals net worth.",
+    "Liabilities less net worth equals assets.",
+    "Assets plus net worth equals liabilities.",
+    "Assets less liabilities equals net worth."
+  ],
+  "answer": "Assets less liabilities equals net worth.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Balance Sheet",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q5"
+},
+{
+  "id": 1991,
+  "category": "Business & Finance",
+  "subcategory": "Accounting",
+  "question_en": "The trial balance is:",
+  "question_pt": "The trial balance is:",
+  "options": [
+    "A worksheet prepared to determine whether net profit is high enough.",
+    "A test of the general ledger’s balance.",
+    "An exercise used primarily in first-year bookkeeping classes.",
+    "A worksheet used only when preparing a budget."
+  ],
+  "answer": "A test of the general ledger’s balance.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Accounting",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q6"
+},
+{
+  "id": 1992,
+  "category": "Business & Finance",
+  "subcategory": "Financial Statements",
+  "question_en": "Supplementary schedules:",
+  "question_pt": "Supplementary schedules:",
+  "options": [
+    "Should be used to give your financial statements a professional look.",
+    "Are used only by accounting firms when they prepare audited statements.",
+    "Should be used whenever you need to explain something in greater detail than you show on the primary statements.",
+    "Are used only for legal disclosures."
+  ],
+  "answer": "Should be used whenever you need to explain something in greater detail than you show on the primary statements.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Financial Statements",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q7"
+},
+{
+  "id": 1993,
+  "category": "Business & Finance",
+  "subcategory": "Liabilities",
+  "question_en": "A contingent liability is:",
+  "question_pt": "A contingent liability is:",
+  "options": [
+    "A potential debt that might or might not become an actual liability.",
+    "A liability that’s used only for the purposes of developing a conservative statement.",
+    "A liability that isn’t due for one year or more.",
+    "Deferred income and really not a liability at all."
+  ],
+  "answer": "A potential debt that might or might not become an actual liability.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Liabilities",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q8"
+},
+{
+  "id": 1994,
+  "category": "Business & Finance",
+  "subcategory": "Equity",
+  "question_en": "Retained earnings are:",
+  "question_pt": "Retained earnings are:",
+  "options": [
+    "The accumulated earnings left in the company from one year to the next.",
+    "Earnings kept by the owner and not reinvested.",
+    "Real earnings for tax purposes.",
+    "Another name for capital stock."
+  ],
+  "answer": "The accumulated earnings left in the company from one year to the next.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Equity",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q9"
+},
+{
+  "id": 1995,
+  "category": "Business & Finance",
+  "subcategory": "Taxes",
+  "question_en": "The tax provision is:",
+  "question_pt": "The tax provision is:",
+  "options": [
+    "A reserve account to pay future taxes, included in the net worth section of the Balance Sheet.",
+    "A reduction of assets that serves as an estimate for income taxes.",
+    "A reduction of net profits at the end of the income statement, to arrive at an after-tax net profit.",
+    "A liability account if you have not yet paid your income taxes."
+  ],
+  "answer": "A reduction of net profits at the end of the income statement, to arrive at an after-tax net profit.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Taxes",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q10"
+},
+{
+  "id": 1996,
+  "category": "Business & Finance",
+  "subcategory": "Financial Statements",
+  "question_en": "The purpose of the Statement of Cash Flows is to:",
+  "question_pt": "The purpose of the Statement of Cash Flows is to:",
+  "options": [
+    "Provide a summary of budget variances for the year.",
+    "Show where likely sources for borrowing money can be found.",
+    "Summarize changes in working capital and other Balance Sheet accounts during the year.",
+    "Prove that the numbers on the Income Statement add up."
+  ],
+  "answer": "Summarize changes in working capital and other Balance Sheet accounts during the year.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Financial Statements",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q11"
+},
+{
+  "id": 1997,
+  "category": "Business & Finance",
+  "subcategory": "Financial Statements",
+  "question_en": "Footnotes are an important part of the financial statement because:",
+  "question_pt": "Footnotes are an important part of the financial statement because:",
+  "options": [
+    "Some financial information isn’t reported on the statements.",
+    "Some liabilities might or might not come to be.",
+    "One-time items have to be reported to explain big changes for the year.",
+    "All of the above."
+  ],
+  "answer": "All of the above.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Financial Statements",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q12"
+},
+{
+  "id": 1998,
+  "category": "Business & Finance",
+  "subcategory": "Liabilities",
+  "question_en": "A “contingent” liability is one that:",
+  "question_pt": "A “contingent” liability is one that:",
+  "options": [
+    "May be paid at a later date if you desire.",
+    "Is reported as a footnote to the Balance Sheet.",
+    "Is properly classified as a bad debt.",
+    "None of the above."
+  ],
+  "answer": "Is reported as a footnote to the Balance Sheet.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Liabilities",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q13"
+},
+{
+  "id": 1999,
+  "category": "Business & Finance",
+  "subcategory": "Adjustments",
+  "question_en": "Closing adjustments are intended to:",
+  "question_pt": "Closing adjustments are intended to:",
+  "options": [
+    "Make your financial statement accurate by allowing for last-minute changes.",
+    "Reduce tax liabilities when possible by reclassifying expenses.",
+    "Force a balance when you find errors in your books.",
+    "Maximize non-cash expenses in the current year."
+  ],
+  "answer": "Make your financial statement accurate by allowing for last-minute changes.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Adjustments",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q14"
+},
+{
+  "id": 2000,
+  "category": "Business & Finance",
+  "subcategory": "Working Capital",
+  "question_en": "Working capital refers to:",
+  "question_pt": "Working capital refers to:",
+  "options": [
+    "The balance in your bank account.",
+    "All of your current assets.",
+    "The net difference between accounts receivable and accounts payable.",
+    "The net difference between current assets and current liabilities."
+  ],
+  "answer": "The net difference between current assets and current liabilities.",
+  "explanation": "",
+  "reference_book": "Builder’s Guide to Accounting",
+  "reference_chapter": "Working Capital",
+  "reference_section": "",
+  "reference_page": "",
+  "reference_paragraph": "Q15"
 }
   ];
